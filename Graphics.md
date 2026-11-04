@@ -26,6 +26,7 @@
 | Buildings | Utility | Sphincter Door | NYI | NYI | |
 | Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
 | Equipment | Weapons | Resin Sword | ![](./Textures/Things/Items/MeleeWeapons/ResinSword.png) ![](./Textures/Things/Items/MeleeWeapons/ResinScimitar.png) | `Textures/Things/Items/MeleeWeapons` | Scimitar is a more high-tech version with higher armor penetration. |
+| Equipment | Armor | Tentacle Slave Collar | NYI | NYI | |
 | Equipment | Armor | Bodysuit | NYI | NYI | |
 | Equipment | Armor | Cuirass | NYI | NYI | |
 | Equipment | Armor | Helmet | NYI | NYI | |

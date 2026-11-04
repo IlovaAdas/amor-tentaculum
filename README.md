@@ -148,6 +148,9 @@ A sword forged from hard tentacle resin.  Due to the sharp nature of the materia
 ## Armor
 Note that most tentacle armor can only be worn by pawns that have been converted into tentacle hosts, as it interfaces neurally with the tentacles they carry within them for maximum effectiveness.
 
+### Tentacle Slave Collar
+A large tentacle, curled tightly around the wearer's neck, intended to use in controlling slaves.  The tip goes into the wearer's mouth, hindering their ability to eat.  The tentacle secretes drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile.  Not nearly as invasive as an Indoctrination Implant.
+
 ### Tentacle Bodysuit
 A bodysuit crafted from soft flesh and plasteel.  Provides good protection against all types of damage as well as fire and vaccuum resistance.
 
