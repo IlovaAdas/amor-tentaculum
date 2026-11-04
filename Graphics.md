@@ -16,15 +16,16 @@
 | Material | Natural | Soft Resin | ![](./Textures/Things/Items/SoftRes/SoftResinA.png) ![](./Textures/Things/Items/SoftRes/SoftResinB.png) | `Textures/Things/Items/SoftRes` | |
 | Material | Natural | Soft Flesh | ![](./Textures/Things/Items/SoftFlesh/SoftFleshA.png) ![](./Textures/Things/Items/SoftFlesh/SoftFleshB.png) | `Textures/Things/Items/SoftFlesh` | |
 | Material | Natural | Tentacle Slime | ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeA.png) ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeB.png) | `Textures/Things/Items/TentacleSlime` | |
-| Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Amornuum.png) | `Textures/Things/Items/Amornuum` | Currently reusing beer texture. Something custom would be nice. |
+| Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Amornuum.png) | `Textures/Things/Items/Amornuum` | Currently reusing beer texture. |
+| Drugs | Natural | NotSlurm | ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkA.png) ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkB.png) | `Textures/Things/Items/Food/NotSlurm` | Generic soda. |
 | Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | Hot off the presses! |
 | Buildings | Defensive | Paralysis Trap | NYI | NYI | |
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
 | Buildings | Utility | Sphincter Door | NYI | NYI | |
-| Equipment | Weapons | Tentacle Whip | NYI | NYI | |
-| Equipment | Weapons | Resin Sword | NYI | NYI | |
+| Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
+| Equipment | Weapons | Resin Sword | ![](./Textures/Things/Items/MeleeWeapons/ResinSword.png) ![](./Textures/Things/Items/MeleeWeapons/ResinScimitar.png) | `Textures/Things/Items/MeleeWeapons` | Scimitar is a more high-tech version with higher armor penetration. |
 | Equipment | Armor | Bodysuit | NYI | NYI | |
 | Equipment | Armor | Cuirass | NYI | NYI | |
 | Equipment | Armor | Helmet | NYI | NYI | |
@@ -36,10 +37,10 @@
 | Abilities | Host | Ingest Tentacle | ![](./Textures/Abilities/ButtVore.png) | `Textures/Abilities` | |
 | Abilities | Host | Expel Tentacle | ![](./Textures/Abilities/OviAss.png) | `Textures/Abilities` | |
 | Abilities | Host | Transfer Tentacle | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
-| Abilities | Host | Slime Spray | NYI | NYI | |
+| Abilities | Host | Slime Spray | ![](./Textures/Abilities/SlimeSpray.png) | `Textures/Abilities` | |
 | Abilities | Host | Seduction Kiss | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
 | Abilities | Host | Create Amor Womb | NYI | NYI | |
-| Abilities | Host | Invisibility | NYI | NYI | |
+| Abilities | Host | Invisibility | ![](./Textures/Abilities/InvisibilityFemale.png) ![](./Textures/Abilities/InvisibilityMale.png) | `Textures/Abilities` | Invisbility is for a Male Host type, but we can definitely re-use these icons. |
 
 NOTES:
 * For Host type pawns, some sort of partial graphic specific to the type might be appropriate.  For example, some sort of tentacle body growth overlay, and (for the Queen) a head crest?

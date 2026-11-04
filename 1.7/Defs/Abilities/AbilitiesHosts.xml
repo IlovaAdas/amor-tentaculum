@@ -277,8 +277,8 @@
 		<defName>TCumSpray</defName>
 		<label>cum spray</label>
 		<description>Expel tentacle cum slime from the stomach in a long range cone. Puts out fires and makes rape happen sometime</description>
-		<iconPath>UI/Abilities/Longjump</iconPath>
-		<category>Sanguophage</category>
+		<iconPath>Abilities/SlimeSpray</iconPath>
+		<category>Tentacle</category>
 		<targetRequired>True</targetRequired>
 		<cooldownTicksRange>600</cooldownTicksRange>
 		<hostile>True</hostile>
