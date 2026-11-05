@@ -120,6 +120,32 @@
 			</li>
 		</comps>
 	</HediffDef>
+
+	<HediffDef ParentName="LarvaEvolveBase">
+		<defName>LarvaEvolveSpawner</defName>
+		<label>evolving into spawner</label>
+		<description>This Amor Larva is evolving into an Amor Spawner.</description>
+		<defaultLabelColor>(240,189,234)</defaultLabelColor>
+		<stages />
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath" />
+			<li Class="EBSGFramework.HediffCompProperties_PreventDeathNotifications" />
+			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
+				<modSettingMultiplier>larvaEvolutionSpeedFactor</modSettingMultiplier>
+				<baseSeverityPerDay>0.33</baseSeverityPerDay>
+			</li>
+			<li Class="AmorTentaculum.HediffCompProperties_SpawnFactionPawnOnMaxSeverity">
+				<pawnKindOptions>
+					<li>TentacleSpawner</li>
+				</pawnKindOptions>
+				<filthCreated>Filth_BloodInsect</filthCreated>
+				<filthCountRange>2~5</filthCountRange>
+				<sound>Hive_Spawn</sound>
+				<damage>Cut</damage>
+				<damageAmount>999~999</damageAmount>
+			</li>
+		</comps>
+	</HediffDef>
 	
 	<!-- An hediff that can be applied to a tentacle (usually an Amor Squirmer) that will make its death silent (no letters) and not generate a corpse. -->
 	<HediffDef>

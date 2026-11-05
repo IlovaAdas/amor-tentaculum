@@ -198,6 +198,25 @@
 				</casterHasAnyOfHediffs>
 				<hideGizmo>false</hideGizmo>
 			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
+				<hediffsToGive>
+					<li>
+						<hediffDef>LarvaEvolveSpawner</hediffDef>
+						<applyToSelf>true</applyToSelf>
+						<replaceExisting>false</replaceExisting>
+						<severity>0.001</severity>
+					</li>
+				</hediffsToGive>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityRemoveMultipleHediffs">
+				<compClass>EBSGFramework.CompAbilityEffect_RemoveMultipleHediffs</compClass>
+				<hediffs>
+					<li>ReadyToEvolve</li>
+				</hediffs>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>Heart</fleckDef>
+			</li>
 		</comps>
 	</AbilityDef>
 

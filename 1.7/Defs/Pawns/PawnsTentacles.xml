@@ -4,7 +4,7 @@
 		<defName>TentacleBroodMother</defName>
 		<label>Amor Brood Mother</label>
 		<devNote>misc</devNote>
-		<description>A huge, female mass of tentacles dedicated to breeding. The Amor Brood Mother is the largest of the Tentacle types, and produces vast amounts of Amor Larvae. Those Larvae can then be converted into other Tentacle types.</description>
+		<description>A humanoid-shaped tentacle dedicated to breeding. The Amor Brood Mother is the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</description>
         <tradeability>None</tradeability>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
@@ -42,8 +42,7 @@
 			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 				<gender>Female</gender>
 			</li>
-			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
-			</li>
+			<!--
 			<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Hresin</resourceDef>
 				<gatheringIntervalDays>4</gatheringIntervalDays>
@@ -57,6 +56,7 @@
 					<li>softresin</li>
 				</randomItems>
 			</li>
+			-->
 		</comps>
 		<race>
 			<body>BroodMotherBody</body>
@@ -119,34 +119,34 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Parts/LadyBroodBody/LadyBroodBody</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Parts/LadyBroodBody/LadyBroodBody</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>1.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>1.2</drawSize>
+					<drawSize>1.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Parts/LadyBroodBody/LadyBroodBody</texPath>
-					<drawSize>1.5</drawSize>
+					<drawSize>2.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>1.5</drawSize>
+					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
@@ -211,21 +211,12 @@
 			</li>
 		</tools>
 		<comps>
-			<!--
-			<li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
-				<applyToAGivenBodypart>True</applyToAGivenBodypart>
-				<part>Genitals</part>
-				<hediffname>TentacleBroodMotherVagina</hediffname>
-				<hediffseverity>1</hediffseverity>
-			</li>
-			-->
 			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 				<gender>Female</gender>
 			</li>
-			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
-			</li>
+			<!--
 			<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Hresin</resourceDef>
 				<gatheringIntervalDays>4</gatheringIntervalDays>
@@ -239,6 +230,7 @@
 					<li>softresin</li>
 				</randomItems>
 			</li>
+			-->
 		</comps>
 		<race>
 			<body>SpawnerBody</body>
@@ -301,7 +293,17 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Matron/Matron</texPath>
-					<drawSize>2.25</drawSize>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Matron/Matron</texPath>
+					<drawSize>1.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
@@ -311,21 +313,11 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Matron/Matron</texPath>
-					<drawSize>2.75</drawSize>
+					<drawSize>1.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>2.75</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Matron/Matron</texPath>
-					<drawSize>3.5</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>1.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

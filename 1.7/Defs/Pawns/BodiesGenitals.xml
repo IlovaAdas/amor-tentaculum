@@ -380,7 +380,7 @@
 				<eggCount>1~2</eggCount>
 				<!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
 				<!-- Time to produce new eggs -->
-				<eggIntervalTicks>100000~180000</eggIntervalTicks>
+				<eggIntervalTicks>150000~280000</eggIntervalTicks>
 			</li>
 		</comps>
 	</rjw.HediffDef_SexPart>
@@ -399,7 +399,7 @@
 				<eggCount>2~4</eggCount>
 				<!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
 				<!-- Time to produce new eggs -->
-				<eggIntervalTicks>120000~200000</eggIntervalTicks>
+				<eggIntervalTicks>80000~120000</eggIntervalTicks>
 			</li>
 		</comps>
 	</rjw.HediffDef_SexPart>
