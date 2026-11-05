@@ -178,7 +178,7 @@
 			</li>
 		</lifeStages>
 		<abilities>
-			<li>TentacleUnbirth</li>
+			<li>AbilityTentacleUnbirth</li>
 		</abilities>
 	</PawnKindDef>
 
@@ -428,8 +428,8 @@
 			</li>
 		</lifeStages>
 		<abilities>
-			<li>LarvaEvolveSquirmer</li>
-			<li>LarvaEvolveSpawner</li>
+			<li>AbilityLarvaEvolveSquirmer</li>
+			<li>AbilityLarvaEvolveSpawner</li>
 		</abilities>
 	</PawnKindDef>
 
