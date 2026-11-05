@@ -6,12 +6,12 @@
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` |  |
 | Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
-| Tentacle | Male | Defender | ![](./Textures/Things/Pawns/Parts/LordBroodBody/LordBrood_body_east.png) ![](./Textures/Things/Pawns/Parts/LordBroodHead/LordBrood_head_east.png) | `Textures/Things/Pawns/Parts/LordBrood` | Was probably split up for ElToro's Beast Animations; can be stuck back together as needed. |
+| Tentacle | Male | Defender | ![](./Textures/Things/Pawns/Parts/LordBroodBody/LordBroodBody_east.png) ![](./Textures/Things/Pawns/Parts/LordBroodHead/LordBroodHead_east.png) | `Textures/Things/Pawns/Parts/LordBrood` | Was probably split up for ElToro's Beast Animations; can be stuck back together as needed. |
 | Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
 | Tentacle | Female | Producer | NYI | NYI | |
 | Tentacle | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
-| Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/Parts/LadyBroodBody/LadyBrood_body_east.png) ![](./Textures/Things/Pawns/Parts/LadyBroodHead/LadyBrood_head_east.png) | `Textures/Things/Pawns/Parts/LadyBrood` | Was probably split up for ElToro's Beast Animations; can be stuck back together as needed. |
+| Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/Parts/LadyBroodBody/LadyBroodBody_east.png) ![](./Textures/Things/Pawns/Parts/LadyBroodHead/LadyBroodHead_east.png) | `Textures/Things/Pawns/Parts/LadyBrood` | Was probably split up for ElToro's Beast Animations; can be stuck back together as needed. |
 | Material | Natural | Hard Resin | ![](./Textures/Things/Items/HardRes/HardResinA.png) ![](./Textures/Things/Items/HardRes/HardResinB.png) | `Textures/Things/Items/HardRes` | |
 | Material | Natural | Soft Resin | ![](./Textures/Things/Items/SoftRes/SoftResinA.png) ![](./Textures/Things/Items/SoftRes/SoftResinB.png) | `Textures/Things/Items/SoftRes` | |
 | Material | Natural | Soft Flesh | ![](./Textures/Things/Items/SoftFlesh/SoftFleshA.png) ![](./Textures/Things/Items/SoftFlesh/SoftFleshB.png) | `Textures/Things/Items/SoftFlesh` | |

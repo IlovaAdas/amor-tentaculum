@@ -118,6 +118,188 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
+					<texPath>Things/Pawns/Parts/LadyBroodBody/LadyBroodBody</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Parts/LadyBroodBody/LadyBroodBody</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Parts/LadyBroodBody/LadyBroodBody</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<!--
+		<abilities>
+			<li>Genitalsretract</li>
+			<li>GenitalsEggActivate</li>
+		</abilities>
+		-->
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleSquirmer</defName>
+		<label>Amor Squirmer</label>
+		<race>TentacleSquirmer</race>
+		<forceNoDeathNotification>true</forceNoDeathNotification>
+		<combatPower>5</combatPower>
+		<ecoSystemWeight>0.75</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Squirmer/Squirmer</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<abilities>
+			<li>TentacleUnbirth</li>
+		</abilities>
+	</PawnKindDef>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>TentacleSpawner</defName>
+		<label>Amor Spawner</label>
+		<devNote>misc</devNote>
+		<description>A huge mass of tentacles with a smaller, central female body. The Amor Spawner is entirely dedicated to breeding Squirmers, which Hosts use to fuel their abilities.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<MarketValue>950</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>90</ComfyTemperatureMax>
+			<Wildness>0</Wildness>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
+		</statBases>
+		<uiIconScale>1.1</uiIconScale>
+		<tools>
+			<li>
+				<label>tentacle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>34</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<!--
+			<li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
+				<applyToAGivenBodypart>True</applyToAGivenBodypart>
+				<part>Genitals</part>
+				<hediffname>TentacleBroodMotherVagina</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
+			-->
+			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Female</gender>
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay">
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
+				<resourceDef>Hresin</resourceDef>
+				<gatheringIntervalDays>4</gatheringIntervalDays>
+				<resourceAmount>25</resourceAmount>
+				<customResourceString>Resin</customResourceString>
+				<isRandom>true</isRandom>
+				<randomItems>
+					<li>Hresin</li>
+					<li>Hresin</li>
+					<li>Hresin</li>
+					<li>softresin</li>
+				</randomItems>
+			</li>
+		</comps>
+		<race>
+			<body>SpawnerBody</body>
+			<predator>true</predator>
+			<maxPreyBodySize>2</maxPreyBodySize>
+			<baseBodySize>3.25</baseBodySize>
+			<baseHungerRate>2</baseHungerRate>
+			<baseHealthScale>6</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>LeatherTentacle</leatherDef>
+			<meatLabel>tentacle meat</meatLabel>
+			<trainability>Advanced</trainability>
+			<petness>0.05</petness>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>4</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Reptile_Eat</soundEating>
+			<headPosPerRotation>
+				<li>(-0.03, 0, 0.35)</li>
+				<li>(0.03, 0, 0.36)</li>
+				<li>(-0.05, 0, 0.28)</li>
+				<li>(-0.03, 0, 0.36)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleSpawner</defName>
+		<label>Amor Spawner</label>
+		<race>TentacleSpawner</race>
+		<combatPower>255</combatPower>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
 					<texPath>Things/Pawns/Matron/Matron</texPath>
 					<drawSize>2.25</drawSize>
 				</bodyGraphicData>
@@ -153,30 +335,6 @@
 			<li>GenitalsEggActivate</li>
 		</abilities>
 		-->
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>TentacleSquirmer</defName>
-		<label>Amor Squirmer</label>
-		<race>TentacleSquirmer</race>
-		<forceNoDeathNotification>true</forceNoDeathNotification>
-		<combatPower>5</combatPower>
-		<ecoSystemWeight>0.75</ecoSystemWeight>
-		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Squirmer/Squirmer</texPath>
-					<drawSize>0.9</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.9</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-		</lifeStages>
-		<abilities>
-			<li>TentacleUnbirth</li>
-		</abilities>
 	</PawnKindDef>
 
 	<ThingDef ParentName="AnimalThingBase">
