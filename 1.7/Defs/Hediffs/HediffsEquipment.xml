@@ -1,0 +1,28 @@
+<Defs>
+
+	<HediffDef>
+		<defName>TentacleCollarNumb</defName>
+		<label>numbed</label>
+		<description>The Tentacle Collar is numbing the wearer's body, making them more pliant and susceptible to control.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<Vulnerability>0.25</Vulnerability>
+					<SexFrequency>0.25</SexFrequency>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.95</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+</Defs>

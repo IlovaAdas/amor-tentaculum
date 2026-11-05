@@ -9,7 +9,7 @@
 | Tentacle | Male | Defender | ![](./Textures/Things/Pawns/Parts/LordBroodBody/LordBrood_body_east.png) ![](./Textures/Things/Pawns/Parts/LordBroodHead/LordBrood_head_east.png) | `Textures/Things/Pawns/Parts/LordBrood` | Was probably split up for ElToro's Beast Animations; can be stuck back together as needed. |
 | Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
 | Tentacle | Female | Producer | NYI | NYI | |
-| Tentacle | Female | Brewer | NYI | NYI | |
+| Tentacle | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
 | Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/Parts/LadyBroodBody/LadyBrood_body_east.png) ![](./Textures/Things/Pawns/Parts/LadyBroodHead/LadyBrood_head_east.png) | `Textures/Things/Pawns/Parts/LadyBrood` | Was probably split up for ElToro's Beast Animations; can be stuck back together as needed. |
 | Material | Natural | Hard Resin | ![](./Textures/Things/Items/HardRes/HardResinA.png) ![](./Textures/Things/Items/HardRes/HardResinB.png) | `Textures/Things/Items/HardRes` | |
@@ -26,7 +26,7 @@
 | Buildings | Utility | Sphincter Door | NYI | NYI | |
 | Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
 | Equipment | Weapons | Resin Sword | ![](./Textures/Things/Items/MeleeWeapons/ResinSword.png) ![](./Textures/Things/Items/MeleeWeapons/ResinScimitar.png) | `Textures/Things/Items/MeleeWeapons` | Scimitar is a more high-tech version with higher armor penetration. |
-| Equipment | Armor | Tentacle Slave Collar | NYI | NYI | |
+| Equipment | Armor | Tentacle Slave Collar | ![](./Textures/Things/Items/Equipment/TentacleCollar_east.png) | `Textures/Things/Items/Equipment` | |
 | Equipment | Armor | Bodysuit | NYI | NYI | |
 | Equipment | Armor | Cuirass | NYI | NYI | |
 | Equipment | Armor | Helmet | NYI | NYI | |
