@@ -47,9 +47,6 @@ A non-combat mass of tentacles, designed to target downed enemies and transport 
 ### Amor Grazer
 A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
 
-### Amor Defender
-A combat-focused mass of tentacles, designed to protect the hive from external threats with powerful melee attacks.  Can also be trained to perform hauling tasks.
-
 ## Female Tentacles
 
 ### Amor Hunter
@@ -66,6 +63,19 @@ A non-combat mass of tentacles, designed to help grow Amor Squirmers to empower 
 
 ### Amor Brood Mother
 A non-combat mass of tentacles that focuses entirely on incubating and laying Amor Larva eggs, which will eventually grow into other types of tentacles.  Has combat abilities, but due to its essential nature to the hive, should not engage in combat unless necessary.
+
+## Boss Tentacles
+These are the most powerful tentacle types, but in order to unlock them, you will need to craft a special building to summon them (ala mechanitor bosses).  They will drop an item that can be used to unlock the research to make some of your own, as well as being required for the construction.  Note that these will be "humanoid" Tentacle types - and as such, will require a host body that will be consumed as part of the transformation process, so you'll probably want to use these on prisoners.
+
+### Amor Defender
+A combat-focused, male humanoid tentacle, designed to protect the hive from external threats with powerful melee attacks and the ability to absorb high amounts of damage.
+
+When constructed for your own colony, can be trained to perform hauling tasks.
+
+### Amor Valkyrie
+A combat-focused, female humanoid tentacle, intended as a vanguard striker for the hive.  Has powerful attacks, some psychic abilities, and can spawn minion tentacles to swarm enemies.
+
+When constructed for your own colony, will emit one of several psychic auras that will buff nearby friendly pawns or debuff nearby hostiles.
 
 # Host Types
 
