@@ -17,7 +17,7 @@
 | Material | Natural | Soft Resin | ![](./Textures/Things/Items/SoftRes/SoftResinA.png) ![](./Textures/Things/Items/SoftRes/SoftResinB.png) | `Textures/Things/Items/SoftRes` | |
 | Material | Natural | Soft Flesh | ![](./Textures/Things/Items/SoftFlesh/SoftFleshA.png) ![](./Textures/Things/Items/SoftFlesh/SoftFleshB.png) | `Textures/Things/Items/SoftFlesh` | |
 | Material | Natural | Tentacle Slime | ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeA.png) ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeB.png) | `Textures/Things/Items/TentacleSlime` | |
-| Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Amornuum.png) | `Textures/Things/Items/Amornuum` | Currently reusing beer texture. |
+| Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Food/Amornuum/AmornuumA.png) ![](./Textures/Things/Items/Food/Amornuum/AmornuumB.png) | `Textures/Things/Items/Food/Amornuum` | Currently reusing beer texture. |
 | Drugs | Natural | NotSlurm | ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkA.png) ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkB.png) | `Textures/Things/Items/Food/NotSlurm` | Generic soda. |
 | Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | Hot off the presses! |
 | Buildings | Defensive | Paralysis Trap | NYI | NYI | |
