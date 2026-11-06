@@ -36,9 +36,6 @@ The most basic type of tentacle. Mindless, writing, and not able to survive outs
 ### Amor Larva
 A newly-born tentacle that can be triggered to grow into one of several different types of mature tentacles once it has reached sufficient age.
 
-### Amor Womb
-A captured pawn, converted entirely into Amor Squirmer storage.  Immobile and no longer useful as a pawn, but provides extra Amor Squirmer storage for the colony.
-
 ## Male Tentacles
 
 ### Amor Grazer
@@ -134,7 +131,7 @@ A female host specialized to carry Amor Squirmers for use by other host pawns.
 ### Amor Nymph
 Research Tier: Advanced
 
-A female host specialized for seducing and placating other pawns.  Can convert infected pawns into immobile Amor Wombs.
+A female host specialized for seducing and placating other pawns.  Can infect hostile pawns with various debuffs and temporarily stun/down them for ease of capture.  Can also snap friendly pawns out of a mental break.
 
 # Resources
 
@@ -164,18 +161,47 @@ A sticky, viscous substance produced by Amor Queens.  Used for crafting more adv
 ## Combat and Defense
 
 ### Tentacle Turret
+Research Tier: Defensive
+
 A portable turret that grows just about anywhere.  Fires low-damage spikes at long range.
 
 ### Paralysis Trap
+Research Tier: Defensive
+
 A buildable trap that releases a swarm of hostile tentacles when triggered.  Tentacles will attack any nearby pawns (including your own!), so build with care.  They are extremely fragile, but have a powerful paralytic poison.
 
 ## Utility
 
 ### Amor Calor
+Research Tier: Utility
+
 A tentacle structure that generates heat. Requires no fuel or power, but generates less heat than industrial counterparts. The smell is some what suspicious.
 
 ### Amor Frigis
+Research Tier: Utility
+
 A tentacle structure that generates cold. Requires no fuel or power, but generates less cold than industrial counterparts. The smell is some what suspicious.
+
+### Recycler Pod
+Research Tier: Basic
+
+A tentacle structure that is used to recycle "volunteers" into various resources. The process is utterly lethal; the pawn will be torn apart into various resources.
+
+NOTE: Basically a Ripscanner, under the hood.
+
+### Indoctrination Pod
+Research Tier: Basic
+
+A tentacle structure that is used to convert captives into obedient slaves. The process will break the pawn's will completely and given sufficient time, may even remove an Unwavering prisoner's resistance.
+
+NOTE: Will be similar to (if not outright a copy of) an Onahole. Will thoroughly violate the pawn and apply the Broken hediff.
+
+### Transformation Pod
+Research Tier: Utility, Advanced
+
+A tentacle structure that is used to convert pawns into Boss-tier tentacles. The process is lethal for the pawn; their body will be consumed and used to gestate one of the Boss-tier tentacles.
+
+NOTE: Again, basically a Ripscanner. May need several types, depending on whether or not we can add multiple "loading" abilities.
 
 # Equipment
 

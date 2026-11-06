@@ -2,7 +2,6 @@
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
 | Tentacle | Neutral | Squirmer | ![](./Textures/Things/Pawns/Squirmer/Squirmer_east.png) | `Textures/Things/Pawns/Squirmer` | |
 | Tentacle | Neutral | Larva | ![](./Textures/Things/Pawns/Larva/Larva_east.png) | `Textures/Things/Pawns/Larva` | |
-| Tentacle | Neutral | Womb | NYI | NYI | |
 | Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
@@ -24,7 +23,11 @@
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
+| Buildings | Utility | Hive Wall | NYI | NYI | |
 | Buildings | Utility | Sphincter Door | NYI | NYI | |
+| Buildings | Utility | Recycling Pod | NYI | NYI | Something that looks very violent and lethal for the pawn going into it. |
+| Buildings | Utility | Indoctrination Pod | NYI | NYI | Time to lean into the "tentacle violation" fetish... make sure the pawn is at least somewhat visible, for Onahole mechanics. |
+| Buildings | Utility | Transformation Pod | NYI | NYI | More of a womb-like structure here. What comes out will be nothing like what goes in. |
 | Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
 | Equipment | Weapons | Resin Sword | ![](./Textures/Things/Items/MeleeWeapons/ResinSword.png) ![](./Textures/Things/Items/MeleeWeapons/ResinScimitar.png) | `Textures/Things/Items/MeleeWeapons` | Scimitar is a more high-tech version with higher armor penetration. |
 | Equipment | Armor | Tentacle Slave Collar | ![](./Textures/Things/Items/Equipment/TentacleCollar_east.png) | `Textures/Things/Items/Equipment` | |
@@ -41,7 +44,6 @@
 | Abilities | Host | Transfer Tentacle | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
 | Abilities | Host | Slime Spray | ![](./Textures/Abilities/SlimeSpray.png) | `Textures/Abilities` | |
 | Abilities | Host | Seduction Kiss | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
-| Abilities | Host | Create Amor Womb | NYI | NYI | |
 | Abilities | Host | Invisibility | ![](./Textures/Abilities/InvisibilityFemale.png) ![](./Textures/Abilities/InvisibilityMale.png) | `Textures/Abilities` | Invisbility is for a Male Host type, but we can definitely re-use these icons. |
 
 NOTES:
