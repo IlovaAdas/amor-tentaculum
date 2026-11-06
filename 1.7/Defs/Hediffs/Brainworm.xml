@@ -50,7 +50,7 @@
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
     <costList>
-      <softresin>30</softresin>
+      <SoftResin>30</SoftResin>
       <swimmers>30</swimmers>
     </costList>
     <techHediffsTags>
@@ -120,7 +120,7 @@
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
     <costList>
-      <softresin>30</softresin>
+      <SoftResin>30</SoftResin>
       <swimmers>30</swimmers>
     </costList>
     <techHediffsTags>
@@ -217,7 +217,7 @@
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
     <costList>
-      <softresin>30</softresin>
+      <SoftResin>30</SoftResin>
       <MedTEgg>1</MedTEgg>
     </costList>
     <techHediffsTags>

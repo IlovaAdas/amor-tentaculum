@@ -3,14 +3,14 @@
 | Tentacle | Neutral | Squirmer | ![](./Textures/Things/Pawns/Squirmer/Squirmer_east.png) | `Textures/Things/Pawns/Squirmer` | |
 | Tentacle | Neutral | Larva | ![](./Textures/Things/Pawns/Larva/Larva_east.png) | `Textures/Things/Pawns/Larva` | |
 | Tentacle | Neutral | Womb | NYI | NYI | |
+| Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
-| Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
-| Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
+| Tentacle | Female | Brood Mother | NYI | NYI | We'll want something grossly pregnant for this. |
+| Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
 | Tentacle | Female | Producer | NYI | NYI | |
 | Tentacle | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
-| Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
-| Tentacle | Female | Brood Mother | NYI | NYI | We'll want something grossly pregnant for this. |
+| Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
 | Boss | Male | Defender | ![](./Textures/Things/Pawns/Defender/Defender_east.png) | `Textures/Things/Pawns/Defender` | |
 | Boss | Female | Valkyrie | ![](./Textures/Things/Pawns/Valkyrie/Valkyrie_east.png) | `Textures/Things/Pawns/Valkyrie` | |
 | Material | Natural | Hard Resin | ![](./Textures/Things/Items/HardRes/HardResinA.png) ![](./Textures/Things/Items/HardRes/HardResinB.png) | `Textures/Things/Items/HardRes` | |

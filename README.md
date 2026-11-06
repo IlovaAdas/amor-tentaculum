@@ -40,31 +40,39 @@ A captured pawn, converted entirely into Amor Squirmer storage.  Immobile and no
 
 ## Male Tentacles
 
+### Amor Grazer
+Research Tier: Basic
+A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
+
 ### Amor Striker
+Research Tier: Intermediate
 A combat-focused mass of tentacles, designed to latch on to and incapacitate hostile enemies with attacks to their genitalia.
 
 ### Amor Abductor
+Research Tier: Advanced
 A non-combat mass of tentacles, designed to target downed enemies and transport them to the hive as prisoners.  Can perform general hauling tasks as well.
-
-### Amor Grazer
-A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
 
 ## Female Tentacles
 
-### Amor Hunter
-A combat-focused mass of tentacles, designed to protect the hive from external threats with debilitating ranged attacks.
+### Amor Brood Mother
+Research Tier: Basic
+A non-combat mass of tentacles that focuses entirely on incubating and laying Amor Larva eggs, which will eventually grow into other types of tentacles.  Has combat abilities, but due to its essential nature to the hive, should not engage in combat unless necessary.
+
+### Amor Spawner
+Research Tier: Basic
+A non-combat mass of tentacles, designed to help grow Amor Squirmers to empower Amor Hosts' abilities.  Grows and lays Amor Squirmer eggs.
 
 ### Amor Producer
+Research Tier: Intermediate
 A non-combat mass of tentacles that can be harvested for hard and soft resin resources (per normal animal mechanics) used to build other things.
 
 ### Amor Brewer
+Research Tier: Intermediate
 A non-combat mass of tentacles that produces drugs and chemicals regularly.  Can be switched between various production targets.
 
-### Amor Spawner
-A non-combat mass of tentacles, designed to help grow Amor Squirmers to empower Amor Hosts' abilities.  Grows and lays Amor Squirmer eggs.
-
-### Amor Brood Mother
-A non-combat mass of tentacles that focuses entirely on incubating and laying Amor Larva eggs, which will eventually grow into other types of tentacles.  Has combat abilities, but due to its essential nature to the hive, should not engage in combat unless necessary.
+### Amor Hunter
+Research Tier: Advanced
+A combat-focused mass of tentacles, designed to protect the hive from external threats with debilitating ranged attacks.
 
 ## Boss Tentacles
 These are the most powerful tentacle types, but in order to unlock them, you will need to craft a special building to summon them (ala mechanitor bosses).  They will drop an item that can be used to unlock the research to make some of your own, as well as being required for the construction.  Note that these will be "humanoid" Tentacle types - and as such, will require a host body that will be consumed as part of the transformation process, so you'll probably want to use these on prisoners.
@@ -84,27 +92,34 @@ When constructed for your own colony, will emit one of several psychic auras tha
 ## Male Hosts
 
 ### Amor Servant
+Research Tier: Basic
 A male host specialized for labor and crafting.  Minimal combat potential, but can be used to store Amor Squirmers for use by other host pawns.
 
+### Amor Baron
+Research Tier: Intermediate
+A male host specialized for defense, providing buffs to other host and tentacle pawns.  Can act as supplementary storage for Amor Squirmers.  Uses stored Amor Squirmers to power its abilities.
+
 ### Amor Knight
+Research Tier: Advanced
 A male host specialized for melee combat, at the cost of intelligence and work proficiency.  Uses stored Amor Squirmers to power its abilities.
 
 ### Amor Rogue
+Research Tier: Advanced
 A male host specialized for stealth and reconnaissance.  Minimal combat potential, but naturally difficult to see and can become mostly invisible for a short time.  Uses stored Amor Squirmers to power its abilities.
-
-### Amor Baron
-A male host specialized for defense, providing buffs to other host and tentacle pawns.  Can act as supplementary storage for Amor Squirmers.  Uses stored Amor Squirmers to power its abilities.
 
 ## Female Hosts
 
-### Amor Nymph
-A female host specialized for seducing and placating other pawns.  Can convert infected pawns into immobile Amor Wombs.
+### Amor Queen
+Research Tier: Core
+The strongest of the female host types.  Grows and lays Amor Brood Mother eggs to help the hive reproduce. She also produces Tentacle Slime, which is a key crafting material.  This Host type provides the foundational materials for growing your colony - protect her at all costs!
 
 ### Amor Baroness
+Research Tier: Intermediate
 A female host specialized to carry Amor Squirmers for use by other host pawns.
 
-### Amor Queen
-The strongest of the female host types.  Grows and lays Amor Brood Mother eggs to help the hive reproduce. She also produces Tentacle Slime, which is a key crafting material.  This Host type provides the foundational materials for growing your colony - protect her at all costs!
+### Amor Nymph
+Research Tier: Advanced
+A female host specialized for seducing and placating other pawns.  Can convert infected pawns into immobile Amor Wombs.
 
 # Resources
 

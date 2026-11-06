@@ -143,7 +143,7 @@
     </statBases>
     <selectable>true</selectable>
     <costList>
-      <softresin>50</softresin>
+      <SoftResin>50</SoftResin>
       <SmallTEggFert>1</SmallTEggFert>
     </costList>
     <building>
@@ -217,7 +217,7 @@
     </statBases>
     <selectable>true</selectable>
     <costList>
-      <softresin>50</softresin>
+      <SoftResin>50</SoftResin>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
@@ -294,7 +294,7 @@
       <FilthMultiplier>0.05</FilthMultiplier>
     </statBases>
     <costList>
-      <softresin>5</softresin>
+      <SoftResin>5</SoftResin>
     </costList>
         <researchPrerequisites>
       <li>ATStructUtility</li>

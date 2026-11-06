@@ -51,15 +51,15 @@
 		<gender>Male</gender>
 	</li>
 	<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
-		<resourceDef>softresin</resourceDef>
+		<resourceDef>SoftResin</resourceDef>
 		<gatheringIntervalDays>2</gatheringIntervalDays>
 		<resourceAmount>15</resourceAmount>
 		<customResourceString>Resin</customResourceString>
 		<isRandom>true</isRandom>
 		<randomItems>
-			<li>softresin</li>
-			<li>softresin</li>
-    	<li>softresin</li>
+			<li>SoftResin</li>
+			<li>SoftResin</li>
+    	<li>SoftResin</li>
 		</randomItems>
 	</li>
 </comps>
@@ -687,7 +687,7 @@
 			<li>Hresin</li>
 			<li>Hresin</li>
 			<li>Hresin</li>
-    	<li>softresin</li>
+    	<li>SoftResin</li>
 		</randomItems>
 	</li>
 </comps>

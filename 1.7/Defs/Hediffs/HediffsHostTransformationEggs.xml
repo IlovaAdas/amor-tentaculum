@@ -63,6 +63,21 @@
 		</comps>
 	</HediffDef>
 
+	<HediffDef Name="BaronEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>BaronEggIncubationFailure</defName>
+		<label>Baron egg rejection</label>
+		<labelNoun>rejection</labelNoun>
+		<description>The Amor Baron egg is rejecting this host body. It will result in a slow and painful death...</description>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Female>1</Female>
+					<Male>0</Male>
+				</genders>
+			</li>
+		</comps>
+	</HediffDef>
+
 	<HediffDef Name="HostTypeOverrideFailureBase" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(170,20,20)</defaultLabelColor>
@@ -79,6 +94,19 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>0.333</severityPerDay>
 			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorQueenHostBody</gene>
+						<effect>0.001</effect>
+					</li>
+					<li>
+						<gene>AmorBaronHostBody</gene>
+						<effect>0.001</effect>
+					</li>
+				</geneEffects>
+			</li>
 			<li Class="HediffCompProperties_MessageAfterTicks">
 				<ticks>120</ticks>
 				<letterLabel>{0_labelShort} incubation failure</letterLabel>
@@ -93,17 +121,13 @@
 		<label>Queen incubation failure</label>
 		<labelNoun>failure</labelNoun>
 		<description>The attempt to implant an Amor Queen egg failed, as this pawn already is an Amor Host.  This will cause them pain for a few days, but they will recover.</description>
-		<comps>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorQueenHostBody</gene>
-						<effect>0.001</effect>
-					</li>
-				</geneEffects>
-			</li>
-		</comps>
+	</HediffDef>
+
+	<HediffDef Name="BaronEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
+		<defName>BaronEggOverrideFailure</defName>
+		<label>Baron incubation failure</label>
+		<labelNoun>failure</labelNoun>
+		<description>The attempt to implant an Amor Baron egg failed, as this pawn already is an Amor Host.  This will cause them pain for a few days, but they will recover.</description>
 	</HediffDef>
 
 	<HediffDef Name="EggIncubationSuccessBase" Abstract="True">
@@ -146,6 +170,52 @@
 				<hediffSets>
 					<li>
 						<hediffDef>QueenEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>incubating egg</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef Name="BaronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>BaronEggIncubationSuccess</defName>
+		<label>Baron egg incubation</label>
+		<labelNoun>incubation</labelNoun>
+		<description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</description>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorBaronHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>1.48</Male>
+					<Female>0</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>BaronEggIncubation</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.001</initialSeverity>
@@ -300,6 +370,127 @@
 						<mtbDays>0.1</mtbDays>
 						<partsToAffect>
 							<li>Genitals</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.1</painOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef Name="BaronEggIncubation" ParentName="EggIncubationBase">
+		<defName>BaronEggIncubation</defName>
+		<label>Baron egg incubation</label>
+		<labelNoun>incubation</labelNoun>
+		<description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</description>
+		<comps>
+			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
+				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
+				<baseSeverityPerDay>0.15</baseSeverityPerDay>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>BaronTransform</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.1</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>incubating egg</label>
+			</li>
+			<li>
+				<label>hatched</label>
+				<minSeverity>0.6</minSeverity>
+				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+					<MoveSpeed>-0.01</MoveSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<label>larvae</label>
+				<minSeverity>0.65</minSeverity>
+				<restFallFactor>1.05</restFallFactor>
+				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
+				<statOffsets>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+					<Vulnerability>0.2</Vulnerability>
+					<MoveSpeed>-0.02</MoveSpeed>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>4</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.02</painOffset>
+			</li>
+			<li>
+				<label>growing</label>
+				<minSeverity>0.9</minSeverity>
+				<restFallFactor>1.1</restFallFactor>
+				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+				<statOffsets>
+					<PsychicSensitivity>0.2</PsychicSensitivity>
+					<Vulnerability>0.3</Vulnerability>
+					<SexFrequency>0.5</SexFrequency>
+					<MoveSpeed>-0.05</MoveSpeed>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>3</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>2</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.03</painOffset>
+			</li>
+			<li>
+				<label>nearly grown</label>
+				<minSeverity>1.3</minSeverity>
+				<restFallFactor>1.2</restFallFactor>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<statOffsets>
+					<PsychicSensitivity>0.3</PsychicSensitivity>
+					<Vulnerability>0.5</Vulnerability>
+					<MoveSpeed>-0.1</MoveSpeed>
+					<SexFrequency>1</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
 						</partsToAffect>
 						<countToAffect>1</countToAffect>
 					</li>

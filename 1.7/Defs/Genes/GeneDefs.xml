@@ -122,4 +122,57 @@
 		</modExtensions>
 	</GeneDef>
 
+	<GeneDef>
+		<defName>AmorBaronHostBody</defName>
+		<label>Amor Baron</label>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles and a breeding nest for Amor Brood Mother eggs.</description>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+			<li>TCumSpray</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
 </Defs>

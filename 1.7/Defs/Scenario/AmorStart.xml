@@ -57,7 +57,7 @@
         - Player starting things -
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>softresin</thingDef>
+          <thingDef>SoftResin</thingDef>
           <count>500</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">

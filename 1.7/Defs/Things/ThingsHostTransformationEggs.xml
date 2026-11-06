@@ -9,7 +9,7 @@
 			<texPath>Things/Items/StartEgg</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(256,256,256)</color>
-			<drawSize>(1.5, 1.5)</drawSize>
+			<drawSize>(1.2, 1.2)</drawSize>
 		</graphicData>
 		<socialPropernessMatters>false</socialPropernessMatters>
 		<rotatable>false</rotatable>
@@ -61,6 +61,75 @@
 			<HumpShroom>5</HumpShroom>
 			<Neutroamine>1</Neutroamine>
 			<MedicineHerbal>25</MedicineHerbal>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="MakeableDrugPillBase">
+		<defName>AmorBaronEgg</defName>
+		<label>Amor Baron egg</label>
+		<description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</description>
+		<possessionCount>10</possessionCount>
+		<graphicData>
+			<texPath>Things/Items/StartEgg</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(256,256,256)</color>
+			<drawSize>(1.2, 1.2)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>10</stackLimit>
+		<uiIconScale>0.75</uiIconScale>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<MarketValue>600</MarketValue>
+			<Mass>0.04</Mass>
+		</statBases>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>720</baseIngestTicks>
+			<ingestSound>Recipe_Surgery</ingestSound>
+			<ingestEffectEat>EatVegetarian</ingestEffectEat>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Insert {0}</ingestCommandString>
+			<ingestReportString>Inserting {0}.</ingestReportString>
+			<ingestReportStringEat>Inserting {0}.</ingestReportStringEat>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BaronEggIncubationSuccess</hediffDef>
+					<severity>1.45</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BaronEggIncubationFailure</hediffDef>
+					<severity>0.1</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BaronEggOverrideFailure</hediffDef>
+					<severity>0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>ATHostIntermediate</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>Industrial</li>
+		</techHediffsTags>
+		<costList>
+			<HumpShroom>5</HumpShroom>
+			<TentacleSlime>25</TentacleSlime>
+			<SoftResin>10</SoftResin>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Drug">
