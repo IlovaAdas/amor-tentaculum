@@ -3,6 +3,7 @@
 | Tentacle | Neutral | Squirmer | ![](./Textures/Things/Pawns/Squirmer/Squirmer_east.png) | `Textures/Things/Pawns/Squirmer` | |
 | Tentacle | Neutral | Larva | ![](./Textures/Things/Pawns/Larva/Larva_east.png) | `Textures/Things/Pawns/Larva` | |
 | Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
+| Tentacle | Male | Borer | NYI | NYI | Kind of like the Biotech Tunneler? Big, sharp claws. Not necessarily a big body, though. |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
 | Tentacle | Female | Brood Mother | NYI | NYI | We'll want something grossly pregnant for this. |

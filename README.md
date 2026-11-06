@@ -66,6 +66,11 @@ Research Tier: Basic
 
 A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
 
+### Amor Borer
+Research Tier: Intermediate
+
+A mass of tentacles that is designed for mining store and ore.  Although since that requires sharp and strong claws, this Tentacle is also effective in combat.
+
 ### Amor Striker
 Research Tier: Intermediate
 
