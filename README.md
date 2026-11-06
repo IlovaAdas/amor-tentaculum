@@ -5,7 +5,7 @@ This mod was originally created by MrCastle69 (who is MIA) and was maintained by
 
 At the moment, this mod is EXTREMELY a Work In Progress.  The original mod was unfinished and had quite a few bugs.  I'm going to work on fixing those bugs and then start to add additional features.  Please make use of the Github Issues feature to report any problems you have or suggest things you'd like to see.  I can't promise that I'll be able to implement all of them (I'm still fairly new to RimWorld modding), but I'll do my best.
 
-The tentacle assets are created by [ScorchedRose9](https://github.com/ScorchedRose9) (commission her!), who has been a huge help in creating this mod.
+The tentacle assets are created by [ScorchedRose9](https://linktr.ee/Scorched_Rose9) (commission her!), who has been a huge help in creating this mod.
 
 Many thanks also to the RJW Discord community, who have been excellent for ideas, testing, bug fixes, and general support. You folks are awesome.
 
