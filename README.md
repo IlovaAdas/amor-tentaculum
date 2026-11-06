@@ -7,23 +7,24 @@ At the moment, this mod is EXTREMELY a Work In Progress.  The original mod was u
 
 The tentacle assets are created by [ScorchedRose9](https://github.com/ScorchedRose9) (commission her!), who has been a huge help in creating this mod.
 
-Huge thanks also to the RJW Discord community, who have been excellent for ideas, testing, bug fixes, and general support. You folks are awesome.
+Many thanks also to the RJW Discord community, who have been excellent for ideas, testing, bug fixes, and general support. You folks are awesome.
 
 # Mod Dependencies
 
 Hard Requirements (this mod will not work without them):
-* RJW
-* RJW Genes
-* Biotech
-* EBSG Framework
-* Vanilla Expanded Framework
+* [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077)
+* [RJW](https://gitgud.io/Ed86/rjw)
+* [RJW Genes](https://github.com/vegapnk/RJW-Genes)
+* [Biotech (Official DLC)](https://store.steampowered.com/app/1826140/RimWorld_Biotech/)
+* [EBSG Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3112549163)
+* [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013)
 
 Soft Requirements (this mod provides additional features if you have these installed):
-* Royalty (some pawns get buffs to psychic sensitivity)
-* Ideology (provides memes and other Ideology components for your tentacle colony)
+* [Royalty (Official DLC)](https://store.steampowered.com/app/1149640/RimWorld_Royalty/) (some pawns get buffs to psychic sensitivity)
+* [Ideology (Official DLC)](https://store.steampowered.com/app/1392840/RimWorld_Ideology/) (provides memes and other Ideology components for your tentacle colony)
 
 Recommended Mods (never required, but provide useful things to suppliment a tentacle colony):
-* Alpha Memes (provides a Flesh Cult structure style for your Ideology that fits this mod well; note that Anomaly is required for this style)
+* [Alpha Memes](https://steamcommunity.com/sharedfiles/filedetails/?id=2661356814) (provides a Flesh Cult structure style for your Ideology that fits this mod well; note that the Anomaly DLC is required for this style)
 
 # Tentacle Bestiary
 
@@ -42,36 +43,44 @@ A captured pawn, converted entirely into Amor Squirmer storage.  Immobile and no
 
 ### Amor Grazer
 Research Tier: Basic
+
 A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
 
 ### Amor Striker
 Research Tier: Intermediate
+
 A combat-focused mass of tentacles, designed to latch on to and incapacitate hostile enemies with attacks to their genitalia.
 
 ### Amor Abductor
 Research Tier: Advanced
+
 A non-combat mass of tentacles, designed to target downed enemies and transport them to the hive as prisoners.  Can perform general hauling tasks as well.
 
 ## Female Tentacles
 
 ### Amor Brood Mother
 Research Tier: Basic
+
 A non-combat mass of tentacles that focuses entirely on incubating and laying Amor Larva eggs, which will eventually grow into other types of tentacles.  Has combat abilities, but due to its essential nature to the hive, should not engage in combat unless necessary.
 
 ### Amor Spawner
 Research Tier: Basic
+
 A non-combat mass of tentacles, designed to help grow Amor Squirmers to empower Amor Hosts' abilities.  Grows and lays Amor Squirmer eggs.
 
 ### Amor Producer
 Research Tier: Intermediate
+
 A non-combat mass of tentacles that can be harvested for hard and soft resin resources (per normal animal mechanics) used to build other things.
 
 ### Amor Brewer
 Research Tier: Intermediate
+
 A non-combat mass of tentacles that produces drugs and chemicals regularly.  Can be switched between various production targets.
 
 ### Amor Hunter
 Research Tier: Advanced
+
 A combat-focused mass of tentacles, designed to protect the hive from external threats with debilitating ranged attacks.
 
 ## Boss Tentacles
@@ -97,28 +106,34 @@ A male host specialized for labor and crafting.  Minimal combat potential, but c
 
 ### Amor Baron
 Research Tier: Intermediate
+
 A male host specialized for defense, providing buffs to other host and tentacle pawns.  Can act as supplementary storage for Amor Squirmers.  Uses stored Amor Squirmers to power its abilities.
 
 ### Amor Knight
 Research Tier: Advanced
+
 A male host specialized for melee combat, at the cost of intelligence and work proficiency.  Uses stored Amor Squirmers to power its abilities.
 
 ### Amor Rogue
 Research Tier: Advanced
+
 A male host specialized for stealth and reconnaissance.  Minimal combat potential, but naturally difficult to see and can become mostly invisible for a short time.  Uses stored Amor Squirmers to power its abilities.
 
 ## Female Hosts
 
 ### Amor Queen
 Research Tier: Core
+
 The strongest of the female host types.  Grows and lays Amor Brood Mother eggs to help the hive reproduce. She also produces Tentacle Slime, which is a key crafting material.  This Host type provides the foundational materials for growing your colony - protect her at all costs!
 
 ### Amor Baroness
 Research Tier: Intermediate
+
 A female host specialized to carry Amor Squirmers for use by other host pawns.
 
 ### Amor Nymph
 Research Tier: Advanced
+
 A female host specialized for seducing and placating other pawns.  Can convert infected pawns into immobile Amor Wombs.
 
 # Resources
