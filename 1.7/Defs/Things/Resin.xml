@@ -65,7 +65,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>Hresin</defName>
+    <defName>HardResin</defName>
     <label>Hard Resin</label>
     <description>Hard tentacle resin, it is immune to fire, and it's jagged edges when dry make for excellent cutting tools.</description>
     <graphicData>

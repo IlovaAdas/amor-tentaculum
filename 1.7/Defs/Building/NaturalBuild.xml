@@ -40,7 +40,7 @@
     <fillPercent>0.4</fillPercent>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Hresin>25</Hresin>
+      <HardResin>25</HardResin>
       <SmallTEggFert>1</SmallTEggFert>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -263,7 +263,7 @@
     </graphicData>
     <uiIconPath>Things/Buildings/Sphincter/DoorTSUI</uiIconPath>
     <costList>
-      <Hresin>40</Hresin>
+      <HardResin>40</HardResin>
       <SmallTEggFert>1</SmallTEggFert>
     </costList>
     <costStuffCount>25</costStuffCount>

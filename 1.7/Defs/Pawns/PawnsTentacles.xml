@@ -44,15 +44,15 @@
 			</li>
 			<!--
 			<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
-				<resourceDef>Hresin</resourceDef>
+				<resourceDef>HardResin</resourceDef>
 				<gatheringIntervalDays>4</gatheringIntervalDays>
 				<resourceAmount>25</resourceAmount>
 				<customResourceString>Resin</customResourceString>
 				<isRandom>true</isRandom>
 				<randomItems>
-					<li>Hresin</li>
-					<li>Hresin</li>
-					<li>Hresin</li>
+					<li>HardResin</li>
+					<li>HardResin</li>
+					<li>HardResin</li>
 					<li>SoftResin</li>
 				</randomItems>
 			</li>
@@ -218,15 +218,15 @@
 			</li>
 			<!--
 			<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
-				<resourceDef>Hresin</resourceDef>
+				<resourceDef>HardResin</resourceDef>
 				<gatheringIntervalDays>4</gatheringIntervalDays>
 				<resourceAmount>25</resourceAmount>
 				<customResourceString>Resin</customResourceString>
 				<isRandom>true</isRandom>
 				<randomItems>
-					<li>Hresin</li>
-					<li>Hresin</li>
-					<li>Hresin</li>
+					<li>HardResin</li>
+					<li>HardResin</li>
+					<li>HardResin</li>
 					<li>SoftResin</li>
 				</randomItems>
 			</li>

@@ -1,0 +1,17 @@
+<Defs>
+
+	<DesignationCategoryDef>
+		<defName>Tentacles</defName>
+		<label>tentacles</label>
+		<order>9</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+		<preferredColumn>1</preferredColumn>
+		<researchPrerequisites>
+			<li>ATCore</li>
+		</researchPrerequisites>
+	</DesignationCategoryDef>
+	
+</Defs>

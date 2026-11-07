@@ -1,0 +1,79 @@
+<Defs>
+
+	<ThingDef Abstract="True" Name="ProcessingPodBase" ParentName="BuildingBase">
+		<thingClass>Building_TentaclePod</thingClass>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(3, 2, 1.9)</volume>
+			</shadowData>
+		</graphicData>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<buildingTags>
+				<li>Tentacles</li>
+			</buildingTags>
+			<workTableRoomRole>Laboratory</workTableRoomRole>
+		</building>
+		<designationCategory>Tentacles</designationCategory>
+		<uiOrder>2430</uiOrder>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3,2)</size>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<statBases>
+			<Mass>25</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
+	</ThingDef>
+
+	<ThingDef ParentName="ProcessingPodBase">
+		<defName>Building_RecyclingPod</defName>
+		<label>recycling pod</label>
+		<description>A biological structure that will break its occupant down into component parts, turning it into raw resources. Needless to say, this is fatal for the pawn.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/SubcoreSoftscanner</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToBuild>8000</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+		</statBases>
+		<costList>
+			<HardResin>200</HardResin>
+			<SoftResin>25</SoftResin>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>ATStructBasic</li>
+		</researchPrerequisites>
+		<building>
+			<subcoreScannerFixedIngredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>TentacleSlime</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+			</subcoreScannerFixedIngredients>
+			
+			<subcoreScannerOutputDef>HardResin</subcoreScannerOutputDef>
+			<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>
+			<subcoreScannerWorking>SubcoreRipscanner_Working</subcoreScannerWorking>
+			<subcoreScannerComplete>SubcoreRipscanner_Complete</subcoreScannerComplete>
+			<destroyBrain>true</destroyBrain>
+			<subcoreScannerHediff>ScanningSickness</subcoreScannerHediff>
+		</building>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>
