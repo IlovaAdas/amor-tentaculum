@@ -46,7 +46,7 @@ At some point, the hive reached sufficient critical mass that some of the Hosts 
 
 Rumors of infested gravships, flesh-filled ruins, and even entire worlds on the Rim - all spreading the infection - began to circulate among starfarers.  Along with rumors of more advanced forms, bringing with them high levels of threats...
 
-You have stumbled onto their research.  And it sounds... kinda kinky. kinda nasty, but also... fun?
+You have stumbled onto their research.  And it sounds... kinda kinky, kinda nasty, but also... fun?
 
 Love the Tentacle.  And if others do not?  Convert them - by any means necessary.
 
