@@ -14,6 +14,7 @@
 | Boss | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Boss | Male | Defender | ![](./Textures/Things/Pawns/Defender/Defender_east.png) | `Textures/Things/Pawns/Defender` | |
 | Boss | Female | Valkyrie | ![](./Textures/Things/Pawns/Valkyrie/Valkyrie_east.png) | `Textures/Things/Pawns/Valkyrie` | |
+| Boss | Female | War Womb | ![](./Textures/Things/Pawns/WarWomb/WarWomb_east.png) | `Textures/Things/Pawns/WarWomb` | |
 | Material | Natural | Hard Resin | ![](./Textures/Things/Items/HardRes/HardResinA.png) ![](./Textures/Things/Items/HardRes/HardResinB.png) | `Textures/Things/Items/HardRes` | |
 | Material | Natural | Soft Resin | ![](./Textures/Things/Items/SoftRes/SoftResinA.png) ![](./Textures/Things/Items/SoftRes/SoftResinB.png) | `Textures/Things/Items/SoftRes` | |
 | Material | Natural | Soft Flesh | ![](./Textures/Things/Items/SoftFlesh/SoftFleshA.png) ![](./Textures/Things/Items/SoftFlesh/SoftFleshB.png) | `Textures/Things/Items/SoftFlesh` | |

@@ -130,6 +130,11 @@ A combat-focused, female humanoid tentacle, intended as a vanguard striker for t
 
 When constructed for your own colony, will emit one of several psychic auras that will buff nearby friendly pawns or debuff nearby hostiles.
 
+### Amor War Womb
+A walking siege engine tentacle. Has a vaguely humanoid base, but spawns smaller combat larva while bombarding hostile targets at range with sticky semen-based artillery.
+
+When constructed for your own colony, will act as a powerful offensive fighter - but can be utilized for defense and area denial, as well.
+
 # Host Types
 
 ## Male Hosts
