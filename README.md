@@ -98,11 +98,6 @@ Research Tier: Intermediate
 
 A non-combat mass of tentacles that can be harvested for hard and soft resin resources (per normal animal mechanics) used to build other things.
 
-### Amor Brewer
-Research Tier: Intermediate
-
-A non-combat mass of tentacles that produces drugs and chemicals regularly.  Can be switched between various production targets.
-
 ### Amor Hunter
 Research Tier: Advanced
 
@@ -111,10 +106,15 @@ A combat-focused mass of tentacles, designed to protect the hive from external t
 ## Boss Tentacles
 These are the most powerful tentacle types, but in order to unlock them, you will need to craft a special building to summon them (ala mechanitor bosses).  They will drop an item that can be used to unlock the research to make some of your own, as well as being required for the construction.  Note that these will be "humanoid" Tentacle types - and as such, will require a host body that will be consumed as part of the transformation process, so you'll probably want to use these on prisoners.
 
+### Amor Brewer
+A mass of tentacles that produces drugs and chemicals regularly.  Will attack with tox gas and cum sprays.
+
+When constructed for your own colony, can be switched between several products to brew.  Examples might be chemfuel, amornuum, etc. (still TBD)
+
 ### Amor Defender
 A combat-focused, male humanoid tentacle, designed to protect the hive from external threats with powerful melee attacks and the ability to absorb high amounts of damage.
 
-When constructed for your own colony, can be trained to perform hauling tasks.
+When constructed for your own colony, will perform hauling tasks.
 
 ### Amor Valkyrie
 A combat-focused, female humanoid tentacle, intended as a vanguard striker for the hive.  Has powerful attacks, some psychic abilities, and can spawn minion tentacles to swarm enemies.

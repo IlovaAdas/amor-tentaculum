@@ -9,8 +9,8 @@
 | Tentacle | Female | Brood Mother | NYI | NYI | We'll want something grossly pregnant for this. |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
 | Tentacle | Female | Producer | NYI | NYI | |
-| Tentacle | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
+| Boss | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Boss | Male | Defender | ![](./Textures/Things/Pawns/Defender/Defender_east.png) | `Textures/Things/Pawns/Defender` | |
 | Boss | Female | Valkyrie | ![](./Textures/Things/Pawns/Valkyrie/Valkyrie_east.png) | `Textures/Things/Pawns/Valkyrie` | |
 | Material | Natural | Hard Resin | ![](./Textures/Things/Items/HardRes/HardResinA.png) ![](./Textures/Things/Items/HardRes/HardResinB.png) | `Textures/Things/Items/HardRes` | |
