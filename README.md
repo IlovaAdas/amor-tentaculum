@@ -22,6 +22,7 @@ Hard Requirements (this mod will not work without them):
 Soft Requirements (this mod provides additional features if you have these installed):
 * [Royalty (Official DLC)](https://store.steampowered.com/app/1149640/RimWorld_Royalty/) (some pawns get buffs to psychic sensitivity)
 * [Ideology (Official DLC)](https://store.steampowered.com/app/1392840/RimWorld_Ideology/) (provides memes and other Ideology components for your tentacle colony)
+* [Odyssey (Official DLC)](https://store.steampowered.com/app/3022790/RimWorld_Odyssey/) (provides vacuum resistance to converted pawns and has some additional structures for gravships)
 
 Recommended Mods (never required, but provide useful things to suppliment a tentacle colony):
 * [Alpha Memes](https://steamcommunity.com/sharedfiles/filedetails/?id=2661356814) (provides a Flesh Cult structure style for your Ideology that fits this mod well; note that the Anomaly DLC is required for this style)
