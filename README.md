@@ -67,6 +67,14 @@ Research Tier: Basic
 
 A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
 
+### Amor Stinger
+Research Tier: Basic
+
+A small flying tentacle creature shaped like a ray. It's actually a sleeve of skin, constantly generating and expelling internally generated gases to keep itself afloat.
+The flexible tail sports a small stinger, capable of injecting a light paralytic venom through even the smallest gaps.
+Once a target is sufficietly weakened, the tentacle may wrap itself around the head turning them into nothing but a walking flesh puppet.
+The mind control persists for several hours, after which the victim's head is consumed. 
+
 ### Amor Borer
 Research Tier: Intermediate
 
