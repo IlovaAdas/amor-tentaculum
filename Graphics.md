@@ -21,8 +21,8 @@
 | Material | Natural | Tentacle Slime | ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeA.png) ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeB.png) | `Textures/Things/Items/TentacleSlime` | |
 | Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Food/Amornuum/AmornuumA.png) ![](./Textures/Things/Items/Food/Amornuum/AmornuumB.png) | `Textures/Things/Items/Food/Amornuum` | |
 | Drugs | Natural | NotSlurm | ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkA.png) ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkB.png) | `Textures/Things/Items/Food/NotSlurm` | |
-| Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | |
-| Buildings | Defensive | Paralysis Trap | NYI | NYI | |
+| Buildings | Utility | Tentacle Workbench | NYI | NYI | A standard 3x1 workbench, but with some slimy tentacles on it. Will be constructed from normal materials, so a mask will be required. |
+| Buildings | Utility | (Workbench Linkable, name TBD) | NYI | NYI | A standard linkable (think Tool Cabinet) for the workbench. Can be more tentacle-y, since it will be constructed from resin. |
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
@@ -31,6 +31,8 @@
 | Buildings | Utility | Recycling Pod | NYI | NYI | Something that looks very violent and lethal for the pawn going into it. |
 | Buildings | Utility | Indoctrination Pod | NYI | NYI | Time to lean into the "tentacle violation" fetish... make sure the pawn is at least somewhat visible, for Onahole mechanics. |
 | Buildings | Utility | Transformation Pod | NYI | NYI | More of a womb-like structure here. What comes out will be nothing like what goes in. |
+| Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | |
+| Buildings | Defensive | Paralysis Trap | NYI | NYI | |
 | Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
 | Equipment | Weapons | Resin Sword | ![](./Textures/Things/Items/MeleeWeapons/ResinSword.png) ![](./Textures/Things/Items/MeleeWeapons/ResinScimitar.png) | `Textures/Things/Items/MeleeWeapons` | Scimitar is a more high-tech version with higher armor penetration. |
 | Equipment | Armor | Tentacle Slave Collar | ![](./Textures/Things/Items/Equipment/TentacleCollar_east.png) | `Textures/Things/Items/Equipment` | |

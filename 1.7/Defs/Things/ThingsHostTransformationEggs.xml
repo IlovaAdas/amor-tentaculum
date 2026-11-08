@@ -51,6 +51,7 @@
 			<researchPrerequisite>ATCore</researchPrerequisite>
 			<recipeUsers>
 				<li>DrugLab</li>
+				<li>TentacleWorkbench</li>
 			</recipeUsers>
 			<soundWorking>Recipe_Drug</soundWorking>
 		</recipeMaker>
@@ -119,7 +120,7 @@
 		<recipeMaker>
 			<researchPrerequisite>ATHostIntermediate</researchPrerequisite>
 			<recipeUsers>
-				<li>DrugLab</li>
+				<li>TentacleWorkbench</li>
 			</recipeUsers>
 			<soundWorking>Recipe_Drug</soundWorking>
 		</recipeMaker>

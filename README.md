@@ -200,19 +200,17 @@ A sticky, viscous substance produced by Amor Queens.  Used for crafting more adv
 
 # Buildings
 
-## Combat and Defense
-
-### Tentacle Turret
-Research Tier: Defensive
-
-A portable turret that grows just about anywhere.  Fires low-damage spikes at long range.
-
-### Paralysis Trap
-Research Tier: Defensive
-
-A buildable trap that releases a swarm of hostile tentacles when triggered.  Tentacles will attack any nearby pawns (including your own!), so build with care.  They are extremely fragile, but have a powerful paralytic poison.
-
 ## Utility
+
+### Tentacle Workbench
+Research Tier: Core
+
+A workbench equipped with all of the equipment required to craft basic tentacle-related things.
+
+### (Linkable Workbench Buffer, ala Tool Cabinet) (Name TBD)
+Research Tier: Utility
+
+A tentacle structure that makes it easier to craft tentacle-related things. A maximum of two can be linked to a tentacle workbench.
 
 ### Amor Calor
 Research Tier: Utility
@@ -244,6 +242,19 @@ Research Tier: Utility, Advanced
 A tentacle structure that is used to convert pawns into Boss-tier tentacles. The process is lethal for the pawn; their body will be consumed and used to gestate one of the Boss-tier tentacles.
 
 NOTE: Again, basically a Ripscanner. May need several types, depending on whether or not we can add multiple "loading" abilities.
+
+## Combat and Defense
+
+### Tentacle Turret
+Research Tier: Defensive
+
+A portable turret that grows just about anywhere.  Fires low-damage spikes at long range.
+
+### Paralysis Trap
+Research Tier: Defensive
+
+A buildable trap that releases a swarm of hostile tentacles when triggered.  Tentacles will attack any nearby pawns (including your own!), so build with care.  They are extremely fragile, but have a powerful paralytic poison.
+
 
 # Equipment
 
