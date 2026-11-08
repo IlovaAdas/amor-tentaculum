@@ -148,12 +148,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-		<!--
-		<abilities>
-			<li>Genitalsretract</li>
-			<li>GenitalsEggActivate</li>
-		</abilities>
-		-->
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -317,12 +311,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-		<!--
-		<abilities>
-			<li>Genitalsretract</li>
-			<li>GenitalsEggActivate</li>
-		</abilities>
-		-->
 	</PawnKindDef>
 
 	<ThingDef ParentName="AnimalThingBase">

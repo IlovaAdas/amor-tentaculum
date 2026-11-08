@@ -3,8 +3,6 @@
 	<!-- A Gene-Based NEED for tentacles.  Provided by Dynamic Resource Genes from the EBSG Framework. -->
 	<GeneDef>
 		<defName>HostTentacleNeed</defName>
-		<label>Tentacle dependance</label>
-		<description>Individuals who have been fully converted into tentacle hosts can no longer survive without a pool of tentacles in their body.  Those tentacles manage the host's basic body functions and provide physical structure, in addition to a physical and psychological dependence on the presence of the tentacles. They can use their stored pool of tentacles as a resource for abilities, but should that be depleted, they will die unless their stock is replenished.</description>
 		<displayCategory>Miscellaneous</displayCategory>
 		<iconPath>Things/Items/BrainLarve/WLarvae</iconPath>
 		<geneClass>EBSGFramework.ResourceGene</geneClass>
@@ -29,7 +27,7 @@
 				<!--Does as their name implies. If you want to see them in action, make the RGBs two very different colors-->
 				<barColor>(203,35,227)</barColor>
 				<barHighlightColor>(203,85,227)</barHighlightColor>
-				<iconThing>MedTEgg</iconThing>
+				<iconThing>AmorQueenEgg</iconThing>
 				<!--For Hemogen, this is that little pack at the top of the gizmo. For radiation, it's the first Uranium icon-->
 				<!--Limit stuff-->
 				<maximum>0.01</maximum>

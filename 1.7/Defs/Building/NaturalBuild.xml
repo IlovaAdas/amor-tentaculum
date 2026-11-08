@@ -40,7 +40,7 @@
     <hasTooltip>true</hasTooltip>
     <costList>
       <HardResin>25</HardResin>
-      <SmallTEggFert>1</SmallTEggFert>
+      <TentacleSlime>1</TentacleSlime>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Tentacles</designationCategory>
@@ -138,7 +138,7 @@
     <selectable>true</selectable>
     <costList>
       <SoftResin>50</SoftResin>
-      <SmallTEggFert>1</SmallTEggFert>
+      <TentacleSlime>1</TentacleSlime>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
@@ -254,7 +254,7 @@
     <uiIconPath>Things/Buildings/Sphincter/DoorTSUI</uiIconPath>
     <costList>
       <HardResin>40</HardResin>
-      <SmallTEggFert>1</SmallTEggFert>
+      <TentacleSlime>1</TentacleSlime>
     </costList>
     <costStuffCount>25</costStuffCount>
     <comps>

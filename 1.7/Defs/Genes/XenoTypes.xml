@@ -2,9 +2,6 @@
 
   <XenotypeDef>
     <defName>AmorQueenXenotype</defName>
-    <label>Amor Queen</label>
-    <description>A human host that has been genetically modified into an Amor Queen.  The Queen incubates and lays Amor Brood Mother eggs and also produces the Tentacle Slim resource.</description>
-    <descriptionShort>A human host that has been genetically modified into an Amor Queen.</descriptionShort>
     <iconPath>Genes/Xenotype-host</iconPath>
     <inheritable>false</inheritable>
     <chanceToUseNameMaker>0</chanceToUseNameMaker>
@@ -18,9 +15,6 @@
 
 	<XenotypeDef>
 		<defName>AmorBaronXenotype</defName>
-		<label>Amor Baron</label>
-		<description>A human host that has been genetically modified into an Amor Baron.  The Baron acts as a defender for the colony, and can also provide mobile storage for Amor Squirmer tentacles.</description>
-		<descriptionShort>A human host that has been genetically modified into an Amor Baron.</descriptionShort>
 		<iconPath>Genes/Xenotype-host</iconPath>
 		<inheritable>false</inheritable>
 		<chanceToUseNameMaker>0</chanceToUseNameMaker>

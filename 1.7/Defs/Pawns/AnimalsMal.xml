@@ -1,6 +1,8 @@
 <Defs>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+	
+	
+  <!--<PawnKindDef ParentName="AnimalKindBase">
     <defName>TGrabber</defName>
     <label>Amor Gravida</label>
     <race>TGrabber</race>
@@ -380,6 +382,6 @@
         <severityPerDay>-5</severityPerDay>
       </li>
     </comps>
-  </HediffDef>
+  </HediffDef>-->
 
 </Defs>

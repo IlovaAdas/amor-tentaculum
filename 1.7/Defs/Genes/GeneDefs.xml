@@ -8,9 +8,7 @@
 
   <GeneDef ParentName="GeneGenitalTypeBase">
 		<defName>RJWGenes_AmorTentacleInfestedFemaleGenitalia</defName>
-		<label>tentacle inhabited genitalia (female)</label>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
-		<description>Carriers of this gene have female genitalia permantly inhabited by tentacles.</description>
 		<iconPath>Genes/Tentacle_Vagina</iconPath>
 		<modExtensions>
 			<li Class="RJW_Genes.GenitaliaTypeExtension">
@@ -25,9 +23,7 @@
 
 	<GeneDef ParentName="GeneGenitalTypeBase">
 		<defName>RJWGenes_AmorTentacleInfestedMaleGenitalia</defName>
-		<label>tentacle inhabited genitalia (male)</label>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
-		<description>Carriers of this gene have male genitalia permantly inhabited by tentacles.</description>
 		<iconPath>Genes/Tentacle_Vagina</iconPath>
 		<modExtensions>
 			<li Class="RJW_Genes.GenitaliaTypeExtension">
@@ -42,10 +38,8 @@
 
 	<GeneDef>
 		<defName>AmorQueenHostBody</defName>
-		<label>Amor Queen</label>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
 		<geneClass>EBSGFramework.HediffAdder</geneClass>
-		<description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles and a breeding nest for Amor Brood Mother eggs.</description>
 		<displayOrderInCategory>0.1</displayOrderInCategory>
 		<abilities>
 			<li>TentacleIngest</li>

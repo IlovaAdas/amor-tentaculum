@@ -212,7 +212,7 @@
       </stages>
   </HediffDef>
 
- <ThoughtDef>
+ <!--<ThoughtDef>
     <defName>Tentbeerhigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>AttachedV</hediff>
@@ -245,6 +245,6 @@
         <baseMoodEffect>0</baseMoodEffect>
       </li>
     </stages>
-  </ThoughtDef>
+  </ThoughtDef>-->
 
 </Defs>

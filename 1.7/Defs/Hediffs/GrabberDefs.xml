@@ -1,6 +1,6 @@
 <Defs>
 
-    <HediffDef>
+    <!--<HediffDef>
         <defName>BodyDependance</defName>
         <label>Host Dependance</label>
         <description>This creature was not ment to live on it's own and will soon die as it's body rapidly disintegrates.</description>
@@ -1010,6 +1010,6 @@
                 <noApparel>true</noApparel>
             </li>
         </modExtensions>
-    </GeneDef>
+    </GeneDef>-->
 
 </Defs>

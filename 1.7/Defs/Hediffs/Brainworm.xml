@@ -51,7 +51,7 @@
         </recipeMaker>
     <costList>
       <SoftResin>30</SoftResin>
-      <swimmers>30</swimmers>
+      <TentacleSlime>5</TentacleSlime>
     </costList>
     <techHediffsTags>
       <li>Advanced</li>
@@ -121,7 +121,7 @@
         </recipeMaker>
     <costList>
       <SoftResin>30</SoftResin>
-      <swimmers>30</swimmers>
+      <TentacleSlime>30</TentacleSlime>
     </costList>
     <techHediffsTags>
       <li>Advanced</li>
@@ -218,7 +218,7 @@
         </recipeMaker>
     <costList>
       <SoftResin>30</SoftResin>
-      <MedTEgg>1</MedTEgg>
+      <TentacleSlime>1</TentacleSlime>
     </costList>
     <techHediffsTags>
       <li>Advanced</li>

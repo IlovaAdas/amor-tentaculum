@@ -1,0 +1,20 @@
+<languageData>
+
+	<HostTentacleNeed.label>tentacle dependence</HostTentacleNeed.label>
+	<HostTentacleNeed.description>Individuals who have been fully converted into tentacle Hosts can no longer survive without a pool of Amor Squirmers in their body. The Host has a physical and psychological dependence on their presence, as they manage the Host's basic body functions, provide structural rigidity, adjust their mood, etc. The Host can also use their stored pool of tentacles as a resource for various abilities, but should their pool be depleted, they will die unless the supply is replenished.</HostTentacleNeed.description>
+
+	<RJWGenes_AmorTentacleInfestedFemaleGenitalia.label>tentacle inhabited genitalia (female)</RJWGenes_AmorTentacleInfestedFemaleGenitalia.label>
+	<RJWGenes_AmorTentacleInfestedFemaleGenitalia.description>Carriers of this gene have female genitalia permantly inhabited by tentacles.</RJWGenes_AmorTentacleInfestedFemaleGenitalia.description>
+
+	<RJWGenes_AmorTentacleInfestedMaleGenitalia.label>tentacle inhabited genitalia (male)</RJWGenes_AmorTentacleInfestedMaleGenitalia.label>
+	<RJWGenes_AmorTentacleInfestedMaleGenitalia.description>Carriers of this gene have male genitalia permantly inhabited by tentacles.</RJWGenes_AmorTentacleInfestedMaleGenitalia.description>
+
+	<AmorQueenHostBody.label>Amor Queen</AmorQueenHostBody.label>
+	<AmorQueenHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles and a breeding nest for Amor Brood Mother eggs. They also secrete Tentacle Slime.</AmorQueenHostBody.description>
+
+	<AmorBaronHostBody.label>Amor Baron</AmorBaronHostBody.label>
+	<AmorBaronHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They protect the colony with defensive buffs and auras.</AmorBaronHostBody.description>
+	
+	
+	
+</languageData>
