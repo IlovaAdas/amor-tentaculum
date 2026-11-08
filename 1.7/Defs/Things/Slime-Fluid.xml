@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="BaseFilth">
     <defName>FilthSlime</defName>
-		<label>slime</label>
+		<label>tentacle slime</label>
 		<statBases>
 			<Beauty>-30</Beauty>
 			<Cleanliness>0</Cleanliness>
@@ -19,7 +19,7 @@
 	</ThingDef>
 
 	<rjw.SexFluidDef>
-		<defName>slime</defName>
+		<defName>tentacle slime</defName>
 		<filth>FilthSlime</filth>
 		<consumable>slimefood</consumable>
 		<consumableFluidRatio>1</consumableFluidRatio>

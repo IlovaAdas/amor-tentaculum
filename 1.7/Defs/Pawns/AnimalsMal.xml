@@ -87,7 +87,7 @@
       <baseHungerRate>0.01</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
       <roamMtbDays>2</roamMtbDays>
       <trainability>None</trainability>
@@ -188,7 +188,7 @@
       <baseHungerRate>0.06</baseHungerRate>
       <baseHealthScale>1.9</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>Tentacle meat</meatLabel>
       <trainability>Intermediate</trainability>
       <petness>0.05</petness>

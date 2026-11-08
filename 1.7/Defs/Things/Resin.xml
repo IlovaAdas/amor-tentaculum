@@ -3,7 +3,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>SoftResin</defName>
     <label>soft resin</label>
-    <description>Soft tentacle resin, it is pretty and immune to fire, but weak structurally.</description>
+    <description>Soft tentacle resin. Oretty and immune to fire, but structurally weak. Unsuitable for weaponry or walls, but still a useful construction material.</description>
     <graphicData>
       <texPath>Things/Items/SoftRes</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -66,8 +66,8 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>HardResin</defName>
-    <label>Hard Resin</label>
-    <description>Hard tentacle resin, it is immune to fire, and it's jagged edges when dry make for excellent cutting tools.</description>
+    <label>hard resin</label>
+    <description>Hard tentacle resin. It is immune to fire, and its jagged edges (when dry) make sharp surfaces, perfect for cutting tools or weapons.</description>
     <graphicData>
       <texPath>Things/Items/HardRes</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

@@ -39,7 +39,7 @@
 		</recipeMaker>
 		<costList>
 			<TentacleSlime>5</TentacleSlime>
-			<LeatherTentacle>25</LeatherTentacle>
+			<TentacleLeather>25</TentacleLeather>
 		</costList>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>

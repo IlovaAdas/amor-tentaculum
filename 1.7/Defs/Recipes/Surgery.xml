@@ -1,7 +1,7 @@
 <Defs>
   
   <RecipeDef ParentName="SurgeryRemoveImplantBase">
-    <defName>AbortBroodMotherEgg</defName>
+    <defName>AbortAmorBroodMotherEgg</defName>
     <label>abort egg incubation</label>
     <description>Surgically remove the Amor Brood Mother egg from the pawn, destroying it.</description>
     <workerClass>Recipe_RemoveHediff</workerClass>

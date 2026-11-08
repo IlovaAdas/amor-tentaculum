@@ -71,7 +71,7 @@
       <baseHungerRate>0.06</baseHungerRate>
       <baseHealthScale>0.9</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>Tentacle meat</meatLabel>
       <trainability>Intermediate</trainability>
       <petness>0.05</petness>
@@ -217,7 +217,7 @@
       <baseHungerRate>0.02</baseHungerRate>
       <baseHealthScale>0.02</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
       <petness>0.05</petness>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
@@ -364,7 +364,7 @@
       <baseHungerRate>0.02</baseHungerRate>
       <baseHealthScale>0.05</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
       <petness>0.05</petness>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
@@ -559,7 +559,7 @@
       <baseHungerRate>1.2</baseHungerRate>
       <baseHealthScale>4.5</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
       <trainability>Advanced</trainability>
       <petness>0.05</petness>
@@ -699,7 +699,7 @@
       <baseHungerRate>2</baseHungerRate>
       <baseHealthScale>6</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>LeatherTentacle</leatherDef>
+      <leatherDef>TentacleLeather</leatherDef>
       <meatLabel>tentacle meat</meatLabel>
       <trainability>Advanced</trainability>
       <petness>0.05</petness>

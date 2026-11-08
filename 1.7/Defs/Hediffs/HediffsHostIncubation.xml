@@ -83,7 +83,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
 				<abilitiesAtSeverities>
 					<li>
-						<abilityDef>BirthBroodMotherEgg</abilityDef>
+						<abilityDef>BirthAmorBroodMotherEgg</abilityDef>
 						<validSeverity>0.98~999</validSeverity>
 					</li>
 				</abilitiesAtSeverities>
@@ -96,7 +96,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>BroodMotherEggLabor</defName>
+		<defName>AmorBroodMotherEggLabor</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Laying Egg (dilating)</label>
 		<labelNoun>laying egg</labelNoun>
@@ -155,7 +155,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_HediffsOnRemoval">
 				<hediffsToGive>
 					<li>
-						<hediffDef>BroodMotherEggDelivery</hediffDef>
+						<hediffDef>AmorBroodMotherEggDelivery</hediffDef>
 						<bodyParts>
 							<li>Genitals</li>
 						</bodyParts>
@@ -166,7 +166,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>BroodMotherEggDelivery</defName>
+		<defName>AmorBroodMotherEggDelivery</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Laying Egg (pushing)</label>
 		<labelNoun>laying egg</labelNoun>
@@ -196,7 +196,7 @@
 				<onRemovalThings>
 					<li>
 						<li>
-							<thing>BroodMotherEgg</thing>
+							<thing>AmorBroodMotherEgg</thing>
 						</li>
 					</li>
 				</onRemovalThings>

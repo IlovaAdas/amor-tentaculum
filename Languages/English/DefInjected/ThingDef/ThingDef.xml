@@ -1,0 +1,55 @@
+<languageData>
+
+	<!-- Buildings -->
+	<Turret_Tentacle.label>tentacle turret</Turret_Tentacle.label>
+	<Gun_TentacleTurret.label>turret tentacle</Gun_TentacleTurret.label>
+	<Bullet_TentTurret.label>tentacle spike</Bullet_TentTurret.label>
+	<THeater.label>amor calor</THeater.label>
+	<TCooler.label>amor frigus</TCooler.label>
+	<sphincterdoor.label>sphincter door</sphincterdoor.label>
+	<Building_RecyclingPod.label>recycling pod</Building_RecyclingPod.label>
+	<TestWall.label>test wall</TestWall.label>
+	<TentacleWorkbench.label>tentacle workbench</TentacleWorkbench.label>
+	
+	<!-- Drugs, food, and other consumables -->
+	<TentBeer.label>amornuum</TentBeer.label>
+	
+	<!-- TODO: Implants (not yet finalized) -->
+
+	<!-- Tentacle pawn types -->
+	<!-- Note that these should be capitalized! -->
+	<TentacleBroodMother.label>Amor Brood Mother</TentacleBroodMother.label>
+	<TentacleSpawner.label>Amor Spawner</TentacleSpawner.label>
+	<TentacleSquirmer.label>Amor Squirmer</TentacleSquirmer.label>
+	<TentacleLarva.label>Amor Larva</TentacleLarva.label>
+	
+	
+	<!-- Host transformation eggs -->
+	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>
+	<AmorBaronEgg.label>Amor Baron egg</AmorBaronEgg.label>
+		
+	<!-- Tentacle eggs -->
+	<AmorBroodMotherEgg.label>Amor Brood Mother egg</AmorBroodMotherEgg.label>
+	<AmorSquirmerEgg.label>Amor Squirmer egg</AmorSquirmerEgg.label>
+	<AmorSquirmerEggUnfert.label>Amor Squirmer egg (unfert.)</AmorSquirmerEggUnfert.label>
+	<AmorSquirmerEggFert.label>Amor Squirmer egg (fert.)</AmorSquirmerEggFert.label>
+	<AmorLarvaEgg.label>Amor Squirmer egg</AmorLarvaEgg.label>
+	<AmorLarvaEggUnfert.label>Amor Squirmer egg (unfert.)</AmorLarvaEggUnfert.label>
+	<AmorLarvaEggFert.label>Amor Squirmer egg (fert.)</AmorLarvaEggFert.label>
+	
+	<!-- Resources -->
+	<HardResin.label>hard resin</HardResin.label>
+	<SoftResin.label>soft resin</SoftResin.label>
+	<TentacleLeather.label>soft flesh</TentacleLeather.label>
+	<TentacleSlime.label>tentacle slime</TentacleSlime.label>
+	
+	<!-- Filth and Fluids -->
+	<FilthSlime.label>tentacle slime</FilthSlime.label>
+	
+	<!-- Weapons -->
+	
+	<!-- Equipment -->
+	<TentacleCollar.label>tentacle collar</TentacleCollar.label>
+	
+	
+</languageData>

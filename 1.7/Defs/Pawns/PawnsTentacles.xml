@@ -66,7 +66,7 @@
 			<baseHungerRate>2</baseHungerRate>
 			<baseHealthScale>6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>LeatherTentacle</leatherDef>
+			<leatherDef>TentacleLeather</leatherDef>
 			<meatLabel>tentacle meat</meatLabel>
 			<trainability>Advanced</trainability>
 			<petness>0.05</petness>
@@ -240,7 +240,7 @@
 			<baseHungerRate>2</baseHungerRate>
 			<baseHealthScale>6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>LeatherTentacle</leatherDef>
+			<leatherDef>TentacleLeather</leatherDef>
 			<meatLabel>tentacle meat</meatLabel>
 			<trainability>Advanced</trainability>
 			<petness>0.05</petness>
@@ -376,7 +376,7 @@
 			<baseHungerRate>0.01</baseHungerRate>
 			<baseHealthScale>0.5</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>LeatherTentacle</leatherDef>
+			<leatherDef>TentacleLeather</leatherDef>
 			<meatLabel>tentacle meat</meatLabel>
 			<trainability>None</trainability>
 			<petness>0.05</petness>
@@ -477,7 +477,7 @@
 			<baseHungerRate>0.02</baseHungerRate>
 			<baseHealthScale>0.5</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>LeatherTentacle</leatherDef>
+			<leatherDef>TentacleLeather</leatherDef>
 			<meatLabel>tentacle meat</meatLabel>
 			<trainability>None</trainability>
 			<petness>0.05</petness>

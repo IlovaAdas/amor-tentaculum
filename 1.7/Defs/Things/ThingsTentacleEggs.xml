@@ -1,9 +1,9 @@
 <Defs>
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>BroodMotherEgg</defName>
-		<label>Amor Brood Mother Egg</label>
-		<description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!.</description>
+		<defName>AmorBroodMotherEgg</defName>
+		<label>Amor Brood Mother egg</label>
+		<description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/HugeEgg</texPath>
@@ -22,7 +22,7 @@
 		
 	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
 		<defName>AmorSquirmerEgg</defName>
-		<label>Amor Squirmer Egg</label>
+		<label>Amor Squirmer egg</label>
 		<labelNoun>Amor Squirmer egg</labelNoun>
 		<description>An Amor Squirmer tentacle egg, growing inside the Tentacle.</description>
 		<parentDefs>
@@ -37,7 +37,7 @@
 
 	<ThingDef ParentName="EggImplantFertBase">
 		<defName>AmorSquirmerEggFert</defName>
-		<label>Amor Squirmer Egg (fert.)</label>
+		<label>Amor Squirmer egg (fert.)</label>
 		<description>A fertilized Amor Squirmer tentacle egg.</description>
 		<graphicData>
 			<color>(203,20,227)</color>
@@ -60,7 +60,7 @@
 
 	<ThingDef ParentName="EggImplantUnfertBase">
 		<defName>AmorSquirmerEggUnfert</defName>
-		<label>Amor Squirmer Egg (unfert.)</label>
+		<label>Amor Squirmer egg (unfert.)</label>
 		<description>An unfertilized Amor Squirmer tentacle egg.</description>
 		<graphicData>
 			<color>(203,125,227)</color>
@@ -79,7 +79,7 @@
 
 	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
 		<defName>AmorLarvaEgg</defName>
-		<label>Amor Larva Egg</label>
+		<label>Amor Larva egg</label>
 		<labelNoun>Amor Larva egg</labelNoun>
 		<description>An Amor Larva tentacle egg, growing inside the Tentacle.</description>
 		<parentDefs>
@@ -94,7 +94,7 @@
 
 	<ThingDef ParentName="EggImplantFertBase">
 		<defName>AmorLarvaEggFert</defName>
-		<label>Amor Larva Egg (fert.)</label>
+		<label>Amor Larva egg (fert.)</label>
 		<description>A fertilized Amor Larva tentacle egg.</description>
 		<graphicData>
 			<color>(203,20,227)</color>
@@ -117,7 +117,7 @@
 
 	<ThingDef ParentName="EggImplantUnfertBase">
 		<defName>AmorLarvaEggUnfert</defName>
-		<label>Amor Larva Egg (unfert.)</label>
+		<label>Amor Larva egg (unfert.)</label>
 		<description>An unfertilized Amor Larva tentacle egg.</description>
 		<graphicData>
 			<color>(203,125,227)</color>

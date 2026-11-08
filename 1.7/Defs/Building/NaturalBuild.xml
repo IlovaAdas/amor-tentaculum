@@ -1,7 +1,7 @@
 <Defs>
 <ThingDef ParentName="BuildingBase">
     <defName>Turret_Tentacle</defName>
-    <label>amor defender</label>
+    <label>tentacle turret</label>
     <description>A portable tentacle that grows more like a plant. Fires low damage spikes at long range.</description>
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
