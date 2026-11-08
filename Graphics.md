@@ -50,6 +50,7 @@
 | Abilities | Host | Slime Spray | ![](./Textures/Abilities/SlimeSpray.png) | `Textures/Abilities` | |
 | Abilities | Host | Seduction Kiss | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
 | Abilities | Host | Invisibility | ![](./Textures/Abilities/InvisibilityFemale.png) ![](./Textures/Abilities/InvisibilityMale.png) | `Textures/Abilities` | Invisbility is for a Male Host type, but we can definitely re-use these icons. |
+| Abilities | Host | Hyper Regeneration | NYI | NYI | |
 
 NOTES:
 * For Host type pawns, some sort of partial graphic specific to the type might be appropriate.  For example, some sort of tentacle body growth overlay, and (for the Queen) a head crest?

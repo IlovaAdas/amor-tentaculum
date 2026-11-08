@@ -255,7 +255,6 @@ Research Tier: Defensive
 
 A buildable trap that releases a swarm of hostile tentacles when triggered.  Tentacles will attack any nearby pawns (including your own!), so build with care.  They are extremely fragile, but have a powerful paralytic poison.
 
-
 # Equipment
 
 ## Weapons
@@ -334,19 +333,25 @@ Usable by Amor Larvae.  Allows the player to choose what type of tentacle the Am
 # Host Abilities
 
 ## Slime Spray
+Research Tier: None
+
 Usable by most Host pawn types.
 
 Ejects a conical spray of Tentacle Slime from the host's mouth, which covers a large area.  It does some damage to what it strikes, but also puts out fires.  It may also trigger uncontrolled sexual urges.
 
 ## Seduction Kiss
+Research Tier: None
+
 Usable by Amor Nymphs.
 
 Approaches the target pawn and attempts to seduce them.  If successful, the target will be temporarily non-hostile (if it was hostile) and its Resistance and Willpower values will be significantly reduced.  Can be used to cancel mental breaks, make prisoners more recruitable, or more nefarious deeds.
 
-## Create Amor Womb
-Usable by Amor Nymphs.  Only works on pawns that are affected by a Seduction Kiss.
+## Hyper Regeneration
+Research Tier: Boss (Defender)
 
-Injects the target pawn with a resinous toxin, which will convert them into an immobile Amor Womb.  The Amor Womb will then be able to store Amor Squirmers for use by other pawns.
+Usable by all Host pawn types, but requires defeating and studying an Amor Defender gland.
+
+Puts the pawn into a short-term coma (cap consciousness) but gives them an extremely rapid regeneration effect that can regrow missing limbs and heal scars.
 
 # Original Mod Description:
 Rimworld Tentacle Mod
