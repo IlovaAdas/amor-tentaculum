@@ -2,8 +2,6 @@
 
 	<ThingDef ParentName="BuildingBase" Name="TestWall">
 		<defName>TestWall</defName>
-		<label>test wall</label>
-		<description>An impassable wall. Capable of holding up a roof.</description>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<noRightClickDraftAttack>true</noRightClickDraftAttack>

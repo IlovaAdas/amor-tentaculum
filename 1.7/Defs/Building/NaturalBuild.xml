@@ -1,7 +1,6 @@
 <Defs>
 <ThingDef ParentName="BuildingBase">
     <defName>Turret_Tentacle</defName>
-    <label>tentacle turret</label>
     <description>A portable tentacle that grows more like a plant. Fires low damage spikes at long range.</description>
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -44,7 +43,7 @@
       <SmallTEggFert>1</SmallTEggFert>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory>Security</designationCategory>
+    <designationCategory>Tentacles</designationCategory>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <building>
       <combatPower>45</combatPower>   <!-- same as a scavenger -->
@@ -64,8 +63,6 @@
 
 <ThingDef ParentName="BaseWeaponTurret">
     <defName>Gun_TentacleTurret</defName>
-    <label>turret tentacle</label>
-    <description>A spike firing tentacle defending it's colony.</description>
     <graphicData>
       <texPath>Things/Buildings/Turret/TurretHead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +93,6 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_TentTurret</defName>
-    <label>tentacle spike</label>
     <graphicData>
       <texPath>Things/Projectile/Projectile_Fingerspike</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -112,8 +108,6 @@
 
    <ThingDef ParentName="BuildingBase">
     <defName>THeater</defName>
-    <label>amor calor</label>
-    <description>A stationary Amor tentacle that generates heat. Requires no fuel or power, but generates less heat than industrial counterparts. The smell is some what suspicious.</description>
     <category>Building</category>
     <graphicData>
       <texPath>Things/Buildings/Heater/HeaterT</texPath>
@@ -176,7 +170,7 @@
         <colorB>(203,20,227,1)</colorB>
       </li>
     </comps>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>Tentacles</designationCategory>
     <designationHotKey>Misc4</designationHotKey>
     <researchPrerequisites>
       <li>ATStructUtility</li>
@@ -185,8 +179,6 @@
 
    <ThingDef ParentName="BuildingBase">
     <defName>TCooler</defName>
-    <label>amor frigus</label>
-    <description>A stationary Amor tentacle that sucks in heat. Requires no fuel or power, but chills the air far below safe limits.</description>
     <category>Building</category>
     <graphicData>
       <texPath>Things/Buildings/Heater/CoolerT</texPath>
@@ -240,7 +232,7 @@
         <glowColor>(173, 216, 230, 2)</glowColor>
       </li>
     </comps>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>Tentacles</designationCategory>
     <designationHotKey>Misc4</designationHotKey>
     <researchPrerequisites>
       <li>ATStructUtility</li>
@@ -249,8 +241,6 @@
 
   <ThingDef ParentName="DoorBase">
     <defName>sphincterdoor</defName>
-    <label>sphincter door</label>
-    <description>Divides rooms. Organic tentacle sphincter allows people to move through the door without slowing down.</description>
     <statBases>
       <WorkToBuild>1100</WorkToBuild>
     </statBases>

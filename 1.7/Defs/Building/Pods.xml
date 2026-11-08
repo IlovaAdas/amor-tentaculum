@@ -36,8 +36,6 @@
 
 	<ThingDef ParentName="ProcessingPodBase">
 		<defName>Building_RecyclingPod</defName>
-		<label>recycling pod</label>
-		<description>A biological structure that will break its occupant down into component parts, turning it into raw resources. Needless to say, this is fatal for the pawn.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/SubcoreSoftscanner</texPath>
 		</graphicData>

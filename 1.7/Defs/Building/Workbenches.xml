@@ -2,8 +2,6 @@
 
 	<ThingDef ParentName="BenchBase">
 		<defName>TentacleWorkbench</defName>
-		<label>tentacle workbench</label>
-		<description>A workbench equipped with all of the equipment required to craft basic tentacle-related things.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/TableDrugLab</texPath>

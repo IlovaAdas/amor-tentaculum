@@ -1,9 +1,7 @@
 <Defs>
-
+<!---->
 	<ThingDef ParentName="EggFertBase">
 		<defName>AmorBroodMotherEgg</defName>
-		<label>Amor Brood Mother egg</label>
-		<description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/HugeEgg</texPath>
@@ -22,9 +20,11 @@
 		
 	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
 		<defName>AmorSquirmerEgg</defName>
+		<!-- 
 		<label>Amor Squirmer egg</label>
 		<labelNoun>Amor Squirmer egg</labelNoun>
 		<description>An Amor Squirmer tentacle egg, growing inside the Tentacle.</description>
+		-->
 		<parentDefs>
 			<li>TentacleSpawner</li>
 		</parentDefs>
@@ -37,8 +37,6 @@
 
 	<ThingDef ParentName="EggImplantFertBase">
 		<defName>AmorSquirmerEggFert</defName>
-		<label>Amor Squirmer egg (fert.)</label>
-		<description>A fertilized Amor Squirmer tentacle egg.</description>
 		<graphicData>
 			<color>(203,20,227)</color>
 		</graphicData>

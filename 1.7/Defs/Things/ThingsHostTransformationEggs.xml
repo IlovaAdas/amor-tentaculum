@@ -2,8 +2,6 @@
 
 	<ThingDef ParentName="MakeableDrugPillBase">
 		<defName>AmorQueenEgg</defName>
-		<label>Amor Queen egg</label>
-		<description>An Amor Queen Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Queen host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</description>
 		<possessionCount>10</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/StartEgg</texPath>
@@ -72,8 +70,6 @@
 
 	<ThingDef ParentName="MakeableDrugPillBase">
 		<defName>AmorBaronEgg</defName>
-		<label>Amor Baron egg</label>
-		<description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</description>
 		<possessionCount>10</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/StartEgg</texPath>

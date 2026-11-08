@@ -2,8 +2,6 @@
 
   <ThingDef ParentName="DrugBase">
     <defName>TentBeer</defName>
-    <label>amornuum</label>
-    <description>A strange alcohol like substnace. Causes a loose feeling when drank, minor hallucinations, and increased sexual activity.</description>
     <descriptionHyperlinks>
       <HediffDef>Tentbeerhigh</HediffDef>
       <HediffDef>AlcoholTolerance</HediffDef>

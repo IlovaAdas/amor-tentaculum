@@ -2,54 +2,76 @@
 
 	<!-- Buildings -->
 	<Turret_Tentacle.label>tentacle turret</Turret_Tentacle.label>
+	<Turret_Tentacle.description>A portable tentacle that grows more like a plant. Fires low damage spikes at long range.</Turret_Tentacle.description>
 	<Gun_TentacleTurret.label>turret tentacle</Gun_TentacleTurret.label>
+	<Gun_TentacleTurret.description>A spike-firing tentacle, defending the colony.</Gun_TentacleTurret.description>
 	<Bullet_TentTurret.label>tentacle spike</Bullet_TentTurret.label>
 	<THeater.label>amor calor</THeater.label>
+	<THeater.description>A tentacle structure that generates heat. Requires no fuel or power, but generates less heat than industrial counterparts. Emits a slightly suspicious odor.</THeater.description>
 	<TCooler.label>amor frigus</TCooler.label>
+	<TCooler.description>A tentacle structure that sucks in heat. Requires no fuel or power, but chills the air far below safe limits.</TCooler.description>
 	<sphincterdoor.label>sphincter door</sphincterdoor.label>
+	<sphincterdoor.description>Divides rooms. This organic tentacle sphincter allows people to move through the door without slowing down, although they may feel a little strange about the process.</sphincterdoor.description>
 	<Building_RecyclingPod.label>recycling pod</Building_RecyclingPod.label>
+	<Building_RecyclingPod.description>A biological structure that will break its occupant down into component parts, turning it into raw resources. Needless to say, this is fatal for the pawn.</Building_RecyclingPod.description>
 	<TestWall.label>test wall</TestWall.label>
+	<TestWall.description>In-Progress Test for Wall Texture Tessellation.</TestWall.description>
 	<TentacleWorkbench.label>tentacle workbench</TentacleWorkbench.label>
+	<TentacleWorkbench.description>A workbench equipped with all of the equipment required to craft basic tentacle-related things.</TentacleWorkbench.description>
 	
 	<!-- Drugs, food, and other consumables -->
 	<TentBeer.label>amornuum</TentBeer.label>
+	<TentBeer.description>A strange alcohol-like substance. When drunk, induces a "loose" and "relaxed" feeling, as well as minor hallucinations - and an increased drive for sexual activity. Tastes a little bit salty.</TentBeer.description>
 	
 	<!-- TODO: Implants (not yet finalized) -->
 
 	<!-- Tentacle pawn types -->
 	<!-- Note that these should be capitalized! -->
 	<TentacleBroodMother.label>Amor Brood Mother</TentacleBroodMother.label>
+	<TentacleBroodMother.description>A humanoid-shaped tentacle dedicated to breeding. The Amor Brood Mother is the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
 	<TentacleSpawner.label>Amor Spawner</TentacleSpawner.label>
+	<TentacleSpawner.description>A huge mass of tentacles with a smaller, central female body. The Amor Spawner is entirely dedicated to breeding Squirmers, which Hosts use to fuel their abilities.</TentacleSpawner.description>
 	<TentacleSquirmer.label>Amor Squirmer</TentacleSquirmer.label>
+	<TentacleSquirmer.description>A long, snake-like tentacle meant to live inside Host bodies. Freezes to death quickly when not inside its native habitat.</TentacleSquirmer.description>
 	<TentacleLarva.label>Amor Larva</TentacleLarva.label>
-	
+	<TentacleLarva.description>A small Tentacle in larval form. Doesn't serve any purpose besides evolving into more-advanced Tentacle forms. Research will unlock more advanced forms to choose from.</TentacleLarva.description>
 	
 	<!-- Host transformation eggs -->
 	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>
+	<AmorQueenEgg.description>An Amor Queen Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Queen host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorQueenEgg.description>
 	<AmorBaronEgg.label>Amor Baron egg</AmorBaronEgg.label>
+	<AmorBaronEgg.description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorBaronEgg.description>
 		
 	<!-- Tentacle eggs -->
 	<AmorBroodMotherEgg.label>Amor Brood Mother egg</AmorBroodMotherEgg.label>
-	<AmorSquirmerEgg.label>Amor Squirmer egg</AmorSquirmerEgg.label>
+	<AmorBroodMotherEgg.description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!</AmorBroodMotherEgg.description>
 	<AmorSquirmerEggUnfert.label>Amor Squirmer egg (unfert.)</AmorSquirmerEggUnfert.label>
+	<AmorSquirmerEggUnfert.description>An unfertilized Amor Squirmer tentacle egg.</AmorSquirmerEggUnfert.description>
 	<AmorSquirmerEggFert.label>Amor Squirmer egg (fert.)</AmorSquirmerEggFert.label>
-	<AmorLarvaEgg.label>Amor Squirmer egg</AmorLarvaEgg.label>
-	<AmorLarvaEggUnfert.label>Amor Squirmer egg (unfert.)</AmorLarvaEggUnfert.label>
-	<AmorLarvaEggFert.label>Amor Squirmer egg (fert.)</AmorLarvaEggFert.label>
+	<AmorSquirmerEggFert.description>A fertilized Amor Squirmer tentacle egg.</AmorSquirmerEggFert.description>
+	<AmorLarvaEggUnfert.label>Amor Larva egg (unfert.)</AmorLarvaEggUnfert.label>
+	<AmorLarvaEggUnfert.description>An unfertilized Amor Larva tentacle egg.</AmorLarvaEggUnfert.description>
+	<AmorLarvaEggFert.label>Amor Larva egg (fert.)</AmorLarvaEggFert.label>
+	<AmorLarvaEggFert.description>A fertilized Amor Larva tentacle egg.</AmorLarvaEggFert.description>	
 	
 	<!-- Resources -->
 	<HardResin.label>hard resin</HardResin.label>
+	<HardResin.description>Hard tentacle resin. It is immune to fire, and while it is brittle, when dried it can be forged into hard and sharp shapes. It is perfect as a material for cutting tools or weapons as well as structures.</HardResin.description>
 	<SoftResin.label>soft resin</SoftResin.label>
+	<SoftResin.description>Soft tentacle resin. Pretty and immune to fire, but structurally weak. Unsuitable for weaponry or walls, but still a useful construction material.</SoftResin.description>
 	<TentacleLeather.label>soft flesh</TentacleLeather.label>
+	<TentacleLeather.description>This skin is amazingly soft and feels like genital skin. Probably because it is...</TentacleLeather.description>
 	<TentacleSlime.label>tentacle slime</TentacleSlime.label>
+	<TentacleSlime.description>A sticky, viscous substance "produced" primarily by Amor Queens. Used for crafting more advanced eggs and implants. It lasts indefinitely, so long as it is stored safely. An extremely valuable resource!</TentacleSlime.description>
 	
 	<!-- Filth and Fluids -->
-	<FilthSlime.label>tentacle slime</FilthSlime.label>
+	<FilthSlime.label>tentacle slime filth</FilthSlime.label>
 	
 	<!-- Weapons -->
 	
 	<!-- Equipment -->
 	<TentacleCollar.label>tentacle collar</TentacleCollar.label>
+	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, intended to use in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
 	
 	
 </languageData>

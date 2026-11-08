@@ -3,8 +3,6 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>TentacleCollar</defName>
 		<generateCommonality>0</generateCommonality>
-		<label>tentacle collar</label>
-		<description>A large tentacle, curled tightly around the wearer's neck, intended to use in controlling slaves.  The tip goes into the wearer's mouth, hindering their ability to eat.  The tentacle secretes drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile.  Not nearly as invasive as an Indoctrination Implant.</description>
 		<possessionCount>1</possessionCount>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
@@ -32,7 +30,7 @@
 			</researchPrerequisites>
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 			<recipeUsers>
-				<li>DrugLab</li>
+				<li>TentacleWorkbench</li>
 			</recipeUsers>
 			<soundWorking>Recipe_Drug</soundWorking>
 			<displayPriority>215</displayPriority>
