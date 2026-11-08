@@ -35,7 +35,6 @@
 				<maximum>0.01</maximum>
 				<maxStat>TStorage</maxStat>
 				<!--The maximum shown in game is 100 times this, so a value of 10 is a maximum of 1,000-->
-				<maxFactorStat>TStorageIncrease</maxFactorStat>
 				<cravingHediff>NoTentacles</cravingHediff>
 				<!--Optional. When the resource is out, this hediff starts climbing-->
 				<overchargeHediff>FullOfTentacles</overchargeHediff>

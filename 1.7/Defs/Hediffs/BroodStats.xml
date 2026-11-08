@@ -12,16 +12,4 @@
     <toStringStyle>FloatTwo</toStringStyle>
   </StatDef>
 
-    <StatDef>
-    <defName>TStorageIncrease</defName>
-    <label>max brood multiplier</label>
-    <description>Increase the maximum brood of the host.</description>
-    <offsetLabel>brood multiplier</offsetLabel>
-    <category>BasicsPawn</category>
-    <showOnDefaultValue>true</showOnDefaultValue>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>1</minValue>
-    <toStringStyle>FloatTwo</toStringStyle>
-  </StatDef>
-
 </Defs>
