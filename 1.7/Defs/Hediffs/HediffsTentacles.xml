@@ -95,7 +95,7 @@
 	</HediffDef>
 
 	<HediffDef ParentName="LarvaEvolveBase">
-		<defName>AbilityLarvaEvolveSquirmer</defName>
+		<defName>LarvaEvolveSquirmer</defName>
 		<label>evolving into squirmer</label>
 		<description>This Amor Larva is evolving into an Amor Squirmer.</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
@@ -122,7 +122,7 @@
 	</HediffDef>
 
 	<HediffDef ParentName="LarvaEvolveBase">
-		<defName>AbilityLarvaEvolveSpawner</defName>
+		<defName>LarvaEvolveSpawner</defName>
 		<label>evolving into spawner</label>
 		<description>This Amor Larva is evolving into an Amor Spawner.</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>

@@ -8,8 +8,6 @@
 	
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>AbilityTentacleUnbirth</defName>
-		<label>crawl inside</label>
-		<description>Commands the Amor Squirmer to crawl inside a Host, adding tentacle resources.</description>
 		<iconPath>Abilities/ButtVore</iconPath>
 		<category>Tentacle</category>
 		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
@@ -127,8 +125,6 @@
 	
 	<AbilityDef ParentName="AbilityLarvaEvolveBase">
 		<defName>AbilityLarvaEvolveSquirmer</defName>
-		<label>evolve into squirmers</label>
-		<description>Evolve the Larva into a small handful of Squirmers. Inefficient, but if you need some and don't have Spawners available...</description>
 		<comps>
 			<li Class="AmorTentaculum.CompProperties_ExtendedAbilityValidator">
 				<requiredResearchProjects>
@@ -142,7 +138,7 @@
 			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
 				<hediffsToGive>
 					<li>
-						<hediffDef>AbilityLarvaEvolveSquirmer</hediffDef>
+						<hediffDef>LarvaEvolveSquirmer</hediffDef>
 						<applyToSelf>true</applyToSelf>
 						<replaceExisting>false</replaceExisting>
 						<severity>0.001</severity>
@@ -154,8 +150,6 @@
 
 	<AbilityDef ParentName="AbilityLarvaEvolveBase">
 		<defName>AbilityLarvaEvolveSpawner</defName>
-		<label>evolve into spawner</label>
-		<description>Evolve the Larva into an Amor Spawner, which will in turn spawn Amor Squirmers.</description>
 		<comps>
 			<li Class="AmorTentaculum.CompProperties_ExtendedAbilityValidator">
 				<requiredResearchProjects>
@@ -169,7 +163,7 @@
 			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
 				<hediffsToGive>
 					<li>
-						<hediffDef>AbilityLarvaEvolveSpawner</hediffDef>
+						<hediffDef>LarvaEvolveSpawner</hediffDef>
 						<applyToSelf>true</applyToSelf>
 						<replaceExisting>false</replaceExisting>
 						<severity>0.001</severity>
