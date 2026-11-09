@@ -4,7 +4,7 @@
 		<defName>TentacleWorkbench</defName>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Production/TableDrugLab</texPath>
+			<texPath>Things/Buildings/Workbench/TentacleWorkbench</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.5,1.5)</drawSize>
