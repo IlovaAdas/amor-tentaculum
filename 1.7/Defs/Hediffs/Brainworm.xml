@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-      <HediffDef ParentName="ImplantHediffBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <defName>IBworm</defName>
-    <label>Indoctrination Worm</label>
-    <labelNoun>a indoctrination worm</labelNoun>
-    <description>A parisitic worm attached to the brain stem. Keeps the victim content and ready to die even under horrible conditions.</description>
     <descriptionHyperlinks><ThingDef>IndoWorm</ThingDef></descriptionHyperlinks>
     <stages>
       <li>
@@ -170,11 +167,8 @@
     <removesHediff>Bworm</removesHediff>
   </RecipeDef>
 
-      <HediffDef ParentName="ImplantHediffBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <defName>Bworm</defName>
-    <label>Breeding Worm</label>
-    <labelNoun>a Breeding worm</labelNoun>
-    <description>A parisitic worm attached to the brain stem. Keeps the victim aroused, energtic, and agressive.</description>
     <descriptionHyperlinks><ThingDef>BreedWorm</ThingDef></descriptionHyperlinks>
     <stages>
       <li>
@@ -267,7 +261,7 @@
     <removesHediff>Fworm</removesHediff>
   </RecipeDef>
 
-      <HediffDef ParentName="ImplantHediffBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <defName>Fworm</defName>
     <label>Feeding Tentacle</label>
     <labelNoun>a feeding tentacle</labelNoun>

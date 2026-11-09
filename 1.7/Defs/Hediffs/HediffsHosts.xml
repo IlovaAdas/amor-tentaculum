@@ -2,8 +2,6 @@
 
 	<HediffDef>
 		<defName>OrganElasticity</defName>
-		<label>organ elasticity</label>
-		<description>The elasticity of the Host's body is the main factor in determing how many tentacles they can hold. Can be increased by filling the body to the brim with tentacles, at which point the tentacles will further modify the body and stretch it further. Can also be increased with certain implants.\n\nNote that increasing the capacity beyond a certain point will make the host essentially immune to pain, which may not always be a good thing. And there's no going back...</description>
 		<isBad>False</isBad>
 		<defaultLabelColor>(255,182,193)</defaultLabelColor>
 		<everCurableByItem>False</everCurableByItem>
@@ -15,7 +13,6 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>slightly stretchy</label>
 				<painOffset>-0.05</painOffset>
 				<statOffsets>
 					<TStorage>0.02</TStorage>
@@ -23,7 +20,6 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<label>a little stretchy</label>
 				<painOffset>-0.1</painOffset>
 				<statOffsets>
 					<TStorage>0.06</TStorage>
@@ -31,7 +27,6 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<label>stretchy</label>
 				<painOffset>-0.2</painOffset>
 				<statOffsets>
 					<TStorage>0.14</TStorage>
@@ -39,7 +34,6 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<label>very stretchy</label>
 				<painOffset>-0.4</painOffset>
 				<statOffsets>
 					<TStorage>0.30</TStorage>
@@ -47,7 +41,6 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<label>elastic</label>
 				<painOffset>-0.5</painOffset>
 				<statOffsets>
 					<TStorage>0.62</TStorage>
@@ -55,7 +48,6 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<label>very elastic</label>
 				<painOffset>-0.75</painOffset>
 				<statOffsets>
 					<TStorage>1.26</TStorage>
@@ -63,7 +55,6 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<label>voracious tentacle gobbler</label>
 				<painOffset>-0.9</painOffset>
 				<statOffsets>
 					<TStorage>2.3</TStorage>
@@ -71,7 +62,6 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<label>bottomless tentacle pit</label>
 				<painOffset>-1.1</painOffset>
 				<statOffsets>
 					<TStorage>3.6</TStorage>
@@ -79,7 +69,6 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<label>tentacle black hole</label>
 				<painOffset>-1.6</painOffset>
 				<statOffsets>
 					<TStorage>4.2</TStorage>
@@ -87,7 +76,6 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<label>ludicrous</label>
 				<painOffset>-2.5</painOffset>
 				<statOffsets>
 					<TStorage>5.0</TStorage>
@@ -110,9 +98,6 @@
 	<HediffDef>
 		<defName>AmorQueenPregnancy</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>Amor Queen</label>
-		<labelNoun>Queen</labelNoun>
-		<description>The Amor Queen is permanently pregnant. The Host can gestate massive Amor Brood Mother eggs over time, whenever they choose, once they have reached the "fertile" stage. Additionally, as they become accustomed to the permanent pregnancy, their bodies will be adapted to protect the growing eggs.</description>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<maxSeverity>1.5</maxSeverity>
@@ -134,7 +119,6 @@
 		</comps>
 		<stages>
 			<li>
-				<label>fresh</label>
 				<minSeverity>0.01</minSeverity>
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
@@ -156,7 +140,6 @@
 				</capMods>
 			</li>
 			<li>
-				<label>adapting</label>
 				<minSeverity>0.2</minSeverity>
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
@@ -178,7 +161,6 @@
 				</capMods>
 			</li>
 			<li>
-				<label>fertile</label>
 				<minSeverity>0.6</minSeverity>
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>1</hungerRateFactorOffset>
@@ -200,7 +182,6 @@
 				</capMods>
 			</li>
 			<li>
-				<label>matriarch</label>
 				<minSeverity>0.9</minSeverity>
 				<restFallFactor>1.4</restFallFactor>
 				<hungerRateFactorOffset>2</hungerRateFactorOffset>
@@ -226,9 +207,6 @@
 
 	<HediffDef>
 		<defName>TentacleStorage</defName>
-		<description>Amor Squirmer tentacles are living inside the Host's body. Over time, they will increase the movement, regeneration, and psychic sensitivity of the Host.</description>
-		<label>Tentacle storage</label>
-		<labelNoun>Amor Squirmer</labelNoun>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<minSeverity>1</minSeverity>
@@ -238,7 +216,6 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>Few</label>
 				<painOffset>-0.01</painOffset>
 				<statOffsets>
 					<MoveSpeed>0.01</MoveSpeed>
@@ -248,7 +225,6 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<label>Many</label>
 				<painOffset>-0.05</painOffset>
 				<statOffsets>
 					<MoveSpeed>0.05</MoveSpeed>
@@ -258,7 +234,6 @@
 			</li>
 			<li>
 				<minSeverity>40</minSeverity>
-				<label>A lot</label>
 				<painOffset>-0.1</painOffset>
 				<statOffsets>
 					<MoveSpeed>0.1</MoveSpeed>
@@ -268,7 +243,6 @@
 			</li>
 			<li>
 				<minSeverity>80</minSeverity>
-				<label>A ton</label>
 				<painOffset>-0.2</painOffset>
 				<statOffsets>
 					<MoveSpeed>0.2</MoveSpeed>
@@ -278,7 +252,6 @@
 			</li>
 			<li>
 				<minSeverity>100</minSeverity>
-				<label>A silly amount</label>
 				<painOffset>-0.3</painOffset>
 				<statOffsets>
 					<MoveSpeed>0.3</MoveSpeed>
@@ -297,8 +270,6 @@
 
 	<HediffDef>
 		<defName>AmorQueenSlimeProduction</defName>
-		<label>producing slime</label>
-		<description>The Amor Queen is producing slime from her vagina. And by "producing", we mean "slowly leaking out of". However disgusting that may seem, the tentacle slime that she is producing is an extremely valuable resource. Make sure your pawns collect it!</description>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<everCurableByItem>false</everCurableByItem>
 		<initialSeverity>0.001</initialSeverity>
@@ -362,9 +333,6 @@
 	<HediffDef>
 		<defName>TentacleLimbVagina</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>vaginal mobility tentacle</label>
-		<labelNoun>tentacle</labelNoun>
-		<description>A tentacle emerging from the Host's vagina, aiding in movement and defense.</description>
 		<defaultLabelColor>(255,182,193)</defaultLabelColor>
 		<minSeverity>1</minSeverity>
 		<initialSeverity>1</initialSeverity>
@@ -373,14 +341,12 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>thin</label>
 				<statOffsets>
 					<MoveSpeed>0.2</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<label>average</label>
 				<statOffsets>
 					<MoveSpeed>0.3</MoveSpeed>
 				</statOffsets>
@@ -393,7 +359,6 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<label>muscular</label>
 				<statOffsets>
 					<MoveSpeed>0.45</MoveSpeed>
 				</statOffsets>
@@ -406,7 +371,6 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<label>robust</label>
 				<statOffsets>
 					<MoveSpeed>0.55</MoveSpeed>
 				</statOffsets>
@@ -419,7 +383,6 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<label>powerful</label>
 				<statOffsets>
 					<MoveSpeed>0.65</MoveSpeed>
 				</statOffsets>
@@ -479,7 +442,7 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>tentacle spike</label>
+						<label>tentaclespike</label>
 						<capacities>
 							<li>Stab</li>
 						</capacities>
@@ -499,9 +462,6 @@
 	<HediffDef>
 		<defName>TentacleLimbAnus</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>anal mobility tentacle</label>
-		<labelNoun>tentacle</labelNoun>
-		<description>A tentacle emerging from the Host's anus, aiding in movement and defense.</description>
 		<defaultLabelColor>(255,182,193)</defaultLabelColor>
 		<minSeverity>1</minSeverity>
 		<initialSeverity>1</initialSeverity>
@@ -510,14 +470,12 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>thin</label>
 				<statOffsets>
 					<MoveSpeed>0.15</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<label>average</label>
 				<statOffsets>
 					<MoveSpeed>0.25</MoveSpeed>
 				</statOffsets>
@@ -530,7 +488,6 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<label>muscular</label>
 				<statOffsets>
 					<MoveSpeed>0.35</MoveSpeed>
 				</statOffsets>
@@ -543,7 +500,6 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<label>robust</label>
 				<statOffsets>
 					<MoveSpeed>0.45</MoveSpeed>
 				</statOffsets>
@@ -556,7 +512,6 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<label>powerful</label>
 				<statOffsets>
 					<MoveSpeed>0.65</MoveSpeed>
 				</statOffsets>
@@ -618,7 +573,7 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>tentacle spike</label>
+						<label>tentaclespike</label>
 						<capacities>
 							<li>Stab</li>
 						</capacities>

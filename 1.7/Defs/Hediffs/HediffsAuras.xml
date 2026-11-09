@@ -2,7 +2,7 @@
 
    <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
-    <defName>AmorSoothe</defName>
+    <defName>TentacleSoothe</defName>
     <label>soothing pheromones</label>
     <description>This pawn is being affected by soothing phermones, emitted by a nearby Amor Tentculum creature. This increases the pawn's sex drive and psychic sensitivity.  It also lowers its receptiveness to pain.  All at a small penalty to consciousness.</description>
     <initialSeverity>0.001</initialSeverity>

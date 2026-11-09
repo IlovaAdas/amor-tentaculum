@@ -1,0 +1,192 @@
+<languageData>
+
+	<!-- Pawn auras (buffs/debuffs) -->
+	
+	<TentacleSoothe.label>soothing pheromones</TentacleSoothe.label>
+	<TentacleSoothe.description>This pawn is being affected by soothing phermones, emitted by a nearby Amor Tentculum creature. This increases the pawn's sex drive and psychic sensitivity. It also lowers its receptiveness to pain. All at a small penalty to consciousness.</TentacleSoothe.description>
+	
+	<!-- Implants/Bionics -->
+	
+	<IBworm.label>indoctrination worm</IBworm.label>
+	<IBworm.labelNoun>an indoctrination worm</IBworm.labelNoun>
+	<IBworm.description>A parisitic worm, attached to the brain stem. Keeps the victim content and ready to die, even under horrible conditions.</IBworm.description>
+
+	<Bworm.label>breeding worm</Bworm.label>
+	<Bworm.labelNoun>a breeding worm</Bworm.labelNoun>
+	<Bworm.description>A parisitic worm, attached to the brain stem. Keeps the victim aroused, energetic, and agressive.</Bworm.description>
+
+	<Fworm.label>feeding worm</Fworm.label>
+	<Fworm.labelNoun>a feeding worm</Fworm.labelNoun>
+	<Fworm.description>A tentacle living in the throat and mouth. Rapidly digests food for the host and injects it as a slurry down their throat. Makes the recipient immune to gutworms and food poisoning.</Fworm.description>
+	
+	<!-- Worn Equipment -->
+
+	<TentacleCollarNumb.label>numbed</TentacleCollarNumb.label>
+	<TentacleCollarNumb.description>The secretions from the Tentacle Collar are numbing the wearer's body, making them more pliant and susceptible to control.</TentacleCollarNumb.description>
+	
+
+	<!-- Host incubation -->
+	<BroodMotherIncubation.label>Brood Mother egg</BroodMotherIncubation.label>
+	<BroodMotherIncubation.labelNoun>an amor brood mother egg</BroodMotherIncubation.labelNoun>
+	<BroodMotherIncubation.description>An Amor Brood Mother egg is being incubated by the Queen, and is growing inside her body. This process takes around 20 days (with default multipliers), and she will not enjoy it (although her Host body will adapt to suppress the pain over time).</BroodMotherIncubation.description>
+	<BroodMotherIncubation.stages.0.label>tiny</BroodMotherIncubation.stages.0.label>
+	<BroodMotherIncubation.stages.1.label>small</BroodMotherIncubation.stages.1.label>
+	<BroodMotherIncubation.stages.2.label>large</BroodMotherIncubation.stages.2.label>
+	<BroodMotherIncubation.stages.3.label>huge</BroodMotherIncubation.stages.3.label>
+	<BroodMotherIncubation.stages.4.label>enormous</BroodMotherIncubation.stages.4.label>
+	<BroodMotherIncubation.stages.5.label>ready to deliver</BroodMotherIncubation.stages.5.label>
+	<BroodMotherIncubation.stages.6.label>overdue, painful</BroodMotherIncubation.stages.6.label>
+	<BroodMotherIncubation.stages.7.label>overdue, debilitating</BroodMotherIncubation.stages.7.label>
+
+	<AmorBroodMotherEggLabor.label>Laying Egg (dilating)</AmorBroodMotherEggLabor.label>
+	<AmorBroodMotherEggLabor.labelNoun>laying egg</AmorBroodMotherEggLabor.labelNoun>
+	<AmorBroodMotherEggLabor.description>The Amor Queen is preparing to birth an Amor Brood Mother egg. The labor process does not take a fixed amount of time, and the Host will progress through various stages of pain and contractions. Due to the size of the Egg, this will be quite debilitating.</AmorBroodMotherEggLabor.description>
+	<AmorBroodMotherEggLabor.stages.0.label>mild</AmorBroodMotherEggLabor.stages.0.label>
+	<AmorBroodMotherEggLabor.stages.1.label>intense</AmorBroodMotherEggLabor.stages.1.label>
+	<AmorBroodMotherEggLabor.stages.2.label>debilitating</AmorBroodMotherEggLabor.stages.2.label>
+	<AmorBroodMotherEggLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>{PAWN_labelShort}'s labor went from {1} to {2}.</AmorBroodMotherEggLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>
+
+	<AmorBroodMotherEggDelivery.label>Laying Egg (pushing)</AmorBroodMotherEggDelivery.label>
+	<AmorBroodMotherEggDelivery.labelNoun>laying egg</AmorBroodMotherEggDelivery.labelNoun>
+	<AmorBroodMotherEggDelivery.description>The Amor Queen is actively birthing an Amor Brood Mother egg and can do nothing but focus on the delivery. The egg is coming!</AmorBroodMotherEggDelivery.description>
+
+	<!-- General Host hediffs -->
+	
+	<OrganElasticity.label>organ elasticity</OrganElasticity.label>
+	<OrganElasticity.description>The elasticity of the Host's body is the main factor in determing how many tentacles they can hold. Can be increased by filling the body to the brim with tentacles, at which point the tentacles will further modify the body and stretch it further. Can also be increased with certain implants.\n\nNote that increasing the capacity beyond a certain point will make the host essentially immune to pain, which may not always be a good thing. And there's no going back...</OrganElasticity.description>
+	<OrganElasticity.stages.0.label>slightly stretchy</OrganElasticity.stages.0.label>
+	<OrganElasticity.stages.1.label>a little stretchy</OrganElasticity.stages.1.label>
+	<OrganElasticity.stages.2.label>stretchy</OrganElasticity.stages.2.label>
+	<OrganElasticity.stages.3.label>very stretchy</OrganElasticity.stages.3.label>
+	<OrganElasticity.stages.4.label>elastic</OrganElasticity.stages.4.label>
+	<OrganElasticity.stages.5.label>very elastic</OrganElasticity.stages.5.label>
+	<OrganElasticity.stages.6.label>voracious tentacle gobbler</OrganElasticity.stages.6.label>
+	<OrganElasticity.stages.7.label>bottomless tentacle pit</OrganElasticity.stages.7.label>
+	<OrganElasticity.stages.8.label>tentacle black hole</OrganElasticity.stages.8.label>
+	<OrganElasticity.stages.9.label>ludicrous</OrganElasticity.stages.9.label>
+
+	<AmorQueenPregnancy.label>Amor Queen</AmorQueenPregnancy.label>
+	<AmorQueenPregnancy.labelNoun>Queen</AmorQueenPregnancy.labelNoun>
+	<AmorQueenPregnancy.description>The Amor Queen is permanently pregnant. The Host can gestate massive Amor Brood Mother eggs over time, whenever they choose, once they have reached the "fertile" stage. Additionally, as they become accustomed to the permanent pregnancy, their bodies will be adapted to protect the growing eggs.</AmorQueenPregnancy.description>
+	<AmorQueenPregnancy.stages.0.label>fresh</AmorQueenPregnancy.stages.0.label>
+	<AmorQueenPregnancy.stages.1.label>adapting</AmorQueenPregnancy.stages.1.label>
+	<AmorQueenPregnancy.stages.2.label>fertile</AmorQueenPregnancy.stages.2.label>
+	<AmorQueenPregnancy.stages.3.label>breeder</AmorQueenPregnancy.stages.3.label>
+
+	<TentacleStorage.label>tentacle storage</TentacleStorage.label>
+	<TentacleStorage.labelNoun>storage</TentacleStorage.labelNoun>
+	<TentacleStorage.description>Amor Squirmer tentacles are living inside the Host's body. Over time, they will increase the movement, regeneration, and psychic sensitivity of the Host.</TentacleStorage.description>
+	<TentacleStorage.stages.0.label>few</TentacleStorage.stages.0.label>
+	<TentacleStorage.stages.1.label>many</TentacleStorage.stages.1.label>
+	<TentacleStorage.stages.2.label>a lot</TentacleStorage.stages.2.label>
+	<TentacleStorage.stages.3.label>a ton</TentacleStorage.stages.3.label>
+	<TentacleStorage.stages.4.label>a silly amount</TentacleStorage.stages.4.label>
+
+	<AmorQueenSlimeProduction.label>producing slime</AmorQueenSlimeProduction.label>
+	<AmorQueenSlimeProduction.description>The Amor Queen is producing slime from her vagina. And by "producing", we mean "slowly leaking out of". However disgusting that may seem, the tentacle slime that she is producing is an extremely valuable resource. Make sure your pawns collect it!</AmorQueenSlimeProduction.description>
+
+	<TentacleLimbVagina.label>vaginal mobility tentacle</TentacleLimbVagina.label>
+	<TentacleLimbVagina.labelNoun>tentacle</TentacleLimbVagina.labelNoun>
+	<TentacleLimbVagina.description>A prehensile tentacle, emerging from the Host's vagina, aiding in movement and defense.</TentacleLimbVagina.description>
+	<TentacleLimbVagina.stages.0.label>thin</TentacleLimbVagina.stages.0.label>
+	<TentacleLimbVagina.stages.1.label>average</TentacleLimbVagina.stages.1.label>
+	<TentacleLimbVagina.stages.2.label>muscular</TentacleLimbVagina.stages.2.label>
+	<TentacleLimbVagina.stages.3.label>robust</TentacleLimbVagina.stages.3.label>
+	<TentacleLimbVagina.stages.4.label>powerful</TentacleLimbVagina.stages.4.label>
+	<TentacleLimbVagina.comps.HediffComp_VerbGiver.tools.tentaclespike.label>tentacle spike</TentacleLimbVagina.comps.HediffComp_VerbGiver.tools.tentaclespike.label>
+
+	<TentacleLimbAnus.label>anal mobility tentacle</TentacleLimbAnus.label>
+	<TentacleLimbAnus.labelNoun>tentacle</TentacleLimbAnus.labelNoun>
+	<TentacleLimbAnus.description>A prehensile tentacle, emerging from the Host's anus, aiding in movement and defense.</TentacleLimbAnus.description>
+	<TentacleLimbAnus.stages.0.label>thin</TentacleLimbAnus.stages.0.label>
+	<TentacleLimbAnus.stages.1.label>average</TentacleLimbAnus.stages.1.label>
+	<TentacleLimbAnus.stages.2.label>muscular</TentacleLimbAnus.stages.2.label>
+	<TentacleLimbAnus.stages.3.label>robust</TentacleLimbAnus.stages.3.label>
+	<TentacleLimbAnus.stages.4.label>powerful</TentacleLimbAnus.stages.4.label>
+	<TentacleLimbAnus.comps.HediffComp_VerbGiver.tools.tentaclespike.label>tentacle spike</TentacleLimbAnus.comps.HediffComp_VerbGiver.tools.tentaclespike.label>
+
+  <!-- Host transformation egg hediffs -->
+
+	<QueenEggIncubationFailure.label>Queen Egg rejection</QueenEggIncubationFailure.label>
+	<QueenEggIncubationFailure.labelNoun>rejection</QueenEggIncubationFailure.labelNoun>
+	<QueenEggIncubationFailure.description>The Amor Queen egg is rejecting this host body. It will result in a slow and painful death...</QueenEggIncubationFailure.description>
+	<QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<BaronEggIncubationFailure.label>Baron Egg rejection</BaronEggIncubationFailure.label>
+	<BaronEggIncubationFailure.labelNoun>rejection</BaronEggIncubationFailure.labelNoun>
+	<BaronEggIncubationFailure.description>The Amor Baron egg is rejecting this host body. It will result in a slow and painful death...</BaronEggIncubationFailure.description>
+	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<QueenEggOverrideFailure.label>Queen incubation failure</QueenEggOverrideFailure.label>
+	<QueenEggOverrideFailure.labelNoun>failure</QueenEggOverrideFailure.labelNoun>
+	<QueenEggOverrideFailure.description>The attempt to implant an Amor Queen egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</QueenEggOverrideFailure.description>
+	<QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<BaronEggOverrideFailure.label>Baron incubation failure</BaronEggOverrideFailure.label>
+	<BaronEggOverrideFailure.labelNoun>failure</BaronEggOverrideFailure.labelNoun>
+	<BaronEggOverrideFailure.description>The attempt to implant an Amor Baron egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</BaronEggOverrideFailure.description>
+	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<QueenEggIncubationSuccess.label>Queen egg incubation</QueenEggIncubationSuccess.label>
+	<QueenEggIncubationSuccess.labelNoun>incubation</QueenEggIncubationSuccess.labelNoun>
+	<QueenEggIncubationSuccess.description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</QueenEggIncubationSuccess.description>
+
+	<BaronEggIncubationSuccess.label>Baron egg incubation</BaronEggIncubationSuccess.label>
+	<BaronEggIncubationSuccess.labelNoun>incubation</BaronEggIncubationSuccess.labelNoun>
+	<BaronEggIncubationSuccess.description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</BaronEggIncubationSuccess.description>
+
+	<QueenEggIncubation.label>Queen egg incubation</QueenEggIncubation.label>
+	<QueenEggIncubation.labelNoun>incubation</QueenEggIncubation.labelNoun>
+	<QueenEggIncubation.description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</QueenEggIncubation.description>
+	<QueenEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</QueenEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<QueenEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</QueenEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<QueenEggIncubation.stages.0.label>incubating egg</QueenEggIncubation.stages.0.label>
+	<QueenEggIncubation.stages.1.label>hatched</QueenEggIncubation.stages.1.label>
+	<QueenEggIncubation.stages.2.label>larva</QueenEggIncubation.stages.2.label>
+	<QueenEggIncubation.stages.3.label>growing</QueenEggIncubation.stages.3.label>
+	<QueenEggIncubation.stages.4.label>nearly grown</QueenEggIncubation.stages.4.label>
+
+	<BaronEggIncubation.label>Queen egg incubation</BaronEggIncubation.label>
+	<BaronEggIncubation.labelNoun>incubation</BaronEggIncubation.labelNoun>
+	<BaronEggIncubation.description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</BaronEggIncubation.description>
+	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<BaronEggIncubation.stages.0.label>incubating egg</BaronEggIncubation.stages.0.label>
+	<BaronEggIncubation.stages.1.label>hatched</BaronEggIncubation.stages.1.label>
+	<BaronEggIncubation.stages.2.label>larva</BaronEggIncubation.stages.2.label>
+	<BaronEggIncubation.stages.3.label>growing</BaronEggIncubation.stages.3.label>
+	<BaronEggIncubation.stages.4.label>nearly grown</BaronEggIncubation.stages.4.label>
+
+	<TentacleInfestedAnus.label>stretched rectum</TentacleInfestedAnus.label>
+	<TentacleInfestedAnus.labelNoun>rectum</TentacleInfestedAnus.labelNoun>
+	<TentacleInfestedAnus.description>The growing Amor egg has invaded this part of the Host's body. Their rectum and intestines are being stretched to accommodate larger and more plentiful tentacle insertions. These processes are uncomfortable.</TentacleInfestedAnus.description>
+	<TentacleInfestedAnus.stages.0.label>still narrow</TentacleInfestedAnus.stages.0.label>
+	<TentacleInfestedAnus.stages.1.label>expanding</TentacleInfestedAnus.stages.1.label>
+	<TentacleInfestedAnus.stages.2.label>gaping, painful</TentacleInfestedAnus.stages.2.label>
+	<TentacleInfestedAnus.stages.3.label>gaping, acclimating</TentacleInfestedAnus.stages.3.label>
+	<TentacleInfestedAnus.stages.4.label>gaping, accustomed</TentacleInfestedAnus.stages.4.label>
+
+	<TentacleInfestedStomach.label>stretched stomach</TentacleInfestedStomach.label>
+	<TentacleInfestedStomach.labelNoun>stomach</TentacleInfestedStomach.labelNoun>
+	<TentacleInfestedStomach.description>The growing Amor egg has invaded this part of the Host's body. Their stomach and throat are being stretched and cleared of acid to provide a better environment for tentacle storage. These processes are uncomfortable.</TentacleInfestedStomach.description>
+	<TentacleInfestedStomach.stages.0.label>still tight</TentacleInfestedStomach.stages.0.label>
+	<TentacleInfestedStomach.stages.1.label>expanding</TentacleInfestedStomach.stages.1.label>
+	<TentacleInfestedStomach.stages.2.label>removing stomach acid</TentacleInfestedStomach.stages.2.label>
+	<TentacleInfestedStomach.stages.3.label>spacious, acclimating</TentacleInfestedStomach.stages.3.label>
+	<TentacleInfestedStomach.stages.4.label>spacious, accustomed</TentacleInfestedStomach.stages.4.label>
+
+	<TentacleInfestedVagina.label>stretched womb</TentacleInfestedVagina.label>
+	<TentacleInfestedVagina.labelNoun>womb</TentacleInfestedVagina.labelNoun>
+	<TentacleInfestedVagina.description>The growing Amor egg has invaded this part of the Host's body. Their cervix is being forced open to provide better access to their womb, which is also being expanded. These processes are uncomfortable.</TentacleInfestedVagina.description>
+	<TentacleInfestedVagina.stages.0.label>slightly stretched</TentacleInfestedVagina.stages.0.label>
+	<TentacleInfestedVagina.stages.1.label>expanding</TentacleInfestedVagina.stages.1.label>
+	<TentacleInfestedVagina.stages.2.label>opening cervix</TentacleInfestedVagina.stages.2.label>
+	<TentacleInfestedVagina.stages.3.label>spacious, acclimating</TentacleInfestedVagina.stages.3.label>
+	<TentacleInfestedVagina.stages.4.label>spacious, accustomed</TentacleInfestedVagina.stages.4.label>
+
+
+</languageData>

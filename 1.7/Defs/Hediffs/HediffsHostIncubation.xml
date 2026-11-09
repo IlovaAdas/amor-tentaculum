@@ -3,24 +3,19 @@
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defName>BroodMotherIncubation</defName>
-		<label>Brood Mother egg</label>
-		<labelNoun>an amor brood mother egg</labelNoun>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<minSeverity>0</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1.5</maxSeverity>
-		<description>An Amor Brood Mother egg is being incubated by the Queen, and is growing inside her body. This process takes around 20 days (with default multipliers), and she will not enjoy it (although her Host body will adapt to suppress the pain over time).</description>
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
-				<label>tiny</label>
 				<statOffsets>
 					<MoveSpeed>-0.01</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
-				<label>small</label>
 				<painOffset>0.05</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.025</MoveSpeed>
@@ -28,7 +23,6 @@
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
-				<label>large</label>
 				<painOffset>0.075</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.05</MoveSpeed>
@@ -36,7 +30,6 @@
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
-				<label>huge</label>
 				<painOffset>0.1</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.075</MoveSpeed>
@@ -44,7 +37,6 @@
 			</li>
 			<li>
 				<minSeverity>0.7</minSeverity>
-				<label>enormous</label>
 				<partEfficiencyOffset>-0.20</partEfficiencyOffset>
 				<painOffset>0.125</painOffset>
 				<statOffsets>
@@ -53,7 +45,6 @@
 			</li>
 			<li>
 				<minSeverity>0.98</minSeverity>
-				<label>ready to deliver</label>
 				<partEfficiencyOffset>-0.25</partEfficiencyOffset>
 				<painOffset>0.15</painOffset>
 				<statOffsets>
@@ -62,7 +53,6 @@
 			</li>
 			<li>
 				<minSeverity>1.2</minSeverity>
-				<label>overdue, painful</label>
 				<partEfficiencyOffset>-0.5</partEfficiencyOffset>
 				<painOffset>0.33</painOffset>
 				<statOffsets>
@@ -71,7 +61,6 @@
 			</li>
 			<li>
 				<minSeverity>1.4</minSeverity>
-				<label>overdue, debilitating</label>
 				<partEfficiencyOffset>-0.5</partEfficiencyOffset>
 				<painOffset>0.66</painOffset>
 				<statOffsets>
@@ -98,9 +87,6 @@
 	<HediffDef>
 		<defName>AmorBroodMotherEggLabor</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>Laying Egg (dilating)</label>
-		<labelNoun>laying egg</labelNoun>
-		<description>The Amor Queen is preparing to birth an Amor Brood Mother egg. The labor process does not take a fixed amount of time, and the Host will progress through various stages of pain and contractions. Due to the size of the Egg, this will be quite debilitating.</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<blocksSleeping>true</blocksSleeping>
 		<minSeverity>0</minSeverity>
@@ -108,7 +94,6 @@
 		<maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
-				<label>mild</label>
 				<minSeverity>0.01</minSeverity>
 				<painOffset>0.5</painOffset>
 				<capMods>
@@ -119,7 +104,6 @@
 				</capMods>
 			</li>
 			<li>
-				<label>intense</label>
 				<minSeverity>0.3</minSeverity>
 				<painOffset>0.75</painOffset>
 				<capMods>
@@ -130,7 +114,6 @@
 				</capMods>
 			</li>
 			<li>
-				<label>debilitating</label>
 				<minSeverity>0.6</minSeverity>
 				<painOffset>0.95</painOffset>
 				<capMods>
@@ -147,7 +130,6 @@
 			</li>
 			<li Class="HediffCompProperties_RandomizeStageWithInterval">
 				<ticksToRandomize>5000~15000</ticksToRandomize>
-				<notifyMessage>{PAWN_labelShort}'s labor went from {1} to {2}.</notifyMessage>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>LaborEarly</stateEffecter>
@@ -168,9 +150,6 @@
 	<HediffDef>
 		<defName>AmorBroodMotherEggDelivery</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>Laying Egg (pushing)</label>
-		<labelNoun>laying egg</labelNoun>
-		<description>The Amor Queen is actively birthing an Amor Brood Mother egg and can do nothing but focus on the delivery. The egg is coming!</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<blocksSleeping>true</blocksSleeping>
 		<preventsCrawling>true</preventsCrawling>
@@ -187,7 +166,7 @@
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>800~5000</disappearsAfterTicks>
+				<disappearsAfterTicks>5000~8000</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>LaborLate</stateEffecter>

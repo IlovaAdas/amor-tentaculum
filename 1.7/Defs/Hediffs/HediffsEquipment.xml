@@ -2,8 +2,6 @@
 
 	<HediffDef>
 		<defName>TentacleCollarNumb</defName>
-		<label>numbed</label>
-		<description>The secretions from the Tentacle Collar are numbing the wearer's body, making them more pliant and susceptible to control.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<stages>
 			<li>

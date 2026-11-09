@@ -41,8 +41,6 @@
 			</li>
 			<li Class="HediffCompProperties_MessageAfterTicks">
 				<ticks>60</ticks>
-				<letterLabel>{0_labelShort} rejecting host</letterLabel>
-				<letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</letterText>
 				<letterType>HostRejection</letterType>
 			</li>
 		</comps>
@@ -50,9 +48,6 @@
 	
 	<HediffDef Name="QueenEggIncubationFailure" ParentName="EggIncubationFailureBase">
 		<defName>QueenEggIncubationFailure</defName>
-		<label>Queen egg rejection</label>
-		<labelNoun>rejection</labelNoun>
-		<description>The Amor Queen egg is rejecting this host body. It will result in a slow and painful death...</description>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
@@ -65,9 +60,6 @@
 
 	<HediffDef Name="BaronEggIncubationFailure" ParentName="EggIncubationFailureBase">
 		<defName>BaronEggIncubationFailure</defName>
-		<label>Baron egg rejection</label>
-		<labelNoun>rejection</labelNoun>
-		<description>The Amor Baron egg is rejecting this host body. It will result in a slow and painful death...</description>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
@@ -109,8 +101,6 @@
 			</li>
 			<li Class="HediffCompProperties_MessageAfterTicks">
 				<ticks>120</ticks>
-				<letterLabel>{0_labelShort} incubation failure</letterLabel>
-				<letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</letterText>
 				<letterType>HostRejection</letterType>
 			</li>
 		</comps>
@@ -118,16 +108,10 @@
 
 	<HediffDef Name="QueenEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>QueenEggOverrideFailure</defName>
-		<label>Queen incubation failure</label>
-		<labelNoun>failure</labelNoun>
-		<description>The attempt to implant an Amor Queen egg failed, as this pawn already is an Amor Host.  This will cause them pain for a few days, but they will recover.</description>
 	</HediffDef>
 
 	<HediffDef Name="BaronEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>BaronEggOverrideFailure</defName>
-		<label>Baron incubation failure</label>
-		<labelNoun>failure</labelNoun>
-		<description>The attempt to implant an Amor Baron egg failed, as this pawn already is an Amor Host.  This will cause them pain for a few days, but they will recover.</description>
 	</HediffDef>
 
 	<HediffDef Name="EggIncubationSuccessBase" Abstract="True">
@@ -143,9 +127,6 @@
 		
 	<HediffDef Name="QueenEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>QueenEggIncubationSuccess</defName>
-		<label>Queen egg incubation</label>
-		<labelNoun>incubation</labelNoun>
-		<description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</description>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>9</severityPerDay>
@@ -180,18 +161,11 @@
 				<severity>1.5</severity>
 			</li>
 		</comps>
-		<stages>
-			<li>
-				<label>incubating egg</label>
-			</li>
-		</stages>
+		<stages />
 	</HediffDef>
 
 	<HediffDef Name="BaronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
 		<defName>BaronEggIncubationSuccess</defName>
-		<label>Baron egg incubation</label>
-		<labelNoun>incubation</labelNoun>
-		<description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</description>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>9</severityPerDay>
@@ -226,11 +200,7 @@
 				<severity>1.5</severity>
 			</li>
 		</comps>
-		<stages>
-			<li>
-				<label>incubating egg</label>
-			</li>
-		</stages>
+		<stages />
 	</HediffDef>
 
 	<HediffDef Name="EggIncubationBase" Abstract="True">
@@ -245,8 +215,6 @@
 		<comps>
 			<li Class="HediffCompProperties_MessageAfterTicks">
 				<ticks>60</ticks>
-				<letterLabel>{0_labelShort} impregnated</letterLabel>
-				<letterText>{0_labelShort} has been impregnated with an Amor Host egg!</letterText>
 				<letterType>HostPregnancy</letterType>
 			</li>
 		</comps>
@@ -254,9 +222,6 @@
 
 	<HediffDef Name="QueenEggIncubation" ParentName="EggIncubationBase">
 		<defName>QueenEggIncubation</defName>
-		<label>Queen egg incubation</label>
-		<labelNoun>incubation</labelNoun>
-		<description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</description>
 		<comps>
 			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
 				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
@@ -281,10 +246,9 @@
 		</comps>
 		<stages>
 			<li>
-				<label>incubating egg</label>
+				<minSeverity>0.001</minSeverity>
 			</li>
 			<li>
-				<label>hatched</label>
 				<minSeverity>0.6</minSeverity>
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 				<statOffsets>
@@ -293,7 +257,6 @@
 				</statOffsets>
 			</li>
 			<li>
-				<label>larvae</label>
 				<minSeverity>0.65</minSeverity>
 				<restFallFactor>1.05</restFallFactor>
 				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
@@ -315,7 +278,6 @@
 				<painOffset>0.02</painOffset>
 			</li>
 			<li>
-				<label>growing</label>
 				<minSeverity>0.9</minSeverity>
 				<restFallFactor>1.1</restFallFactor>
 				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
@@ -346,7 +308,6 @@
 				<painOffset>0.03</painOffset>
 			</li>
 			<li>
-				<label>nearly grown</label>
 				<minSeverity>1.3</minSeverity>
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
@@ -389,9 +350,6 @@
 
 	<HediffDef Name="BaronEggIncubation" ParentName="EggIncubationBase">
 		<defName>BaronEggIncubation</defName>
-		<label>Baron egg incubation</label>
-		<labelNoun>incubation</labelNoun>
-		<description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</description>
 		<comps>
 			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
 				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
@@ -410,10 +368,9 @@
 		</comps>
 		<stages>
 			<li>
-				<label>incubating egg</label>
+				<minSeverity>0.001</minSeverity>
 			</li>
 			<li>
-				<label>hatched</label>
 				<minSeverity>0.6</minSeverity>
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 				<statOffsets>
@@ -422,7 +379,6 @@
 				</statOffsets>
 			</li>
 			<li>
-				<label>larvae</label>
 				<minSeverity>0.65</minSeverity>
 				<restFallFactor>1.05</restFallFactor>
 				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
@@ -444,7 +400,6 @@
 				<painOffset>0.02</painOffset>
 			</li>
 			<li>
-				<label>growing</label>
 				<minSeverity>0.9</minSeverity>
 				<restFallFactor>1.1</restFallFactor>
 				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
@@ -475,7 +430,6 @@
 				<painOffset>0.03</painOffset>
 			</li>
 			<li>
-				<label>nearly grown</label>
 				<minSeverity>1.3</minSeverity>
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
@@ -511,9 +465,6 @@
 	<HediffDef>
 		<defName>TentacleInfestedAnus</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>stretched rectum</label>
-		<labelNoun>rectum</labelNoun>
-		<description>The growing Amor Tentaculum has invaded this part of the Host's body. Their rectum and large intestine are being stretched to accommodate larger and more plentiful tentacle insertions. These processes are uncomfortable.</description>
 		<defaultLabelColor>(255,20,147)</defaultLabelColor>
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
@@ -522,7 +473,6 @@
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
-				<label>still narrow</label>
 				<painOffset>0.05</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.01</MoveSpeed>
@@ -530,7 +480,6 @@
 			</li>
 			<li>
 				<minSeverity>0.25</minSeverity>
-				<label>expanding</label>
 				<painOffset>0.2</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.02</MoveSpeed>
@@ -538,7 +487,6 @@
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
-				<label>gaping, painful</label>
 				<painOffset>0.3</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.03</MoveSpeed>
@@ -546,7 +494,6 @@
 			</li>
 			<li>
 				<minSeverity>0.75</minSeverity>
-				<label>gaping, acclimating</label>
 				<painOffset>0.2</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.02</MoveSpeed>
@@ -554,7 +501,6 @@
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>gaping, accustomed</label>
 				<painOffset>0.01</painOffset>
 				<statOffsets>
 					<TStorage>0.02</TStorage>
@@ -573,9 +519,6 @@
 	<HediffDef>
 		<defName>TentacleInfestedStomach</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>stretched stomach</label>
-		<labelNoun>stomach</labelNoun>
-		<description>The growing Amor Tentaculum has invaded this part of the Host's body. Their stomach and throat are being stretched and cleared of acid to provide a better environment for tentacle storage. These processes are uncomfortable.</description>
 		<defaultLabelColor>(255,20,147)</defaultLabelColor>
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
@@ -584,7 +527,6 @@
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
-				<label>slightly streched</label>
 				<painOffset>0.05</painOffset>
 				<partEfficiencyOffset>-0.2</partEfficiencyOffset>
 				<statOffsets>
@@ -594,7 +536,6 @@
 			</li>
 			<li>
 				<minSeverity>0.25</minSeverity>
-				<label>expanding</label>
 				<painOffset>0.2</painOffset>
 				<partEfficiencyOffset>-0.3</partEfficiencyOffset>
 				<statOffsets>
@@ -604,7 +545,6 @@
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
-				<label>removing stomach acid</label>
 				<painOffset>0.3</painOffset>
 				<vomitMtbDays>0.08</vomitMtbDays>
 				<partEfficiencyOffset>-0.8</partEfficiencyOffset>
@@ -615,7 +555,6 @@
 			</li>
 			<li>
 				<minSeverity>0.75</minSeverity>
-				<label>spacious, acclimating</label>
 				<painOffset>0.2</painOffset>
 				<partEfficiencyOffset>-0.8</partEfficiencyOffset>
 				<statOffsets>
@@ -625,7 +564,6 @@
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>spacious, accustomed</label>
 				<painOffset>0.01</painOffset>
 				<partEfficiencyOffset>-0.7</partEfficiencyOffset>
 				<statOffsets>
@@ -646,9 +584,6 @@
 	<HediffDef>
 		<defName>TentacleInfestedVagina</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>stretched womb</label>
-		<labelNoun>womb</labelNoun>
-		<description>The growing Amor Tentaculum has invaded this part of the Host's body. Their cervix is being stretched to provide better access to their womb, which is also being expanded. These processes are uncomfortable.</description>
 		<defaultLabelColor>(255,20,147)</defaultLabelColor>
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
@@ -657,7 +592,6 @@
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
-				<label>slightly streched</label>
 				<painOffset>0.05</painOffset>
 				<statOffsets>
 					<MoveSpeed>-0.01</MoveSpeed>
@@ -665,7 +599,6 @@
 			</li>
 			<li>
 				<minSeverity>0.25</minSeverity>
-				<label>expanding</label>
 				<painOffset>0.2</painOffset>
 				<partEfficiencyOffset>0.2</partEfficiencyOffset>
 				<statOffsets>
@@ -674,7 +607,6 @@
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
-				<label>opening cervix</label>
 				<painOffset>0.5</painOffset>
 				<partEfficiencyOffset>0.3</partEfficiencyOffset>
 				<statOffsets>
@@ -683,7 +615,6 @@
 			</li>
 			<li>
 				<minSeverity>0.75</minSeverity>
-				<label>spacious, acclimating</label>
 				<painOffset>0.2</painOffset>
 				<partEfficiencyOffset>0.5</partEfficiencyOffset>
 				<statOffsets>
@@ -692,7 +623,6 @@
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>spacious, accustomed</label>
 				<painOffset>0.01</painOffset>
 				<partEfficiencyOffset>0.5</partEfficiencyOffset>
 				<statOffsets>
