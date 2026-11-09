@@ -60,6 +60,7 @@
     </comps>
   </HediffDef>
 
+	<!--
   <HediffDef>
     <defName>aggressive_nature</defName>
     <label>aggressive nature</label>
@@ -74,6 +75,7 @@
       </li>
     </stages>
   </HediffDef>
+	-->
 
 	<HediffDef>
 		<defName>ReadyToEvolve</defName>

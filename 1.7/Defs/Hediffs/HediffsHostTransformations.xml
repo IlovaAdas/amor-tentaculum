@@ -24,8 +24,6 @@
 			</li>
 			<li Class="HediffCompProperties_MessageAfterTicks">
 				<ticks>60</ticks>
-				<letterLabel>{0_labelShort} is in a coma</letterLabel>
-				<letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</letterText>
 				<letterType>HostPregnancy</letterType>
 			</li>
 		</comps>
@@ -33,9 +31,6 @@
 	
   <HediffDef ParentName="HostTransformBase">
     <defName>QueenTransform</defName>
-    <label>genetic transformation</label>
-    <labelNoun>genetic transformation</labelNoun>
-    <description>The Amor Queen egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</description>
     <comps>
       <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
         <hediffSets>
@@ -73,9 +68,6 @@
 
 	<HediffDef ParentName="HostTransformBase">
 		<defName>BaronTransform</defName>
-		<label>genetic transformation</label>
-		<labelNoun>genetic transformation</labelNoun>
-		<description>The Amor Baron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</description>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>

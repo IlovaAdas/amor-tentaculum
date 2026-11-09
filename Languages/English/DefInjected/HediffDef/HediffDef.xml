@@ -188,5 +188,18 @@
 	<TentacleInfestedVagina.stages.3.label>spacious, acclimating</TentacleInfestedVagina.stages.3.label>
 	<TentacleInfestedVagina.stages.4.label>spacious, accustomed</TentacleInfestedVagina.stages.4.label>
 
+	<!-- Host transformations -->
 
+	<QueenTransform.label>genetic transformation</QueenTransform.label>
+	<QueenTransform.labelNoun>genetic transformation</QueenTransform.labelNoun>
+	<QueenTransform.description>The Amor Queen egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</QueenTransform.description>
+	<QueenTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</QueenTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<QueenTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</QueenTransform.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<BaronTransform.label>genetic transformation</BaronTransform.label>
+	<BaronTransform.labelNoun>genetic transformation</BaronTransform.labelNoun>
+	<BaronTransform.description>The Amor Baron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronTransform.description>
+	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>
+	
 </languageData>
