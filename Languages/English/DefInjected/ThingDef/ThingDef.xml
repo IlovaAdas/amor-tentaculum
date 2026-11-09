@@ -28,7 +28,7 @@
 	<!-- Tentacle pawn types -->
 	<!-- Note that these should be capitalized! -->
 	<TentacleBroodMother.label>Amor Brood Mother</TentacleBroodMother.label>
-	<TentacleBroodMother.description>A humanoid-shaped tentacle dedicated to breeding. The Amor Brood Mother is the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
+	<TentacleBroodMother.description>A beetle-like Tentacle, dedicated to breeding more creatures for the hive. It has a protective carapace on its thorax as well as several external womb-like body parts for additional egg production. The Amor Brood Mother is the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
 	<TentacleSpawner.label>Amor Spawner</TentacleSpawner.label>
 	<TentacleSpawner.description>A huge mass of tentacles with a smaller, central female body. The Amor Spawner is entirely dedicated to breeding Squirmers, which Hosts use to fuel their abilities.</TentacleSpawner.description>
 	<TentacleSquirmer.label>Amor Squirmer</TentacleSquirmer.label>

@@ -7,7 +7,7 @@
 | Tentacle | Male | Borer | NYI | NYI | Kind of like the Biotech Tunneler? Big, sharp claws. Not necessarily a big body, though. |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
-| Tentacle | Female | Brood Mother | NYI | NYI | We'll want something grossly pregnant for this. |
+| Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/BroodMother/BroodMother_east.png) | `Textures/Things/Pawns/BroodMother` | |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
 | Tentacle | Female | Producer | NYI | NYI | |
 | Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
