@@ -24,7 +24,6 @@
 	<TentacleCollarNumb.label>numbed</TentacleCollarNumb.label>
 	<TentacleCollarNumb.description>The secretions from the Tentacle Collar are numbing the wearer's body, making them more pliant and susceptible to control.</TentacleCollarNumb.description>
 	
-
 	<!-- Host incubation -->
 	<BroodMotherIncubation.label>Brood Mother egg</BroodMotherIncubation.label>
 	<BroodMotherIncubation.labelNoun>an amor brood mother egg</BroodMotherIncubation.labelNoun>
@@ -201,5 +200,31 @@
 	<BaronTransform.description>The Amor Baron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronTransform.description>
 	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>
+	
+	<!-- Tentacle hediffs -->
+	<BodyVagrancy.label>body vagrancy</BodyVagrancy.label>
+	<BodyVagrancy.labelNoun>vagrancy</BodyVagrancy.labelNoun>
+	<BodyVagrancy.description>This creature is suffering from not being within a Host body.</BodyVagrancy.description>
+	<BodyVagrancy.stages.0.label>initial</BodyVagrancy.stages.0.label>
+	<BodyVagrancy.stages.1.label>minor</BodyVagrancy.stages.1.label>
+	<BodyVagrancy.stages.2.label>major</BodyVagrancy.stages.2.label>
+	<BodyVagrancy.stages.3.label>extreme</BodyVagrancy.stages.3.label>
+	<BodyVagrancy.stages.4.label>lethal</BodyVagrancy.stages.4.label>
+
+	<ReadyToEvolve.label>ready to evolve</ReadyToEvolve.label>
+	<ReadyToEvolve.labelNoun>ready</ReadyToEvolve.labelNoun>
+	<ReadyToEvolve.description>This Amor Larva is ready to evolve. Use one of its Abilities to trigger the evolution.</ReadyToEvolve.description>
+
+	<LarvaEvolveSquirmer.label>evolving into squirmer</LarvaEvolveSquirmer.label>
+	<LarvaEvolveSquirmer.labelNoun>evolving</LarvaEvolveSquirmer.labelNoun>
+	<LarvaEvolveSquirmer.description>This Amor Larva is evolving into an Amor Squirmer.</LarvaEvolveSquirmer.description>
+
+	<LarvaEvolveSpawner.label>evolving into squirmer</LarvaEvolveSpawner.label>
+	<LarvaEvolveSpawner.labelNoun>evolving</LarvaEvolveSpawner.labelNoun>
+	<LarvaEvolveSpawner.description>This Amor Larva is evolving into an Amor Spawner.</LarvaEvolveSpawner.description>
+
+	<TentacleSacrifice.label>sacrificing</TentacleSacrifice.label>
+	<TentacleSacrifice.labelNoun>sacrificing</TentacleSacrifice.labelNoun>
+	<TentacleSacrifice.description>This Tentacle is being consumed as a resource by a Host.</TentacleSacrifice.description>
 	
 </languageData>

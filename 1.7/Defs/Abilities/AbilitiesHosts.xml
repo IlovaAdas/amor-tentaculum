@@ -27,7 +27,7 @@
 		<comps>
 			<li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
 				<targetHasAnyOfHediffs>
-					<li>vagrancy</li>
+					<li>BodyVagrancy</li>
 				</targetHasAnyOfHediffs>
 				<casterHasAnyOfHediffs>
 					<li>TentacleStorage</li>

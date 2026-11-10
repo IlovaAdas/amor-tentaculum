@@ -2,7 +2,7 @@
 <Defs>
   
   <HediffDef ParentName="DiseaseBase">
-    <defName>vagrancy</defName>
+    <defName>BodyVagrancy</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>body vagrancy</label>
     <labelNoun>vagrancy</labelNoun>
@@ -79,9 +79,6 @@
 
 	<HediffDef>
 		<defName>ReadyToEvolve</defName>
-		<label>ready to evolve</label>
-		<labelNoun>ready</labelNoun>
-		<description>This Amor Larva is ready to evolve. Use one of its abilities to trigger the evolution.</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<stages />
 	</HediffDef>
@@ -98,10 +95,6 @@
 
 	<HediffDef ParentName="LarvaEvolveBase">
 		<defName>LarvaEvolveSquirmer</defName>
-		<label>evolving into squirmer</label>
-		<description>This Amor Larva is evolving into an Amor Squirmer.</description>
-		<defaultLabelColor>(240,189,234)</defaultLabelColor>
-		<stages />
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath" />
 			<li Class="EBSGFramework.HediffCompProperties_PreventDeathNotifications" />
@@ -153,9 +146,6 @@
 	<HediffDef>
 		<defName>TentacleSacrifice</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>sacrificing</label>
-		<labelNoun>sacrificing</labelNoun>
-		<description>This tentacle is being consumed as a resource by a pawn.</description>
 		<defaultLabelColor>(1,1,1)</defaultLabelColor>
 		<minSeverity>0</minSeverity>
 		<initialSeverity>0</initialSeverity>

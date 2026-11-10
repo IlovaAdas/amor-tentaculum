@@ -1,6 +1,6 @@
 <Defs>
 
-      <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>TWombItem</defName>
     <label>in utero incubater</label>
     <description>An advanced artificial womb implant designed to aid in the incubation of Amor Brood Mother eggs.</description>
@@ -31,7 +31,7 @@
     </costList>
   </ThingDef>
 
-      <HediffDef ParentName="ImplantHediffBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>HediffWithComps</hediffClass>
     <defName>TWombEnhanced</defName>
     <label>in utero incubater</label>
@@ -115,7 +115,7 @@
     </costList>
   </ThingDef>
 
-      <HediffDef ParentName="ImplantHediffBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>HediffWithComps</hediffClass>
     <defName>analspeculum</defName>
     <label>anal speculum</label>
@@ -195,7 +195,7 @@
     </costList>
   </ThingDef>
 
-      <HediffDef ParentName="ImplantHediffBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>HediffWithComps</hediffClass>
     <defName>storagestomach</defName>
     <label>storage stomach</label>
