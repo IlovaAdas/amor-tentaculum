@@ -1,0 +1,38 @@
+<languageData>
+
+	<BroodMotherBody.label>Brood Mother body</BroodMotherBody.label>
+	<BroodMotherBody.corePart.parts.right_lung.customLabel>right lung</BroodMotherBody.corePart.parts.right_lung.customLabel>
+	<BroodMotherBody.corePart.parts.left_lung.customLabel>left lung</BroodMotherBody.corePart.parts.left_lung.customLabel>
+	<BroodMotherBody.corePart.parts.right_kidney.customLabel>right kidney</BroodMotherBody.corePart.parts.right_kidney.customLabel>
+	<BroodMotherBody.corePart.parts.left_kidney.customLabel>left kidney</BroodMotherBody.corePart.parts.left_kidney.customLabel>
+	<BroodMotherBody.corePart.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</BroodMotherBody.corePart.parts.TentacleBeastHead.parts.left_eye.customLabel>
+	<BroodMotherBody.corePart.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</BroodMotherBody.corePart.parts.TentacleBeastHead.parts.right_eye.customLabel>
+
+	<SpawnerBody.label>Spawner body</SpawnerBody.label>
+	<SpawnerBody.corePart.parts.right_lung.customLabel>right lung</SpawnerBody.corePart.parts.right_lung.customLabel>
+	<SpawnerBody.corePart.parts.left_lung.customLabel>left lung</SpawnerBody.corePart.parts.left_lung.customLabel>
+	<SpawnerBody.corePart.parts.right_kidney.customLabel>right kidney</SpawnerBody.corePart.parts.right_kidney.customLabel>
+	<SpawnerBody.corePart.parts.left_kidney.customLabel>left kidney</SpawnerBody.corePart.parts.left_kidney.customLabel>
+	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>
+	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
+	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_ear.customLabel>left ear</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_ear.customLabel>
+	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_ear.customLabel>right ear</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_ear.customLabel>
+	<SpawnerBody.corePart.parts.left_shoulder.customLabel>left shoulder</SpawnerBody.corePart.parts.left_shoulder.customLabel>
+	<SpawnerBody.corePart.parts.left_shoulder.parts.left_tentacle_arm.customLabel>left tentacle arm</SpawnerBody.corePart.parts.left_shoulder.parts.left_tentacle_arm.customLabel>
+	<SpawnerBody.corePart.parts.right_shoulder.customLabel>right shoulder</SpawnerBody.corePart.parts.right_shoulder.customLabel>
+	<SpawnerBody.corePart.parts.right_shoulder.parts.right_tentacle_arm.customLabel>right tentacle arm</SpawnerBody.corePart.parts.right_shoulder.parts.right_tentacle_arm.customLabel>
+	<SpawnerBody.corePart.parts.left_tentacle_leg.customLabel>left tentacle leg</SpawnerBody.corePart.parts.left_tentacle_leg.customLabel>
+	<SpawnerBody.corePart.parts.right_tentacle_leg.customLabel>right tentacle leg</SpawnerBody.corePart.parts.right_tentacle_leg.customLabel>
+
+	<TentacleSnake.label>tentacle snake body</TentacleSnake.label>
+	<TentacleSnake.corePart.parts.upper_left_claw.customLabel>upper left claw</TentacleSnake.corePart.parts.upper_left_claw.customLabel>
+	<TentacleSnake.corePart.parts.upper_right_claw.customLabel>upper right claw</TentacleSnake.corePart.parts.upper_right_claw.customLabel>
+	<TentacleSnake.corePart.parts.lower_left_claw.customLabel>lower left claw</TentacleSnake.corePart.parts.lower_left_claw.customLabel>
+	<TentacleSnake.corePart.parts.lower_right_claw.customLabel>lower right claw</TentacleSnake.corePart.parts.lower_right_claw.customLabel>
+	<TentacleSnake.corePart.parts.left_lung.customLabel>left lung</TentacleSnake.corePart.parts.left_lung.customLabel>
+	<TentacleSnake.corePart.parts.right_lung.customLabel>right lung</TentacleSnake.corePart.parts.right_lung.customLabel>
+	<TentacleSnake.corePart.parts.left_kidney.customLabel>left kidney</TentacleSnake.corePart.parts.left_kidney.customLabel>
+  <TentacleSnake.corePart.parts.right_kidney.customLabel>right kidney</TentacleSnake.corePart.parts.right_kidney.customLabel>
+	
+	
+</languageData>

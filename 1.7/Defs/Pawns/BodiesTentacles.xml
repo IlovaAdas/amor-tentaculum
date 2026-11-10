@@ -60,16 +60,14 @@
   <!-- Parts -->
 
   <BodyPartDef>
-    <defName>MovingBodyTentaclebeast</defName>
-    <label>body</label>
+    <defName>MovingBodyTentacleBeast</defName>
     <hitPoints>60</hitPoints>
     <executionPartPriority>500</executionPartPriority>
     <frostbiteVulnerability>10</frostbiteVulnerability>
   </BodyPartDef>
 
   <BodyPartDef>
-    <defName>TentaclebeastHead</defName>
-    <label>head</label>
+    <defName>TentacleBeastHead</defName>
     <hitPoints>25</hitPoints>
     <canSuggestAmputation>false</canSuggestAmputation>
     <bleedRate>2</bleedRate>
@@ -78,7 +76,6 @@
 
   <BodyPartDef>
     <defName>Tentacle</defName>
-    <label>tentacle</label>
     <hitPoints>30</hitPoints>
     <tags>
       <li>ManipulationLimbCore</li>
@@ -89,7 +86,6 @@
 
   <BodyPartDef>
     <defName>TentacleSpike</defName>
-    <label>spike</label>
     <hitPoints>40</hitPoints>
     <frostbiteVulnerability>0.1</frostbiteVulnerability>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -100,7 +96,6 @@
 
   <BodyPartDef>
     <defName>TentacleLeg</defName>
-    <label>tentacle</label>
     <hitPoints>30</hitPoints>
     <frostbiteVulnerability>0.1</frostbiteVulnerability>
     <tags>
@@ -112,7 +107,6 @@
   
   <BodyDef>
     <defName>BroodMotherBody</defName>
-    <label>BroodMotherCore</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>
@@ -163,7 +157,7 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>TentaclebeastHead</def>
+          <def>TentacleBeastHead</def>
           <coverage>0.4</coverage>
           <groups>
             <li>UpperHead</li>
@@ -290,7 +284,7 @@
 
 	<BodyDef>
 		<defName>SpawnerBody</defName>
-		<label>SpawnerCore</label>
+		<label>Spawner body</label>
 		<corePart>
 			<def>Torso</def>
 			<height>Middle</height>
@@ -401,7 +395,7 @@
 					</groups>
 					<parts>
 						<li>
-							<def>TentaclebeastHead</def>
+							<def>TentacleBeastHead</def>
 							<coverage>0.80</coverage>
 							<groups>
 								<li>UpperHead</li>
@@ -617,8 +611,7 @@
 	</rjw.RaceGroupDef>
 
 	<BodyDef>
-    <defName>SnakeTentacle</defName>
-    <label>tentacle snake</label>
+    <defName>TentacleSnake</defName>
     <corePart>
       <def>SnakeBody</def>
       <height>Middle</height>
@@ -628,37 +621,37 @@
           <def>TentacleSpike</def>
           <coverage>0.04</coverage>
           <depth>Outside</depth>
-        <customLabel>upper left claw</customLabel>
-            <groups>
-                <li>UpperLeftClaw</li>
-            </groups>
+          <customLabel>upper left claw</customLabel>
+          <groups>
+            <li>UpperLeftClaw</li>
+          </groups>
         </li>
         <li>
           <def>TentacleSpike</def>
           <coverage>0.04</coverage>
           <depth>Outside</depth>
-        <customLabel>upper right claw</customLabel>
-            <groups>
-                <li>UpperRightClaw</li>
-            </groups>
+          <customLabel>upper right claw</customLabel>
+          <groups>
+            <li>UpperRightClaw</li>
+          </groups>
         </li>
         <li>
           <def>TentacleSpike</def>
           <coverage>0.04</coverage>
           <depth>Outside</depth>
-        <customLabel>lower left claw</customLabel>
-            <groups>
-                <li>LowerRightClaw</li>
-            </groups>
+          <customLabel>lower left claw</customLabel>
+          <groups>
+            <li>LowerRightClaw</li>
+          </groups>
         </li>
         <li>
           <def>TentacleSpike</def>
           <coverage>0.04</coverage>
           <depth>Outside</depth>
-        <customLabel>lower right claw</customLabel>
-            <groups>
-                <li>LowerLeftClaw</li>
-            </groups>
+          <customLabel>lower right claw</customLabel>
+          <groups>
+            <li>LowerLeftClaw</li>
+          </groups>
         </li>
         <li>
           <def>Stomach</def>
