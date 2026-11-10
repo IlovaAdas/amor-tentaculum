@@ -1,0 +1,39 @@
+<languageData>
+
+	<UpperLeftClaw.label>upper left claw</UpperLeftClaw.label>
+	<UpperLeftClaw.labelShort>claw</UpperLeftClaw.labelShort>
+
+	<UpperRightClaw.label>upper right claw</UpperRightClaw.label>
+	<UpperRightClaw.labelShort>claw</UpperRightClaw.labelShort>
+
+	<LowerLeftClaw.label>lower left claw</LowerLeftClaw.label>
+	<LowerLeftClaw.labelShort>claw</LowerLeftClaw.labelShort>
+
+	<LowerRightClaw.label>lower right claw</LowerRightClaw.label>
+	<LowerRightClaw.labelShort>claw</LowerRightClaw.labelShort>
+
+	<LeftSpike.label>left spike</LeftSpike.label>
+	<LeftSpike.labelShort>spike</LeftSpike.labelShort>
+
+	<RightSpike.label>right spike</RightSpike.label>
+	<RightSpike.labelShort>spike</RightSpike.labelShort>
+
+	<MiddleSpike.label>middle spike</MiddleSpike.label>
+	<MiddleSpike.labelShort>spike</MiddleSpike.labelShort>
+
+	<FirstTentacle.label>first tentacle</FirstTentacle.label>
+	<FirstTentacle.labelShort>tentacle</FirstTentacle.labelShort>
+
+	<SecondTentacle.label>second tentacle</SecondTentacle.label>
+	<SecondTentacle.labelShort>tentacle</SecondTentacle.labelShort>
+
+	<ThirdTentacle.label>third tentacle</ThirdTentacle.label>
+	<ThirdTentacle.labelShort>tentacle</ThirdTentacle.labelShort>
+
+	<FourthTentacle.label>fourth tentacle</FourthTentacle.label>
+	<FourthTentacle.labelShort>tentacle</FourthTentacle.labelShort>
+
+	<FifthTentacle.label>fifth tentacle</FifthTentacle.label>
+	<FifthTentacle.labelShort>tentacle</FifthTentacle.labelShort>
+
+</languageData>

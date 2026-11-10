@@ -3,76 +3,57 @@
 		<!-- Groups -->
   <BodyPartGroupDef>
     <defName>UpperLeftClaw</defName>
-    <label>upper left claw</label>
-    <labelShort>claw</labelShort>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>UpperRightClaw</defName>
-    <label>upper right claw</label>
-    <labelShort>claw</labelShort>
   </BodyPartGroupDef>
 
     <BodyPartGroupDef>
     <defName>LowerLeftClaw</defName>
-    <label>lower left claw</label>
-    <labelShort>claw</labelShort>
   </BodyPartGroupDef>
 
     <BodyPartGroupDef>
     <defName>LowerRightClaw</defName>
-    <label>lower right claw</label>
-    <labelShort>claw</labelShort>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>LeftSpike</defName>
-    <label>left spike</label>
-    <labelShort>spike</labelShort>
     <listOrder>79</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>RightSpike</defName>
-    <label>right spike</label>
-    <labelShort>spike</labelShort>
     <listOrder>78</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>MiddleSpike</defName>
-    <label>middle spike</label>
-    <labelShort>spike</labelShort>
     <listOrder>77</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>FirstTentacle</defName>
-    <label>tentacle</label>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>SecondTentacle</defName>
-    <label>tentacle</label>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>ThirdTentacle</defName>
-    <label>tentacle</label>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>FourthTentacle</defName>
-    <label>tentacle</label>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
     <defName>FifthTentacle</defName>
-    <label>tentacle</label>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
