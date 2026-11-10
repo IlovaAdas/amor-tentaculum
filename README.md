@@ -225,7 +225,7 @@ A tentacle structure that generates cold. Requires no fuel or power, but generat
 ### Recycler Pod
 Research Tier: Basic
 
-A tentacle structure that is used to recycle "volunteers" into various resources. The process is utterly lethal; the pawn will be torn apart into various resources.
+A tentacle structure that is used to recycle "volunteers" into various resources. The process is utterly lethal; the pawn will be torn apart into various resources. This is the only source for Tentacle Catalysts, which are the biological "essence" of a person, but permanently corrupted and broken down for re-use.
 
 NOTE: Basically a Ripscanner, under the hood.
 
@@ -242,6 +242,13 @@ Research Tier: Utility, Advanced
 A tentacle structure that is used to convert pawns into Boss-tier tentacles. The process is lethal for the pawn; their body will be consumed and used to gestate one of the Boss-tier tentacles.
 
 NOTE: Again, basically a Ripscanner. May need several types, depending on whether or not we can add multiple "loading" abilities.
+
+### Tentacle Trophy
+Research Tier: Utility
+
+A tentacle structure, constructed from the remains of a pawn. What's left of them is continuously violated and pleasured. The sights, sounds, and smells of this activity will make nearby individuals happier, more pliant, and much more horny.
+
+NOTE: Under the hood, use the `CompProperties_CauseHediff_AoE` (check the Mech Booster) to apply an hediff to nearby pawns. Traits can modify the moodlet that it causes.
 
 ## Combat and Defense
 
