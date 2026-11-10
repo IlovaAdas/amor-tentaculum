@@ -37,7 +37,7 @@
 	<ThingDef ParentName="ProcessingPodBase">
 		<defName>Building_RecyclingPod</defName>
 		<graphicData>
-			<texPath>Things/Building/Production/SubcoreSoftscanner</texPath>
+			<texPath>Things/Buildings/Pods/RecyclerPod</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToBuild>8000</WorkToBuild>

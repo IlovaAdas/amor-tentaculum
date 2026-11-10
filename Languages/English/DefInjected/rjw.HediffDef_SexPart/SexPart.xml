@@ -1,0 +1,74 @@
+<languageData>
+
+	<!-- RJW Sex Parts -->
+
+	<TentacleAnus.label>tentacle anus</TentacleAnus.label>
+	<TentacleAnus.description>A tentacle-infested anus.</TentacleAnus.description>
+	<TentacleAnus.stages.0.label>micro</TentacleAnus.stages.0.label>
+	<TentacleAnus.stages.1.label>tight</TentacleAnus.stages.1.label>
+	<TentacleAnus.stages.2.label>average</TentacleAnus.stages.2.label>
+	<TentacleAnus.stages.3.label>accommodating</TentacleAnus.stages.3.label>
+	<TentacleAnus.stages.4.label>cavernous</TentacleAnus.stages.4.label>
+	<TentacleAnus.stages.5.label>abyssal</TentacleAnus.stages.5.label>
+	<TentacleAnus.stages.6.label>gaping</TentacleAnus.stages.6.label>
+	<TentacleAnus.stages.7.label>bottomless</TentacleAnus.stages.7.label>
+
+	<TentaclePenis.label>tentacle penis</TentaclePenis.label>
+	<TentaclePenis.description>A tentacle-infested penis.</TentaclePenis.description>
+	<TentaclePenis.stages.0.label>micro</TentaclePenis.stages.0.label>
+	<TentaclePenis.stages.1.label>small</TentaclePenis.stages.1.label>
+	<TentaclePenis.stages.2.label>average</TentaclePenis.stages.2.label>
+	<TentaclePenis.stages.3.label>large</TentaclePenis.stages.3.label>
+	<TentaclePenis.stages.4.label>huge</TentaclePenis.stages.4.label>
+	<TentaclePenis.stages.5.label>towering</TentaclePenis.stages.5.label>
+
+	<TentacleBreasts.label>tentacle breasts</TentacleBreasts.label>
+	<TentacleBreasts.description>A pair of tentacle-infested breasts.</TentacleBreasts.description>
+	<TentacleBreasts.stages.0.label>nipples</TentacleBreasts.stages.0.label>
+	<TentacleBreasts.stages.1.label>tiny</TentacleBreasts.stages.1.label>
+	<TentacleBreasts.stages.2.label>small</TentacleBreasts.stages.2.label>
+	<TentacleBreasts.stages.3.label>average</TentacleBreasts.stages.3.label>
+	<TentacleBreasts.stages.4.label>large</TentacleBreasts.stages.4.label>
+	<TentacleBreasts.stages.5.label>huge</TentacleBreasts.stages.5.label>
+	<TentacleBreasts.stages.6.label>enormous</TentacleBreasts.stages.6.label>
+	<TentacleBreasts.stages.7.label>massive</TentacleBreasts.stages.7.label>
+	<TentacleBreasts.stages.8.label>gartantuan</TentacleBreasts.stages.8.label>
+	<TentacleBreasts.stages.9.label>colossal</TentacleBreasts.stages.9.label>
+	<TentacleBreasts.stages.10.label>titanic</TentacleBreasts.stages.10.label>
+	<TentacleBreasts.stages.11.label>astronomical</TentacleBreasts.stages.11.label>
+	
+	<TentacleVaginaBroodMother.label>tentacle vagina</TentacleVaginaBroodMother.label>
+	<TentacleVaginaBroodMother.description>A tentacle-infested vagina. This one belongs to a Brood Mother, and produces Amor Larva eggs.</TentacleVaginaBroodMother.description>
+	<TentacleVaginaBroodMother.stages.0.label>micro</TentacleVaginaBroodMother.stages.0.label>
+	<TentacleVaginaBroodMother.stages.1.label>tight</TentacleVaginaBroodMother.stages.1.label>
+	<TentacleVaginaBroodMother.stages.2.label>average</TentacleVaginaBroodMother.stages.2.label>
+	<TentacleVaginaBroodMother.stages.3.label>accommodating</TentacleVaginaBroodMother.stages.3.label>
+	<TentacleVaginaBroodMother.stages.4.label>cavernous</TentacleVaginaBroodMother.stages.4.label>
+	<TentacleVaginaBroodMother.stages.5.label>abyssal</TentacleVaginaBroodMother.stages.5.label>
+	<TentacleVaginaBroodMother.stages.6.label>gaping</TentacleVaginaBroodMother.stages.6.label>
+	<TentacleVaginaBroodMother.stages.7.label>bottomless</TentacleVaginaBroodMother.stages.7.label>
+
+	<TentacleVaginaSpawner.label>tentacle vagina</TentacleVaginaSpawner.label>
+	<TentacleVaginaSpawner.description>A tentacle-infested vagina. This one belongs to a Spawner, and produces Amor Squirmer eggs.</TentacleVaginaSpawner.description>
+	<TentacleVaginaSpawner.stages.0.label>micro</TentacleVaginaSpawner.stages.0.label>
+	<TentacleVaginaSpawner.stages.1.label>tight</TentacleVaginaSpawner.stages.1.label>
+	<TentacleVaginaSpawner.stages.2.label>average</TentacleVaginaSpawner.stages.2.label>
+	<TentacleVaginaSpawner.stages.3.label>accommodating</TentacleVaginaSpawner.stages.3.label>
+	<TentacleVaginaSpawner.stages.4.label>cavernous</TentacleVaginaSpawner.stages.4.label>
+	<TentacleVaginaSpawner.stages.5.label>abyssal</TentacleVaginaSpawner.stages.5.label>
+	<TentacleVaginaSpawner.stages.6.label>gaping</TentacleVaginaSpawner.stages.6.label>
+	<TentacleVaginaSpawner.stages.7.label>bottomless</TentacleVaginaSpawner.stages.7.label>
+
+	<TentacleVagina.label>tentacle vagina</TentacleVagina.label>
+	<TentacleVagina.description>A tentacle-infested vagina.</TentacleVagina.description>
+	<TentacleVagina.stages.0.label>micro</TentacleVagina.stages.0.label>
+	<TentacleVagina.stages.1.label>tight</TentacleVagina.stages.1.label>
+	<TentacleVagina.stages.2.label>average</TentacleVagina.stages.2.label>
+	<TentacleVagina.stages.3.label>accommodating</TentacleVagina.stages.3.label>
+	<TentacleVagina.stages.4.label>cavernous</TentacleVagina.stages.4.label>
+	<TentacleVagina.stages.5.label>abyssal</TentacleVagina.stages.5.label>
+	<TentacleVagina.stages.6.label>gaping</TentacleVagina.stages.6.label>
+	<TentacleVagina.stages.7.label>bottomless</TentacleVagina.stages.7.label>
+	
+	
+</languageData>
