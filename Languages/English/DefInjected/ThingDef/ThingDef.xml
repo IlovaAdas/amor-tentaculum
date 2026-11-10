@@ -18,6 +18,8 @@
 	<TestWall.description>In-Progress Test for Wall Texture Tessellation.</TestWall.description>
 	<TentacleWorkbench.label>tentacle workbench</TentacleWorkbench.label>
 	<TentacleWorkbench.description>A workbench equipped with all of the equipment required to craft basic tentacle-related things.</TentacleWorkbench.description>
+	<WombWorker.label>womb worker</WombWorker.label>
+	<WombWorker.description>Increases work speed when placed near a Tentacle Workbench. One Workbench can utilize up to four workers. The workers used to be humans, but now they simply act as immobile assistants - storing tools, dispensing liquids, holding products, and softly moaning with whatever is left of their brain.</WombWorker.description>
 	
 	<!-- Drugs, food, and other consumables -->
 	<TentBeer.label>amornuum</TentBeer.label>

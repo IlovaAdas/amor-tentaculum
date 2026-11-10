@@ -4,7 +4,7 @@
 | Tentacle | Neutral | Larva | ![](./Textures/Things/Pawns/Larva/Larva_east.png) | `Textures/Things/Pawns/Larva` | |
 | Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
 | Tentacle | Male | Stinger | NYI | NYI | Floating bat/mosquito type of thing. Think D&D Stirge. |
-| Tentacle | Male | Borer | NYI | NYI | Kind of like the Biotech Tunneler? Big, sharp claws. Not necessarily a big body, though. |
+| Tentacle | Male | Borer | ![](./Textures/Things/Pawns/Borer/Borer_east.png | `Textures/Things/Pawns/Borer` | |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
 | Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/BroodMother/BroodMother_east.png) | `Textures/Things/Pawns/BroodMother` | |
@@ -21,8 +21,8 @@
 | Material | Natural | Tentacle Slime | ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeA.png) ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeB.png) | `Textures/Things/Items/TentacleSlime` | |
 | Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Food/Amornuum/AmornuumA.png) ![](./Textures/Things/Items/Food/Amornuum/AmornuumB.png) | `Textures/Things/Items/Food/Amornuum` | |
 | Drugs | Natural | NotSlurm | ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkA.png) ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkB.png) | `Textures/Things/Items/Food/NotSlurm` | |
-| Buildings | Utility | Tentacle Workbench | NYI | NYI | A standard 3x1 workbench, but with some slimy tentacles on it. Will be constructed from normal materials, so a mask will be required. |
-| Buildings | Utility | (Workbench Linkable, name TBD) | NYI | NYI | A standard linkable (think Tool Cabinet) for the workbench. Can be more tentacle-y, since it will be constructed from resin. |
+| Buildings | Utility | Tentacle Workbench | ![](./Textures/Things/Buildings/Workbench/TentacleWorkbench_north.png | `Textures/Things/Buildings/Workbench` | A standard 3x1 workbench, but with some slimy tentacles on it. Will be constructed from normal materials, so a mask will be required. |
+| Buildings | Utility | Womb Worker | ![](./Textures/Things/Buildings/Workbench/WombWorker_north.png) | `Textures/Things/Buildings/Workbench` | A standard linkable (think Tool Cabinet) for the workbench. Can be more tentacle-y, since it will be constructed from resin. |
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
