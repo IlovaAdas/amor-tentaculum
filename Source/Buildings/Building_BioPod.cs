@@ -209,10 +209,12 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             {
                 return "SubcoreScannerPawnHasSickness".Translate(HediffDefOf.ScanningSickness.label);
             }
+            /* La la la killin' babies...
             if (DevelopmentalStageExtensions.Baby(selPawn.DevelopmentalStage))
             {
                 return "SubcoreScannerBabyNotAllowed".Translate();
             }
+            */
         }
         return true;
     }
