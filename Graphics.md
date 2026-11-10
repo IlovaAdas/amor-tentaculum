@@ -21,8 +21,8 @@
 | Material | Natural | Tentacle Slime | ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeA.png) ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeB.png) | `Textures/Things/Items/TentacleSlime` | |
 | Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Food/Amornuum/AmornuumA.png) ![](./Textures/Things/Items/Food/Amornuum/AmornuumB.png) | `Textures/Things/Items/Food/Amornuum` | |
 | Drugs | Natural | NotSlurm | ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkA.png) ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkB.png) | `Textures/Things/Items/Food/NotSlurm` | |
-| Buildings | Utility | Tentacle Workbench | ![](./Textures/Things/Buildings/Workbench/TentacleWorkbench_north.png) | `Textures/Things/Buildings/Workbench` | A standard 3x1 workbench, but with some slimy tentacles on it. Will be constructed from normal materials, so a mask will be required. |
-| Buildings | Utility | Womb Worker | ![](./Textures/Things/Buildings/Workbench/WombWorker_north.png) | `Textures/Things/Buildings/Workbench` | A standard linkable (think Tool Cabinet) for the workbench. Can be more tentacle-y, since it will be constructed from resin. |
+| Buildings | Utility | Tentacle Workbench | ![](./Textures/Things/Buildings/Workbench/TentacleWorkbench_north.png) | `Textures/Things/Buildings/Workbench` | |
+| Buildings | Utility | Womb Worker | ![](./Textures/Things/Buildings/Workbench/WombWorker_north.png) | `Textures/Things/Buildings/Workbench` | |
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
