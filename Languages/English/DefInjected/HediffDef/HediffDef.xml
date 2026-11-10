@@ -18,6 +18,20 @@
 	<Fworm.label>feeding worm</Fworm.label>
 	<Fworm.labelNoun>a feeding worm</Fworm.labelNoun>
 	<Fworm.description>A tentacle living in the throat and mouth. Rapidly digests food for the host and injects it as a slurry down their throat. Makes the recipient immune to gutworms and food poisoning.</Fworm.description>
+
+	<TWombEnhanced.label>in-utero incubater</TWombEnhanced.label>
+	<TWombEnhanced.labelNoun>an in-utero incubater</TWombEnhanced.labelNoun>
+	<TWombEnhanced.description>An artificial implant inside the Host's womb which aids in the incubation of Amor Brood Mother eggs.</TWombEnhanced.description>
+
+	<ImplantAnalSpeculum.label>anal speculum</ImplantAnalSpeculum.label>
+	<ImplantAnalSpeculum.labelNoun>an anal speculum</ImplantAnalSpeculum.labelNoun>
+	<ImplantAnalSpeculum.description>An implanted speculum that permanently forces the rectum further open, allowing for additional tentacle capacity.</ImplantAnalSpeculum.description>
+
+	<ImplantStorageStomach.label>storage stomach</ImplantStorageStomach.label>
+	<ImplantStorageStomach.labelNoun>a storage stomach</ImplantStorageStomach.labelNoun>
+	<ImplantStorageStomach.description>An stomach replacement that lets ingested tentacles handle digestive processes for the Host. This affords the Host with additional tentacle capacity.</ImplantStorageStomach.description>
+	
+	
 	
 	<!-- Worn Equipment -->
 

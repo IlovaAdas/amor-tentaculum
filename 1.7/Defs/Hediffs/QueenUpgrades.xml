@@ -34,12 +34,10 @@
   <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>HediffWithComps</hediffClass>
     <defName>TWombEnhanced</defName>
-    <label>in utero incubater</label>
-    <labelNoun>a in utero incubater</labelNoun>
-    <description>An artificial implant inside the womb, aids in the incubation of Amor Brood Mother eggs.</description>
     <descriptionHyperlinks><ThingDef>TWombItem</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>TWombItem</spawnThingOnRemoved>
         <comps>
+					<!-- TODO: This won't work as-is; it will need to be adjusted. -->
       <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
                 <hediff>BroodMotherIncubation</hediff>
                 <severity>0.08</severity>
@@ -84,7 +82,7 @@
     <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
   </RecipeDef>
 
-        <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>TSpecItem</defName>
     <label>anal speculum</label>
     <description>A plasteel speculum implant designed to open the anus wider for further tentacle insertions.</description>
@@ -117,10 +115,7 @@
 
   <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>HediffWithComps</hediffClass>
-    <defName>analspeculum</defName>
-    <label>anal speculum</label>
-    <labelNoun>a speculum</labelNoun>
-    <description>A plasteel speculum implant designed to open the anus wider for further tentacle insertions.</description>
+    <defName>ImplantAnalSpeculum</defName>
     <descriptionHyperlinks><ThingDef>TSpecItem</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>TSpecItem</spawnThingOnRemoved>
         <stages>
@@ -139,7 +134,7 @@
     <description>Install an anal speculum.</description>
     <descriptionHyperlinks>
       <ThingDef>TSpecItem</ThingDef>
-      <HediffDef>analspeculum</HediffDef>
+      <HediffDef>ImplantAnalSpeculum</HediffDef>
     </descriptionHyperlinks>
     <jobString>Installing anal speculum.</jobString>
     <ingredients>
@@ -160,11 +155,11 @@
     <appliedOnFixedBodyParts>
       <li>Anus</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>analspeculum</addsHediff>
+    <addsHediff>ImplantAnalSpeculum</addsHediff>
     <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
   </RecipeDef>
 
-          <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>TStomachEItem</defName>
     <label>storage stomach</label>
     <description>An advanced stomach implant completely removing the original use for the organ in favor of letting tentacles handle digestive processes, and allowing more of them to ocupy the host body.</description>
@@ -197,10 +192,7 @@
 
   <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>HediffWithComps</hediffClass>
-    <defName>storagestomach</defName>
-    <label>storage stomach</label>
-    <labelNoun>a storage stomach</labelNoun>
-    <description>An advanced stomach implant completely removing the original use for the organ in favor of letting tentacles handle digestive processes, and allowing more of them to ocupy the host body.</description>
+    <defName>ImplantStorageStomach</defName>
     <descriptionHyperlinks><ThingDef>TStomachEItem</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>TStomachEItem</spawnThingOnRemoved>
       <stages>
@@ -220,7 +212,7 @@
     <description>Install a storage stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>TSpecItem</ThingDef>
-      <HediffDef>analspeculum</HediffDef>
+      <HediffDef>ImplantAnalSpeculum</HediffDef>
     </descriptionHyperlinks>
     <jobString>Installing storage stomach.</jobString>
     <ingredients>
@@ -241,7 +233,7 @@
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>storagestomach</addsHediff>
+    <addsHediff>ImplantStorageStomach</addsHediff>
     <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
   </RecipeDef>
 
