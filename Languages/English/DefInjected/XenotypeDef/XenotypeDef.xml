@@ -12,4 +12,8 @@
 	<AmorBaronessXenotype.description>A human Host that has been genetically modified into an Amor Baroness. She carries Amor Squirmer tentacles and can transfer them to other Hosts.</AmorBaronessXenotype.description>
 	<AmorBaronessXenotype.descriptionShort>A human Host that carries Amor Squirmer tentacles for other Hosts.</AmorBaronessXenotype.descriptionShort>
 
+	<AmorNymphXenotype.label>Amor Nymph</AmorNymphXenotype.label>
+	<AmorNymphXenotype.description>A human Host that has been genetically modified into an Amor Nymph. She uses Amor Squirmers to subdue hostile pawns and calm allies in a mental break.</AmorNymphXenotype.description>
+	<AmorNymphXenotype.descriptionShort>A female Host who subdues enemies and placates allies.</AmorNymphXenotype.descriptionShort>
+
 </languageData>

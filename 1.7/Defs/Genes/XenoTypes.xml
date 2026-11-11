@@ -39,6 +39,19 @@
 		</genes>
 	</XenotypeDef>
 
+	<XenotypeDef>
+		<defName>AmorNymphXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorNymphHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_female_only</li>
+		</genes>
+	</XenotypeDef>
+
 	<!-- 
 	
 	<XenotypeDef>

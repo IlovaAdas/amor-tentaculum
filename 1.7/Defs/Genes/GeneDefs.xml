@@ -234,4 +234,74 @@
 		</modExtensions>
 	</GeneDef>
 
+	<GeneDef>
+		<defName>AmorNymphHostBody</defName>
+		<label>Amor Nymph</label>
+		<displayCategory>HiddenTentacleGenes</displayCategory>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<description>Carriers of this gene can use their Amor Squirmers to seduce and incapacitate hostile pawns or placate allies in a mental break.</description>
+		<displayOrderInCategory>0.1</displayOrderInCategory>
+		<abilities>
+			<li>TentacleIngest</li>
+			<li>TentacleExpel</li>
+			<li>TentacleTransfer</li>
+			<li>SeductionKiss</li>
+			<li>PlacatingKiss</li>
+		</abilities>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>TentacleStorage</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedVagina</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedStomach</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Stomach</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleInfestedAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbAnus</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Anus</li>
+						</bodyParts>
+					</li>
+					<li>
+						<hediff>TentacleLimbVagina</hediff>
+						<onlyIfNew>true</onlyIfNew>
+						<severity>1</severity>
+						<bodyParts>
+							<li>Genitals</li>
+						</bodyParts>
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
 </Defs>

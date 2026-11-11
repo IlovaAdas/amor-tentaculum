@@ -18,4 +18,7 @@
 	<AmorBaronessHostBody.label>Amor Baroness</AmorBaronessHostBody.label>
 	<AmorBaronessHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles, which they can transfer to other Hosts.</AmorBaronessHostBody.description>
 
+	<AmorNymphHostBody.label>Amor Nymph</AmorNymphHostBody.label>
+	<AmorNymphHostBody.description>Carriers of this gene can use their Amor Squirmers to seduce and incapacitate hostile pawns or placate allies in a mental break.</AmorNymphHostBody.description>
+
 </languageData>
