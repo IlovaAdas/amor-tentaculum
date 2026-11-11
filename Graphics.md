@@ -29,7 +29,7 @@
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
 | Buildings | Utility | Hive Wall | ![](./Textures/Things/Buildings/Wall/TendrilWalls_Atlas.png) | `Textures/Things/Buildings/Wall` | |
 | Buildings | Utility | Sphincter Door | NYI | NYI | |
-| Buildings | Utility | Recycling Pod | ![](./Textures/Things/Buildings/Pods/RecyclerPod_south.png | `Textures/Things/Buildings/Pods` | |
+| Buildings | Utility | Recycling Pod | ![](./Textures/Things/Buildings/Pods/RecyclerPod_south.png) | `Textures/Things/Buildings/Pods` | |
 | Buildings | Utility | Indoctrination Pod | NYI | NYI | Time to lean into the "tentacle violation" fetish... make sure the pawn is at least somewhat visible, for Onahole mechanics. |
 | Buildings | Utility | Transformation Pod | NYI | NYI | More of a womb-like structure here. What comes out will be nothing like what goes in. |
 | Buildings | Utility | Tentacle Trophy | NYI | NYI | Lean into the "trapped and pleasured forever" kink as hard as you want... |
