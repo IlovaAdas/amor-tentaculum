@@ -52,14 +52,11 @@
   </HediffDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>InstallTWombEnhance</defName>
-    <label>install in utero incubater</label>
-    <description>Install an in utero incubater.</description>
+		<defName>InstallTWombEnhance</defName>
     <descriptionHyperlinks>
       <ThingDef>TWombItem</ThingDef>
       <HediffDef>TWombEnhanced</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing utero incubater.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -130,13 +127,10 @@
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallTAnusEnhance</defName>
-    <label>install speculum</label>
-    <description>Install an anal speculum.</description>
     <descriptionHyperlinks>
       <ThingDef>TSpecItem</ThingDef>
       <HediffDef>ImplantAnalSpeculum</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing anal speculum.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -208,13 +202,10 @@
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallTStomachEnhance</defName>
-    <label>install storage stomach</label>
-    <description>Install a storage stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>TSpecItem</ThingDef>
       <HediffDef>ImplantAnalSpeculum</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing storage stomach.</jobString>
     <ingredients>
       <li>
         <filter>

@@ -27,7 +27,7 @@
 				<edgeRight>Damage/Edge</edgeRight>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Buildings/Wall/TentrilWalls_Icon</uiIconPath>
 		<uiIconPathsStuff>
 			<li>
 				<appearance>Planks</appearance>
@@ -81,7 +81,7 @@
 			<supportsWallAttachments>true</supportsWallAttachments>
 			<isStuffableAirtight>true</isStuffableAirtight>
 			<blueprintGraphicData>
-				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+				<texPath>Things/Buildings/Wall/TendrilWalls_Atlas</texPath>
 			</blueprintGraphicData>
 			<relatedBuildCommands>
 				<li>Door</li>
