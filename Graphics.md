@@ -2,7 +2,7 @@
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
 | Tentacle | Neutral | Squirmer | ![](./Textures/Things/Pawns/Squirmer/Squirmer_east.png) | `Textures/Things/Pawns/Squirmer` | |
 | Tentacle | Neutral | Larva | ![](./Textures/Things/Pawns/Larva/Larva_east.png) | `Textures/Things/Pawns/Larva` | |
-| Tentacle | Male | Grazer | NYI | NYI | Should feel big and bulky; very much a herd animal. |
+| Tentacle | Male | Grazer | ![](./Textures/Things/Pawns/Grazer/Grazer_east.png) | `Textures/Things/Pawns/Grazer` | |
 | Tentacle | Male | Stinger | NYI | NYI | Floating bat/mosquito type of thing. Think D&D Stirge. |
 | Tentacle | Male | Borer | ![](./Textures/Things/Pawns/Borer/Borer_east.png) | `Textures/Things/Pawns/Borer` | |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |

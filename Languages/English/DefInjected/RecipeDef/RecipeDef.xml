@@ -1,0 +1,10 @@
+<languageData>
+	
+	<!-- Surgeries -->
+
+	<AbortAmorBroodMotherEgg.label>abort egg incubation</AbortAmorBroodMotherEgg.label>
+	<AbortAmorBroodMotherEgg.description>Surgically remove the Amor Brood Mother egg from the pawn, destroying it.</AbortAmorBroodMotherEgg.description>
+	<AbortAmorBroodMotherEgg.jobString>removing Amor Brood Mother egg.</AbortAmorBroodMotherEgg.jobString>
+	<AbortAmorBroodMotherEgg.successfullyRemovedHediffMessage>{0} has successfully aborted {1}'s incubation.</AbortAmorBroodMotherEgg.successfullyRemovedHediffMessage>
+	
+</languageData>
