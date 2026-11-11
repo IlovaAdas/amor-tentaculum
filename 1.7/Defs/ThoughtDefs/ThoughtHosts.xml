@@ -132,6 +132,270 @@
   </ThoughtDef>
 
   <ThoughtDef>
+    <defName>BaronEggIncubationThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BaronEggIncubation</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+      <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>TentacleSlut</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>baron egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>I feel so bloated, and I can see something moving under my skin!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>what is happening to me!</label>
+        <description>It's moving my organs around! What is it doing? I want it out!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>TAKE IT OUT!</label>
+        <description>TAKE IT OUT! TAKE IT OUT! TAKE IT OUT!</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+      <li>
+        <label>baron egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>I feel so bloated, and I can see something moving under my skin!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>what is happening to me!</label>
+        <description>It's moving my organs around! What is it doing? I want it out!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>TAKE IT OUT!</label>
+        <description>TAKE IT OUT! TAKE IT OUT! TAKE IT OUT!</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>BaronEggIncubationThoughtLiked</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BaronEggIncubation</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>Masochist</li>
+      <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>TentacleSlut</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>baron egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me! It's working!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's moving</label>
+        <description>I feel it streching it's tentacles through my body, crawling their way to my deepest places.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>The tentacles are everywhere inside me know. I'm in heaven.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's nearly grown</label>
+        <description>Ohhh my god. Yesss! I'm so glad I ate that egg.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>baron egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me! It's working!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's moving</label>
+        <description>I feel it streching it's tentacles through my body, crawling their way to my deepest places.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>The tentacles are everywhere inside me know. I'm in heaven.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's nearly grown</label>
+        <description>Ohhh my god. Yesss! I'm so glad I ate that egg.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>BaronessEggIncubationThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BaronessEggIncubation</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+      <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>TentacleSlut</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>baroness egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>I feel so bloated, and I can see something moving under my skin!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>what is happening to me!</label>
+        <description>It's moving my organs around! What is it doing? I want it out!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>TAKE IT OUT!</label>
+        <description>TAKE IT OUT! TAKE IT OUT! TAKE IT OUT!</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+      <li>
+        <label>baroness egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>I feel so bloated, and I can see something moving under my skin!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>what is happening to me!</label>
+        <description>It's moving my organs around! What is it doing? I want it out!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>TAKE IT OUT!</label>
+        <description>TAKE IT OUT! TAKE IT OUT! TAKE IT OUT!</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>BaronessEggIncubationThoughtLiked</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BaronessEggIncubation</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>Masochist</li>
+      <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>TentacleSlut</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>baroness egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me! It's working!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's moving</label>
+        <description>I feel it streching it's tentacles through my body, crawling their way to my deepest places.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>The tentacles are everywhere inside me know. I'm in heaven.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's nearly grown</label>
+        <description>Ohhh my god. Yesss! I'm so glad I ate that egg.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>baroness egg</label>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>egg hatched</label>
+        <description>I felt something hatch inside me! It's working!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's moving</label>
+        <description>I feel it streching it's tentacles through my body, crawling their way to my deepest places.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's getting bigger</label>
+        <description>The tentacles are everywhere inside me know. I'm in heaven.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>it's nearly grown</label>
+        <description>Ohhh my god. Yesss! I'm so glad I ate that egg.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
     <defName>Queenpheromon</defName>
     <thoughtClass>Thought_PsychicHarmonizer</thoughtClass>
     <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>

@@ -86,6 +86,14 @@
 	<AmorQueenPregnancy.stages.2.label>fertile</AmorQueenPregnancy.stages.2.label>
 	<AmorQueenPregnancy.stages.3.label>breeder</AmorQueenPregnancy.stages.3.label>
 
+	<AmorBaronessPregnancy.label>Amor Baroness</AmorBaronessPregnancy.label>
+	<AmorBaronessPregnancy.labelNoun>Baroness</AmorBaronessPregnancy.labelNoun>
+	<AmorBaronessPregnancy.description>The Amor Baroness is permanently pregnant with Amor Squirmers. As she becomes accustomed to carrying them, her body adapts and grows more resilient.</AmorBaronessPregnancy.description>
+	<AmorBaronessPregnancy.stages.0.label>fresh</AmorBaronessPregnancy.stages.0.label>
+	<AmorBaronessPregnancy.stages.1.label>adapting</AmorBaronessPregnancy.stages.1.label>
+	<AmorBaronessPregnancy.stages.2.label>acclimated</AmorBaronessPregnancy.stages.2.label>
+	<AmorBaronessPregnancy.stages.3.label>empowered</AmorBaronessPregnancy.stages.3.label>
+
 	<TentacleStorage.label>tentacle storage</TentacleStorage.label>
 	<TentacleStorage.labelNoun>storage</TentacleStorage.labelNoun>
 	<TentacleStorage.description>Amor Squirmer tentacles are living inside the Host's body. Over time, they will increase the movement, regeneration, and psychic sensitivity of the Host.</TentacleStorage.description>
