@@ -43,6 +43,8 @@
 	<AmorQueenEgg.description>An Amor Queen Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Queen host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorQueenEgg.description>
 	<AmorBaronEgg.label>Amor Baron egg</AmorBaronEgg.label>
 	<AmorBaronEgg.description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorBaronEgg.description>
+	<AmorBaronessEgg.label>Amor Baroness egg</AmorBaronessEgg.label>
+	<AmorBaronessEgg.description>An Amor Baroness Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baroness host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorBaronessEgg.description>
 		
 	<!-- Tentacle eggs -->
 	<AmorBroodMotherEgg.label>Amor Brood Mother egg</AmorBroodMotherEgg.label>

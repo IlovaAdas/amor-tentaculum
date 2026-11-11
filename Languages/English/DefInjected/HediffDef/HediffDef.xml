@@ -132,6 +132,12 @@
 	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
+	<BaronessEggIncubationFailure.label>Baroness Egg rejection</BaronessEggIncubationFailure.label>
+	<BaronessEggIncubationFailure.labelNoun>rejection</BaronessEggIncubationFailure.labelNoun>
+	<BaronessEggIncubationFailure.description>The Amor Baroness egg is rejecting this host body. It will result in a slow and painful death...</BaronessEggIncubationFailure.description>
+	<BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
 	<QueenEggOverrideFailure.label>Queen incubation failure</QueenEggOverrideFailure.label>
 	<QueenEggOverrideFailure.labelNoun>failure</QueenEggOverrideFailure.labelNoun>
 	<QueenEggOverrideFailure.description>The attempt to implant an Amor Queen egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</QueenEggOverrideFailure.description>
@@ -144,6 +150,12 @@
 	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
+	<BaronessEggOverrideFailure.label>Baroness incubation failure</BaronessEggOverrideFailure.label>
+	<BaronessEggOverrideFailure.labelNoun>failure</BaronessEggOverrideFailure.labelNoun>
+	<BaronessEggOverrideFailure.description>The attempt to implant an Amor Baroness egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</BaronessEggOverrideFailure.description>
+	<BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
 	<QueenEggIncubationSuccess.label>Queen egg incubation</QueenEggIncubationSuccess.label>
 	<QueenEggIncubationSuccess.labelNoun>incubation</QueenEggIncubationSuccess.labelNoun>
 	<QueenEggIncubationSuccess.description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</QueenEggIncubationSuccess.description>
@@ -151,6 +163,10 @@
 	<BaronEggIncubationSuccess.label>Baron egg incubation</BaronEggIncubationSuccess.label>
 	<BaronEggIncubationSuccess.labelNoun>incubation</BaronEggIncubationSuccess.labelNoun>
 	<BaronEggIncubationSuccess.description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</BaronEggIncubationSuccess.description>
+
+	<BaronessEggIncubationSuccess.label>Baroness egg incubation</BaronessEggIncubationSuccess.label>
+	<BaronessEggIncubationSuccess.labelNoun>incubation</BaronessEggIncubationSuccess.labelNoun>
+	<BaronessEggIncubationSuccess.description>An Amor Baroness egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baroness. The incubation process takes approximately 15 days (with default multipliers).</BaronessEggIncubationSuccess.description>
 
 	<QueenEggIncubation.label>Queen egg incubation</QueenEggIncubation.label>
 	<QueenEggIncubation.labelNoun>incubation</QueenEggIncubation.labelNoun>
@@ -163,7 +179,7 @@
 	<QueenEggIncubation.stages.3.label>growing</QueenEggIncubation.stages.3.label>
 	<QueenEggIncubation.stages.4.label>nearly grown</QueenEggIncubation.stages.4.label>
 
-	<BaronEggIncubation.label>Queen egg incubation</BaronEggIncubation.label>
+	<BaronEggIncubation.label>Baron egg incubation</BaronEggIncubation.label>
 	<BaronEggIncubation.labelNoun>incubation</BaronEggIncubation.labelNoun>
 	<BaronEggIncubation.description>An Amor Baron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</BaronEggIncubation.description>
 	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
@@ -173,6 +189,17 @@
 	<BaronEggIncubation.stages.2.label>larva</BaronEggIncubation.stages.2.label>
 	<BaronEggIncubation.stages.3.label>growing</BaronEggIncubation.stages.3.label>
 	<BaronEggIncubation.stages.4.label>nearly grown</BaronEggIncubation.stages.4.label>
+
+	<BaronessEggIncubation.label>Baroness egg incubation</BaronessEggIncubation.label>
+	<BaronessEggIncubation.labelNoun>incubation</BaronessEggIncubation.labelNoun>
+	<BaronessEggIncubation.description>An Amor Baroness egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baroness. The incubation process takes approximately 15 days (with default multipliers).</BaronessEggIncubation.description>
+	<BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<BaronessEggIncubation.stages.0.label>incubating egg</BaronessEggIncubation.stages.0.label>
+	<BaronessEggIncubation.stages.1.label>hatched</BaronessEggIncubation.stages.1.label>
+	<BaronessEggIncubation.stages.2.label>larva</BaronessEggIncubation.stages.2.label>
+	<BaronessEggIncubation.stages.3.label>growing</BaronessEggIncubation.stages.3.label>
+	<BaronessEggIncubation.stages.4.label>nearly grown</BaronessEggIncubation.stages.4.label>
 
 	<TentacleInfestedAnus.label>stretched rectum</TentacleInfestedAnus.label>
 	<TentacleInfestedAnus.labelNoun>rectum</TentacleInfestedAnus.labelNoun>
@@ -214,7 +241,13 @@
 	<BaronTransform.description>The Amor Baron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronTransform.description>
 	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>
-	
+
+	<BaronessTransform.label>genetic transformation</BaronessTransform.label>
+	<BaronessTransform.labelNoun>genetic transformation</BaronessTransform.labelNoun>
+	<BaronessTransform.description>The Amor Baroness egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronessTransform.description>
+	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>
+
 	<!-- Tentacle hediffs -->
 	<BodyVagrancy.label>body vagrancy</BodyVagrancy.label>
 	<BodyVagrancy.labelNoun>vagrancy</BodyVagrancy.labelNoun>

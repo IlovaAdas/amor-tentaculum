@@ -7,6 +7,9 @@
 	<AmorBaronXenotype.label>Amor Baron</AmorBaronXenotype.label>
 	<AmorBaronXenotype.description>A human Host that has been genetically modified into an Amor Baron. The Baron acts as a defender for the colony, and can also provide mobile storage for Amor Squirmer tentacles.</AmorBaronXenotype.description>
 	<AmorBaronXenotype.descriptionShort>A human Host that has been genetically modified into an Amor Baron.</AmorBaronXenotype.descriptionShort>
-	
-	
+
+	<AmorBaronessXenotype.label>Amor Baroness</AmorBaronessXenotype.label>
+	<AmorBaronessXenotype.description>A human Host that has been genetically modified into an Amor Baroness. She carries Amor Squirmer tentacles and can transfer them to other Hosts.</AmorBaronessXenotype.description>
+	<AmorBaronessXenotype.descriptionShort>A human Host that carries Amor Squirmer tentacles for other Hosts.</AmorBaronessXenotype.descriptionShort>
+
 </languageData>
