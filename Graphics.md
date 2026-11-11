@@ -27,7 +27,7 @@
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Tentacle Floor | NYI | NYI | |
-| Buildings | Utility | Hive Wall | NYI | NYI | |
+| Buildings | Utility | Hive Wall | ![](./Textures/Things/Buildings/Wall/TendrilWalls_Atlas.png) | `Textures/Things/Buildings/Wall` | |
 | Buildings | Utility | Sphincter Door | NYI | NYI | |
 | Buildings | Utility | Recycling Pod | NYI | NYI | Something that looks very violent and lethal for the pawn going into it. |
 | Buildings | Utility | Indoctrination Pod | NYI | NYI | Time to lean into the "tentacle violation" fetish... make sure the pawn is at least somewhat visible, for Onahole mechanics. |
