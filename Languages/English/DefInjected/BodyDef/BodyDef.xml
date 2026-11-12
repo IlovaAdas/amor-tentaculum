@@ -36,6 +36,20 @@
 	<BrewerBody.corePart.parts.rear_left_tentacle_leg.customLabel>rear left tentacle leg</BrewerBody.corePart.parts.rear_left_tentacle_leg.customLabel>
 	<BrewerBody.corePart.parts.rear_right_tentacle_leg.customLabel>rear right tentacle leg</BrewerBody.corePart.parts.rear_right_tentacle_leg.customLabel>
 
+	<!-- Amor Striker -->
+	<StrikerBody.label>Striker body</StrikerBody.label>
+	<StrikerBody.corePart.parts.left_lung.customLabel>left lung</StrikerBody.corePart.parts.left_lung.customLabel>
+	<StrikerBody.corePart.parts.right_lung.customLabel>right lung</StrikerBody.corePart.parts.right_lung.customLabel>
+	<StrikerBody.corePart.parts.left_kidney.customLabel>left kidney</StrikerBody.corePart.parts.left_kidney.customLabel>
+	<StrikerBody.corePart.parts.right_kidney.customLabel>right kidney</StrikerBody.corePart.parts.right_kidney.customLabel>
+	<StrikerBody.corePart.parts.mouth_tentacle.customLabel>mouth tentacle</StrikerBody.corePart.parts.mouth_tentacle.customLabel>
+	<StrikerBody.corePart.parts.mouth_tentacle.parts.mouth.customLabel>mouth</StrikerBody.corePart.parts.mouth_tentacle.parts.mouth.customLabel>
+	<StrikerBody.corePart.parts.front_left_leg.customLabel>front left leg</StrikerBody.corePart.parts.front_left_leg.customLabel>
+	<StrikerBody.corePart.parts.front_right_leg.customLabel>front right leg</StrikerBody.corePart.parts.front_right_leg.customLabel>
+	<StrikerBody.corePart.parts.middle_leg.customLabel>middle leg</StrikerBody.corePart.parts.middle_leg.customLabel>
+	<StrikerBody.corePart.parts.rear_left_leg.customLabel>rear left leg</StrikerBody.corePart.parts.rear_left_leg.customLabel>
+	<StrikerBody.corePart.parts.rear_right_leg.customLabel>rear right leg</StrikerBody.corePart.parts.rear_right_leg.customLabel>
+
 	<!-- Amor Brood Mother -->
 	<BroodMotherBody.label>Brood Mother body</BroodMotherBody.label>
 	<BroodMotherBody.corePart.parts.left_elytra.customLabel>left elytra</BroodMotherBody.corePart.parts.left_elytra.customLabel>

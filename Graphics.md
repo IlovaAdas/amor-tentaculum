@@ -5,7 +5,7 @@
 | Tentacle | Male | Grazer | ![](./Textures/Things/Pawns/Grazer/Grazer_east.png) | `Textures/Things/Pawns/Grazer` | |
 | Tentacle | Male | Stinger | ![](./Textures/Things/Pawns/Stinger/Stinger_east.png) | `Textures/Things/Pawns/Stinger` | |
 | Tentacle | Male | Borer | ![](./Textures/Things/Pawns/Borer/Borer_east.png) | `Textures/Things/Pawns/Borer` | |
-| Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
+| Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Striker/Striker_east.png) | `Textures/Things/Pawns/Striker` | |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
 | Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/BroodMother/BroodMother_east.png) | `Textures/Things/Pawns/BroodMother` | |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
