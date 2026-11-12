@@ -3,6 +3,7 @@
 	<MovingBodyTentacleBeast.label>body</MovingBodyTentacleBeast.label>
 	<TentacleBeastHead.label>head</TentacleBeastHead.label>
 	<Tentacle.label>tentacle</Tentacle.label>
+	<SmallTentacle.label>small tentacle</SmallTentacle.label>
 	<TentacleSpike.label>spike</TentacleSpike.label>
 	<TentacleLeg.label>tentacle</TentacleLeg.label>
 	<LargeTentacle.label>large tentacle</LargeTentacle.label>

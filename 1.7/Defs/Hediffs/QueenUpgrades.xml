@@ -2,8 +2,6 @@
 
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>TWombItem</defName>
-    <label>in utero incubater</label>
-    <description>An advanced artificial womb implant designed to aid in the incubation of Amor Brood Mother eggs.</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallTWombEnhance</RecipeDef>
     </descriptionHyperlinks>
@@ -52,14 +50,11 @@
   </HediffDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>InstallTWombEnhance</defName>
-    <label>install in utero incubater</label>
-    <description>Install an in utero incubater.</description>
+		<defName>InstallTWombEnhance</defName>
     <descriptionHyperlinks>
       <ThingDef>TWombItem</ThingDef>
       <HediffDef>TWombEnhanced</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing utero incubater.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -84,8 +79,6 @@
 
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>TSpecItem</defName>
-    <label>anal speculum</label>
-    <description>A plasteel speculum implant designed to open the anus wider for further tentacle insertions.</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallTAnusEnhance</RecipeDef>
     </descriptionHyperlinks>
@@ -130,13 +123,10 @@
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallTAnusEnhance</defName>
-    <label>install speculum</label>
-    <description>Install an anal speculum.</description>
     <descriptionHyperlinks>
       <ThingDef>TSpecItem</ThingDef>
       <HediffDef>ImplantAnalSpeculum</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing anal speculum.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -161,8 +151,6 @@
 
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>TStomachEItem</defName>
-    <label>storage stomach</label>
-    <description>An advanced stomach implant completely removing the original use for the organ in favor of letting tentacles handle digestive processes, and allowing more of them to ocupy the host body.</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallTStomachEnhance</RecipeDef>
     </descriptionHyperlinks>
@@ -208,13 +196,10 @@
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallTStomachEnhance</defName>
-    <label>install storage stomach</label>
-    <description>Install a storage stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>TSpecItem</ThingDef>
       <HediffDef>ImplantAnalSpeculum</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing storage stomach.</jobString>
     <ingredients>
       <li>
         <filter>

@@ -27,6 +27,20 @@
 	
 	<!-- TODO: Implants (not yet finalized) -->
 
+	<IndoWorm.label>indoctrination worm</IndoWorm.label>
+	<IndoWorm.description>A parisitic worm, implanted in the victim's brain stem. Keeps them content and willing to sacrifice themselves, even under horrible conditions.</IndoWorm.description>
+	<BreedWorm.label>breeding worm</BreedWorm.label>
+	<BreedWorm.description>A parisitic worm, implanted in the victim's brain stem. Causes excessive arousal, significant energy boosts, and will trigger aggressive behavior.</BreedWorm.description>
+	<FeedWorm.label>feeding worm</FeedWorm.label>
+	<FeedWorm.description>A tentacle meant, implanted in the patient's esophagus. Rapidly digests food for them and injects it as a slurry into the stomach. Makes the target immune to gut worms and food poisoning.</FeedWorm.description>
+	<TWombItem.label>in-utero incubator</TWombItem.label>
+	<TWombItem.description>An Womb implant for Amor Queens which aids in the incubation of Amor Brood Mother eggs.</TWombItem.description>
+	<TSpecItem.label>anal speculum</TSpecItem.label>
+	<TSpecItem.description>An speculum that permanently forces the rectum further open, allowing for additional tentacle capacity.</TSpecItem.description>
+	<TStomachEItem.label>storage stomach</TStomachEItem.label>
+	<TStomachEItem.description>A stomach replacement that lets ingested tentacles handle digestive processes for the Host. This affords the Host with additional tentacle capacity.</TStomachEItem.description>
+	
+	
 	<!-- Tentacle pawn types -->
 	<!-- Note that these should be capitalized! -->
 	<TentacleBroodMother.label>Amor Brood Mother</TentacleBroodMother.label>

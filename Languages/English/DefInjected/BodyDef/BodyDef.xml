@@ -45,6 +45,41 @@
 	<BroodMotherBody.corePart.parts.rear_left_leg.customLabel>rear left leg</BroodMotherBody.corePart.parts.rear_left_leg.customLabel>
 	<BroodMotherBody.corePart.parts.rear_right_leg.customLabel>rear right leg</BroodMotherBody.corePart.parts.rear_right_leg.customLabel>
 
+	<!-- Amor War Womb -->
+	<WarWombBody.label>War Womb body</WarWombBody.label>
+	<WarWombBody.corePart.parts.left_elytra.customLabel>left elytra</WarWombBody.corePart.parts.left_elytra.customLabel>
+	<WarWombBody.corePart.parts.right_elytra.customLabel>right elytra</WarWombBody.corePart.parts.right_elytra.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_eye.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_eye.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_antenna.customLabel>left antenna</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_antenna.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_antenna.customLabel>right antenna</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_antenna.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_front_tentacle.customLabel>upper left front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_middle_front_tentacle.customLabel>upper left middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_middle_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_middle_front_tentacle.customLabel>upper right middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_middle_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_front_tentacle.customLabel>upper right front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_front_tentacle.customLabel>lower left front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_middle_front_tentacle.customLabel>lower left middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_middle_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_middle_front_tentacle.customLabel>lower right middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_middle_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_front_tentacle.customLabel>lower right front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.front_left_leg.customLabel>front left leg</WarWombBody.corePart.parts.front_left_leg.customLabel>
+	<WarWombBody.corePart.parts.front_right_leg.customLabel>front right leg</WarWombBody.corePart.parts.front_right_leg.customLabel>
+	<WarWombBody.corePart.parts.middle_left_leg.customLabel>middle left leg</WarWombBody.corePart.parts.middle_left_leg.customLabel>
+	<WarWombBody.corePart.parts.middle_right_leg.customLabel>middle right leg</WarWombBody.corePart.parts.middle_right_leg.customLabel>
+	<WarWombBody.corePart.parts.rear_left_leg.customLabel>rear left leg</WarWombBody.corePart.parts.rear_left_leg.customLabel>
+	<WarWombBody.corePart.parts.rear_right_leg.customLabel>rear right leg</WarWombBody.corePart.parts.rear_right_leg.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.customLabel>upper torso</WarWombBody.corePart.parts.upper_torso.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.left_lung.customLabel>left lung</WarWombBody.corePart.parts.upper_torso.parts.left_lung.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.right_lung.customLabel>right lung</WarWombBody.corePart.parts.upper_torso.parts.right_lung.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_human_eye.customLabel>left eye</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_human_eye.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_human_eye.customLabel>right eye</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_human_eye.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_ear.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_ear.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.mouth.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.customLabel>left shoulder</WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.parts.left_arm.customLabel>left arm</WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.parts.left_arm.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.right_shoulder.customLabel>right shoulder</WarWombBody.corePart.parts.upper_torso.parts.right_shoulder.customLabel>
+	<WarWombBody.corePart.parts.upper_torso.parts.right_shoulder.parts.right_arm.customLabel>right arm</WarWombBody.corePart.parts.upper_torso.parts.right_shoulder.parts.right_arm.customLabel>
+
 	<!-- Amor Spawner -->
 	<SpawnerBody.label>Spawner body</SpawnerBody.label>
 	<SpawnerBody.corePart.parts.right_lung.customLabel>right lung</SpawnerBody.corePart.parts.right_lung.customLabel>

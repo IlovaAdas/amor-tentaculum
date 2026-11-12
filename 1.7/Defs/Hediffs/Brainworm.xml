@@ -29,8 +29,6 @@
 
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>IndoWorm</defName>
-    <label>Indoctrination Worm</label>
-    <description>A parisitic worm to be implanted in the brain stem. Keeps the victim content and ready to die even under horrible conditions.</description>
     <descriptionHyperlinks><RecipeDef>InstallIndoWorm</RecipeDef></descriptionHyperlinks>
    <graphicData>
       <texPath>Things/Items/BrainLarve/WLarvae</texPath>
@@ -57,13 +55,10 @@
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
     <defName>InstallIndoWorm</defName>
-    <label>implant indoctrination worm</label>
-    <description>Implant a indoctrination worm.</description>
     <descriptionHyperlinks>
       <ThingDef>IndoWorm</ThingDef>
       <HediffDef>IBworm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Implanting indoctrination worm.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -87,20 +82,16 @@
 
   <RecipeDef ParentName="SurgeryRemoveImplantBase">
     <defName>RemoveIBworm</defName>
-    <label>remove indoctrination worm</label>
-    <description>Remove the indoctrination worm.</description>
     <descriptionHyperlinks>
       <ThingDef>IndoWorm</ThingDef>
       <HediffDef>IBworm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Removing indoctrination worm.</jobString>
     <removesHediff>IBworm</removesHediff>
+		<!-- TODO: This should probably add some sort of "wearing off" hediff. -->
   </RecipeDef>
 
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>BreedWorm</defName>
-    <label>Breeding Worm</label>
-    <description>A parisitic worm to be implanted in the brain stem. Causes excessive arousal, energy, and agression.</description>
     <descriptionHyperlinks><RecipeDef>InstallBreedWorm</RecipeDef></descriptionHyperlinks>
    <graphicData>
       <texPath>Things/Items/BrainLarve/WLarvae</texPath>
@@ -127,13 +118,10 @@
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
     <defName>InstallBreedWorm</defName>
-    <label>implant breeding worm</label>
-    <description>Implant a breeding worm.</description>
     <descriptionHyperlinks>
       <ThingDef>BreedWorm</ThingDef>
       <HediffDef>Bworm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Implanting breeding worm.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -157,13 +145,10 @@
 
   <RecipeDef ParentName="SurgeryRemoveImplantBase">
     <defName>RemoveBworm</defName>
-    <label>remove breeding worm</label>
-    <description>Remove the breeding worm.</description>
     <descriptionHyperlinks>
       <ThingDef>BreedWorm</ThingDef>
       <HediffDef>Bworm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Removing breeding worm.</jobString>
     <removesHediff>Bworm</removesHediff>
   </RecipeDef>
 
@@ -197,9 +182,7 @@
 
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>FeedWorm</defName>
-    <label>Feeding Tentacle</label>
-    <description>A tentacle ment for insertion in the throat. Rapidly digests food for the host and injects it as a slurry down the throat. Makes the target immune to gutworms, and food poisoning.</description>
-    <descriptionHyperlinks><RecipeDef>InstallfeedWorm</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>InstallFeedWorm</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
@@ -220,14 +203,11 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
-    <defName>InstallfeedWorm</defName>
-    <label>Insert feeding tentacle</label>
-    <description>Insert a feeding tentacle.</description>
+    <defName>InstallFeedWorm</defName>
     <descriptionHyperlinks>
       <ThingDef>FeedWorm</ThingDef>
       <HediffDef>Fworm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Inserting feeding tentacle.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -250,22 +230,17 @@
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryRemoveImplantBase">
-    <defName>RemoveFeedworm</defName>
-    <label>remove feeding tentacle</label>
-    <description>Remove the feeding tentacle.</description>
+    <defName>RemoveFeedWorm</defName>
     <descriptionHyperlinks>
       <ThingDef>FeedWorm</ThingDef>
       <HediffDef>Fworm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Removing feeding tentacle.</jobString>
     <removesHediff>Fworm</removesHediff>
   </RecipeDef>
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>Fworm</defName>
     <label>Feeding Tentacle</label>
-    <labelNoun>a feeding tentacle</labelNoun>
-    <description>A tentacle living in the throat and mouth. Rapidly digests food for the host and injects it as a slurry down the throat. Makes the target immune to gutworms, and food poisoning.</description>
     <descriptionHyperlinks><ThingDef>FeedWorm</ThingDef></descriptionHyperlinks>
     <renderNodeProperties>
             <li Class="PawnRenderNodeProperties_Eye">

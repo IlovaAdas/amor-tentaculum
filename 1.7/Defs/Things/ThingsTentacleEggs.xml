@@ -12,7 +12,7 @@
 		</statBases>
 		<comps>
 			<li Class="AmorTentaculum.CompProperties_FactionHatcher">
-				<hatcherDaystoHatch>0.5</hatcherDaystoHatch> <!-- TODO: Back to normal values. -->
+				<hatcherDaystoHatch>2.5</hatcherDaystoHatch>
 				<hatcherPawn>TentacleBroodMother</hatcherPawn>
 			</li>
 		</comps>
@@ -20,11 +20,6 @@
 		
 	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
 		<defName>AmorSquirmerEgg</defName>
-		<!-- 
-		<label>Amor Squirmer egg</label>
-		<labelNoun>Amor Squirmer egg</labelNoun>
-		<description>An Amor Squirmer tentacle egg, growing inside the Tentacle.</description>
-		-->
 		<parentDefs>
 			<li>TentacleSpawner</li>
 		</parentDefs>
