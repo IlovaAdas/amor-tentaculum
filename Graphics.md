@@ -19,7 +19,7 @@
 | Material | Natural | Soft Resin | ![](./Textures/Things/Items/SoftRes/SoftResinA.png) ![](./Textures/Things/Items/SoftRes/SoftResinB.png) | `Textures/Things/Items/SoftRes` | |
 | Material | Natural | Soft Flesh | ![](./Textures/Things/Items/SoftFlesh/SoftFleshA.png) ![](./Textures/Things/Items/SoftFlesh/SoftFleshB.png) | `Textures/Things/Items/SoftFlesh` | |
 | Material | Natural | Tentacle Slime | ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeA.png) ![](./Textures/Things/Items/TentacleSlime/TentacleSlimeB.png) | `Textures/Things/Items/TentacleSlime` | |
-| Material | Crafted | Tentacle Catalyst | NYI | NYI | Some sort of biological piece. It's basically what's left of a person and is produced from the Recycling Pod. |
+| Material | Crafted | Tentacle Catalyst | ![](./Textures/Things/Items/Catalyst/Catalyst.png) | `Textures/Things/Items/Catalyst` | |
 | Drugs | Natural | Amornuum | ![](./Textures/Things/Items/Food/Amornuum/AmornuumA.png) ![](./Textures/Things/Items/Food/Amornuum/AmornuumB.png) | `Textures/Things/Items/Food/Amornuum` | |
 | Drugs | Natural | NotSlurm | ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkA.png) ![](./Textures/Things/Items/Food/NotSlurm/LewdDrinkB.png) | `Textures/Things/Items/Food/NotSlurm` | |
 | Buildings | Utility | Tentacle Workbench | ![](./Textures/Things/Buildings/Workbench/TentacleWorkbench_north.png) | `Textures/Things/Buildings/Workbench` | |
@@ -32,7 +32,7 @@
 | Buildings | Utility | Recycling Pod | ![](./Textures/Things/Buildings/Pods/RecyclerPod_south.png) | `Textures/Things/Buildings/Pods` | |
 | Buildings | Utility | Indoctrination Pod | NYI | NYI | Time to lean into the "tentacle violation" fetish... make sure the pawn is at least somewhat visible, for Onahole mechanics. |
 | Buildings | Utility | Transformation Pod | NYI | NYI | More of a womb-like structure here. What comes out will be nothing like what goes in. |
-| Buildings | Utility | Tentacle Trophy | NYI | NYI | Lean into the "trapped and pleasured forever" kink as hard as you want... |
+| Buildings | Utility | Tentacle Trophy | ![](./Textures/Things/Buildings/Trophy/TentacleTrophyFemale.png) (female) NYI (male) | `Textures/Things/Buildings/Trophy` | |
 | Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | |
 | Buildings | Defensive | Paralysis Trap | NYI | NYI | |
 | Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
