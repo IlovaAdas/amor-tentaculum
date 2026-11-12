@@ -17,6 +17,7 @@
 	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
 	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_ear.customLabel>left ear</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_ear.customLabel>
 	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_ear.customLabel>right ear</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_ear.customLabel>
+	<SpawnerBody.corePart.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</SpawnerBody.corePart.parts.TentacleBeastHead.parts.mouth.customLabel>
 	<SpawnerBody.corePart.parts.left_shoulder.customLabel>left shoulder</SpawnerBody.corePart.parts.left_shoulder.customLabel>
 	<SpawnerBody.corePart.parts.left_shoulder.parts.left_tentacle_arm.customLabel>left tentacle arm</SpawnerBody.corePart.parts.left_shoulder.parts.left_tentacle_arm.customLabel>
 	<SpawnerBody.corePart.parts.right_shoulder.customLabel>right shoulder</SpawnerBody.corePart.parts.right_shoulder.customLabel>
@@ -47,4 +48,21 @@
 	<GrazerBody.corePart.parts.front_left_tentacle.customLabel>front left tentacle</GrazerBody.corePart.parts.front_left_tentacle.customLabel>
 	<GrazerBody.corePart.parts.front_right_tentacle.customLabel>front right tentacle</GrazerBody.corePart.parts.front_right_tentacle.customLabel>
 	<GrazerBody.corePart.parts.rear_tentacle.customLabel>rear tentacle</GrazerBody.corePart.parts.rear_tentacle.customLabel>
+	<HunterBody.label>Hunter body</HunterBody.label>
+	<HunterBody.corePart.parts.left_lung.customLabel>left lung</HunterBody.corePart.parts.left_lung.customLabel>
+	<HunterBody.corePart.parts.right_lung.customLabel>right lung</HunterBody.corePart.parts.right_lung.customLabel>
+	<HunterBody.corePart.parts.left_kidney.customLabel>left kidney</HunterBody.corePart.parts.left_kidney.customLabel>
+	<HunterBody.corePart.parts.right_kidney.customLabel>right kidney</HunterBody.corePart.parts.right_kidney.customLabel>
+	<HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>
+	<HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
+	<HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>
+	<HunterBody.corePart.parts.upper_left_shoulder.customLabel>upper left shoulder</HunterBody.corePart.parts.upper_left_shoulder.customLabel>
+	<HunterBody.corePart.parts.upper_left_shoulder.parts.upper_left_arm.customLabel>upper left arm</HunterBody.corePart.parts.upper_left_shoulder.parts.upper_left_arm.customLabel>
+	<HunterBody.corePart.parts.upper_right_shoulder.customLabel>upper right shoulder</HunterBody.corePart.parts.upper_right_shoulder.customLabel>
+	<HunterBody.corePart.parts.upper_right_shoulder.parts.upper_right_arm.customLabel>upper right arm</HunterBody.corePart.parts.upper_right_shoulder.parts.upper_right_arm.customLabel>
+	<HunterBody.corePart.parts.lower_left_shoulder.customLabel>lower left shoulder</HunterBody.corePart.parts.lower_left_shoulder.customLabel>
+	<HunterBody.corePart.parts.lower_left_shoulder.parts.lower_left_arm.customLabel>lower left arm</HunterBody.corePart.parts.lower_left_shoulder.parts.lower_left_arm.customLabel>
+	<HunterBody.corePart.parts.lower_right_shoulder.customLabel>lower right shoulder</HunterBody.corePart.parts.lower_right_shoulder.customLabel>
+	<HunterBody.corePart.parts.lower_right_shoulder.parts.lower_right_arm.customLabel>lower right arm</HunterBody.corePart.parts.lower_right_shoulder.parts.lower_right_arm.customLabel>
+	<HunterBody.corePart.parts.locomotion_tentacle.customLabel>locomotion tentacle</HunterBody.corePart.parts.locomotion_tentacle.customLabel>
 </languageData>
