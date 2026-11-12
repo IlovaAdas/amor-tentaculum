@@ -1,7 +1,7 @@
 <Defs>
 
-	<ThingDef ParentName="BuildingBase" Name="TestWall">
-		<defName>TestWall</defName>
+	<ThingDef ParentName="BuildingBase" Name="HiveWall">
+		<defName>HiveWall</defName>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<noRightClickDraftAttack>true</noRightClickDraftAttack>
@@ -28,16 +28,6 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Buildings/Wall/TentrilWalls_Icon</uiIconPath>
-		<uiIconPathsStuff>
-			<li>
-				<appearance>Planks</appearance>
-				<iconPath>Things/Building/Linked/WallPlanks_MenuIcon</iconPath>
-			</li>
-			<li>
-				<appearance>Bricks</appearance>
-				<iconPath>Things/Building/Linked/WallBricks_MenuIcon</iconPath>
-			</li>
-		</uiIconPathsStuff>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>135</WorkToBuild>
@@ -68,9 +58,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<fertility>0</fertility>
 		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
+			<li>Resinous</li>
 		</stuffCategories>
 		<building>
 			<paintable>true</paintable>

@@ -32,6 +32,7 @@
       <stuffAdjective>resin</stuffAdjective>
       <categories>
         <li>Woody</li>
+				<li>Resinous</li>
       </categories>
       <commonality>0.0001</commonality>
       <color>(203,180,227)</color>
@@ -92,6 +93,7 @@
     <stuffProps>
       <categories>
         <li>Metallic</li>
+				<li>Resinous</li>
       </categories>
       <appearance>Metal</appearance>
       <commonality>0.0001</commonality>

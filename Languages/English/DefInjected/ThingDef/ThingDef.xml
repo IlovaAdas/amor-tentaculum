@@ -14,8 +14,8 @@
 	<sphincterdoor.description>Divides rooms. This organic tentacle sphincter allows people to move through the door without slowing down, although they may feel a little strange about the process.</sphincterdoor.description>
 	<Building_RecyclingPod.label>recycling pod</Building_RecyclingPod.label>
 	<Building_RecyclingPod.description>A biological structure that will break its occupant down into component parts, turning it into raw resources. Needless to say, this is fatal for the pawn.</Building_RecyclingPod.description>
-	<TestWall.label>test wall</TestWall.label>
-	<TestWall.description>In-Progress Test for Wall Texture Tessellation.</TestWall.description>
+	<HiveWall.label>hive wall</HiveWall.label>
+	<HiveWall.description>An impassable wall. Capable of holding up a roof. This one is crafted from resinous tentacles.</HiveWall.description>
 	<TentacleWorkbench.label>tentacle workbench</TentacleWorkbench.label>
 	<TentacleWorkbench.description>A workbench equipped with all of the equipment required to craft basic tentacle-related things.</TentacleWorkbench.description>
 	<WombWorker.label>womb worker</WombWorker.label>
