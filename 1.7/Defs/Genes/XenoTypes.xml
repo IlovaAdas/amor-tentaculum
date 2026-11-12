@@ -1,5 +1,7 @@
 <Defs>
 
+		<!-- Female Hosts-->
+
   <XenotypeDef>
     <defName>AmorQueenXenotype</defName>
     <iconPath>Genes/Xenotype-host</iconPath>
@@ -12,6 +14,35 @@
       <li>rjw_genes_female_only</li>
     </genes>
   </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>AmorBaronessXenotype</defName>
+    <iconPath>Genes/Xenotype-host</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>0</chanceToUseNameMaker>
+    <genes>
+      <li>AmorBaronessHostBody</li>
+      <li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+      <li>HostTentacleNeed</li>
+      <li>rjw_genes_female_only</li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>AmorNymphXenotype</defName>
+    <iconPath>Genes/Xenotype-host</iconPath>
+    <inheritable>false</inheritable>
+    <chanceToUseNameMaker>0</chanceToUseNameMaker>
+    <genes>
+      <li>AmorNymphHostBody</li>
+      <li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+      <li>HostTentacleNeed</li>
+      <li>rjw_genes_female_only</li>
+    </genes>
+  </XenotypeDef>
+
+
+		<!-- Male Hosts-->
 
 	<XenotypeDef>
 		<defName>AmorBaronXenotype</defName>
@@ -27,28 +58,41 @@
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>AmorBaronessXenotype</defName>
+		<defName>AmorRogueXenotype</defName>
 		<iconPath>Genes/Xenotype-host</iconPath>
 		<inheritable>false</inheritable>
 		<chanceToUseNameMaker>0</chanceToUseNameMaker>
 		<genes>
-			<li>AmorBaronessHostBody</li>
-			<li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+			<li>AmorRogueHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
 			<li>HostTentacleNeed</li>
-			<li>rjw_genes_female_only</li>
+			<li>rjw_genes_male_only</li>
 		</genes>
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>AmorNymphXenotype</defName>
+		<defName>AmorKnightXenotype</defName>
 		<iconPath>Genes/Xenotype-host</iconPath>
 		<inheritable>false</inheritable>
 		<chanceToUseNameMaker>0</chanceToUseNameMaker>
 		<genes>
-			<li>AmorNymphHostBody</li>
-			<li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
+			<li>AmorKnightHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
 			<li>HostTentacleNeed</li>
-			<li>rjw_genes_female_only</li>
+			<li>rjw_genes_male_only</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>AmorServantXenotype</defName>
+		<iconPath>Genes/Xenotype-host</iconPath>
+		<inheritable>false</inheritable>
+		<chanceToUseNameMaker>0</chanceToUseNameMaker>
+		<genes>
+			<li>AmorServantHostBody</li>
+			<li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
+			<li>HostTentacleNeed</li>
+			<li>rjw_genes_male_only</li>
 		</genes>
 	</XenotypeDef>
 
@@ -66,7 +110,7 @@
       <li>THostBodyM</li>
       <li>RJWGenes_AmorTentacleInfestedMaleGenitalia</li>
       <li>HostTentacleNeedM</li>
-	  <li>MalumHost</li>
+      <li>MalumHost</li>
       <li>rjw_genes_male_only</li>
     </genes>
   </XenotypeDef>

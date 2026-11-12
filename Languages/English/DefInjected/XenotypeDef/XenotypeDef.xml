@@ -1,19 +1,31 @@
 <languageData>
 
 	<AmorQueenXenotype.label>Amor Queen</AmorQueenXenotype.label>
-	<AmorQueenXenotype.description>A human Host that has been genetically modified into an Amor Queen. The Queen incubates and lays Amor Brood Mother eggs and also produces the Tentacle Slime resource.</AmorQueenXenotype.description>
-	<AmorQueenXenotype.descriptionShort>A human Host that has been genetically modified into an Amor Queen.</AmorQueenXenotype.descriptionShort>
-
-	<AmorBaronXenotype.label>Amor Baron</AmorBaronXenotype.label>
-	<AmorBaronXenotype.description>A human Host that has been genetically modified into an Amor Baron. The Baron acts as a defender for the colony, and can also provide mobile storage for Amor Squirmer tentacles.</AmorBaronXenotype.description>
-	<AmorBaronXenotype.descriptionShort>A human Host that has been genetically modified into an Amor Baron.</AmorBaronXenotype.descriptionShort>
+	<AmorQueenXenotype.description>A human Host that has been genetically modified into an Amor Queen. Incubates and lays Amor Brood Mother eggs while also producing Tentacle Slime.</AmorQueenXenotype.description>
+	<AmorQueenXenotype.descriptionShort>A female Host who creates Brood Mother eggs and Tentacle Slime.</AmorQueenXenotype.descriptionShort>
 
 	<AmorBaronessXenotype.label>Amor Baroness</AmorBaronessXenotype.label>
-	<AmorBaronessXenotype.description>A human Host that has been genetically modified into an Amor Baroness. She carries Amor Squirmer tentacles and can transfer them to other Hosts.</AmorBaronessXenotype.description>
-	<AmorBaronessXenotype.descriptionShort>A human Host that carries Amor Squirmer tentacles for other Hosts.</AmorBaronessXenotype.descriptionShort>
+	<AmorBaronessXenotype.description>A human Host that has been genetically modified into an Amor Baroness. Carries Amor Squirmer tentacles and can transfer them to other Hosts.</AmorBaronessXenotype.description>
+	<AmorBaronessXenotype.descriptionShort>A female Host who carries Amor Squirmer tentacles for other Hosts.</AmorBaronessXenotype.descriptionShort>
 
 	<AmorNymphXenotype.label>Amor Nymph</AmorNymphXenotype.label>
-	<AmorNymphXenotype.description>A human Host that has been genetically modified into an Amor Nymph. She uses Amor Squirmers to subdue hostile pawns and calm allies in a mental break.</AmorNymphXenotype.description>
+	<AmorNymphXenotype.description>A human Host that has been genetically modified into an Amor Nymph. Uses Amor Squirmers to subdue hostile pawns and calm allies in a mental break.</AmorNymphXenotype.description>
 	<AmorNymphXenotype.descriptionShort>A female Host who subdues enemies and placates allies.</AmorNymphXenotype.descriptionShort>
+
+	<AmorBaronXenotype.label>Amor Baron</AmorBaronXenotype.label>
+	<AmorBaronXenotype.description>A human Host that has been genetically modified into an Amor Baron. Acts as a defender for the colony, and mobile storage for Amor Squirmer tentacles.</AmorBaronXenotype.description>
+	<AmorBaronXenotype.descriptionShort>A male Host who supports and protects other hosts.</AmorBaronXenotype.descriptionShort>
+
+	<AmorRogueXenotype.label>Amor Rogue</AmorRogueXenotype.label>
+	<AmorRogueXenotype.description>A human Host that has been genetically modified into an Amor Rogue. Uses Amor Squirmers to temporarily turn invisible and ambush enemies.</AmorRogueXenotype.description>
+	<AmorRogueXenotype.descriptionShort>A male Host who stalks and ambushes enemies.</AmorRogueXenotype.descriptionShort>
+
+	<AmorKnightXenotype.label>Amor Knight</AmorKnightXenotype.label>
+	<AmorKnightXenotype.description>A human Host that has been genetically modified into an Amor Knight. Acts as the primary fighter, storing and using Amor Squirmers to excel at close-quarters combat.</AmorKnightXenotype.description>
+	<AmorKnightXenotype.descriptionShort>A male Host who subdues enemies through sheer strengh.</AmorKnightXenotype.descriptionShort>
+
+	<AmorServantXenotype.label>Amor Servant</AmorServantXenotype.label>
+	<AmorServantXenotype.description>A human Host that has been genetically modified into an Amor Servant. Acts as the primary worker, specializing in crafting-related work.</AmorServantXenotype.description>
+	<AmorServantXenotype.descriptionShort>A male Host who excels at labor-related tasks.</AmorServantXenotype.descriptionShort>
 
 </languageData>

@@ -12,13 +12,22 @@
 	<AmorQueenHostBody.label>Amor Queen</AmorQueenHostBody.label>
 	<AmorQueenHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles and a breeding nest for Amor Brood Mother eggs. They also secrete Tentacle Slime.</AmorQueenHostBody.description>
 
-	<AmorBaronHostBody.label>Amor Baron</AmorBaronHostBody.label>
-	<AmorBaronHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They protect the colony with defensive buffs and auras.</AmorBaronHostBody.description>
-
 	<AmorBaronessHostBody.label>Amor Baroness</AmorBaronessHostBody.label>
-	<AmorBaronessHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles, which they can transfer to other Hosts.</AmorBaronessHostBody.description>
+	<AmorBaronessHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They can efficiently store and transfer tentacles to other Hosts.</AmorBaronessHostBody.description>
 
 	<AmorNymphHostBody.label>Amor Nymph</AmorNymphHostBody.label>
-	<AmorNymphHostBody.description>Carriers of this gene can use their Amor Squirmers to seduce and incapacitate hostile pawns or placate allies in a mental break.</AmorNymphHostBody.description>
+	<AmorNymphHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They can seduce and incapacitate hostile pawns and placate allies in a mental break.</AmorNymphHostBody.description>
+
+	<AmorBaronHostBody.label>Amor Baron</AmorBaronHostBody.label>
+	<AmorBaronHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They can protect the colony with defensive buffs and auras.</AmorBaronHostBody.description>
+
+	<AmorRogueHostBody.label>Amor Rogue</AmorRogueHostBody.label>
+	<AmorRogueHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They can defend the colony by utilising temporary invisibility.</AmorRogueHostBody.description>
+
+	<AmorKnightHostBody.label>Amor Knight</AmorKnightHostBody.label>
+	<AmorKnightHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They can fight for the colony using advanced martial prowess. </AmorKnightHostBody.description>
+
+	<AmorServantHostBody.label>Amor Servant</AmorServantHostBody.label>
+	<AmorServantHostBody.description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles. They can support the colony by efficiently performing menial labor.</AmorServantHostBody.description>
 
 </languageData>
