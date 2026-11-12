@@ -33,6 +33,11 @@
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
+    <defName>Stinger</defName>
+    <listOrder>79</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
     <defName>FirstTentacle</defName>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
@@ -57,6 +62,17 @@
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
+  <BodyPartGroupDef>
+    <defName>SixthTentacle</defName>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+
+  <BodyPartGroupDef>
+    <defName>SeventhTentacle</defName>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
   <!-- Parts -->
 
   <BodyPartDef>
@@ -72,6 +88,19 @@
     <canSuggestAmputation>false</canSuggestAmputation>
     <bleedRate>2</bleedRate>
     <executionPartPriority>500</executionPartPriority>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TentacleBeastMouth</defName>
+    <label>mouth</label>
+    <hitPoints>40</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -106,7 +135,8 @@
   <!-- Bodies -->
   
   <BodyDef>
-    <defName>BroodMotherBody</defName>
+    <defName>SpawnerBody</defName>
+	<label>Spawner body</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>
@@ -206,7 +236,7 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <coverage>0.15</coverage>
+              <coverage>0.1</coverage>
               <depth>Outside</depth>
               <groups>
                 <li>FirstTentacle</li>
@@ -214,7 +244,7 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <coverage>0.15</coverage>
+              <coverage>0.1</coverage>
               <depth>Outside</depth>
               <groups>
                 <li>SecondTentacle</li>
@@ -222,18 +252,26 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <coverage>0.15</coverage>
+              <coverage>0.1</coverage>
               <depth>Outside</depth>
               <groups>
                 <li>ThirdTentacle</li>
               </groups>
             </li>
-            <li>
-              <def>TentacleLeg</def>
-              <coverage>0.15</coverage>
+			<li>
+              <def>Tentacle</def>
+              <coverage>0.1</coverage>
               <depth>Outside</depth>
               <groups>
                 <li>FourthTentacle</li>
+              </groups>
+            </li>
+			            <li>
+              <def>Tentacle</def>
+              <coverage>0.1</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FifthTentacle</li>
               </groups>
             </li>
             <li>
@@ -241,7 +279,15 @@
               <coverage>0.15</coverage>
               <depth>Outside</depth>
               <groups>
-                <li>FifthTentacle</li>
+                <li>SixthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>TentacleLeg</def>
+              <coverage>0.15</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SeventhTentacle</li>
               </groups>
             </li>
           </parts>
@@ -283,8 +329,8 @@
 	</rjw.RaceGroupDef>
 
 	<BodyDef>
-		<defName>SpawnerBody</defName>
-		<label>Spawner body</label>
+		<defName>BroodMotherBody</defName>
+		<label>Brood Mother body</label>
 		<corePart>
 			<def>Torso</def>
 			<height>Middle</height>
@@ -610,6 +656,134 @@
 		<ImplantEggs>true</ImplantEggs>
 	</rjw.RaceGroupDef>
 
+  <BodyDef>
+    <defName>GrazerBody</defName>
+    <label>Grazer body</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>TentacleBeastHead</def>
+          <coverage>0.18</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.3</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.5</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>TentacleBeastMouth</def>
+              <customLabel>left tentacle mouth</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+            <li>
+              <def>TentacleBeastMouth</def>
+              <customLabel>middle tentacle mouth</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+            <li>
+              <def>TentacleBeastMouth</def>
+              <customLabel>right tentacle mouth</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Tentacle</def>
+          <customLabel>front left tentacle</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>Tentacle</def>
+          <customLabel>front right tentacle</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>Tentacle</def>
+          <customLabel>rear tentacle</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
 	<BodyDef>
     <defName>TentacleSnake</defName>
     <corePart>
@@ -641,7 +815,7 @@
           <depth>Outside</depth>
           <customLabel>lower left claw</customLabel>
           <groups>
-            <li>LowerRightClaw</li>
+            <li>LowerLeftClaw</li>
           </groups>
         </li>
         <li>
@@ -650,7 +824,7 @@
           <depth>Outside</depth>
           <customLabel>lower right claw</customLabel>
           <groups>
-            <li>LowerLeftClaw</li>
+            <li>LowerRightClaw</li>
           </groups>
         </li>
         <li>
@@ -693,7 +867,7 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>SnakeHead</def>
+          <def>TentacleBeastHead</def>
           <coverage>0.20</coverage>
           <groups>
             <li>HeadAttackTool</li>
@@ -726,7 +900,7 @@
               <coverage>0.15</coverage>
             </li>
             <li>
-              <def>SnakeMouth</def>
+              <def>TentacleBeastMouth</def>
               <coverage>0.15</coverage>
               <groups>
                 <li>Mouth</li>
@@ -737,5 +911,5 @@
       </parts>
     </corePart>
   </BodyDef>
-	
+
 </Defs>

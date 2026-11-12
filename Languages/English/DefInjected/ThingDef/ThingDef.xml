@@ -37,6 +37,10 @@
 	<TentacleSquirmer.description>A long, snake-like tentacle meant to live inside Host bodies. Freezes to death quickly when not inside its native habitat.</TentacleSquirmer.description>
 	<TentacleLarva.label>Amor Larva</TentacleLarva.label>
 	<TentacleLarva.description>A small Tentacle in larval form. Doesn't serve any purpose besides evolving into more-advanced Tentacle forms. Research will unlock more advanced forms to choose from.</TentacleLarva.description>
+	<TentacleBorer.label>Amor Borer</TentacleBorer.label>
+	<TentacleBorer.description>A mass of tentacles that is designed for mining stone and ore. Although since that requires sharp and strong claws, this Tentacle is also effective in combat.</TentacleBorer.description>
+	<TentacleGrazer.label>Amor Grazer</TentacleGrazer.label>
+	<TentacleGrazer.description>A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute. Essentially livestock.</TentacleGrazer.description>
 	
 	<!-- Host transformation eggs -->
 	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>

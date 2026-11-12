@@ -34,5 +34,17 @@
 	<TentacleSnake.corePart.parts.left_kidney.customLabel>left kidney</TentacleSnake.corePart.parts.left_kidney.customLabel>
   <TentacleSnake.corePart.parts.right_kidney.customLabel>right kidney</TentacleSnake.corePart.parts.right_kidney.customLabel>
 	
-	
+	<GrazerBody.label>Grazer body</GrazerBody.label>
+	<GrazerBody.corePart.parts.left_lung.customLabel>left lung</GrazerBody.corePart.parts.left_lung.customLabel>
+	<GrazerBody.corePart.parts.right_lung.customLabel>right lung</GrazerBody.corePart.parts.right_lung.customLabel>
+	<GrazerBody.corePart.parts.left_kidney.customLabel>left kidney</GrazerBody.corePart.parts.left_kidney.customLabel>
+	<GrazerBody.corePart.parts.right_kidney.customLabel>right kidney</GrazerBody.corePart.parts.right_kidney.customLabel>
+	<GrazerBody.corePart.parts.SnakeHead.parts.left_eye.customLabel>left eye</GrazerBody.corePart.parts.SnakeHead.parts.left_eye.customLabel>
+	<GrazerBody.corePart.parts.SnakeHead.parts.right_eye.customLabel>right eye</GrazerBody.corePart.parts.SnakeHead.parts.right_eye.customLabel>
+	<GrazerBody.corePart.parts.SnakeHead.parts.left_mouth.customLabel>left tentacle mouth</GrazerBody.corePart.parts.SnakeHead.parts.left_mouth.customLabel>
+	<GrazerBody.corePart.parts.SnakeHead.parts.middle_mouth.customLabel>middle tentacle mouth</GrazerBody.corePart.parts.SnakeHead.parts.middle_mouth.customLabel>
+	<GrazerBody.corePart.parts.SnakeHead.parts.right_mouth.customLabel>right tentacle mouth</GrazerBody.corePart.parts.SnakeHead.parts.right_mouth.customLabel>
+	<GrazerBody.corePart.parts.front_left_tentacle.customLabel>front left tentacle</GrazerBody.corePart.parts.front_left_tentacle.customLabel>
+	<GrazerBody.corePart.parts.front_right_tentacle.customLabel>front right tentacle</GrazerBody.corePart.parts.front_right_tentacle.customLabel>
+	<GrazerBody.corePart.parts.rear_tentacle.customLabel>rear tentacle</GrazerBody.corePart.parts.rear_tentacle.customLabel>
 </languageData>
