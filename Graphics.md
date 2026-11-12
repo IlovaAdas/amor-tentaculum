@@ -3,13 +3,13 @@
 | Tentacle | Neutral | Squirmer | ![](./Textures/Things/Pawns/Squirmer/Squirmer_east.png) | `Textures/Things/Pawns/Squirmer` | |
 | Tentacle | Neutral | Larva | ![](./Textures/Things/Pawns/Larva/Larva_east.png) | `Textures/Things/Pawns/Larva` | |
 | Tentacle | Male | Grazer | ![](./Textures/Things/Pawns/Grazer/Grazer_east.png) | `Textures/Things/Pawns/Grazer` | |
-| Tentacle | Male | Stinger | NYI | NYI | Floating bat/mosquito type of thing. Think D&D Stirge. |
+| Tentacle | Male | Stinger | ![](./Textures/Things/Pawns/Stinger/Stinger_east.png) | `Textures/Things/Pawns/Stinger` | |
 | Tentacle | Male | Borer | ![](./Textures/Things/Pawns/Borer/Borer_east.png) | `Textures/Things/Pawns/Borer` | |
 | Tentacle | Male | Striker | ![](./Textures/Things/Pawns/Grabber/CrotchHugger_east.png) | `Textures/Things/Pawns/Grabber` | Needs rename. Has parts for attachments already created. |
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
 | Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/BroodMother/BroodMother_east.png) | `Textures/Things/Pawns/BroodMother` | |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
-| Tentacle | Female | Producer | ![](./Textures/Things/Pawns/Stinger/Stinger_east.png) | `Textures/Things/Pawns/Stinger` | |
+| Tentacle | Female | Producer | NYI | NYI | Resin source, so probably slimy and dripping. |
 | Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
 | Boss | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Boss | Male | Defender | ![](./Textures/Things/Pawns/Defender/Defender_east.png) | `Textures/Things/Pawns/Defender` | |
