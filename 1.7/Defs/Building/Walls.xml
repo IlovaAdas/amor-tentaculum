@@ -28,10 +28,13 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Buildings/Wall/TentrilWalls_Icon</uiIconPath>
+		<researchPrerequisites>
+			<li>ATStructBasic</li>
+		</researchPrerequisites>
 		<statBases>
-			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>135</WorkToBuild>
-			<Flammability>1.0</Flammability>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>250</WorkToBuild>
+			<Flammability>0.1</Flammability>
 			<MeditationFocusStrength>0.22</MeditationFocusStrength>
 		</statBases>
 		<costStuffCount>5</costStuffCount>
