@@ -1,5 +1,6 @@
 <Defs>
 
+	<!-- Amor Brood Mother -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleBroodMother</defName>
 		<devNote>misc</devNote>
@@ -7,6 +8,8 @@
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<MarketValue>950</MarketValue>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>90</ComfyTemperatureMax>
 			<Wildness>0</Wildness>
@@ -15,15 +18,92 @@
 		<uiIconScale>1.1</uiIconScale>
 		<tools>
 			<li>
-				<label>tentacle</label>
+				<label>front tentacle 1</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
 				<capacities>
 					<li>Blunt</li>
+					<li>Scratch</li>
 				</capacities>
-				<power>34</power>
+				<power>24</power>
 				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle1</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 2</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle2</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 3</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle3</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 4</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle4</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 5</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle5</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 6</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle6</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 7</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle7</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front tentacle 8</label>
+				<labelNoLocation>front tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BroodMotherFrontTentacle8</linkedBodyPartsGroup>
 			</li>
 		</tools>
 		<comps>
@@ -107,6 +187,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Brood Mother pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleBroodMother</defName>
 		<label>Amor Brood Mother</label>
@@ -150,6 +231,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Squirmer pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleSquirmer</defName>
 		<label>Amor Squirmer</label>
@@ -174,6 +256,7 @@
 		</abilities>
 	</PawnKindDef>
 
+	<!-- Amor Spawner -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleSpawner</defName>
 		<devNote>misc</devNote>
@@ -273,6 +356,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Spawner pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleSpawner</defName>
 		<label>Amor Spawner</label>
@@ -313,6 +397,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Hunter -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleHunter</defName>
 		<tradeability>None</tradeability>
@@ -395,6 +480,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Hunter pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleHunter</defName>
 		<label>Amor Hunter</label>
@@ -435,6 +521,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Defender -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleDefender</defName>
 		<tradeability>None</tradeability>
@@ -525,6 +612,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Defender pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleDefender</defName>
 		<label>Amor Defender</label>
@@ -565,6 +653,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Valkyrie -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleValkyrie</defName>
 		<tradeability>None</tradeability>
@@ -646,6 +735,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Valkyrie pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleValkyrie</defName>
 		<label>Amor Valkyrie</label>
@@ -676,6 +766,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Abductor -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleAbductor</defName>
 		<tradeability>None</tradeability>
@@ -731,6 +822,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Abductor pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleAbductor</defName>
 		<label>Amor Abductor</label>
@@ -771,6 +863,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Squirmer -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleSquirmer</defName>
 		<devNote>misc</devNote>
@@ -848,6 +941,7 @@
 		<tradeTags />
 	</ThingDef>
 
+	<!-- Amor Larva pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleLarva</defName>
 		<label>Amor Larva</label>
@@ -873,6 +967,7 @@
 		</abilities>
 	</PawnKindDef>
 
+	<!-- Amor Larva -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleLarva</defName>
 		<devNote>misc</devNote>
@@ -947,6 +1042,7 @@
 		<tradeTags />
 	</ThingDef>
 
+	<!-- Amor Borer -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleBorer</defName>
 		<tradeability>None</tradeability>
@@ -1047,6 +1143,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Borer pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleBorer</defName>
 		<label>Amor Borer</label>
@@ -1067,6 +1164,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Grazer -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>TentacleGrazer</defName>
 		<statBases>
@@ -1126,6 +1224,7 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor Grazer pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleGrazer</defName>
 		<label>Amor Grazer</label>

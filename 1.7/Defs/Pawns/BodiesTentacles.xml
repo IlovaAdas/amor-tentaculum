@@ -73,9 +73,44 @@
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
+  <!-- Amor Defender and Valkyrie shared attack group -->
   <BodyPartGroupDef>
     <defName>DefenderBackTentacles</defName>
     <listOrder>81</listOrder>
+  </BodyPartGroupDef>
+
+  <!-- Amor Brood Mother attack groups -->
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle1</defName>
+    <listOrder>82</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle2</defName>
+    <listOrder>83</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle3</defName>
+    <listOrder>84</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle4</defName>
+    <listOrder>85</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle5</defName>
+    <listOrder>86</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle6</defName>
+    <listOrder>87</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle7</defName>
+    <listOrder>88</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BroodMotherFrontTentacle8</defName>
+    <listOrder>89</listOrder>
   </BodyPartGroupDef>
 
   <!-- Parts -->
@@ -127,7 +162,14 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
-
+  <BodyPartDef>
+    <defName>LargeTentacleLeg</defName>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
   <BodyPartDef>
     <defName>TentacleLeg</defName>
     <hitPoints>30</hitPoints>
@@ -137,8 +179,20 @@
     </tags>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>LargeTentacle</defName>
+    <label>large tentacle</label>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
   <!-- Bodies -->
   
+  <!-- Amor Spawner body -->
   <BodyDef>
     <defName>SpawnerBody</defName>
 	<label>Spawner body</label>
@@ -310,6 +364,7 @@
     </corePart>
   </BodyDef>
 
+	<!-- Amor Brood Mother RJW race group -->
 	<rjw.RaceGroupDef>
 		<defName>BroodMothers</defName>
 		<raceNames>
@@ -342,11 +397,12 @@
 		<ImplantEggs>true</ImplantEggs>
 	</rjw.RaceGroupDef>
 
-	<BodyDef>
+		<!-- Amor Brood Mother body -->
+		<BodyDef>
 		<defName>BroodMotherBody</defName>
 		<label>Brood Mother body</label>
 		<corePart>
-			<def>Torso</def>
+			<def>Shell</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<groups>
@@ -354,290 +410,178 @@
 			</groups>
 			<parts>
 				<li>
-					<def>Ribcage</def>
-					<coverage>0.036</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
+					<def>Elytra</def>
+					<customLabel>left elytra</customLabel>
+					<coverage>0.05</coverage>
 				</li>
 				<li>
-					<def>Sternum</def>
-					<coverage>0.015</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Pelvis</def>
-					<coverage>0.025</coverage>
-					<height>Bottom</height>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Spine</def>
-					<coverage>0.025</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
+					<def>Elytra</def>
+					<customLabel>right elytra</customLabel>
+					<coverage>0.05</coverage>
 				</li>
 				<li>
 					<def>Stomach</def>
-					<coverage>0.025</coverage>
+					<coverage>0.05</coverage>
 					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
 				</li>
 				<li>
 					<def>Heart</def>
-					<coverage>0.020</coverage>
+					<coverage>0.03</coverage>
 					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
 				</li>
 				<li>
-					<def>Lung</def>
-					<customLabel>left lung</customLabel>
-					<coverage>0.025</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Lung</def>
-					<customLabel>right lung</customLabel>
-					<coverage>0.025</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Kidney</def>
-					<customLabel>left kidney</customLabel>
-					<coverage>0.017</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Kidney</def>
-					<customLabel>right kidney</customLabel>
-					<coverage>0.017</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Liver</def>
-					<coverage>0.025</coverage>
-					<depth>Inside</depth>
-					<groups>
-						<li>Torso</li>
-					</groups>
-				</li>
-				<li>
-					<def>Neck</def>
-					<coverage>0.075</coverage>
+					<def>Pronotum</def>
+					<coverage>0.22</coverage>
 					<height>Top</height>
-					<groups>
-						<li>Neck</li>
-					</groups>
 					<parts>
 						<li>
 							<def>TentacleBeastHead</def>
-							<coverage>0.80</coverage>
+							<coverage>0.90</coverage>
 							<groups>
-								<li>UpperHead</li>
 								<li>FullHead</li>
-								<li>HeadAttackTool</li>
+								<li>UpperHead</li>
 							</groups>
 							<parts>
 								<li>
-									<def>Skull</def>
-									<coverage>0.18</coverage>
+									<def>Brain</def>
+									<coverage>0.12</coverage>
 									<depth>Inside</depth>
 									<groups>
-										<li>UpperHead</li>
-										<li>Eyes</li>
 										<li>FullHead</li>
+										<li>UpperHead</li>
 									</groups>
-									<parts>
-										<li>
-											<def>Brain</def>
-											<coverage>0.8</coverage>
-											<groups>
-												<li>UpperHead</li>
-												<li>Eyes</li>
-												<li>FullHead</li>
-											</groups>
-										</li>
-									</parts>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>left eye</customLabel>
-									<coverage>0.07</coverage>
+									<coverage>0.08</coverage>
 									<groups>
 										<li>FullHead</li>
 										<li>Eyes</li>
 									</groups>
-									<woundAnchorTag>LeftEye</woundAnchorTag>
 									<flipGraphic>true</flipGraphic>
-									<visibleHediffRots>
-										<li>South</li>
-										<li>West</li>
-									</visibleHediffRots>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>right eye</customLabel>
-									<coverage>0.07</coverage>
+									<coverage>0.08</coverage>
 									<groups>
 										<li>FullHead</li>
 										<li>Eyes</li>
 									</groups>
-									<woundAnchorTag>RightEye</woundAnchorTag>
-									<visibleHediffRots>
-										<li>South</li>
-										<li>East</li>
-									</visibleHediffRots>
 								</li>
 								<li>
-									<def>Ear</def>
-									<customLabel>left ear</customLabel>
-									<coverage>0.07</coverage>
+									<def>Antenna</def>
+									<customLabel>left antenna</customLabel>
+									<coverage>0.04</coverage>
 									<flipGraphic>true</flipGraphic>
-									<groups>
-										<li>UpperHead</li>
-										<li>FullHead</li>
-									</groups>
 								</li>
 								<li>
-									<def>Ear</def>
-									<customLabel>right ear</customLabel>
-									<coverage>0.07</coverage>
-									<groups>
-										<li>UpperHead</li>
-										<li>FullHead</li>
-									</groups>
+									<def>Antenna</def>
+									<customLabel>right antenna</customLabel>
+									<coverage>0.04</coverage>
+									</li>
+								<li>
+									<def>Nostril</def>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
-									<def>Nose</def>
-									<coverage>0.10</coverage>
+									<def>TentacleBeastMouth</def>
+									<coverage>0.08</coverage>
 									<groups>
-										<li>FullHead</li>
-									</groups>
-								</li>
-								<li>
-									<def>Jaw</def>
-									<coverage>0.15</coverage>
-									<groups>
-										<li>Teeth</li>
-										<li>FullHead</li>
 										<li>Mouth</li>
 									</groups>
-									<parts>
-										<li>
-											<def>Tongue</def>
-											<customLabel>tentacle tongue</customLabel>
-											<coverage>0.001</coverage>
-											<depth>Inside</depth>
-											<groups>
-												<li>FullHead</li>
-											</groups>
-										</li>
-									</parts>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>upper left front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Top</height>
+									<groups><li>BroodMotherFrontTentacle1</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>upper left middle front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Top</height>
+									<groups><li>BroodMotherFrontTentacle2</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>upper right middle front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Top</height>
+									<flipGraphic>true</flipGraphic>
+									<groups><li>BroodMotherFrontTentacle3</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>upper right front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Top</height>
+									<flipGraphic>true</flipGraphic>
+									<groups><li>BroodMotherFrontTentacle4</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>lower left front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Bottom</height>
+									<groups><li>BroodMotherFrontTentacle5</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>lower left middle front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Bottom</height>
+									<groups><li>BroodMotherFrontTentacle6</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>lower right middle front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Bottom</height>
+									<flipGraphic>true</flipGraphic>
+									<groups><li>BroodMotherFrontTentacle7</li></groups>
+								</li>
+								<li>
+									<def>LargeTentacle</def>
+									<customLabel>lower right front tentacle</customLabel>
+									<coverage>0.06</coverage>
+									<height>Bottom</height>
+									<flipGraphic>true</flipGraphic>
+									<groups><li>BroodMotherFrontTentacle8</li></groups>
 								</li>
 							</parts>
 						</li>
 					</parts>
 				</li>
 				<li>
-					<def>Shoulder</def>
-					<customLabel>left shoulder</customLabel>
-					<coverage>0.12</coverage>
-					<woundAnchorTag>LeftShoulder</woundAnchorTag>
-					<flipGraphic>true</flipGraphic>
-					<groups>
-						<li>Shoulders</li>
-					</groups>
-					<parts>
-						<li>
-							<def>Tentacle</def>
-							<customLabel>left tentacle arm</customLabel>
-							<coverage>0.999</coverage>
-							<flipGraphic>true</flipGraphic>
-							<groups>
-								<li>Arms</li>
-							</groups>
-						</li>
-					</parts>
-				</li>
-				<li>
-					<def>Shoulder</def>
-					<customLabel>right shoulder</customLabel>
-					<coverage>0.12</coverage>
-					<woundAnchorTag>RightShoulder</woundAnchorTag>
-					<groups>
-						<li>Shoulders</li>
-					</groups>
-					<parts>
-						<li>
-							<def>Tentacle</def>
-							<customLabel>right tentacle arm</customLabel>
-							<coverage>0.999</coverage>
-							<flipGraphic>true</flipGraphic>
-							<groups>
-								<li>Arms</li>
-							</groups>
-						</li>
-					</parts>
-				</li>
-				<li>
-					<def>Waist</def>
-					<coverage>0</coverage>
+					<def>Genitals</def>
+					<customLabel>ovipositor</customLabel>
+					<coverage>0.025</coverage>
 					<height>Bottom</height>
-					<groups>
-						<li>Waist</li>
-					</groups>
+					<depth>Outside</depth>
+					<groups><li>GenitalsBPG</li></groups>
 				</li>
 				<li>
-					<def>TentacleLeg</def>
-					<customLabel>left tentacle leg</customLabel>
-					<coverage>0.14</coverage>
+					<def>Anus</def>
+					<coverage>0.02</coverage>
 					<height>Bottom</height>
-					<groups>
-						<li>Legs</li>
-					</groups>
-					<woundAnchorTag>LeftLeg</woundAnchorTag>
-					<flipGraphic>true</flipGraphic>
+					<depth>Outside</depth>
+					<groups><li>AnusBPG</li></groups>
 				</li>
-				<li>
-					<def>TentacleLeg</def>
-					<customLabel>right tentacle leg</customLabel>
-					<coverage>0.14</coverage>
-					<height>Bottom</height>
-					<groups>
-						<li>Legs</li>
-					</groups>
-					<woundAnchorTag>LeftLeg</woundAnchorTag>
-					<flipGraphic>true</flipGraphic>
-				</li>
+				<li><def>LargeTentacleLeg</def><customLabel>front left leg</customLabel><coverage>0.03</coverage><height>Bottom</height><groups><li>Legs</li></groups></li>
+				<li><def>LargeTentacleLeg</def><customLabel>front right leg</customLabel><coverage>0.03</coverage><height>Bottom</height><flipGraphic>true</flipGraphic><groups><li>Legs</li></groups></li>
+				<li><def>LargeTentacleLeg</def><customLabel>middle left leg</customLabel><coverage>0.03</coverage><height>Bottom</height><groups><li>Legs</li></groups></li>
+				<li><def>LargeTentacleLeg</def><customLabel>middle right leg</customLabel><coverage>0.03</coverage><height>Bottom</height><flipGraphic>true</flipGraphic><groups><li>Legs</li></groups></li>
+				<li><def>LargeTentacleLeg</def><customLabel>rear left leg</customLabel><coverage>0.03</coverage><height>Bottom</height><groups><li>Legs</li></groups></li>
+				<li><def>LargeTentacleLeg</def><customLabel>rear right leg</customLabel><coverage>0.03</coverage><height>Bottom</height><flipGraphic>true</flipGraphic><groups><li>Legs</li></groups></li>
 			</parts>
 		</corePart>
 	</BodyDef>
 
+  <!-- Amor Hunter body -->
   <BodyDef>
     <defName>HunterBody</defName>
     <label>Hunter body</label>
@@ -904,6 +848,7 @@
     </corePart>
   </BodyDef>
 
+  <!-- Amor Defender body -->
   <BodyDef>
     <defName>DefenderBody</defName>
     <label>Defender body</label>
@@ -1193,6 +1138,7 @@
     </corePart>
   </BodyDef>
 
+  <!-- Amor Valkyrie body -->
   <BodyDef>
     <defName>ValkyrieBody</defName>
     <label>Valkyrie body</label>
@@ -1482,8 +1428,9 @@
     </corePart>
   </BodyDef>
 
+<!-- Amor Abductor body -->
 <BodyDef>
-    <defName>AbductorBody</defName>
+  <defName>AbductorBody</defName>
     <label>Abductor body</label>
     <corePart>
       <def>Torso</def>
@@ -1703,6 +1650,7 @@
     </corePart>
   </BodyDef>
 
+	<!-- Amor Hunter RJW race group -->
 	<rjw.RaceGroupDef>
 		<defName>Hunters</defName>
 		<raceNames>
@@ -1714,6 +1662,7 @@
 		<hasSingleGender>true</hasSingleGender>
 	</rjw.RaceGroupDef>
 
+	<!-- Amor Spawner RJW race group -->
 	<rjw.RaceGroupDef>
 		<defName>Spawners</defName>
 		<raceNames>
@@ -1746,6 +1695,7 @@
 		<ImplantEggs>true</ImplantEggs>
 	</rjw.RaceGroupDef>
 
+  <!-- Amor Grazer body -->
   <BodyDef>
     <defName>GrazerBody</defName>
     <label>Grazer body</label>
@@ -1874,8 +1824,9 @@
     </corePart>
   </BodyDef>
 
+	<!-- Amor Borer body -->
 	<BodyDef>
-    <defName>TentacleSnake</defName>
+	  <defName>TentacleSnake</defName>
     <corePart>
       <def>SnakeBody</def>
       <height>Middle</height>
