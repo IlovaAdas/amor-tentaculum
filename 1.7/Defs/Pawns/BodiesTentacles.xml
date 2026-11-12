@@ -154,6 +154,27 @@
   </BodyPartDef>
 
   <BodyPartDef>
+    <defName>SmallTentacle</defName>
+    <label>small tentacle</label>
+    <hitPoints>15</hitPoints>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>TentacleStinger</defName>
+    <label>stinger</label>
+    <hitPoints>8</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
     <defName>TentacleSpike</defName>
     <hitPoints>40</hitPoints>
     <frostbiteVulnerability>0.1</frostbiteVulnerability>
@@ -1945,6 +1966,206 @@
               <coverage>0.15</coverage>
               <groups>
                 <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <!-- Amor Stinger body -->
+  <BodyDef>
+    <defName>StingerBody</defName>
+    <label>Stinger body</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Head</def>
+          <customLabel>bell</customLabel>
+          <coverage>0.24</coverage>
+          <height>Top</height>
+          <groups>
+            <li>FullHead</li>
+            <li>UpperHead</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.25</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.5</coverage>
+                  <depth>Inside</depth>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>UpperHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.1</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+              <flipGraphic>true</flipGraphic>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.1</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.1</coverage>
+              <groups>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>TentacleBeastMouth</def>
+              <customLabel>mouth</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 1</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 2</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 3</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 4</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 5</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 6</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 7</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SmallTentacle</def>
+          <customLabel>short tentacle 8</customLabel>
+          <coverage>0.025</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>Tentacle</def>
+          <customLabel>long stinging tentacle</customLabel>
+          <coverage>0.12</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <parts>
+            <li>
+              <def>TentacleStinger</def>
+              <customLabel>venom stinger</customLabel>
+              <coverage>0.2</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>Stinger</li>
               </groups>
             </li>
           </parts>

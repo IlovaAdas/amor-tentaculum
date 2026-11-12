@@ -1265,4 +1265,208 @@
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Amor Stinger -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>TentacleStinger</defName>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<MarketValue>120</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>90</ComfyTemperatureMax>
+			<Wildness>0.45</Wildness>
+		</statBases>
+		<uiIconScale>0.8</uiIconScale>
+		<tools>
+			<li>
+				<label>venom stinger</label>
+				<capacities>
+					<li>AmorParalyticSting</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Male</gender>
+			</li>
+		</comps>
+		<race>
+			<body>StingerBody</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.35</maxPreyBodySize>
+			<baseBodySize>0.35</baseBodySize>
+			<baseHungerRate>0.045</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>TentacleLeather</leatherDef>
+			<meatLabel>tentacle meat</meatLabel>
+			<trainability>Intermediate</trainability>
+			<petness>0.05</petness>
+			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>3</lifeExpectancy>
+			<flightStartChanceOnJobStart>0.1</flightStartChanceOnJobStart>
+			<canFlyIntoMap>true</canFlyIntoMap>
+			<canLeaveMapFlying>true</canLeaveMapFlying>
+			<leaveMapOnFleeChance>0.2</leaveMapOnFleeChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Reptile_Eat</soundEating>
+			<headPosPerRotation>
+				<li>(-0.03, 0, 0.35)</li>
+				<li>(0.03, 0, 0.36)</li>
+				<li>(-0.05, 0, 0.28)</li>
+				<li>(-0.03, 0, 0.36)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Amor Stinger pawn kind -->
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleStinger</defName>
+		<label>Amor Stinger</label>
+		<race>TentacleStinger</race>
+		<combatPower>45</combatPower>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Stinger/Stinger</texPath>
+					<drawSize>0.55</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.55</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Stinger/Stinger</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Stinger/Stinger</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Amor Stinger paralytic sting -->
+	<ToolCapacityDef>
+		<defName>AmorParalyticSting</defName>
+		<label>paralytic sting</label>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>AmorParalyticSting</defName>
+		<requiredCapacity>AmorParalyticSting</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>AmorParalyticSting</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+	<DamageDef ParentName="Stab">
+		<defName>AmorParalyticSting</defName>
+		<label>paralytic sting</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AmorStingerVenom</hediff>
+				<severityPerDamageDealt>0.025</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+			</li>
+		</additionalHediffs>
+		<applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+	</DamageDef>
+
+	<HediffDef>
+		<defName>AmorStingerVenom</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>paralytic venom</label>
+		<labelNoun>venom</labelNoun>
+		<description>A mild venom briefly slows movement.</description>
+		<maxSeverity>0.5</maxSeverity>
+		<stages>
+			<li>
+				<minSeverity>0.05</minSeverity>
+				<label>slightly slowed</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.95</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.15</minSeverity>
+				<label>sluggish</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.85</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<label>numbed</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.75</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.5</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+
 </Defs>

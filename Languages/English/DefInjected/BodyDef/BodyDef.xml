@@ -1,5 +1,26 @@
 <languageData>
 
+	<!-- Amor Stinger -->
+	<StingerBody.label>Stinger body</StingerBody.label>
+	<StingerBody.corePart.parts.left_lung.customLabel>left lung</StingerBody.corePart.parts.left_lung.customLabel>
+	<StingerBody.corePart.parts.right_lung.customLabel>right lung</StingerBody.corePart.parts.right_lung.customLabel>
+	<StingerBody.corePart.parts.left_kidney.customLabel>left kidney</StingerBody.corePart.parts.left_kidney.customLabel>
+	<StingerBody.corePart.parts.right_kidney.customLabel>right kidney</StingerBody.corePart.parts.right_kidney.customLabel>
+	<StingerBody.corePart.parts.bell.customLabel>bell</StingerBody.corePart.parts.bell.customLabel>
+	<StingerBody.corePart.parts.bell.parts.left_eye.customLabel>left eye</StingerBody.corePart.parts.bell.parts.left_eye.customLabel>
+	<StingerBody.corePart.parts.bell.parts.right_eye.customLabel>right eye</StingerBody.corePart.parts.bell.parts.right_eye.customLabel>
+	<StingerBody.corePart.parts.bell.parts.mouth.customLabel>mouth</StingerBody.corePart.parts.bell.parts.mouth.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_1.customLabel>short tentacle 1</StingerBody.corePart.parts.short_tentacle_1.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_2.customLabel>short tentacle 2</StingerBody.corePart.parts.short_tentacle_2.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_3.customLabel>short tentacle 3</StingerBody.corePart.parts.short_tentacle_3.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_4.customLabel>short tentacle 4</StingerBody.corePart.parts.short_tentacle_4.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_5.customLabel>short tentacle 5</StingerBody.corePart.parts.short_tentacle_5.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_6.customLabel>short tentacle 6</StingerBody.corePart.parts.short_tentacle_6.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_7.customLabel>short tentacle 7</StingerBody.corePart.parts.short_tentacle_7.customLabel>
+	<StingerBody.corePart.parts.short_tentacle_8.customLabel>short tentacle 8</StingerBody.corePart.parts.short_tentacle_8.customLabel>
+	<StingerBody.corePart.parts.long_stinging_tentacle.customLabel>long stinging tentacle</StingerBody.corePart.parts.long_stinging_tentacle.customLabel>
+	<StingerBody.corePart.parts.long_stinging_tentacle.parts.venom_stinger.customLabel>venom stinger</StingerBody.corePart.parts.long_stinging_tentacle.parts.venom_stinger.customLabel>
+
 	<!-- Amor Brood Mother -->
 	<BroodMotherBody.label>Brood Mother body</BroodMotherBody.label>
 	<BroodMotherBody.corePart.parts.left_elytra.customLabel>left elytra</BroodMotherBody.corePart.parts.left_elytra.customLabel>

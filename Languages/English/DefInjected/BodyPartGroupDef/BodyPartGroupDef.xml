@@ -21,6 +21,9 @@
 	<MiddleSpike.label>middle spike</MiddleSpike.label>
 	<MiddleSpike.labelShort>spike</MiddleSpike.labelShort>
 
+	<Stinger.label>stinger</Stinger.label>
+	<Stinger.labelShort>stinger</Stinger.labelShort>
+
 	<FirstTentacle.label>first tentacle</FirstTentacle.label>
 	<FirstTentacle.labelShort>tentacle</FirstTentacle.labelShort>
 
