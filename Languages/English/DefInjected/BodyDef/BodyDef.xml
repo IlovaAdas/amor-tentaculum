@@ -65,4 +65,60 @@
 	<HunterBody.corePart.parts.lower_right_shoulder.customLabel>lower right shoulder</HunterBody.corePart.parts.lower_right_shoulder.customLabel>
 	<HunterBody.corePart.parts.lower_right_shoulder.parts.lower_right_arm.customLabel>lower right arm</HunterBody.corePart.parts.lower_right_shoulder.parts.lower_right_arm.customLabel>
 	<HunterBody.corePart.parts.locomotion_tentacle.customLabel>locomotion tentacle</HunterBody.corePart.parts.locomotion_tentacle.customLabel>
+	<AbductorBody.label>Abductor body</AbductorBody.label>
+	<AbductorBody.corePart.parts.left_lung.customLabel>left lung</AbductorBody.corePart.parts.left_lung.customLabel>
+	<AbductorBody.corePart.parts.right_lung.customLabel>right lung</AbductorBody.corePart.parts.right_lung.customLabel>
+	<AbductorBody.corePart.parts.left_kidney.customLabel>left kidney</AbductorBody.corePart.parts.left_kidney.customLabel>
+	<AbductorBody.corePart.parts.right_kidney.customLabel>right kidney</AbductorBody.corePart.parts.right_kidney.customLabel>
+	<AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>
+	<AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
+	<AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>
+	<AbductorBody.corePart.parts.upper_left_leg.customLabel>upper left leg</AbductorBody.corePart.parts.upper_left_leg.customLabel>
+	<AbductorBody.corePart.parts.upper_right_leg.customLabel>upper right leg</AbductorBody.corePart.parts.upper_right_leg.customLabel>
+	<AbductorBody.corePart.parts.lower_left_leg.customLabel>lower left leg</AbductorBody.corePart.parts.lower_left_leg.customLabel>
+	<AbductorBody.corePart.parts.lower_right_leg.customLabel>lower right leg</AbductorBody.corePart.parts.lower_right_leg.customLabel>
+	<AbductorBody.corePart.parts.upper_left_grappling_tentacle.customLabel>upper left grappling tentacle</AbductorBody.corePart.parts.upper_left_grappling_tentacle.customLabel>
+	<AbductorBody.corePart.parts.upper_right_grappling_tentacle.customLabel>upper right grappling tentacle</AbductorBody.corePart.parts.upper_right_grappling_tentacle.customLabel>
+	<AbductorBody.corePart.parts.lower_left_grappling_tentacle.customLabel>lower left grappling tentacle</AbductorBody.corePart.parts.lower_left_grappling_tentacle.customLabel>
+	<AbductorBody.corePart.parts.lower_right_grappling_tentacle.customLabel>lower right grappling tentacle</AbductorBody.corePart.parts.lower_right_grappling_tentacle.customLabel>
+	<DefenderBody.label>Defender body</DefenderBody.label>
+	<DefenderBody.corePart.parts.left_lung.customLabel>left lung</DefenderBody.corePart.parts.left_lung.customLabel>
+	<DefenderBody.corePart.parts.right_lung.customLabel>right lung</DefenderBody.corePart.parts.right_lung.customLabel>
+	<DefenderBody.corePart.parts.left_kidney.customLabel>left kidney</DefenderBody.corePart.parts.left_kidney.customLabel>
+	<DefenderBody.corePart.parts.right_kidney.customLabel>right kidney</DefenderBody.corePart.parts.right_kidney.customLabel>
+	<DefenderBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</DefenderBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+	<DefenderBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</DefenderBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+	<DefenderBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</DefenderBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+	<DefenderBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</DefenderBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+	<DefenderBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</DefenderBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>
+	<DefenderBody.corePart.parts.left_shoulder.customLabel>left shoulder</DefenderBody.corePart.parts.left_shoulder.customLabel>
+	<DefenderBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</DefenderBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+	<DefenderBody.corePart.parts.right_shoulder.customLabel>right shoulder</DefenderBody.corePart.parts.right_shoulder.customLabel>
+	<DefenderBody.corePart.parts.right_shoulder.parts.right_arm.customLabel>right arm</DefenderBody.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+	<DefenderBody.corePart.parts.left_leg.customLabel>left leg</DefenderBody.corePart.parts.left_leg.customLabel>
+	<DefenderBody.corePart.parts.right_leg.customLabel>right leg</DefenderBody.corePart.parts.right_leg.customLabel>
+	<DefenderBody.corePart.parts.upper_left_back_tentacle.customLabel>upper left back tentacle</DefenderBody.corePart.parts.upper_left_back_tentacle.customLabel>
+	<DefenderBody.corePart.parts.upper_right_back_tentacle.customLabel>upper right back tentacle</DefenderBody.corePart.parts.upper_right_back_tentacle.customLabel>
+	<DefenderBody.corePart.parts.lower_left_back_tentacle.customLabel>lower left back tentacle</DefenderBody.corePart.parts.lower_left_back_tentacle.customLabel>
+	<DefenderBody.corePart.parts.lower_right_back_tentacle.customLabel>lower right back tentacle</DefenderBody.corePart.parts.lower_right_back_tentacle.customLabel>
+	<ValkyrieBody.label>Defender body</ValkyrieBody.label>
+	<ValkyrieBody.corePart.parts.left_lung.customLabel>left lung</ValkyrieBody.corePart.parts.left_lung.customLabel>
+	<ValkyrieBody.corePart.parts.right_lung.customLabel>right lung</ValkyrieBody.corePart.parts.right_lung.customLabel>
+	<ValkyrieBody.corePart.parts.left_kidney.customLabel>left kidney</ValkyrieBody.corePart.parts.left_kidney.customLabel>
+	<ValkyrieBody.corePart.parts.right_kidney.customLabel>right kidney</ValkyrieBody.corePart.parts.right_kidney.customLabel>
+	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>
+	<ValkyrieBody.corePart.parts.left_shoulder.customLabel>left shoulder</ValkyrieBody.corePart.parts.left_shoulder.customLabel>
+	<ValkyrieBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</ValkyrieBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+	<ValkyrieBody.corePart.parts.right_shoulder.customLabel>right shoulder</ValkyrieBody.corePart.parts.right_shoulder.customLabel>
+	<ValkyrieBody.corePart.parts.right_shoulder.parts.right_arm.customLabel>right arm</ValkyrieBody.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+	<ValkyrieBody.corePart.parts.left_leg.customLabel>left leg</ValkyrieBody.corePart.parts.left_leg.customLabel>
+	<ValkyrieBody.corePart.parts.right_leg.customLabel>right leg</ValkyrieBody.corePart.parts.right_leg.customLabel>
+	<ValkyrieBody.corePart.parts.upper_left_back_tentacle.customLabel>upper left back tentacle</ValkyrieBody.corePart.parts.upper_left_back_tentacle.customLabel>
+	<ValkyrieBody.corePart.parts.upper_right_back_tentacle.customLabel>upper right back tentacle</ValkyrieBody.corePart.parts.upper_right_back_tentacle.customLabel>
+	<ValkyrieBody.corePart.parts.lower_left_back_tentacle.customLabel>lower left back tentacle</ValkyrieBody.corePart.parts.lower_left_back_tentacle.customLabel>
+	<ValkyrieBody.corePart.parts.lower_right_back_tentacle.customLabel>lower right back tentacle</ValkyrieBody.corePart.parts.lower_right_back_tentacle.customLabel>
 </languageData>
