@@ -2,8 +2,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATCore</defName>
-		<label>Amor Tentaculum Core Principles</label>
-		<description>Reveals the basic methods for cultivating your own tentacle creatures. This will allow you to craft an Amor Queen egg, which is the first step in converting your pawns into tentacle Hosts.</description>
 		<tab>AmorTentaculum</tab>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
@@ -13,8 +11,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATHostBasic</defName>
-		<label>Basic Host Egg Production</label>
-		<description>Unlocks basic Host types and the eggs used to transform your pawns into them.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATCore</li>
@@ -27,8 +23,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATHostIntermediate</defName>
-		<label>Intermediate Host Egg Produiction</label>
-		<description>Unlocks intermediate Host types and the eggs used to transform your pawns into them.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATHostBasic</li>
@@ -41,8 +35,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATHostAdvanced</defName>
-		<label>Advanced Host Egg Production</label>
-		<description>Unlocks advanced Host types and the eggs used to transform your pawns into them.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATHostIntermediate</li>
@@ -55,8 +47,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATLarvaBasic</defName>
-		<label>Basic Tentacle Larva Evolutions</label>
-		<description>Unlocks basic Tentacle types and the knowledge to trigger larvae to transform into them.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATCore</li>
@@ -69,8 +59,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATLarvaIntermediate</defName>
-		<label>Intermediate Tentacle Larva Evolutions</label>
-		<description>Unlocks intermediate Tentacle types and the knowledge to trigger larvae to transform into them.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATLarvaBasic</li>
@@ -83,8 +71,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATLarvaAdvanced</defName>
-		<label>Advanced Tentacle Larva Evolutions</label>
-		<description>Unlocks advanced Tentacle types and the knowledge to trigger larvae to transform into them.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATLarvaIntermediate</li>
@@ -97,8 +83,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATStructBasic</defName>
-		<label>Basic Tentacle Structures</label>
-		<description>Unlocks the ability to construct basic tentacle structures, using resources produced by your tentacluar colony.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATCore</li>
@@ -111,8 +95,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATStructUtility</defName>
-		<label>Utility Tentacle Structures</label>
-		<description>Unlocks the ability to construct utility tentacle structures, using resources produced by your tentacluar colony.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATStructBasic</li>
@@ -125,8 +107,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATStructDefense</defName>
-		<label>Defensive Tentacle Structures</label>
-		<description>Unlocks the ability to construct defensive tentacle structures, using resources produced by your tentacluar colony.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATStructBasic</li>
@@ -139,8 +119,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATImplantBasic</defName>
-		<label>Basic Tentacle Implantation</label>
-		<description>Unlocks the technology for implanting tentacles in (mostly) willing pawns.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATCore</li>
@@ -153,8 +131,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATImplantControl</defName>
-		<label>Controlling Tentacle Implantation</label>
-		<description>Unlocks the technology for implanting tentacles in less-willing pawns, with the intent of controlling them or modifying their behavior.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATImplantBasic</li>
@@ -167,8 +143,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATImplantHost</defName>
-		<label>Host Tentacle Implantation</label>
-		<description>Unlocks the technology for implanting tentacles in Amor Hosts, to further increase their power and abilities.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATImplantBasic</li>
@@ -181,8 +155,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATGearBasic</defName>
-		<label>Basic Tentacle Gear</label>
-		<description>Unlocks the technology for crafting basic tentacle-specific gear, such as clothes.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATCore</li>
@@ -195,8 +167,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATGearArmor</defName>
-		<label>Tentacle Armor</label>
-		<description>Unlocks the technology for crafting tentacle-specific armor for pawn protection. Note that these can be worn by Host types.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATGearBasic</li>
@@ -209,8 +179,6 @@
 
 	<ResearchProjectDef>
 		<defName>ATGearWeapon</defName>
-		<label>Tentacle Weaponry</label>
-		<description>Unlocks the technology for crafting tentacle-specific weapons. Note that these can be wielded by Host types.</description>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>
 			<li>ATGearBasic</li>

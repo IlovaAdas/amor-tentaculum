@@ -1,0 +1,51 @@
+<languageData>
+
+	<ATCore.label>Amor Tentaculum Core Principles</ATCore.label>
+	<ATCore.description>Reveals the basic methods for cultivating your own tentacle creatures. This will allow you to craft an Amor Queen egg, which is the first step in converting your pawns into tentacle Hosts.</ATCore.description>
+
+	<ATHostBasic.label>Basic Host Egg Production</ATHostBasic.label>
+	<ATHostBasic.description>Unlocks basic Host types and the eggs used to transform your pawns into them.</ATHostBasic.description>
+
+	<ATHostIntermediate.label>Intermediate Host Egg Produiction</ATHostIntermediate.label>
+	<ATHostIntermediate.description>Unlocks intermediate Host types and the eggs used to transform your pawns into them.</ATHostIntermediate.description>
+
+	<ATHostAdvanced.label>Advanced Host Egg Production</ATHostAdvanced.label>
+	<ATHostAdvanced.description>Unlocks advanced Host types and the eggs used to transform your pawns into them.</ATHostAdvanced.description>
+
+	<ATLarvaBasic.label>Basic Tentacle Larva Evolutions</ATLarvaBasic.label>
+	<ATLarvaBasic.description>Unlocks basic Tentacle types and the knowledge to trigger larvae to transform into them.</ATLarvaBasic.description>
+
+	<ATLarvaIntermediate.label>Intermediate Tentacle Larva Evolutions</ATLarvaIntermediate.label>
+	<ATLarvaIntermediate.description>Unlocks intermediate Tentacle types and the knowledge to trigger larvae to transform into them.</ATLarvaIntermediate.description>
+
+	<ATLarvaAdvanced.label>Advanced Tentacle Larva Evolutions</ATLarvaAdvanced.label>
+	<ATLarvaAdvanced.description>Unlocks advanced Tentacle types and the knowledge to trigger larvae to transform into them.</ATLarvaAdvanced.description>
+
+	<ATStructBasic.label>Basic Tentacle Structures</ATStructBasic.label>
+	<ATStructBasic.description>Unlocks the ability to construct basic tentacle structures, using resources produced by your tentacluar colony.</ATStructBasic.description>
+
+	<ATStructUtility.label>Utility Tentacle Structures</ATStructUtility.label>
+	<ATStructUtility.description>Unlocks the ability to construct utility tentacle structures, using resources produced by your tentacluar colony.</ATStructUtility.description>
+
+	<ATStructDefense.label>Defensive Tentacle Structures</ATStructDefense.label>
+	<ATStructDefense.description>Unlocks the ability to construct defensive tentacle structures, using resources produced by your tentacluar colony.</ATStructDefense.description>
+
+	<ATImplantBasic.label>Basic Tentacle Implantation</ATImplantBasic.label>
+	<ATImplantBasic.description>Unlocks the technology for implanting tentacles in (mostly) willing pawns.</ATImplantBasic.description>
+
+	<ATImplantControl.label>Controlling Tentacle Implantation</ATImplantControl.label>
+	<ATImplantControl.description>Unlocks the technology for implanting tentacles in less-willing pawns, with the intent of controlling them or modifying their behavior.</ATImplantControl.description>
+
+	<ATImplantHost.label>Host Tentacle Implantation</ATImplantHost.label>
+	<ATImplantHost.description>Unlocks the technology for implanting tentacles in Amor Hosts, to further increase their power and abilities.</ATImplantHost.description>
+
+	<ATGearBasic.label>Basic Tentacle Gear</ATGearBasic.label>
+	<ATGearBasic.description>Unlocks the technology for crafting basic tentacle-specific gear, such as clothes.</ATGearBasic.description>
+
+	<ATGearArmor.label>Tentacle Armor</ATGearArmor.label>
+	<ATGearArmor.description>Unlocks the technology for crafting tentacle-specific armor for pawn protection. Note that these can be worn by Host types.</ATGearArmor.description>
+
+	<ATGearWeapon.label>Tentacle Weaponry</ATGearWeapon.label>
+	<ATGearWeapon.description>Unlocks the technology for crafting tentacle-specific weapons. Note that these can be wielded by Host types.</ATGearWeapon.description>
+	
+</languageData>

@@ -6,5 +6,41 @@
 	<AbortAmorBroodMotherEgg.description>Surgically remove the Amor Brood Mother egg from the pawn, destroying it.</AbortAmorBroodMotherEgg.description>
 	<AbortAmorBroodMotherEgg.jobString>removing Amor Brood Mother egg.</AbortAmorBroodMotherEgg.jobString>
 	<AbortAmorBroodMotherEgg.successfullyRemovedHediffMessage>{0} has successfully aborted {1}'s incubation.</AbortAmorBroodMotherEgg.successfullyRemovedHediffMessage>
+
+	<InstallIndoWorm.label>implant indoctrination worm</InstallIndoWorm.label>
+	<InstallIndoWorm.description>Implant an Indoctrination Worm in the patient's brain.</InstallIndoWorm.description>
+	<InstallIndoWorm.jobString>implanting indoctrination worm.</InstallIndoWorm.jobString>
+
+	<RemoveIBworm.label>remove indoctrination worm</RemoveIBworm.label>
+	<RemoveIBworm.description>Remove an Indoctrination Worm from the patient's brain.</RemoveIBworm.description>
+	<RemoveIBworm.jobString>removing indoctrination worm.</RemoveIBworm.jobString>
+
+	<InstallBreedWorm.label>implant breeding worm</InstallBreedWorm.label>
+	<InstallBreedWorm.description>Implant a Breeding Worm in the patient's brain.</InstallBreedWorm.description>
+	<InstallBreedWorm.jobString>implanting breeding worm.</InstallBreedWorm.jobString>
+
+	<RemoveBworm.label>remove breeding worm</RemoveBworm.label>
+	<RemoveBworm.description>Remove a Breeding Worm from the patient's brain.</RemoveBworm.description>
+	<RemoveBworm.jobString>removing breeding worm.</RemoveBworm.jobString>
+
+	<InstallFeedWorm.label>install feeding tentacle</InstallFeedWorm.label>
+	<InstallFeedWorm.description>Install a Feeding Tentacle in the user's esophagus.</InstallFeedWorm.description>
+	<InstallFeedWorm.jobString>installing feeding tentacle.</InstallFeedWorm.jobString>
+
+	<RemoveFeedWorm.label>remove feeding tentacle</RemoveFeedWorm.label>
+	<RemoveFeedWorm.description>Remove a Feeding Tentacle from the users's esophagus.</RemoveFeedWorm.description>
+	<RemoveFeedWorm.jobString>removing feeding tentacle.</RemoveFeedWorm.jobString>
+
+	<InstallTWombEnhance.label>install in-utero incubator</InstallTWombEnhance.label>
+	<InstallTWombEnhance.description>Install an in-utero incubator in the patient's womb.</InstallTWombEnhance.description>
+	<InstallTWombEnhance.jobString>installing in-utero incubator.</InstallTWombEnhance.jobString>
+
+	<InstallTAnusEnhance.label>install anal speculum</InstallTAnusEnhance.label>
+	<InstallTAnusEnhance.description>Install a speculum in the patient's anus.</InstallTAnusEnhance.description>
+	<InstallTAnusEnhance.jobString>installing anal speculum.</InstallTAnusEnhance.jobString>
+
+	<InstallTStomachEnhance.label>install storage stomach</InstallTStomachEnhance.label>
+	<InstallTStomachEnhance.description>Replace the patient's stomach with a storage stomach.</InstallTStomachEnhance.description>
+	<InstallTStomachEnhance.jobString>installing storage stomach.</InstallTStomachEnhance.jobString>
 	
 </languageData>
