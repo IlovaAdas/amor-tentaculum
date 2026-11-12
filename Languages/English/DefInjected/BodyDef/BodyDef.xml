@@ -21,6 +21,21 @@
 	<StingerBody.corePart.parts.long_stinging_tentacle.customLabel>long stinging tentacle</StingerBody.corePart.parts.long_stinging_tentacle.customLabel>
 	<StingerBody.corePart.parts.long_stinging_tentacle.parts.venom_stinger.customLabel>venom stinger</StingerBody.corePart.parts.long_stinging_tentacle.parts.venom_stinger.customLabel>
 
+	<!-- Amor Brewer -->
+	<BrewerBody.label>Brewer body</BrewerBody.label>
+	<BrewerBody.corePart.parts.brain.customLabel>brain</BrewerBody.corePart.parts.brain.customLabel>
+	<BrewerBody.corePart.parts.left_lung.customLabel>left lung</BrewerBody.corePart.parts.left_lung.customLabel>
+	<BrewerBody.corePart.parts.right_lung.customLabel>right lung</BrewerBody.corePart.parts.right_lung.customLabel>
+	<BrewerBody.corePart.parts.left_kidney.customLabel>left kidney</BrewerBody.corePart.parts.left_kidney.customLabel>
+	<BrewerBody.corePart.parts.right_kidney.customLabel>right kidney</BrewerBody.corePart.parts.right_kidney.customLabel>
+	<BrewerBody.corePart.parts.left_sensory_eye.customLabel>left sensory eye</BrewerBody.corePart.parts.left_sensory_eye.customLabel>
+	<BrewerBody.corePart.parts.right_sensory_eye.customLabel>right sensory eye</BrewerBody.corePart.parts.right_sensory_eye.customLabel>
+	<BrewerBody.corePart.parts.large_chemical_organ.customLabel>large chemical organ</BrewerBody.corePart.parts.large_chemical_organ.customLabel>
+	<BrewerBody.corePart.parts.front_left_tentacle_leg.customLabel>front left tentacle leg</BrewerBody.corePart.parts.front_left_tentacle_leg.customLabel>
+	<BrewerBody.corePart.parts.front_right_tentacle_leg.customLabel>front right tentacle leg</BrewerBody.corePart.parts.front_right_tentacle_leg.customLabel>
+	<BrewerBody.corePart.parts.rear_left_tentacle_leg.customLabel>rear left tentacle leg</BrewerBody.corePart.parts.rear_left_tentacle_leg.customLabel>
+	<BrewerBody.corePart.parts.rear_right_tentacle_leg.customLabel>rear right tentacle leg</BrewerBody.corePart.parts.rear_right_tentacle_leg.customLabel>
+
 	<!-- Amor Brood Mother -->
 	<BroodMotherBody.label>Brood Mother body</BroodMotherBody.label>
 	<BroodMotherBody.corePart.parts.left_elytra.customLabel>left elytra</BroodMotherBody.corePart.parts.left_elytra.customLabel>

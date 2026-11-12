@@ -67,6 +67,8 @@
 	<TentacleDefender.description>A combat-focused, male humanoid tentacle, designed to protect the hive from external threats with powerful melee attacks and the ability to absorb high amounts of damage.</TentacleDefender.description>
 	<TentacleValkyrie.label>Amor Valkyrie</TentacleValkyrie.label>
 	<TentacleValkyrie.description>A combat-focused, female humanoid tentacle, intended as a vanguard striker for the hive. Has powerful attacks, some psychic abilities, and can spawn minion tentacles to swarm enemies. When constructed for your own colony, will emit one of several psychic auras that will buff nearby friendly pawns or debuff nearby hostiles.</TentacleValkyrie.description>
+	<TentacleBrewer.label>Amor Brewer</TentacleBrewer.label>
+	<TentacleBrewer.description>A mass of tentacles that produces drugs and chemicals regularly. Will attack with tox gas and cum sprays.When constructed for your own colony, can be switched between several products to brew</TentacleBrewer.description>
 	
 	<!-- Host transformation eggs -->
 	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>

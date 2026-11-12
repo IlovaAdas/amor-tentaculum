@@ -284,17 +284,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/BroodMother/BroodMother</texPath>
-					<drawSize>2.0</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>2.0</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/BroodMother/BroodMother</texPath>
 					<drawSize>3.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -325,17 +314,6 @@
 		<combatPower>180</combatPower>
 		<ecoSystemWeight>0.15</ecoSystemWeight>
 		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/WarWomb/WarWomb</texPath>
-					<drawSize>2.0</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>2.0</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/WarWomb/WarWomb</texPath>
@@ -497,16 +475,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Matron/Matron</texPath>
-					<drawSize>1.25</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>1.25</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Matron/Matron</texPath>
 					<drawSize>2.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -618,16 +586,6 @@
 		<combatPower>120</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Hunter/Hunter</texPath>
-					<drawSize>1.0</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>1.0</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Hunter/Hunter</texPath>
@@ -750,16 +708,6 @@
 		<combatPower>500</combatPower>
 		<ecoSystemWeight>0.15</ecoSystemWeight>
 		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Defender/Defender</texPath>
-					<drawSize>2.2</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>2.2</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Defender/Defender</texPath>
@@ -960,16 +908,6 @@
 		<combatPower>50</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Abductor/Abductor</texPath>
-					<drawSize>1.25</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>1.25</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Abductor/Abductor</texPath>
@@ -1365,16 +1303,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Grazer/Grazer</texPath>
-					<drawSize>1.25</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>1.25</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Grazer/Grazer</texPath>
 					<drawSize>2.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -1489,16 +1417,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Stinger/Stinger</texPath>
-					<drawSize>0.55</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.55</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Stinger/Stinger</texPath>
 					<drawSize>0.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -1598,5 +1516,104 @@
 			</li>
 		</comps>
 	</HediffDef>
+
+	<!-- Amor Brewer -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>TentacleBrewer</defName>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<MarketValue>850</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>90</ComfyTemperatureMax>
+			<Wildness>0.7</Wildness>
+		</statBases>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Female</gender>
+			</li>
+		</comps>
+		<race>
+			<body>BrewerBody</body>
+			<predator>true</predator>
+			<maxPreyBodySize>2</maxPreyBodySize>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.9</baseHungerRate>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>TentacleLeather</leatherDef>
+			<meatLabel>tentacle meat</meatLabel>
+			<trainability>Advanced</trainability>
+			<petness>0.01</petness>
+			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>8</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Reptile_Eat</soundEating>
+			<headPosPerRotation>
+				<li>(-0.03, 0, 0.35)</li>
+				<li>(0.03, 0, 0.36)</li>
+				<li>(-0.05, 0, 0.28)</li>
+				<li>(-0.03, 0, 0.36)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleBrewer</defName>
+		<label>Amor Brewer</label>
+		<race>TentacleBrewer</race>
+		<combatPower>120</combatPower>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Brewer/BrewerBody</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Brewer/BrewerBody</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 </Defs>

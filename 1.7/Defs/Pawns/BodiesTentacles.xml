@@ -217,6 +217,13 @@
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>BrewerChemicalOrgan</defName>
+    <label>chemical organ</label>
+    <hitPoints>80</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+
   <!-- Bodies -->
   
   <!-- Amor Spawner body -->
@@ -2535,6 +2542,137 @@
               </groups>
             </li>
           </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <!-- Amor Brewer body -->
+  <BodyDef>
+    <defName>BrewerBody</defName>
+    <label>Brewer body</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>Brain</def>
+          <customLabel>brain</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>left sensory eye</customLabel>
+          <coverage>0.02</coverage>
+          <height>Middle</height>
+          <groups>
+            <li>Eyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>right sensory eye</customLabel>
+          <coverage>0.02</coverage>
+          <height>Middle</height>
+          <groups>
+            <li>Eyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>BrewerChemicalOrgan</def>
+          <customLabel>large chemical organ</customLabel>
+          <coverage>0.20</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>front left tentacle leg</customLabel>
+          <coverage>0.09</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups>
+            <li>Legs</li>
+          </groups>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>front right tentacle leg</customLabel>
+          <coverage>0.09</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups>
+            <li>Legs</li>
+          </groups>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>rear left tentacle leg</customLabel>
+          <coverage>0.09</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups>
+            <li>Legs</li>
+          </groups>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>rear right tentacle leg</customLabel>
+          <coverage>0.09</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups>
+            <li>Legs</li>
+          </groups>
         </li>
       </parts>
     </corePart>
