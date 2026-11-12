@@ -37,8 +37,8 @@
 	<TWombItem.description>An Womb implant for Amor Queens which aids in the incubation of Amor Brood Mother eggs.</TWombItem.description>
 	<TSpecItem.label>anal speculum</TSpecItem.label>
 	<TSpecItem.description>An speculum that permanently forces the rectum further open, allowing for additional tentacle capacity.</TSpecItem.description>
-	<ImplantStorageStomach.label>storage stomach</ImplantStorageStomach.label>
-	<ImplantStorageStomach.description>A stomach replacement that lets ingested tentacles handle digestive processes for the Host. This affords the Host with additional tentacle capacity.</ImplantStorageStomach.description>
+	<TStomachEItem.label>storage stomach</TStomachEItem.label>
+	<TStomachEItem.description>A stomach replacement that lets ingested tentacles handle digestive processes for the Host. This affords the Host with additional tentacle capacity.</TStomachEItem.description>
 	
 	
 	<!-- Tentacle pawn types -->
