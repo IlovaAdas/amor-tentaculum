@@ -187,6 +187,92 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Amor War Womb -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>TentacleWarWomb</defName>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<MarketValue>1400</MarketValue>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>90</ComfyTemperatureMax>
+			<Wildness>0.75</Wildness>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">2</VacuumResistance>
+		</statBases>
+		<uiIconScale>1.1</uiIconScale>
+		<tools>
+			<li>
+				<label>front tentacles</label>
+				<labelNoLocation>tentacle</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>WarWombFrontTentacles</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Female</gender>
+			</li>
+		</comps>
+		<race>
+			<body>WarWombBody</body>
+			<predator>true</predator>
+			<maxPreyBodySize>2</maxPreyBodySize>
+			<baseBodySize>3.25</baseBodySize>
+			<baseHungerRate>2</baseHungerRate>
+			<baseHealthScale>6</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>TentacleLeather</leatherDef>
+			<meatLabel>tentacle meat</meatLabel>
+			<trainability>Advanced</trainability>
+			<petness>0.05</petness>
+			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.65</manhunterOnDamageChance>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>8</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Reptile_Eat</soundEating>
+			<headPosPerRotation>
+				<li>(-0.03, 0, 0.35)</li>
+				<li>(0.03, 0, 0.36)</li>
+				<li>(-0.05, 0, 0.28)</li>
+				<li>(-0.03, 0, 0.36)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
 	<!-- Amor Brood Mother pawn kind -->
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TentacleBroodMother</defName>
@@ -220,6 +306,50 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/BroodMother/BroodMother</texPath>
+					<drawSize>4.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>4.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Amor War Womb pawn kind -->
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleWarWomb</defName>
+		<label>Amor War Womb</label>
+		<race>TentacleWarWomb</race>
+		<combatPower>180</combatPower>
+		<ecoSystemWeight>0.15</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/WarWomb/WarWomb</texPath>
+					<drawSize>2.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>2.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/WarWomb/WarWomb</texPath>
+					<drawSize>3.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>3.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/WarWomb/WarWomb</texPath>
 					<drawSize>4.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>

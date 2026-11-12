@@ -113,6 +113,12 @@
     <listOrder>89</listOrder>
   </BodyPartGroupDef>
 
+  <!-- Amor War Womb attack group -->
+  <BodyPartGroupDef>
+    <defName>WarWombFrontTentacles</defName>
+    <listOrder>90</listOrder>
+  </BodyPartGroupDef>
+
   <!-- Parts -->
 
   <BodyPartDef>
@@ -146,6 +152,17 @@
   <BodyPartDef>
     <defName>Tentacle</defName>
     <hitPoints>30</hitPoints>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SmallTentacle</defName>
+    <label>small tentacle</label>
+    <hitPoints>15</hitPoints>
     <tags>
       <li>ManipulationLimbCore</li>
     </tags>
@@ -580,6 +597,366 @@
 			</parts>
 		</corePart>
 	</BodyDef>
+
+  <!-- Amor War Womb body: Brood Mother lower body with a humanoid upper torso -->
+  <BodyDef>
+    <defName>WarWombBody</defName>
+    <label>War Womb body</label>
+    <corePart>
+      <def>Shell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>Elytra</def>
+          <customLabel>left elytra</customLabel>
+          <coverage>0.05</coverage>
+        </li>
+        <li>
+          <def>Elytra</def>
+          <customLabel>right elytra</customLabel>
+          <coverage>0.05</coverage>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pronotum</def>
+          <coverage>0.22</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>TentacleBeastHead</def>
+              <coverage>0.90</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.12</coverage>
+                  <depth>Inside</depth>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>UpperHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.08</coverage>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>Eyes</li>
+                  </groups>
+                  <flipGraphic>true</flipGraphic>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.08</coverage>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>Eyes</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>left antenna</customLabel>
+                  <coverage>0.04</coverage>
+                  <flipGraphic>true</flipGraphic>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>right antenna</customLabel>
+                  <coverage>0.04</coverage>
+                </li>
+                <li>
+                  <def>Nostril</def>
+                  <coverage>0.04</coverage>
+                </li>
+                <li>
+                  <def>TentacleBeastMouth</def>
+                  <coverage>0.08</coverage>
+                  <groups>
+                    <li>Mouth</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>upper left front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Top</height>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>upper left middle front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Top</height>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>upper right middle front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Top</height>
+                  <flipGraphic>true</flipGraphic>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>upper right front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Top</height>
+                  <flipGraphic>true</flipGraphic>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>lower left front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Bottom</height>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>lower left middle front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Bottom</height>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>lower right middle front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Bottom</height>
+                  <flipGraphic>true</flipGraphic>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+                <li>
+                  <def>Tentacle</def>
+                  <customLabel>lower right front tentacle</customLabel>
+                  <coverage>0.045</coverage>
+                  <height>Bottom</height>
+                  <flipGraphic>true</flipGraphic>
+                  <groups><li>WarWombFrontTentacles</li></groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>LargeTentacleLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>LargeTentacleLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <flipGraphic>true</flipGraphic>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>LargeTentacleLeg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>LargeTentacleLeg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <flipGraphic>true</flipGraphic>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>LargeTentacleLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>LargeTentacleLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <flipGraphic>true</flipGraphic>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>Torso</def>
+          <customLabel>upper torso</customLabel>
+          <coverage>0.16</coverage>
+          <height>Top</height>
+          <depth>Outside</depth>
+          <groups><li>Torso</li></groups>
+          <parts>
+            <li>
+              <def>Ribcage</def>
+              <coverage>0.10</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Spine</def>
+              <coverage>0.06</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Heart</def>
+              <coverage>0.04</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>left lung</customLabel>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>right lung</customLabel>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Neck</def>
+              <coverage>0.12</coverage>
+              <height>Top</height>
+              <groups><li>Neck</li></groups>
+              <parts>
+                <li>
+                  <def>Head</def>
+                  <coverage>0.80</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                    <li>HeadAttackTool</li>
+                  </groups>
+                  <parts>
+                    <li>
+                      <def>Skull</def>
+                      <coverage>0.18</coverage>
+                      <depth>Inside</depth>
+                      <groups><li>UpperHead</li><li>Eyes</li><li>FullHead</li></groups>
+                      <parts>
+                        <li>
+                          <def>Brain</def>
+                          <coverage>0.8</coverage>
+                          <depth>Inside</depth>
+                          <groups><li>UpperHead</li><li>Eyes</li><li>FullHead</li></groups>
+                        </li>
+                      </parts>
+                    </li>
+                    <li>
+                      <def>Eye</def>
+                      <customLabel>left human eye</customLabel>
+                      <coverage>0.07</coverage>
+                      <groups><li>FullHead</li><li>Eyes</li></groups>
+                      <flipGraphic>true</flipGraphic>
+                    </li>
+                    <li>
+                      <def>Eye</def>
+                      <customLabel>right human eye</customLabel>
+                      <coverage>0.07</coverage>
+                      <groups><li>FullHead</li><li>Eyes</li></groups>
+                    </li>
+                    <li>
+                      <def>Ear</def>
+                      <customLabel>left ear</customLabel>
+                      <coverage>0.07</coverage>
+                      <groups><li>UpperHead</li><li>FullHead</li></groups>
+                      <flipGraphic>true</flipGraphic>
+                    </li>
+                    <li>
+                      <def>Ear</def>
+                      <customLabel>right ear</customLabel>
+                      <coverage>0.07</coverage>
+                      <groups><li>UpperHead</li><li>FullHead</li></groups>
+                    </li>
+                    <li>
+                      <def>Nose</def>
+                      <coverage>0.10</coverage>
+                      <groups><li>FullHead</li></groups>
+                    </li>
+                    <li>
+                      <def>Jaw</def>
+                      <coverage>0.15</coverage>
+                      <groups><li>Teeth</li><li>FullHead</li><li>Mouth</li></groups>
+                      <parts>
+                        <li>
+                          <def>Tongue</def>
+                          <coverage>0.001</coverage>
+                          <depth>Inside</depth>
+                          <groups><li>FullHead</li></groups>
+                        </li>
+                      </parts>
+                    </li>
+                    <li>
+                      <def>TentacleBeastMouth</def>
+                      <customLabel>mouth</customLabel>
+                      <coverage>0.05</coverage>
+                      <depth>Outside</depth>
+                      <groups><li>Mouth</li></groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Shoulder</def>
+              <customLabel>left shoulder</customLabel>
+              <coverage>0.12</coverage>
+              <height>Top</height>
+              <groups><li>Shoulders</li></groups>
+              <flipGraphic>true</flipGraphic>
+              <parts>
+                <li>
+                  <def>Arm</def>
+                  <customLabel>left arm</customLabel>
+                  <coverage>0.77</coverage>
+                  <groups><li>Arms</li></groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Shoulder</def>
+              <customLabel>right shoulder</customLabel>
+              <coverage>0.12</coverage>
+              <height>Top</height>
+              <groups><li>Shoulders</li></groups>
+              <parts>
+                <li>
+                  <def>Arm</def>
+                  <customLabel>right arm</customLabel>
+                  <coverage>0.77</coverage>
+                  <groups><li>Arms</li></groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
 
   <!-- Amor Hunter body -->
   <BodyDef>
