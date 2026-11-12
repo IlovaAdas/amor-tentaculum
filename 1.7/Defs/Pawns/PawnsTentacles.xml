@@ -154,12 +154,8 @@
 			<lifeExpectancy>4</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -240,12 +236,8 @@
 			<lifeExpectancy>8</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -431,12 +423,8 @@
 			<lifeExpectancy>4</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -545,12 +533,8 @@
 			<lifeExpectancy>8</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -667,12 +651,8 @@
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -780,12 +760,8 @@
 			<lifeExpectancy>10</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -877,9 +853,13 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<lifeExpectancy>10</lifeExpectancy>
 			<lifeStageAges>
+							<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0</minAge>
+				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0</minAge>
+					<minAge>0.1</minAge>
 					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
 					<soundDeath>Pawn_Cobra_Death</soundDeath>
 					<soundCall>Pawn_Cobra_Call</soundCall>
@@ -1121,6 +1101,11 @@
 			<ComfyTemperatureMax>90</ComfyTemperatureMax>
 			<Wildness>0.65</Wildness>
 		</statBases>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Male</gender>
+			</li>
+		</comps>
 		<uiIconScale>1.1</uiIconScale>
 		<tools>
 			<li>
@@ -1242,6 +1227,11 @@
 			<ComfyTemperatureMax>90</ComfyTemperatureMax>
 			<Wildness>0</Wildness>
 		</statBases>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>Male</gender>
+			</li>
+		</comps>
 		<uiIconScale>1.1</uiIconScale>
 		<race>
 			<body>GrazerBody</body>
@@ -1262,12 +1252,8 @@
 			<lifeExpectancy>22</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.20</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -1367,18 +1353,10 @@
 			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<nameOnTameChance>1</nameOnTameChance>
 			<lifeExpectancy>3</lifeExpectancy>
-			<flightStartChanceOnJobStart>0.1</flightStartChanceOnJobStart>
-			<canFlyIntoMap>true</canFlyIntoMap>
-			<canLeaveMapFlying>true</canLeaveMapFlying>
-			<leaveMapOnFleeChance>0.2</leaveMapOnFleeChance>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.1</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -1553,12 +1531,8 @@
 			<lifeExpectancy>8</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.25</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -1664,12 +1638,8 @@
 			<lifeExpectancy>5</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.1</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
@@ -1704,16 +1674,6 @@
 		<combatPower>25</combatPower>
 		<ecoSystemWeight>0.4</ecoSystemWeight>
 		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Striker/Striker</texPath>
-					<drawSize>0.45</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.45</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Striker/Striker</texPath>
