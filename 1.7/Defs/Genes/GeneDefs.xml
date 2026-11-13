@@ -191,11 +191,6 @@
 						</bodyParts>
 					</li>
 					<li>
-						<hediff>AmorBaronessPregnancy</hediff>
-						<onlyIfNew>true</onlyIfNew>
-						<severity>0.01</severity>
-					</li>
-					<li>
 						<hediff>TentacleInfestedStomach</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>1</severity>
