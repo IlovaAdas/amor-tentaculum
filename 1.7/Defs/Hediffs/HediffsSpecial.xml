@@ -1,0 +1,78 @@
+<Defs>
+
+	<!-- This hediff is applied to a pawn as they exit the Recycler Pod. It causes them to explode into a shower of resources on death. -->
+	<HediffDef>
+		<defName>PawnRecycled</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(1,1,1)</defaultLabelColor>
+		<minSeverity>0</minSeverity>
+		<initialSeverity>0.001</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<lethalSeverity>0.002</lethalSeverity>
+		<stages />
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9999</severityPerDay>
+			</li>
+			<li Class="VEF.AnimalBehaviours.HediffCompProperties_FilthProducer">
+				<filthType>Filth_Blood</filthType>
+				<rate>100</rate>
+				<radius>2</radius>
+				<ticksToCreateFilth>1</ticksToCreateFilth>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath" />
+			<li Class="EBSGFramework.HediffCompProperties_CreateItems">
+				<onDeathThings>
+					
+					<li>
+						<li>
+							<thing>HardResin</thing>
+							<count>7</count>
+							<weight>1</weight>
+						</li>
+						<li>
+							<thing>HardResin</thing>
+							<count>9</count>
+							<weight>2</weight>
+						</li>
+						<li>
+							<thing>HardResin</thing>
+							<count>11</count>
+							<weight>2</weight>
+						</li>
+						<li>
+							<thing>HardResin</thing>
+							<count>13</count>
+							<weight>1</weight>
+						</li>
+					</li>
+
+					<li>
+						<li>
+							<thing>SoftResin</thing>
+							<count>13</count>
+							<weight>1</weight>
+						</li>
+						<li>
+							<thing>SoftResin</thing>
+							<count>16</count>
+							<weight>2</weight>
+						</li>
+						<li>
+							<thing>SoftResin</thing>
+							<count>19</count>
+							<weight>2</weight>
+						</li>
+						<li>
+							<thing>SoftResin</thing>
+							<count>22</count>
+							<weight>1</weight>
+						</li>
+					</li>
+
+				</onDeathThings>
+			</li>
+		</comps>
+	</HediffDef>
+	
+</Defs>

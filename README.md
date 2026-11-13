@@ -200,6 +200,16 @@ A sticky, viscous substance produced by Amor Queens.  Used for crafting more adv
 
 # Buildings
 
+## Structural
+
+### Hive Wall
+Research Tier: Core
+Bog-standard wall, but made of tentacles. Limited to resinous materials. Stronger than a vanilla wall (but takes longer to construct) and very low flammability.
+
+### Sphincter Door
+Research Tier: Core, Autodoors
+A biological autodoor.
+
 ## Utility
 
 ### Tentacle Workbench
@@ -207,7 +217,7 @@ Research Tier: Core
 
 A workbench equipped with all of the equipment required to craft basic tentacle-related things.
 
-### (Linkable Workbench Buffer, ala Tool Cabinet) (Name TBD)
+### Womb Worker
 Research Tier: Utility
 
 A tentacle structure that makes it easier to craft tentacle-related things. A maximum of two can be linked to a tentacle workbench.

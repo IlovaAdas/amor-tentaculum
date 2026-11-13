@@ -14,8 +14,8 @@
 	<sphincterdoor.description>Divides rooms. This organic tentacle sphincter allows people to move through the door without slowing down, although they may feel a little strange about the process.</sphincterdoor.description>
 	<Building_RecyclingPod.label>recycling pod</Building_RecyclingPod.label>
 	<Building_RecyclingPod.description>A biological structure that will break its occupant down into component parts, turning it into raw resources. Needless to say, this is fatal for the pawn.</Building_RecyclingPod.description>
-	<TestWall.label>test wall</TestWall.label>
-	<TestWall.description>In-Progress Test for Wall Texture Tessellation.</TestWall.description>
+	<HiveWall.label>hive wall</HiveWall.label>
+	<HiveWall.description>An impassable wall. Capable of holding up a roof. This one is crafted from resinous tentacles.</HiveWall.description>
 	<TentacleWorkbench.label>tentacle workbench</TentacleWorkbench.label>
 	<TentacleWorkbench.description>A workbench equipped with all of the equipment required to craft basic tentacle-related things.</TentacleWorkbench.description>
 	<WombWorker.label>womb worker</WombWorker.label>
@@ -130,6 +130,8 @@
 	<TentacleLeather.description>This skin is amazingly soft and feels like genital skin. Probably because it is...</TentacleLeather.description>
 	<TentacleSlime.label>tentacle slime</TentacleSlime.label>
 	<TentacleSlime.description>A sticky, viscous substance "produced" primarily by Amor Queens. Used for crafting more advanced eggs and implants. It lasts indefinitely, so long as it is stored safely. An extremely valuable resource!</TentacleSlime.description>
+	<TentacleCatalyst.label>tentacle catalyst</TentacleCatalyst.label>
+	<TentacleCatalyst.description>The condensed genetic essence of a human being, ripped out of their flesh by a Recycling Pod. Used to craft other Tentacle and Host forms, as well as advanced equipment and implants.</TentacleCatalyst.description>
 	
 	<!-- Filth and Fluids -->
 	<FilthSlime.label>tentacle slime filth</FilthSlime.label>
@@ -138,7 +140,7 @@
 	
 	<!-- Equipment -->
 	<TentacleCollar.label>tentacle collar</TentacleCollar.label>
-	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, intended to use in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
+	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, used in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
 	
 	
 </languageData>
