@@ -9,7 +9,7 @@
 | Tentacle | Male | Abductor | ![](./Textures/Things/Pawns/Abductor/Abductor_east.png) | `Textures/Things/Pawns/Abductor` | |
 | Tentacle | Female | Brood Mother | ![](./Textures/Things/Pawns/BroodMother/BroodMother_east.png) | `Textures/Things/Pawns/BroodMother` | |
 | Tentacle | Female | Spawner | ![](./Textures/Things/Pawns/Matron/Matron_east.png) | `Textures/Things/Pawns/Matron` | Needs rename. Otherwise, seems about right for a Squirmer producer. |
-| Tentacle | Female | Producer | NYI | NYI | Resin source, so probably slimy and dripping. |
+| Tentacle | Female | Producer | ![](./Textures/Things/Pawns/Producer/Producer_east.png) | `Textures/Things/Pawns/Producer` | |
 | Tentacle | Female | Hunter | ![](./Textures/Things/Pawns/Warrior/Warrior_east.png) | `Textures/Things/Pawns/Warrior` | Needs rename. Otherwise, pretty solid. |
 | Boss | Female | Brewer | ![](./Textures/Things/Pawns/Brewer/BrewerBody_east.png) | `Textures/Things/Pawns/Brewer` | |
 | Boss | Male | Defender | ![](./Textures/Things/Pawns/Defender/Defender_east.png) | `Textures/Things/Pawns/Defender` | |
@@ -32,7 +32,7 @@
 | Buildings | Utility | Recycling Pod | ![](./Textures/Things/Buildings/Pods/RecyclerPod_south.png) | `Textures/Things/Buildings/Pods` | |
 | Buildings | Utility | Indoctrination Pod | NYI | NYI | Time to lean into the "tentacle violation" fetish... make sure the pawn is at least somewhat visible, for Onahole mechanics. |
 | Buildings | Utility | Transformation Pod | NYI | NYI | More of a womb-like structure here. What comes out will be nothing like what goes in. |
-| Buildings | Utility | Tentacle Trophy | ![](./Textures/Things/Buildings/Trophy/TentacleTrophyFemale.png) (female) NYI (male) | `Textures/Things/Buildings/Trophy` | |
+| Buildings | Utility | Tentacle Trophy | ![](./Textures/Things/Buildings/Trophy/TentacleTrophyFemale.png) (female) ![](./Textures/Things/Buildings/Trophy/TentacleTrophyMale.png) (male) | `Textures/Things/Buildings/Trophy` | |
 | Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | |
 | Buildings | Defensive | Paralysis Trap | NYI | NYI | |
 | Equipment | Weapons | Tentacle Whip | ![](./Textures/Things/Items/MeleeWeapons/TentacleWhip.png) | `Textures/Things/Items/MeleeWeapons` | |
@@ -50,9 +50,11 @@
 | Abilities | Host | Expel Tentacle | ![](./Textures/Abilities/OviAss.png) | `Textures/Abilities` | |
 | Abilities | Host | Transfer Tentacle | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
 | Abilities | Host | Slime Spray | ![](./Textures/Abilities/SlimeSpray.png) | `Textures/Abilities` | |
-| Abilities | Host | Seduction Kiss | ![](./Textures/Abilities/TentacleKiss.png) | `Textures/Abilities` | |
+| Abilities | Host | Seduction Kiss | ![](./Textures/Abilities/Kisses.png) | `Textures/Abilities` | |
 | Abilities | Host | Invisibility | ![](./Textures/Abilities/InvisibilityFemale.png) ![](./Textures/Abilities/InvisibilityMale.png) | `Textures/Abilities` | Invisbility is for a Male Host type, but we can definitely re-use these icons. |
-| Abilities | Host | Hyper Regeneration | NYI | NYI | |
+| Abilities | Host | Hyper Regeneration | ![](./Textures/Abilities/HyperRegeneration.png) | `Textures/Abilities` | |
+| Abilities | ? | ? | ![](./Textures/Abilities/TentacleHandler.png) | `Textures/Abilities` | No associated ability, but looks good. |
+| Abilities | ? | ? | ![](./Textures/Abilities/ExpelTentacles.png) | `Textures/Abilities` | No associated ability, but looks good. |
 
 NOTES:
 * For Host type pawns, some sort of partial graphic specific to the type might be appropriate.  For example, some sort of tentacle body growth overlay, and (for the Queen) a head crest?

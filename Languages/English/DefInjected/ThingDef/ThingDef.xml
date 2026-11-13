@@ -79,6 +79,8 @@
 	<TentacleLeather.description>This skin is amazingly soft and feels like genital skin. Probably because it is...</TentacleLeather.description>
 	<TentacleSlime.label>tentacle slime</TentacleSlime.label>
 	<TentacleSlime.description>A sticky, viscous substance "produced" primarily by Amor Queens. Used for crafting more advanced eggs and implants. It lasts indefinitely, so long as it is stored safely. An extremely valuable resource!</TentacleSlime.description>
+	<TentacleCatalyst.label>tentacle catalyst</TentacleCatalyst.label>
+	<TentacleCatalyst.description>The condensed genetic essence of a human being, ripped out of their flesh by a Recycling Pod. Used to craft other Tentacle and Host forms, as well as advanced equipment and implants.</TentacleCatalyst.description>
 	
 	<!-- Filth and Fluids -->
 	<FilthSlime.label>tentacle slime filth</FilthSlime.label>
@@ -87,7 +89,7 @@
 	
 	<!-- Equipment -->
 	<TentacleCollar.label>tentacle collar</TentacleCollar.label>
-	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, intended to use in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
+	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, used in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
 	
 	
 </languageData>

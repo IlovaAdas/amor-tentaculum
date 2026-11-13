@@ -240,5 +240,9 @@
 	<TentacleSacrifice.label>sacrificing</TentacleSacrifice.label>
 	<TentacleSacrifice.labelNoun>sacrificing</TentacleSacrifice.labelNoun>
 	<TentacleSacrifice.description>This Tentacle is being consumed as a resource by a Host.</TentacleSacrifice.description>
+
+	<PawnRecycled.label>recycled</PawnRecycled.label>
+	<PawnRecycled.labelNoun>recycled</PawnRecycled.labelNoun>
+	<PawnRecycled.description>This pawn was recycled into raw resources.</PawnRecycled.description>
 	
 </languageData>

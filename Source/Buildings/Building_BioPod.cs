@@ -20,7 +20,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
 
     private bool debugDisableNeedForIngredients;
 
-    private Mote workingMote;
+    // private Mote workingMote;
 
     private Sustainer sustainerWorking;
 
@@ -30,10 +30,11 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
 
     public static readonly CachedTexture InsertPersonIcon = new CachedTexture("Abilities/LarvalTransformation");
 
-    private static Dictionary<Rot4, ThingDef> MotePerRotation;
+    // private static Dictionary<Rot4, ThingDef> MotePerRotation;
 
-    private static Dictionary<Rot4, ThingDef> MotePerRotationRip;
+    // private static Dictionary<Rot4, ThingDef> MotePerRotationRip;
 
+    /*
     private static readonly Dictionary<Rot4, Vector3> HuskEffectOffsets = new Dictionary<Rot4, Vector3>
     {
         {
@@ -53,6 +54,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             new Vector3(-0.4f, 0f, -0.025f)
         }
     };
+    */
 
     private const float ProgressBarOffsetZ = -0.8f;
 
@@ -278,11 +280,11 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
     private void KillOccupant()
     {
         Pawn occupant = Occupant;
-        DamageInfo dinfo = new DamageInfo(DamageDefOf.ExecutionCut, 9999f, 999f, -1f, null, occupant.health.hediffSet.GetBrain());
-        dinfo.SetIgnoreInstantKillProtection(ignore: true);
-        dinfo.SetAllowDamagePropagation(val: false);
+        // DamageInfo dinfo = new DamageInfo(DamageDefOf.ExecutionCut, 9999f, 999f, -1f, null, occupant.health.hediffSet.GetBrain());
+        // dinfo.SetIgnoreInstantKillProtection(ignore: true);
+        // dinfo.SetAllowDamagePropagation(val: false);
         occupant.forceNoDeathNotification = true;
-        occupant.TakeDamage(dinfo);
+        // occupant.TakeDamage(dinfo);
         occupant.forceNoDeathNotification = false;
         ThoughtUtility.GiveThoughtsForPawnExecuted(occupant, null, PawnExecutionKind.Ripscanned);
         Messages.Message("MessagePawnKilledRipscanner".Translate(occupant.Named("PAWN")), occupant, MessageTypeDefOf.NegativeHealthEvent);
@@ -341,6 +343,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
     protected override void Tick()
     {
         base.Tick();
+        /*
         if (MotePerRotation == null)
         {
             MotePerRotation = new Dictionary<Rot4, ThingDef>
@@ -382,6 +385,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                 }
             };
         }
+        */
         SubcoreScannerState state = State;
         if (state == SubcoreScannerState.Occupied)
         {
@@ -399,6 +403,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                     def.building.subcoreScannerComplete.PlayOneShot(this);
                 }
             }
+            /*
             if (workingMote == null || workingMote.Destroyed)
             {
                 workingMote = MoteMaker.MakeAttachedOverlay(this, DestroyOccupantBrain ? MotePerRotationRip[Rotation] : MotePerRotation[Rotation], Vector3.zero);
@@ -412,6 +417,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                 }
                 effectHusk.EffectTick(this, this);
             }
+            */
             if (progressBarEffecter == null)
             {
                 progressBarEffecter = EffecterDefOf.ProgressBar.Spawn();

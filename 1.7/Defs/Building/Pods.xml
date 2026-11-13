@@ -60,16 +60,31 @@
 							<li>TentacleSlime</li>
 						</thingDefs>
 					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>SoftResin</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>HardResin</li>
+						</thingDefs>
+					</filter>
 					<count>1</count>
 				</li>
 			</subcoreScannerFixedIngredients>
-			
-			<subcoreScannerOutputDef>HardResin</subcoreScannerOutputDef>
-			<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>
-			<subcoreScannerWorking>SubcoreRipscanner_Working</subcoreScannerWorking>
-			<subcoreScannerComplete>SubcoreRipscanner_Complete</subcoreScannerComplete>
+			<subcoreScannerOutputDef>TentacleCatalyst</subcoreScannerOutputDef>
+			<subcoreScannerStartEffect>ButcherFlesh</subcoreScannerStartEffect>
+			<subcoreScannerWorking>Recipe_Surgery</subcoreScannerWorking>
+			<subcoreScannerComplete>Execute_Cut</subcoreScannerComplete>
 			<destroyBrain>true</destroyBrain>
-			<subcoreScannerHediff>ScanningSickness</subcoreScannerHediff>
+			<subcoreScannerHediff>PawnRecycled</subcoreScannerHediff>
 		</building>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>

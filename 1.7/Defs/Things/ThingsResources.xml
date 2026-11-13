@@ -1,0 +1,219 @@
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>TentacleLeather</defName>
+		<graphicData>
+			<texPath>Things/Items/SoftFlesh</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>0.05</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.05</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(235,205,180)</color>
+			<commonality>0.0001</commonality>
+			<statFactors>
+				<MaxHitPoints>0.5</MaxHitPoints>
+				<Beauty>2.5</Beauty>
+				<Flammability>0</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>TentacleSlime</defName>
+		
+		<!--
+		Temporarily converted to non-food so pawns won't just gobble it all up immediately.
+		
+		<description>A sticky, viscous substance "produced" primarily by Amor Queens. Used for crafting more advanced eggs and implants, but also provides a reasonable amount of nutrition when eaten.  It last indefinitely, so long as it is stored safely.  An extremely valuable resource!</description>
+		-->
+
+		<graphicData>
+			<texPath>Things/Items/TentacleSlime</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<possessionCount>50</possessionCount>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>5.0</MarketValue>
+			<Mass>0.025</Mass>
+			<!-- <Nutrition>0.05</Nutrition> -->
+		</statBases>
+
+		<!--
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<preferability>MealFine</preferability>
+			<joy>0.08</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<lowPriorityCaravanFood>true</lowPriorityCaravanFood>
+			<babiesCanIngest>true</babiesCanIngest>
+		</ingestible>
+		-->
+		
+		<thingCategories>
+			<li>HostProducedResources</li>
+		</thingCategories>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>SoftResin</defName>
+		<graphicData>
+			<texPath>Things/Items/SoftRes</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.8</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.40</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>10</minRewardCount>
+		<stuffProps>
+			<stuffAdjective>resin</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+				<li>Resinous</li>
+			</categories>
+			<commonality>0.0001</commonality>
+			<color>(203,180,227)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.5</MaxHitPoints>
+				<Beauty>1.5</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>HardResin</defName>
+		<graphicData>
+			<texPath>Things/Items/HardRes</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Mass>0.2</Mass>
+			<StuffPower_Armor_Sharp>0.57</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.57</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+				<li>Resinous</li>
+			</categories>
+			<appearance>Metal</appearance>
+			<commonality>0.0001</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(203,45,227)</color>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>0.2</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2.5</WorkToMake>
+				<WorkToBuild>2.5</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>TentacleCatalyst</defName>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>10</stackLimit>
+		<graphicData>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<Mass>1</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>CraftedTentacleProducts</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/Catalyst/Catalyst</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>None</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+	</ThingDef>
+
+</Defs>
