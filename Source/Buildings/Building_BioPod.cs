@@ -548,8 +548,8 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
         if (initScanner)
         {
             Command_Action command_Action3 = new Command_Action();
-            command_Action3.defaultLabel = ((State == SubcoreScannerState.Occupied) ? "CommandCancelProcessingPod".Translate() : "CommandCancelLoad".Translate());
-            command_Action3.defaultDesc = ((State == SubcoreScannerState.Occupied) ? "CommandCancelProcessingPodDesc".Translate() : "CommandCancelLoadDesc".Translate());
+            command_Action3.defaultLabel = ((State == SubcoreScannerState.Occupied) ? "CommandCancelProcessing".Translate() : "CommandCancelLoad".Translate());
+            command_Action3.defaultDesc = ((State == SubcoreScannerState.Occupied) ? "CommandCancelProcessingDesc".Translate() : "CommandCancelLoadDesc".Translate());
             command_Action3.icon = CancelLoadingIcon;
             command_Action3.action = () =>
             {
