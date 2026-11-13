@@ -59,6 +59,8 @@
 	<TentacleBorer.description>A mass of tentacles that is designed for mining stone and ore. Although since that requires sharp and strong claws, this Tentacle is also effective in combat.</TentacleBorer.description>
 	<TentacleGrazer.label>Amor Grazer</TentacleGrazer.label>
 	<TentacleGrazer.description>A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute. Essentially livestock.</TentacleGrazer.description>
+	<TentacleProducer.label>Amor Producer</TentacleProducer.label>
+	<TentacleProducer.description>A non-combat mass of tentacles that can be harvested for hard and soft resin resources (per normal animal mechanics) used to build other things.</TentacleProducer.description>
 	<TentacleHunter.label>Amor Hunter</TentacleHunter.label>
 	<TentacleHunter.description>A combat-focused mass of tentacles, designed to protect the hive from external threats with debilitating ranged attacks.</TentacleHunter.description>
 	<TentacleAbductor.label>Amor Abductor</TentacleAbductor.label>

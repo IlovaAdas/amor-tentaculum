@@ -2,13 +2,7 @@
 
 	<!-- Amor Stinger -->
 	<StingerBody.label>Stinger body</StingerBody.label>
-	<StingerBody.corePart.parts.left_lung.customLabel>left lung</StingerBody.corePart.parts.left_lung.customLabel>
-	<StingerBody.corePart.parts.right_lung.customLabel>right lung</StingerBody.corePart.parts.right_lung.customLabel>
-	<StingerBody.corePart.parts.left_kidney.customLabel>left kidney</StingerBody.corePart.parts.left_kidney.customLabel>
-	<StingerBody.corePart.parts.right_kidney.customLabel>right kidney</StingerBody.corePart.parts.right_kidney.customLabel>
 	<StingerBody.corePart.parts.bell.customLabel>bell</StingerBody.corePart.parts.bell.customLabel>
-	<StingerBody.corePart.parts.bell.parts.left_eye.customLabel>left eye</StingerBody.corePart.parts.bell.parts.left_eye.customLabel>
-	<StingerBody.corePart.parts.bell.parts.right_eye.customLabel>right eye</StingerBody.corePart.parts.bell.parts.right_eye.customLabel>
 	<StingerBody.corePart.parts.bell.parts.mouth.customLabel>mouth</StingerBody.corePart.parts.bell.parts.mouth.customLabel>
 	<StingerBody.corePart.parts.short_tentacle_1.customLabel>short tentacle 1</StingerBody.corePart.parts.short_tentacle_1.customLabel>
 	<StingerBody.corePart.parts.short_tentacle_2.customLabel>short tentacle 2</StingerBody.corePart.parts.short_tentacle_2.customLabel>
@@ -24,12 +18,6 @@
 	<!-- Amor Brewer -->
 	<BrewerBody.label>Brewer body</BrewerBody.label>
 	<BrewerBody.corePart.parts.brain.customLabel>brain</BrewerBody.corePart.parts.brain.customLabel>
-	<BrewerBody.corePart.parts.left_lung.customLabel>left lung</BrewerBody.corePart.parts.left_lung.customLabel>
-	<BrewerBody.corePart.parts.right_lung.customLabel>right lung</BrewerBody.corePart.parts.right_lung.customLabel>
-	<BrewerBody.corePart.parts.left_kidney.customLabel>left kidney</BrewerBody.corePart.parts.left_kidney.customLabel>
-	<BrewerBody.corePart.parts.right_kidney.customLabel>right kidney</BrewerBody.corePart.parts.right_kidney.customLabel>
-	<BrewerBody.corePart.parts.left_sensory_eye.customLabel>left sensory eye</BrewerBody.corePart.parts.left_sensory_eye.customLabel>
-	<BrewerBody.corePart.parts.right_sensory_eye.customLabel>right sensory eye</BrewerBody.corePart.parts.right_sensory_eye.customLabel>
 	<BrewerBody.corePart.parts.large_chemical_organ.customLabel>large chemical organ</BrewerBody.corePart.parts.large_chemical_organ.customLabel>
 	<BrewerBody.corePart.parts.front_left_tentacle_leg.customLabel>front left tentacle leg</BrewerBody.corePart.parts.front_left_tentacle_leg.customLabel>
 	<BrewerBody.corePart.parts.front_right_tentacle_leg.customLabel>front right tentacle leg</BrewerBody.corePart.parts.front_right_tentacle_leg.customLabel>
@@ -38,10 +26,6 @@
 
 	<!-- Amor Striker -->
 	<StrikerBody.label>Striker body</StrikerBody.label>
-	<StrikerBody.corePart.parts.left_lung.customLabel>left lung</StrikerBody.corePart.parts.left_lung.customLabel>
-	<StrikerBody.corePart.parts.right_lung.customLabel>right lung</StrikerBody.corePart.parts.right_lung.customLabel>
-	<StrikerBody.corePart.parts.left_kidney.customLabel>left kidney</StrikerBody.corePart.parts.left_kidney.customLabel>
-	<StrikerBody.corePart.parts.right_kidney.customLabel>right kidney</StrikerBody.corePart.parts.right_kidney.customLabel>
 	<StrikerBody.corePart.parts.mouth_tentacle.customLabel>mouth tentacle</StrikerBody.corePart.parts.mouth_tentacle.customLabel>
 	<StrikerBody.corePart.parts.mouth_tentacle.parts.mouth.customLabel>mouth</StrikerBody.corePart.parts.mouth_tentacle.parts.mouth.customLabel>
 	<StrikerBody.corePart.parts.front_left_leg.customLabel>front left leg</StrikerBody.corePart.parts.front_left_leg.customLabel>
@@ -54,18 +38,6 @@
 	<BroodMotherBody.label>Brood Mother body</BroodMotherBody.label>
 	<BroodMotherBody.corePart.parts.left_elytra.customLabel>left elytra</BroodMotherBody.corePart.parts.left_elytra.customLabel>
 	<BroodMotherBody.corePart.parts.right_elytra.customLabel>right elytra</BroodMotherBody.corePart.parts.right_elytra.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>left eye</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>right eye</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>left antenna</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>right antenna</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_left_front_tentacle.customLabel>upper left front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_left_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_left_middle_front_tentacle.customLabel>upper left middle front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_left_middle_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_right_middle_front_tentacle.customLabel>upper right middle front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_right_middle_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_right_front_tentacle.customLabel>upper right front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.upper_right_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_left_front_tentacle.customLabel>lower left front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_left_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_left_middle_front_tentacle.customLabel>lower left middle front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_left_middle_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_right_middle_front_tentacle.customLabel>lower right middle front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_right_middle_front_tentacle.customLabel>
-	<BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_right_front_tentacle.customLabel>lower right front tentacle</BroodMotherBody.corePart.parts.Pronotum.parts.InsectHead.parts.lower_right_front_tentacle.customLabel>
 	<BroodMotherBody.corePart.parts.ovipositor.customLabel>ovipositor</BroodMotherBody.corePart.parts.ovipositor.customLabel>
 	<BroodMotherBody.corePart.parts.front_left_leg.customLabel>front left leg</BroodMotherBody.corePart.parts.front_left_leg.customLabel>
 	<BroodMotherBody.corePart.parts.front_right_leg.customLabel>front right leg</BroodMotherBody.corePart.parts.front_right_leg.customLabel>
@@ -78,10 +50,6 @@
 	<WarWombBody.label>War Womb body</WarWombBody.label>
 	<WarWombBody.corePart.parts.left_elytra.customLabel>left elytra</WarWombBody.corePart.parts.left_elytra.customLabel>
 	<WarWombBody.corePart.parts.right_elytra.customLabel>right elytra</WarWombBody.corePart.parts.right_elytra.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_eye.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_eye.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_antenna.customLabel>left antenna</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.left_antenna.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_antenna.customLabel>right antenna</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.right_antenna.customLabel>
 	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_front_tentacle.customLabel>upper left front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_front_tentacle.customLabel>
 	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_middle_front_tentacle.customLabel>upper left middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_middle_front_tentacle.customLabel>
 	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_middle_front_tentacle.customLabel>upper right middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_middle_front_tentacle.customLabel>
@@ -97,12 +65,6 @@
 	<WarWombBody.corePart.parts.rear_left_leg.customLabel>rear left leg</WarWombBody.corePart.parts.rear_left_leg.customLabel>
 	<WarWombBody.corePart.parts.rear_right_leg.customLabel>rear right leg</WarWombBody.corePart.parts.rear_right_leg.customLabel>
 	<WarWombBody.corePart.parts.upper_torso.customLabel>upper torso</WarWombBody.corePart.parts.upper_torso.customLabel>
-	<WarWombBody.corePart.parts.upper_torso.parts.left_lung.customLabel>left lung</WarWombBody.corePart.parts.upper_torso.parts.left_lung.customLabel>
-	<WarWombBody.corePart.parts.upper_torso.parts.right_lung.customLabel>right lung</WarWombBody.corePart.parts.upper_torso.parts.right_lung.customLabel>
-	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_human_eye.customLabel>left eye</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_human_eye.customLabel>
-	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_human_eye.customLabel>right eye</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_human_eye.customLabel>
-	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.left_ear.customLabel>
-	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.right_ear.customLabel>
 	<WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</WarWombBody.corePart.parts.upper_torso.parts.Neck.parts.Head.parts.mouth.customLabel>
 	<WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.customLabel>left shoulder</WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.customLabel>
 	<WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.parts.left_arm.customLabel>left arm</WarWombBody.corePart.parts.upper_torso.parts.left_shoulder.parts.left_arm.customLabel>
@@ -111,21 +73,7 @@
 
 	<!-- Amor Spawner -->
 	<SpawnerBody.label>Spawner body</SpawnerBody.label>
-	<SpawnerBody.corePart.parts.right_lung.customLabel>right lung</SpawnerBody.corePart.parts.right_lung.customLabel>
-	<SpawnerBody.corePart.parts.left_lung.customLabel>left lung</SpawnerBody.corePart.parts.left_lung.customLabel>
-	<SpawnerBody.corePart.parts.right_kidney.customLabel>right kidney</SpawnerBody.corePart.parts.right_kidney.customLabel>
-	<SpawnerBody.corePart.parts.left_kidney.customLabel>left kidney</SpawnerBody.corePart.parts.left_kidney.customLabel>
-	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>
-	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
-	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_ear.customLabel>left ear</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_ear.customLabel>
-	<SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_ear.customLabel>right ear</SpawnerBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_ear.customLabel>
 	<SpawnerBody.corePart.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</SpawnerBody.corePart.parts.TentacleBeastHead.parts.mouth.customLabel>
-	<SpawnerBody.corePart.parts.left_shoulder.customLabel>left shoulder</SpawnerBody.corePart.parts.left_shoulder.customLabel>
-	<SpawnerBody.corePart.parts.left_shoulder.parts.left_tentacle_arm.customLabel>left tentacle arm</SpawnerBody.corePart.parts.left_shoulder.parts.left_tentacle_arm.customLabel>
-	<SpawnerBody.corePart.parts.right_shoulder.customLabel>right shoulder</SpawnerBody.corePart.parts.right_shoulder.customLabel>
-	<SpawnerBody.corePart.parts.right_shoulder.parts.right_tentacle_arm.customLabel>right tentacle arm</SpawnerBody.corePart.parts.right_shoulder.parts.right_tentacle_arm.customLabel>
-	<SpawnerBody.corePart.parts.left_tentacle_leg.customLabel>left tentacle leg</SpawnerBody.corePart.parts.left_tentacle_leg.customLabel>
-	<SpawnerBody.corePart.parts.right_tentacle_leg.customLabel>right tentacle leg</SpawnerBody.corePart.parts.right_tentacle_leg.customLabel>
 
 	<!-- Amor Borer -->
 	<TentacleSnake.label>tentacle snake body</TentacleSnake.label>
@@ -133,33 +81,13 @@
 	<TentacleSnake.corePart.parts.upper_right_claw.customLabel>upper right claw</TentacleSnake.corePart.parts.upper_right_claw.customLabel>
 	<TentacleSnake.corePart.parts.lower_left_claw.customLabel>lower left claw</TentacleSnake.corePart.parts.lower_left_claw.customLabel>
 	<TentacleSnake.corePart.parts.lower_right_claw.customLabel>lower right claw</TentacleSnake.corePart.parts.lower_right_claw.customLabel>
-	<TentacleSnake.corePart.parts.left_lung.customLabel>left lung</TentacleSnake.corePart.parts.left_lung.customLabel>
-	<TentacleSnake.corePart.parts.right_lung.customLabel>right lung</TentacleSnake.corePart.parts.right_lung.customLabel>
-	<TentacleSnake.corePart.parts.left_kidney.customLabel>left kidney</TentacleSnake.corePart.parts.left_kidney.customLabel>
-  <TentacleSnake.corePart.parts.right_kidney.customLabel>right kidney</TentacleSnake.corePart.parts.right_kidney.customLabel>
 	
-	<!-- Amor Grazer -->
-	<GrazerBody.label>Grazer body</GrazerBody.label>
-	<GrazerBody.corePart.parts.left_lung.customLabel>left lung</GrazerBody.corePart.parts.left_lung.customLabel>
-	<GrazerBody.corePart.parts.right_lung.customLabel>right lung</GrazerBody.corePart.parts.right_lung.customLabel>
-	<GrazerBody.corePart.parts.left_kidney.customLabel>left kidney</GrazerBody.corePart.parts.left_kidney.customLabel>
-	<GrazerBody.corePart.parts.right_kidney.customLabel>right kidney</GrazerBody.corePart.parts.right_kidney.customLabel>
-	<GrazerBody.corePart.parts.SnakeHead.parts.left_eye.customLabel>left eye</GrazerBody.corePart.parts.SnakeHead.parts.left_eye.customLabel>
-	<GrazerBody.corePart.parts.SnakeHead.parts.right_eye.customLabel>right eye</GrazerBody.corePart.parts.SnakeHead.parts.right_eye.customLabel>
-	<GrazerBody.corePart.parts.SnakeHead.parts.left_mouth.customLabel>left tentacle mouth</GrazerBody.corePart.parts.SnakeHead.parts.left_mouth.customLabel>
-	<GrazerBody.corePart.parts.SnakeHead.parts.middle_mouth.customLabel>middle tentacle mouth</GrazerBody.corePart.parts.SnakeHead.parts.middle_mouth.customLabel>
-	<GrazerBody.corePart.parts.SnakeHead.parts.right_mouth.customLabel>right tentacle mouth</GrazerBody.corePart.parts.SnakeHead.parts.right_mouth.customLabel>
-	<GrazerBody.corePart.parts.front_left_tentacle.customLabel>front left tentacle</GrazerBody.corePart.parts.front_left_tentacle.customLabel>
-	<GrazerBody.corePart.parts.front_right_tentacle.customLabel>front right tentacle</GrazerBody.corePart.parts.front_right_tentacle.customLabel>
-	<GrazerBody.corePart.parts.rear_tentacle.customLabel>rear tentacle</GrazerBody.corePart.parts.rear_tentacle.customLabel>
+	<!-- Amor Producer -->
+	<ProducerBody.label>Producer body</ProducerBody.label>
+	<ProducerBody.corePart.parts.front_left_tentacle.customLabel>front left tentacle</ProducerBody.corePart.parts.front_left_tentacle.customLabel>
+	<ProducerBody.corePart.parts.front_right_tentacle.customLabel>front right tentacle</ProducerBody.corePart.parts.front_right_tentacle.customLabel>
 	<!-- Amor Hunter -->
 	<HunterBody.label>Hunter body</HunterBody.label>
-	<HunterBody.corePart.parts.left_lung.customLabel>left lung</HunterBody.corePart.parts.left_lung.customLabel>
-	<HunterBody.corePart.parts.right_lung.customLabel>right lung</HunterBody.corePart.parts.right_lung.customLabel>
-	<HunterBody.corePart.parts.left_kidney.customLabel>left kidney</HunterBody.corePart.parts.left_kidney.customLabel>
-	<HunterBody.corePart.parts.right_kidney.customLabel>right kidney</HunterBody.corePart.parts.right_kidney.customLabel>
-	<HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>
-	<HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
 	<HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</HunterBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>
 	<HunterBody.corePart.parts.upper_left_shoulder.customLabel>upper left shoulder</HunterBody.corePart.parts.upper_left_shoulder.customLabel>
 	<HunterBody.corePart.parts.upper_left_shoulder.parts.upper_left_arm.customLabel>upper left arm</HunterBody.corePart.parts.upper_left_shoulder.parts.upper_left_arm.customLabel>
@@ -172,12 +100,6 @@
 	<HunterBody.corePart.parts.locomotion_tentacle.customLabel>locomotion tentacle</HunterBody.corePart.parts.locomotion_tentacle.customLabel>
 	<!-- Amor Abductor -->
 	<AbductorBody.label>Abductor body</AbductorBody.label>
-	<AbductorBody.corePart.parts.left_lung.customLabel>left lung</AbductorBody.corePart.parts.left_lung.customLabel>
-	<AbductorBody.corePart.parts.right_lung.customLabel>right lung</AbductorBody.corePart.parts.right_lung.customLabel>
-	<AbductorBody.corePart.parts.left_kidney.customLabel>left kidney</AbductorBody.corePart.parts.left_kidney.customLabel>
-	<AbductorBody.corePart.parts.right_kidney.customLabel>right kidney</AbductorBody.corePart.parts.right_kidney.customLabel>
-	<AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>left eye</AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.left_eye.customLabel>
-	<AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>right eye</AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.right_eye.customLabel>
 	<AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</AbductorBody.corePart.parts.Neck.parts.TentacleBeastHead.parts.mouth.customLabel>
 	<AbductorBody.corePart.parts.upper_left_leg.customLabel>upper left leg</AbductorBody.corePart.parts.upper_left_leg.customLabel>
 	<AbductorBody.corePart.parts.upper_right_leg.customLabel>upper right leg</AbductorBody.corePart.parts.upper_right_leg.customLabel>
@@ -189,14 +111,6 @@
 	<AbductorBody.corePart.parts.lower_right_grappling_tentacle.customLabel>lower right grappling tentacle</AbductorBody.corePart.parts.lower_right_grappling_tentacle.customLabel>
 	<!-- Amor Defender -->
 	<DefenderBody.label>Defender body</DefenderBody.label>
-	<DefenderBody.corePart.parts.left_lung.customLabel>left lung</DefenderBody.corePart.parts.left_lung.customLabel>
-	<DefenderBody.corePart.parts.right_lung.customLabel>right lung</DefenderBody.corePart.parts.right_lung.customLabel>
-	<DefenderBody.corePart.parts.left_kidney.customLabel>left kidney</DefenderBody.corePart.parts.left_kidney.customLabel>
-	<DefenderBody.corePart.parts.right_kidney.customLabel>right kidney</DefenderBody.corePart.parts.right_kidney.customLabel>
-	<DefenderBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</DefenderBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
-	<DefenderBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</DefenderBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
-	<DefenderBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</DefenderBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
-	<DefenderBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</DefenderBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
 	<DefenderBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</DefenderBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>
 	<DefenderBody.corePart.parts.left_shoulder.customLabel>left shoulder</DefenderBody.corePart.parts.left_shoulder.customLabel>
 	<DefenderBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</DefenderBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>
@@ -210,14 +124,6 @@
 	<DefenderBody.corePart.parts.lower_right_back_tentacle.customLabel>lower right back tentacle</DefenderBody.corePart.parts.lower_right_back_tentacle.customLabel>
 	<!-- Amor Valkyrie -->
 	<ValkyrieBody.label>Defender body</ValkyrieBody.label>
-	<ValkyrieBody.corePart.parts.left_lung.customLabel>left lung</ValkyrieBody.corePart.parts.left_lung.customLabel>
-	<ValkyrieBody.corePart.parts.right_lung.customLabel>right lung</ValkyrieBody.corePart.parts.right_lung.customLabel>
-	<ValkyrieBody.corePart.parts.left_kidney.customLabel>left kidney</ValkyrieBody.corePart.parts.left_kidney.customLabel>
-	<ValkyrieBody.corePart.parts.right_kidney.customLabel>right kidney</ValkyrieBody.corePart.parts.right_kidney.customLabel>
-	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
-	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
-	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
-	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
 	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>
 	<ValkyrieBody.corePart.parts.left_shoulder.customLabel>left shoulder</ValkyrieBody.corePart.parts.left_shoulder.customLabel>
 	<ValkyrieBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</ValkyrieBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>

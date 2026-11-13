@@ -1,4 +1,4 @@
-<Defs>
+﻿<Defs>
 
 		<!-- Groups -->
   <BodyPartGroupDef>
@@ -177,6 +177,20 @@
   </BodyPartDef>
 
   <BodyPartDef>
+    <defName>SensoryTentacle</defName>
+    <label>sensory tentacle</label>
+    <hitPoints>15</hitPoints>
+    <tags>
+      <li>SightSource</li>
+      <li>HearingSource</li>
+    </tags>
+    <canScarify>true</canScarify>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
+  <BodyPartDef>
     <defName>TentacleStinger</defName>
     <label>stinger</label>
     <hitPoints>8</hitPoints>
@@ -263,37 +277,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.020</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.025</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -306,43 +291,41 @@
           </groups>
           <parts>
             <li>
-              <def>Skull</def>
-              <coverage>0.18</coverage>
+              <def>Brain</def>
+              <coverage>0.144</coverage>
               <depth>Inside</depth>
-              <groups>
-                <li>UpperHead</li>
-                <li>Eyes</li>
-                <li>FullHead</li>
-              </groups>
-              <parts>
-                <li>
-                  <def>Brain</def>
-                  <coverage>0.8</coverage>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>Eyes</li>
-                    <li>FullHead</li>
-                  </groups>
-                </li>
-              </parts>
             </li>
             <li>
-              <def>Eye</def>
-              <customLabel>left eye</customLabel>
-              <coverage>0.02</coverage>
-              <groups>
-                <li>FullHead</li>
-                <li>Eyes</li>
-              </groups>
+              <def>SensoryTentacle</def>
+              <customLabel>left sensory tentacle</customLabel>
+              <coverage>0.04</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
             </li>
             <li>
-              <def>Eye</def>
-              <customLabel>right eye</customLabel>
-              <coverage>0.02</coverage>
-              <groups>
-                <li>FullHead</li>
-                <li>Eyes</li>
-              </groups>
+              <def>SensoryTentacle</def>
+              <customLabel>right sensory tentacle</customLabel>
+              <coverage>0.04</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>upper left sensory tentacle</customLabel>
+              <coverage>0.04</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>upper right sensory tentacle</customLabel>
+              <coverage>0.04</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
             </li>
             <li>
               <def>TentacleBeastMouth</def>
@@ -476,7 +459,7 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>Heart</def>
+					<def>InsectHeart</def>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
@@ -502,40 +485,39 @@
 										<li>UpperHead</li>
 									</groups>
 								</li>
-								<li>
-									<def>Eye</def>
-									<customLabel>left eye</customLabel>
-									<coverage>0.08</coverage>
-									<groups>
-										<li>FullHead</li>
-										<li>Eyes</li>
-									</groups>
-									<flipGraphic>true</flipGraphic>
-								</li>
-								<li>
-									<def>Eye</def>
-									<customLabel>right eye</customLabel>
-									<coverage>0.08</coverage>
-									<groups>
-										<li>FullHead</li>
-										<li>Eyes</li>
-									</groups>
-								</li>
-								<li>
-									<def>Antenna</def>
-									<customLabel>left antenna</customLabel>
-									<coverage>0.04</coverage>
-									<flipGraphic>true</flipGraphic>
-								</li>
-								<li>
-									<def>Antenna</def>
-									<customLabel>right antenna</customLabel>
-									<coverage>0.04</coverage>
+									<li>
+										<def>SensoryTentacle</def>
+										<customLabel>left sensory tentacle</customLabel>
+										<coverage>0.04</coverage>
+										<height>Top</height>
+										<depth>Outside</depth>
+										<groups><li>FullHead</li></groups>
+										<flipGraphic>true</flipGraphic>
 									</li>
-								<li>
-									<def>InsectNostril</def>
-									<coverage>0.04</coverage>
-								</li>
+									<li>
+										<def>SensoryTentacle</def>
+										<customLabel>right sensory tentacle</customLabel>
+										<coverage>0.04</coverage>
+										<height>Top</height>
+										<depth>Outside</depth>
+										<groups><li>FullHead</li></groups>
+									</li>
+									<li>
+										<def>SensoryTentacle</def>
+										<customLabel>upper left sensory tentacle</customLabel>
+										<coverage>0.04</coverage>
+										<height>Top</height>
+										<depth>Outside</depth>
+										<groups><li>FullHead</li></groups>
+									</li>
+									<li>
+										<def>SensoryTentacle</def>
+										<customLabel>upper right sensory tentacle</customLabel>
+										<coverage>0.04</coverage>
+										<height>Top</height>
+										<depth>Outside</depth>
+										<groups><li>FullHead</li></groups>
+									</li>
 								<li>
 									<def>TentacleBeastMouth</def>
 									<coverage>0.08</coverage>
@@ -660,7 +642,7 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
@@ -687,38 +669,37 @@
                   </groups>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.08</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                   <flipGraphic>true</flipGraphic>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.08</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Antenna</def>
-                  <customLabel>left antenna</customLabel>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper left sensory tentacle</customLabel>
                   <coverage>0.04</coverage>
-                  <flipGraphic>true</flipGraphic>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Antenna</def>
-                  <customLabel>right antenna</customLabel>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper right sensory tentacle</customLabel>
                   <coverage>0.04</coverage>
-                </li>
-                <li>
-                  <def>InsectNostril</def>
-                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
                   <def>TentacleBeastMouth</def>
@@ -855,23 +836,6 @@
               <depth>Inside</depth>
             </li>
             <li>
-              <def>Heart</def>
-              <coverage>0.04</coverage>
-              <depth>Inside</depth>
-            </li>
-            <li>
-              <def>Lung</def>
-              <customLabel>left lung</customLabel>
-              <coverage>0.05</coverage>
-              <depth>Inside</depth>
-            </li>
-            <li>
-              <def>Lung</def>
-              <customLabel>right lung</customLabel>
-              <coverage>0.05</coverage>
-              <depth>Inside</depth>
-            </li>
-            <li>
               <def>Neck</def>
               <coverage>0.12</coverage>
               <height>Top</height>
@@ -887,62 +851,14 @@
                   </groups>
                   <parts>
                     <li>
-                      <def>Skull</def>
-                      <coverage>0.18</coverage>
+                      <def>Brain</def>
+                      <coverage>0.144</coverage>
                       <depth>Inside</depth>
-                      <groups><li>UpperHead</li><li>Eyes</li><li>FullHead</li></groups>
-                      <parts>
-                        <li>
-                          <def>Brain</def>
-                          <coverage>0.8</coverage>
-                          <depth>Inside</depth>
-                          <groups><li>UpperHead</li><li>Eyes</li><li>FullHead</li></groups>
-                        </li>
-                      </parts>
-                    </li>
-                    <li>
-                      <def>Eye</def>
-                      <customLabel>left human eye</customLabel>
-                      <coverage>0.07</coverage>
-                      <groups><li>FullHead</li><li>Eyes</li></groups>
-                      <flipGraphic>true</flipGraphic>
-                    </li>
-                    <li>
-                      <def>Eye</def>
-                      <customLabel>right human eye</customLabel>
-                      <coverage>0.07</coverage>
-                      <groups><li>FullHead</li><li>Eyes</li></groups>
-                    </li>
-                    <li>
-                      <def>Ear</def>
-                      <customLabel>left ear</customLabel>
-                      <coverage>0.07</coverage>
-                      <groups><li>UpperHead</li><li>FullHead</li></groups>
-                      <flipGraphic>true</flipGraphic>
-                    </li>
-                    <li>
-                      <def>Ear</def>
-                      <customLabel>right ear</customLabel>
-                      <coverage>0.07</coverage>
-                      <groups><li>UpperHead</li><li>FullHead</li></groups>
-                    </li>
-                    <li>
-                      <def>Nose</def>
-                      <coverage>0.10</coverage>
-                      <groups><li>FullHead</li></groups>
                     </li>
                     <li>
                       <def>Jaw</def>
                       <coverage>0.15</coverage>
                       <groups><li>Teeth</li><li>FullHead</li><li>Mouth</li></groups>
-                      <parts>
-                        <li>
-                          <def>Tongue</def>
-                          <coverage>0.001</coverage>
-                          <depth>Inside</depth>
-                          <groups><li>FullHead</li></groups>
-                        </li>
-                      </parts>
                     </li>
                     <li>
                       <def>TentacleBeastMouth</def>
@@ -1046,52 +962,8 @@
           </groups>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.020</coverage>
-          <depth>Inside</depth>
-          <groups>
-            <li>Torso</li>
-          </groups>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-          <groups>
-            <li>Torso</li>
-          </groups>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-          <groups>
-            <li>Torso</li>
-          </groups>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-          <groups>
-            <li>Torso</li>
-          </groups>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-          <groups>
-            <li>Torso</li>
-          </groups>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -1115,44 +987,41 @@
               </groups>
               <parts>
                 <li>
-                  <def>Skull</def>
-                  <coverage>0.18</coverage>
+                  <def>Brain</def>
+                  <coverage>0.144</coverage>
                   <depth>Inside</depth>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>Eyes</li>
-                    <li>FullHead</li>
-                  </groups>
-                  <parts>
-                    <li>
-                      <def>Brain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-                      <groups>
-                        <li>UpperHead</li>
-                        <li>Eyes</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>left eye</customLabel>
+                  <def>SensoryTentacle</def>
+                  <customLabel>left sensory tentacle</customLabel>
                   <coverage>0.04</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>right eye</customLabel>
+                  <def>SensoryTentacle</def>
+                  <customLabel>right sensory tentacle</customLabel>
                   <coverage>0.04</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
+                </li>
+                <li>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
+                </li>
+                <li>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
                   <def>TentacleBeastMouth</def>
@@ -1298,37 +1167,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.020</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.025</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -1349,71 +1189,42 @@
               </groups>
               <parts>
                 <li>
-                  <def>Skull</def>
-                  <coverage>0.18</coverage>
+                  <def>Brain</def>
+                  <coverage>0.144</coverage>
                   <depth>Inside</depth>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>Eyes</li>
-                    <li>FullHead</li>
-                  </groups>
-                  <parts>
-                    <li>
-                      <def>Brain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-                      <groups>
-                        <li>UpperHead</li>
-                        <li>Eyes</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                   <flipGraphic>true</flipGraphic>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Ear</def>
-                  <customLabel>left ear</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
-                  </groups>
-                  <flipGraphic>true</flipGraphic>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Ear</def>
-                  <customLabel>right ear</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Nose</def>
-                  <coverage>0.10</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
                   <def>Jaw</def>
@@ -1423,16 +1234,6 @@
                     <li>FullHead</li>
                     <li>Mouth</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>Tongue</def>
-                      <coverage>0.001</coverage>
-                      <depth>Inside</depth>
-                      <groups>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
                   <def>TentacleBeastMouth</def>
@@ -1588,37 +1389,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.020</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.025</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -1639,71 +1411,42 @@
               </groups>
               <parts>
                 <li>
-                  <def>Skull</def>
-                  <coverage>0.18</coverage>
+                  <def>Brain</def>
+                  <coverage>0.144</coverage>
                   <depth>Inside</depth>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>Eyes</li>
-                    <li>FullHead</li>
-                  </groups>
-                  <parts>
-                    <li>
-                      <def>Brain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-                      <groups>
-                        <li>UpperHead</li>
-                        <li>Eyes</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                   <flipGraphic>true</flipGraphic>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Ear</def>
-                  <customLabel>left ear</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
-                  </groups>
-                  <flipGraphic>true</flipGraphic>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Ear</def>
-                  <customLabel>right ear</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Nose</def>
-                  <coverage>0.10</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                  </groups>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
                   <def>Jaw</def>
@@ -1713,16 +1456,6 @@
                     <li>FullHead</li>
                     <li>Mouth</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>Tongue</def>
-                      <coverage>0.001</coverage>
-                      <depth>Inside</depth>
-                      <groups>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
                   <def>TentacleBeastMouth</def>
@@ -1878,37 +1611,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.020</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.025</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.017</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.025</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -1929,44 +1633,41 @@
               </groups>
               <parts>
                 <li>
-                  <def>Skull</def>
-                  <coverage>0.18</coverage>
+                  <def>Brain</def>
+                  <coverage>0.144</coverage>
                   <depth>Inside</depth>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>Eyes</li>
-                    <li>FullHead</li>
-                  </groups>
-                  <parts>
-                    <li>
-                      <def>Brain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-                      <groups>
-                        <li>UpperHead</li>
-                        <li>Eyes</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>left eye</customLabel>
+                  <def>SensoryTentacle</def>
+                  <customLabel>left sensory tentacle</customLabel>
                   <coverage>0.04</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>right eye</customLabel>
+                  <def>SensoryTentacle</def>
+                  <customLabel>right sensory tentacle</customLabel>
                   <coverage>0.04</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
+                </li>
+                <li>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper left sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
+                </li>
+                <li>
+                  <def>SensoryTentacle</def>
+                  <customLabel>upper right sensory tentacle</customLabel>
+                  <coverage>0.04</coverage>
+                  <height>Top</height>
+                  <depth>Outside</depth>
+                  <groups><li>FullHead</li></groups>
                 </li>
                 <li>
                   <def>TentacleBeastMouth</def>
@@ -2129,6 +1830,29 @@
 		<maleGenitals>
 			<li>TentaclePenis</li>
 		</maleGenitals>
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+	</rjw.RaceGroupDef>
+
+	<!-- Amor Producer RJW race group -->
+	<rjw.RaceGroupDef>
+		<defName>TentacleProducerRJW</defName>
+		<raceNames>
+			<li>TentacleProducer</li>
+		</raceNames>
+		<anuses>
+			<li>TentacleAnus</li>
+		</anuses>
+		<femaleBreasts>
+			<li>TentacleBreasts</li>
+		</femaleBreasts>
+		<femaleGenitals>
+			<li>TentacleVagina</li>
+		</femaleGenitals>
+		<maleBreasts />
+		<maleGenitals />
 		<hasSingleGender>true</hasSingleGender>
 		<hasSexNeed>true</hasSexNeed>
 		<hasFertility>false</hasFertility>
@@ -2309,10 +2033,10 @@
 		<hasPregnancy>false</hasPregnancy>
 	</rjw.RaceGroupDef>
 
-  <!-- Amor Grazer body -->
+  <!-- Amor Producer body -->
   <BodyDef>
-    <defName>GrazerBody</defName>
-    <label>Grazer body</label>
+    <defName>ProducerBody</defName>
+    <label>Producer body</label>
     <corePart>
       <def>SnakeBody</def>
       <height>Middle</height>
@@ -2324,37 +2048,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.04</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -2365,30 +2060,33 @@
           </groups>
           <parts>
             <li>
-              <def>Skull</def>
-              <coverage>0.3</coverage>
-              <depth>Inside</depth>
-              <parts>
-                <li>
-                  <def>Brain</def>
-                  <coverage>0.5</coverage>
-                  <depth>Inside</depth>
-                </li>
-              </parts>
-            </li>
-            <li>
-              <def>Eye</def>
-              <customLabel>left eye</customLabel>
-              <coverage>0.1</coverage>
-            </li>
-            <li>
-              <def>Eye</def>
-              <customLabel>right eye</customLabel>
-              <coverage>0.1</coverage>
-            </li>
-            <li>
-              <def>Nose</def>
+              <def>Brain</def>
               <coverage>0.15</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>left sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>right sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>central sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
             </li>
             <li>
               <def>TentacleBeastMouth</def>
@@ -2430,9 +2128,33 @@
         </li>
         <li>
           <def>Tentacle</def>
-          <customLabel>rear tentacle</customLabel>
+          <customLabel>central tentacle</customLabel>
           <coverage>0.08</coverage>
           <depth>Outside</depth>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>central ventral tentacle</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>left ventral tentacle</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups><li>Legs</li></groups>
+        </li>
+        <li>
+          <def>TentacleLeg</def>
+          <customLabel>right ventral tentacle</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <depth>Outside</depth>
+          <groups><li>Legs</li></groups>
         </li>
       </parts>
     </corePart>
@@ -2488,37 +2210,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.04</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -2529,30 +2222,102 @@
           </groups>
           <parts>
             <li>
-              <def>Skull</def>
-              <coverage>0.30</coverage>
-              <depth>Inside</depth>
-              <parts>
-                <li>
-                  <def>Brain</def>
-                  <coverage>0.50</coverage>
-                  <depth>Inside</depth>
-                </li>
-              </parts>
-            </li>
-            <li>
-              <def>Eye</def>
-              <customLabel>left eye</customLabel>
-              <coverage>0.10</coverage>
-            </li>
-            <li>
-              <def>Eye</def>
-              <customLabel>right eye</customLabel>
-              <coverage>0.10</coverage>
-            </li>
-            <li>
-              <def>Nose</def>
+              <def>Brain</def>
               <coverage>0.15</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>left sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+              <flipGraphic>true</flipGraphic>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>right sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>upper left sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>upper right sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+            </li>
+            <li>
+              <def>TentacleBeastMouth</def>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>SmallTentacleSnake</defName>
+    <label>small tentacle body</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>TentacleBeastHead</def>
+          <coverage>0.20</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.15</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>left sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
+              <flipGraphic>true</flipGraphic>
+            </li>
+            <li>
+              <def>SensoryTentacle</def>
+              <customLabel>right sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
             </li>
             <li>
               <def>TentacleBeastMouth</def>
@@ -2590,37 +2355,8 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.04</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.02</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.02</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -2634,50 +2370,26 @@
           </groups>
           <parts>
             <li>
-              <def>Skull</def>
-              <coverage>0.25</coverage>
+              <def>Brain</def>
+              <coverage>0.125</coverage>
               <depth>Inside</depth>
-              <groups>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </groups>
-              <parts>
-                <li>
-                  <def>Brain</def>
-                  <coverage>0.5</coverage>
-                  <depth>Inside</depth>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>UpperHead</li>
-                  </groups>
-                </li>
-              </parts>
             </li>
             <li>
-              <def>Eye</def>
-              <customLabel>left eye</customLabel>
-              <coverage>0.1</coverage>
-              <groups>
-                <li>FullHead</li>
-                <li>Eyes</li>
-              </groups>
+              <def>SensoryTentacle</def>
+              <customLabel>left sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
               <flipGraphic>true</flipGraphic>
             </li>
             <li>
-              <def>Eye</def>
-              <customLabel>right eye</customLabel>
-              <coverage>0.1</coverage>
-              <groups>
-                <li>FullHead</li>
-                <li>Eyes</li>
-              </groups>
-            </li>
-            <li>
-              <def>Nose</def>
-              <coverage>0.1</coverage>
-              <groups>
-                <li>FullHead</li>
-              </groups>
+              <def>SensoryTentacle</def>
+              <customLabel>right sensory tentacle</customLabel>
+              <coverage>0.05</coverage>
+              <height>Top</height>
+              <depth>Outside</depth>
+              <groups><li>FullHead</li></groups>
             </li>
             <li>
               <def>TentacleBeastMouth</def>
@@ -2823,56 +2535,37 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.05</coverage>
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.04</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.04</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.05</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Eye</def>
-          <customLabel>left sensory eye</customLabel>
+          <def>SensoryTentacle</def>
+          <customLabel>left sensory tentacle</customLabel>
           <coverage>0.02</coverage>
-          <height>Middle</height>
-          <groups>
-            <li>Eyes</li>
-          </groups>
+          <height>Top</height>
+          <depth>Outside</depth>
         </li>
         <li>
-          <def>Eye</def>
-          <customLabel>right sensory eye</customLabel>
+          <def>SensoryTentacle</def>
+          <customLabel>right sensory tentacle</customLabel>
           <coverage>0.02</coverage>
-          <height>Middle</height>
-          <groups>
-            <li>Eyes</li>
-          </groups>
+          <height>Top</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SensoryTentacle</def>
+          <customLabel>upper left sensory tentacle</customLabel>
+          <coverage>0.02</coverage>
+          <height>Top</height>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>SensoryTentacle</def>
+          <customLabel>upper right sensory tentacle</customLabel>
+          <coverage>0.02</coverage>
+          <height>Top</height>
+          <depth>Outside</depth>
         </li>
         <li>
           <def>BrewerChemicalOrgan</def>
@@ -2953,38 +2646,23 @@
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Heart</def>
+          <def>InsectHeart</def>
           <coverage>0.04</coverage>
           <depth>Inside</depth>
         </li>
         <li>
-          <def>Lung</def>
-          <customLabel>left lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Lung</def>
-          <customLabel>right lung</customLabel>
-          <coverage>0.03</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
+          <def>SensoryTentacle</def>
+          <customLabel>left sensory tentacle</customLabel>
           <coverage>0.02</coverage>
-          <depth>Inside</depth>
+          <height>Top</height>
+          <depth>Outside</depth>
         </li>
         <li>
-          <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
+          <def>SensoryTentacle</def>
+          <customLabel>right sensory tentacle</customLabel>
           <coverage>0.02</coverage>
-          <depth>Inside</depth>
-        </li>
-        <li>
-          <def>Liver</def>
-          <coverage>0.04</coverage>
-          <depth>Inside</depth>
+          <height>Top</height>
+          <depth>Outside</depth>
         </li>
         <li>
           <def>SmallTentacle</def>
