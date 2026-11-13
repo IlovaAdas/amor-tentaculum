@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleLarva -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleLarva</defName>
-    <label>Amor Larva</label>
     <race>TentacleLarva</race>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <combatPower>5</combatPower>

@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleValkyrie -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleValkyrie</defName>
-    <label>Amor Valkyrie</label>
     <race>TentacleValkyrie</race>
     <combatPower>400</combatPower>
     <ecoSystemWeight>0.15</ecoSystemWeight>

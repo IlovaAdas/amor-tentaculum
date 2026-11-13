@@ -19,8 +19,6 @@
     <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
-        <label>left mass of clawed tentacles</label>
-        <labelNoLocation>clawed tentacle</labelNoLocation>
         <capacities>
           <li>Scratch</li>
           <li>Stab</li>
@@ -30,8 +28,6 @@
         <linkedBodyPartsGroup>UpperLeftClaw</linkedBodyPartsGroup>
       </li>
       <li>
-        <label>right mass of clawed tentacles</label>
-        <labelNoLocation>clawed tentacle</labelNoLocation>
         <capacities>
           <li>Scratch</li>
           <li>Stab</li>

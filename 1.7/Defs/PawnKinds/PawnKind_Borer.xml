@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleBorer -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleBorer</defName>
-    <label>Amor Borer</label>
     <race>TentacleBorer</race>
     <combatPower>75</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>

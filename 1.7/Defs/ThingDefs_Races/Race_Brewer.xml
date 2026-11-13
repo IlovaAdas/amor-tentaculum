@@ -13,8 +13,6 @@
     </statBases>
     <tools>
       <li>
-        <label>tentacle leg strike</label>
-        <labelNoLocation>tentacle leg</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>

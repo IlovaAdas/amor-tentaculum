@@ -14,8 +14,6 @@
     <uiIconScale>0.8</uiIconScale>
     <tools>
       <li>
-        <label>mouth tentacle</label>
-        <labelNoLocation>tentacle</labelNoLocation>
         <capacities>
           <li>Bite</li>
           <li>Blunt</li>

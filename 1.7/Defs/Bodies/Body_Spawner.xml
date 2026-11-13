@@ -3,7 +3,6 @@
   <!-- Tentaculum body: SpawnerBody -->
   <BodyDef>
     <defName>SpawnerBody</defName>
-    <label>Spawner body</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>

@@ -3,7 +3,6 @@
   <!-- Tentaculum body: DefenderBody -->
   <BodyDef>
     <defName>DefenderBody</defName>
-    <label>Defender body</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>

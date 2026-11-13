@@ -18,8 +18,6 @@
     <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
-        <label>front tentacle 1</label>
-        <labelNoLocation>front tentacle</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>
@@ -29,8 +27,6 @@
         <linkedBodyPartsGroup>BroodMotherFrontTentacle1</linkedBodyPartsGroup>
       </li>
       <li>
-        <label>front tentacle 2</label>
-        <labelNoLocation>front tentacle</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>
@@ -40,8 +36,6 @@
         <linkedBodyPartsGroup>BroodMotherFrontTentacle2</linkedBodyPartsGroup>
       </li>
       <li>
-        <label>front tentacle 3</label>
-        <labelNoLocation>front tentacle</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>
@@ -51,8 +45,6 @@
         <linkedBodyPartsGroup>BroodMotherFrontTentacle3</linkedBodyPartsGroup>
       </li>
       <li>
-        <label>front tentacle 4</label>
-        <labelNoLocation>front tentacle</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>

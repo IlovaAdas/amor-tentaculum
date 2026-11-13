@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleWarWomb -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleWarWomb</defName>
-    <label>Amor War Womb</label>
     <race>TentacleWarWomb</race>
     <combatPower>180</combatPower>
     <ecoSystemWeight>0.15</ecoSystemWeight>

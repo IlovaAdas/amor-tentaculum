@@ -3,7 +3,6 @@
   <!-- Tentaculum body: BroodMotherBody -->
   <BodyDef>
     <defName>BroodMotherBody</defName>
-    <label>Brood Mother body</label>
     <corePart>
       <def>Shell</def>
       <height>Middle</height>

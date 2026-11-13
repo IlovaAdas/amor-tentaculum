@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleSquirmer -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleSquirmer</defName>
-    <label>Amor Squirmer</label>
     <race>TentacleSquirmer</race>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <combatPower>5</combatPower>

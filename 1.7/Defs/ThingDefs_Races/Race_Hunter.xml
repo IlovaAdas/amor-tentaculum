@@ -14,8 +14,6 @@
     <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
-        <label>tentacle lash</label>
-        <labelNoLocation>tentacle</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>

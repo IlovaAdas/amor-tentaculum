@@ -3,7 +3,6 @@
   <!-- Tentaculum body: StrikerBody -->
   <BodyDef>
     <defName>StrikerBody</defName>
-    <label>Striker body</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>

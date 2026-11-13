@@ -73,6 +73,35 @@
 	<TentacleBrewer.description>A mass of tentacles that produces drugs and chemicals regularly. Will attack with tox gas and cum sprays.When constructed for your own colony, can be switched between several products to brew</TentacleBrewer.description>
 	<TentacleStriker.label>Amor Striker</TentacleStriker.label>
 	<TentacleStriker.description>A combat-focused mass of tentacles, designed to latch on to and incapacitate hostile enemies with attacks to their genitalia.</TentacleStriker.description>
+
+	<!-- Creature combat tool labels -->
+	<TentacleBorer.tools.0.label>left mass of clawed tentacles</TentacleBorer.tools.0.label>
+	<TentacleBorer.tools.1.label>right mass of clawed tentacles</TentacleBorer.tools.1.label>
+	<TentacleBrewer.tools.0.label>tentacle leg strike</TentacleBrewer.tools.0.label>
+	<TentacleBroodMother.tools.0.label>front tentacle 1</TentacleBroodMother.tools.0.label>
+	<TentacleBroodMother.tools.1.label>front tentacle 2</TentacleBroodMother.tools.1.label>
+	<TentacleBroodMother.tools.2.label>front tentacle 3</TentacleBroodMother.tools.2.label>
+	<TentacleBroodMother.tools.3.label>front tentacle 4</TentacleBroodMother.tools.3.label>
+	<TentacleDefender.tools.0.label>heavy fist</TentacleDefender.tools.0.label>
+	<TentacleDefender.tools.1.label>back tentacle slam</TentacleDefender.tools.1.label>
+	<TentacleHunter.tools.0.label>tentacle lash</TentacleHunter.tools.0.label>
+	<TentacleLarva.tools.0.label>head</TentacleLarva.tools.0.label>
+	<TentacleSpawner.tools.0.label>tentacle</TentacleSpawner.tools.0.label>
+	<TentacleSquirmer.tools.0.label>head</TentacleSquirmer.tools.0.label>
+	<TentacleStinger.tools.0.label>venom stinger</TentacleStinger.tools.0.label>
+	<TentacleStriker.tools.0.label>mouth tentacle</TentacleStriker.tools.0.label>
+	<TentacleValkyrie.tools.0.label>back tentacle strike</TentacleValkyrie.tools.0.label>
+	<TentacleWarWomb.tools.0.label>front tentacles</TentacleWarWomb.tools.0.label>
+	<TentacleBorer.tools.0.labelNoLocation>clawed tentacle</TentacleBorer.tools.0.labelNoLocation>
+	<TentacleBorer.tools.1.labelNoLocation>clawed tentacle</TentacleBorer.tools.1.labelNoLocation>
+	<TentacleBrewer.tools.0.labelNoLocation>tentacle leg</TentacleBrewer.tools.0.labelNoLocation>
+	<TentacleBroodMother.tools.0.labelNoLocation>front tentacle</TentacleBroodMother.tools.0.labelNoLocation>
+	<TentacleBroodMother.tools.1.labelNoLocation>front tentacle</TentacleBroodMother.tools.1.labelNoLocation>
+	<TentacleBroodMother.tools.2.labelNoLocation>front tentacle</TentacleBroodMother.tools.2.labelNoLocation>
+	<TentacleBroodMother.tools.3.labelNoLocation>front tentacle</TentacleBroodMother.tools.3.labelNoLocation>
+	<TentacleHunter.tools.0.labelNoLocation>tentacle</TentacleHunter.tools.0.labelNoLocation>
+	<TentacleStriker.tools.0.labelNoLocation>tentacle</TentacleStriker.tools.0.labelNoLocation>
+	<TentacleWarWomb.tools.0.labelNoLocation>tentacle</TentacleWarWomb.tools.0.labelNoLocation>
 	
 	<!-- Host transformation eggs -->
 	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>

@@ -1,5 +1,7 @@
 <languageData>
 
+	<SmallTentacleSnake.label>small tentacle body</SmallTentacleSnake.label>
+
 	<!-- Amor Stinger -->
 	<StingerBody.label>Stinger body</StingerBody.label>
 	<StingerBody.corePart.parts.bell.customLabel>bell</StingerBody.corePart.parts.bell.customLabel>
@@ -116,7 +118,7 @@
 	<DefenderBody.corePart.parts.lower_left_back_tentacle.customLabel>lower left back tentacle</DefenderBody.corePart.parts.lower_left_back_tentacle.customLabel>
 	<DefenderBody.corePart.parts.lower_right_back_tentacle.customLabel>lower right back tentacle</DefenderBody.corePart.parts.lower_right_back_tentacle.customLabel>
 	<!-- Amor Valkyrie -->
-	<ValkyrieBody.label>Defender body</ValkyrieBody.label>
+	<ValkyrieBody.label>Valkyrie body</ValkyrieBody.label>
 	<ValkyrieBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>mouth</ValkyrieBody.corePart.parts.Neck.parts.Head.parts.mouth.customLabel>
 	<ValkyrieBody.corePart.parts.left_shoulder.customLabel>left shoulder</ValkyrieBody.corePart.parts.left_shoulder.customLabel>
 	<ValkyrieBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</ValkyrieBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>

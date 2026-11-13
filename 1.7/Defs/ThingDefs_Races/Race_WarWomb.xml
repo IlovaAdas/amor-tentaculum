@@ -17,8 +17,6 @@
     <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
-        <label>front tentacles</label>
-        <labelNoLocation>tentacle</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Scratch</li>

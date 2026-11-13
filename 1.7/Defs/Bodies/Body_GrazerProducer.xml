@@ -3,7 +3,6 @@
   <!-- Tentaculum body: ProducerBody -->
   <BodyDef>
     <defName>ProducerBody</defName>
-    <label>Producer body</label>
     <corePart>
       <def>SnakeBody</def>
       <height>Middle</height>

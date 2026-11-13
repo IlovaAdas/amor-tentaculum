@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleStriker -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleStriker</defName>
-    <label>Amor Striker</label>
     <race>TentacleStriker</race>
     <combatPower>25</combatPower>
     <ecoSystemWeight>0.4</ecoSystemWeight>

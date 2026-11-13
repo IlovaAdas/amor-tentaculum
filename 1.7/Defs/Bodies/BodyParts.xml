@@ -16,7 +16,6 @@
   </BodyPartDef>
   <BodyPartDef>
     <defName>TentacleBeastMouth</defName>
-    <label>mouth</label>
     <hitPoints>40</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
@@ -37,7 +36,6 @@
   </BodyPartDef>
   <BodyPartDef>
     <defName>SmallTentacle</defName>
-    <label>small tentacle</label>
     <hitPoints>15</hitPoints>
     <tags>
       <li>ManipulationLimbCore</li>
@@ -47,7 +45,6 @@
   </BodyPartDef>
   <BodyPartDef>
     <defName>SensoryTentacle</defName>
-    <label>sensory tentacle</label>
     <hitPoints>15</hitPoints>
     <tags>
       <li>SightSource</li>
@@ -60,7 +57,6 @@
   </BodyPartDef>
   <BodyPartDef>
     <defName>TentacleStinger</defName>
-    <label>stinger</label>
     <hitPoints>8</hitPoints>
     <skinCovered>true</skinCovered>
     <tags>
@@ -94,7 +90,6 @@
   </BodyPartDef>
   <BodyPartDef>
     <defName>LargeTentacle</defName>
-    <label>large tentacle</label>
     <hitPoints>40</hitPoints>
     <frostbiteVulnerability>0.5</frostbiteVulnerability>
     <tags>
@@ -104,7 +99,6 @@
   </BodyPartDef>
   <BodyPartDef>
     <defName>BrewerChemicalOrgan</defName>
-    <label>chemical organ</label>
     <hitPoints>80</hitPoints>
     <skinCovered>true</skinCovered>
   </BodyPartDef>

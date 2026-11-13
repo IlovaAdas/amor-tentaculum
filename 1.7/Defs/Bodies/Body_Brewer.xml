@@ -3,7 +3,6 @@
   <!-- Tentaculum body: BrewerBody -->
   <BodyDef>
     <defName>BrewerBody</defName>
-    <label>Brewer body</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>

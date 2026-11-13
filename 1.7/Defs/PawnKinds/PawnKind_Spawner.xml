@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleSpawner -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleSpawner</defName>
-    <label>Amor Spawner</label>
     <race>TentacleSpawner</race>
     <combatPower>100</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>

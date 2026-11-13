@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleBrewer -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleBrewer</defName>
-    <label>Amor Brewer</label>
     <race>TentacleBrewer</race>
     <combatPower>120</combatPower>
     <ecoSystemWeight>0.1</ecoSystemWeight>

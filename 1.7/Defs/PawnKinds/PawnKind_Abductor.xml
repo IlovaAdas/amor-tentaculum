@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleAbductor -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleAbductor</defName>
-    <label>Amor Abductor</label>
     <race>TentacleAbductor</race>
     <combatPower>50</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>

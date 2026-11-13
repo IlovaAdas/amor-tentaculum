@@ -3,7 +3,6 @@
   <!-- Tentaculum body: AbductorBody -->
   <BodyDef>
     <defName>AbductorBody</defName>
-    <label>Abductor body</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>

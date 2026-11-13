@@ -3,7 +3,6 @@
   <!-- Tentaculum body: WarWombBody -->
   <BodyDef>
     <defName>WarWombBody</defName>
-    <label>War Womb body</label>
     <corePart>
       <def>Shell</def>
       <height>Middle</height>

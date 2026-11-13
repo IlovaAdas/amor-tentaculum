@@ -1,6 +1,8 @@
 <languageData>
 
+	<TentacleBeastMouth.label>mouth</TentacleBeastMouth.label>
 	<MovingBodyTentacleBeast.label>body</MovingBodyTentacleBeast.label>
+	<SensoryTentacle.label>sensory tentacle</SensoryTentacle.label>
 	<TentacleBeastHead.label>head</TentacleBeastHead.label>
 	<Tentacle.label>tentacle</Tentacle.label>
 	<SmallTentacle.label>small tentacle</SmallTentacle.label>

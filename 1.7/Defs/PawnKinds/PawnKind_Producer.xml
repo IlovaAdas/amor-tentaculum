@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleProducer -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleProducer</defName>
-    <label>Amor Producer</label>
     <race>TentacleProducer</race>
     <combatPower>8</combatPower>
     <ecoSystemWeight>1</ecoSystemWeight>

@@ -3,7 +3,6 @@
   <!-- Tentaculum pawn kind: TentacleGrazer -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>TentacleGrazer</defName>
-    <label>Amor Grazer</label>
     <race>TentacleGrazer</race>
     <combatPower>8</combatPower>
     <ecoSystemWeight>1</ecoSystemWeight>

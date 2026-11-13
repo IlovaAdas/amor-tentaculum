@@ -3,7 +3,6 @@
   <!-- Tentaculum body: StingerBody -->
   <BodyDef>
     <defName>StingerBody</defName>
-    <label>Stinger body</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>

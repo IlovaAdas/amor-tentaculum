@@ -3,7 +3,6 @@
   <!-- Tentaculum body: SmallTentacleSnake -->
   <BodyDef>
     <defName>SmallTentacleSnake</defName>
-    <label>small tentacle body</label>
     <corePart>
       <def>SnakeBody</def>
       <height>Middle</height>

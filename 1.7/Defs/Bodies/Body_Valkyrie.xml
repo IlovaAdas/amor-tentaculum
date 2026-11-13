@@ -3,7 +3,6 @@
   <!-- Tentaculum body: ValkyrieBody -->
   <BodyDef>
     <defName>ValkyrieBody</defName>
-    <label>Valkyrie body</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>
