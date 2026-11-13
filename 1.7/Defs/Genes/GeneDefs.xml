@@ -46,7 +46,7 @@
 						</bodyParts>
 					</li>
 					<li>
-						<hediff>AmorQueenPregnancy</hediff>
+						<hediff>AmorQueenHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -117,7 +117,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorBaronessPregnancy</hediff>
+						<hediff>AmorBaronessHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -190,7 +190,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorNymphPregnancy</hediff>
+						<hediff>AmorNymphHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -279,7 +279,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorBaronPregnancy</hediff>
+						<hediff>AmorBaronHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -334,7 +334,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorRoguePregnancy</hediff>
+						<hediff>AmorRogueHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -389,7 +389,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorKnightPregnancy</hediff>
+						<hediff>AmorKnightHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>
@@ -444,7 +444,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorServantPregnancy</hediff>
+						<hediff>AmorServantHost</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>

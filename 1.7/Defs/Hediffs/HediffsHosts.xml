@@ -3,7 +3,7 @@
 		<!-- Female Hosts-->
 
 	<HediffDef>
-		<defName>AmorQueenPregnancy</defName>
+		<defName>AmorQueenHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -113,7 +113,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>AmorBaronessPregnancy</defName>
+		<defName>AmorBaronessHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -191,7 +191,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>AmorNymphPregnancy</defName>
+		<defName>AmorNymphHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -271,7 +271,7 @@
 		<!-- Male Hosts-->
 
 	<HediffDef>
-		<defName>AmorBaronPregnancy</defName>
+		<defName>AmorBaronHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -352,7 +352,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>AmorRoguePregnancy</defName>
+		<defName>AmorRogueHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -415,7 +415,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>AmorKnightPregnancy</defName>
+		<defName>AmorKnightHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -496,7 +496,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>AmorServantPregnancy</defName>
+		<defName>AmorServantHost</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>

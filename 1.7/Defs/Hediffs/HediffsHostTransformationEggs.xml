@@ -354,7 +354,7 @@
 						<initialSeverity>0.1</initialSeverity>
 					</li>
 					<li>
-						<hediffDef>AmorQueenPregnancy</hediffDef>
+						<hediffDef>AmorQueenHost</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.1</initialSeverity>
