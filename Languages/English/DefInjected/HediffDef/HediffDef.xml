@@ -128,9 +128,6 @@
 
   <!-- Host transformation egg hediffs -->
 
-	<NymphSeduction.label>nymph's kiss</NymphSeduction.label>
-	<NymphSeduction.description>The Nymph's tentacles have left the pawn weak and incapacitated.</NymphSeduction.description>
-
 	<QueenEggIncubationFailure.label>Queen Egg rejection</QueenEggIncubationFailure.label>
 	<QueenEggIncubationFailure.labelNoun>rejection</QueenEggIncubationFailure.labelNoun>
 	<QueenEggIncubationFailure.description>The Amor Queen egg is rejecting this host body. It will result in a slow and painful death...</QueenEggIncubationFailure.description>
@@ -148,12 +145,6 @@
 	<BaronessEggIncubationFailure.description>The Amor Baroness egg is rejecting this host body. It will result in a slow and painful death...</BaronessEggIncubationFailure.description>
 	<BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</BaronessEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
-
-	<NymphEggIncubationFailure.label>Nymph Egg rejection</NymphEggIncubationFailure.label>
-	<NymphEggIncubationFailure.labelNoun>rejection</NymphEggIncubationFailure.labelNoun>
-	<NymphEggIncubationFailure.description>The Amor Nymph egg is rejecting this host body. It will result in a slow and painful death...</NymphEggIncubationFailure.description>
-	<NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<QueenEggOverrideFailure.label>Queen incubation failure</QueenEggOverrideFailure.label>
 	<QueenEggOverrideFailure.labelNoun>failure</QueenEggOverrideFailure.labelNoun>
@@ -173,12 +164,6 @@
 	<BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</BaronessEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
-	<NymphEggOverrideFailure.label>Nymph incubation failure</NymphEggOverrideFailure.label>
-	<NymphEggOverrideFailure.labelNoun>failure</NymphEggOverrideFailure.labelNoun>
-	<NymphEggOverrideFailure.description>The attempt to implant an Amor Nymph egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</NymphEggOverrideFailure.description>
-	<NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
-
 	<QueenEggIncubationSuccess.label>Queen egg incubation</QueenEggIncubationSuccess.label>
 	<QueenEggIncubationSuccess.labelNoun>incubation</QueenEggIncubationSuccess.labelNoun>
 	<QueenEggIncubationSuccess.description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</QueenEggIncubationSuccess.description>
@@ -190,10 +175,6 @@
 	<BaronessEggIncubationSuccess.label>Baroness egg incubation</BaronessEggIncubationSuccess.label>
 	<BaronessEggIncubationSuccess.labelNoun>incubation</BaronessEggIncubationSuccess.labelNoun>
 	<BaronessEggIncubationSuccess.description>An Amor Baroness egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Baroness. The incubation process takes approximately 15 days (with default multipliers).</BaronessEggIncubationSuccess.description>
-
-	<NymphEggIncubationSuccess.label>Nymph egg incubation</NymphEggIncubationSuccess.label>
-	<NymphEggIncubationSuccess.labelNoun>incubation</NymphEggIncubationSuccess.labelNoun>
-	<NymphEggIncubationSuccess.description>An Amor Nymph egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Nymph. The incubation process takes approximately 15 days (with default multipliers).</NymphEggIncubationSuccess.description>
 
 	<QueenEggIncubation.label>Queen egg incubation</QueenEggIncubation.label>
 	<QueenEggIncubation.labelNoun>incubation</QueenEggIncubation.labelNoun>
@@ -227,17 +208,6 @@
 	<BaronessEggIncubation.stages.2.label>larva</BaronessEggIncubation.stages.2.label>
 	<BaronessEggIncubation.stages.3.label>growing</BaronessEggIncubation.stages.3.label>
 	<BaronessEggIncubation.stages.4.label>nearly grown</BaronessEggIncubation.stages.4.label>
-
-	<NymphEggIncubation.label>Nymph egg incubation</NymphEggIncubation.label>
-	<NymphEggIncubation.labelNoun>incubation</NymphEggIncubation.labelNoun>
-	<NymphEggIncubation.description>An Amor Nymph egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Nymph. The incubation process takes approximately 15 days (with default multipliers).</NymphEggIncubation.description>
-	<NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
-	<NymphEggIncubation.stages.0.label>incubating egg</NymphEggIncubation.stages.0.label>
-	<NymphEggIncubation.stages.1.label>hatched</NymphEggIncubation.stages.1.label>
-	<NymphEggIncubation.stages.2.label>larva</NymphEggIncubation.stages.2.label>
-	<NymphEggIncubation.stages.3.label>growing</NymphEggIncubation.stages.3.label>
-	<NymphEggIncubation.stages.4.label>nearly grown</NymphEggIncubation.stages.4.label>
 
 	<TentacleInfestedAnus.label>stretched rectum</TentacleInfestedAnus.label>
 	<TentacleInfestedAnus.labelNoun>rectum</TentacleInfestedAnus.labelNoun>
@@ -285,12 +255,6 @@
 	<BaronessTransform.description>The Amor Baroness egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronessTransform.description>
 	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>
-
-	<NymphTransform.label>genetic transformation</NymphTransform.label>
-	<NymphTransform.labelNoun>genetic transformation</NymphTransform.labelNoun>
-	<NymphTransform.description>The Amor Nymph egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximately two days (with default multipliers) while the process finishes.</NymphTransform.description>
-	<NymphTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</NymphTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<NymphTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be incapacitated, so get them to safety!</NymphTransform.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<!-- Tentacle hediffs -->
 	<BodyVagrancy.label>body vagrancy</BodyVagrancy.label>
