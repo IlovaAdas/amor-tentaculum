@@ -1,6 +1,6 @@
 <Defs>
 
-	<!-- This hediff is applied to a pawn as they exit the Recycler Pod. It causes they to explode into a shower of resources on death. -->
+	<!-- This hediff is applied to a pawn as they exit the Recycler Pod. It causes them to explode into a shower of resources on death. -->
 	<HediffDef>
 		<defName>PawnRecycled</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -23,28 +23,6 @@
 			<li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath" />
 			<li Class="EBSGFramework.HediffCompProperties_CreateItems">
 				<onDeathThings>
-					<li>
-						<li>
-							<thing>TentacleSlime</thing>
-							<count>2</count>
-							<weight>1</weight>
-						</li>
-						<li>
-							<thing>TentacleSlime</thing>
-							<count>3</count>
-							<weight>2</weight>
-						</li>
-						<li>
-							<thing>TentacleSlime</thing>
-							<count>4</count>
-							<weight>2</weight>
-						</li>
-						<li>
-							<thing>TentacleSlime</thing>
-							<count>5</count>
-	   					<weight>1</weight>
-						</li>
-					</li>
 					
 					<li>
 						<li>

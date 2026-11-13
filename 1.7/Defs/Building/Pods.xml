@@ -62,22 +62,6 @@
 					</filter>
 					<count>5</count>
 				</li>
-				<li>
-					<filter>
-						<thingDefs>
-							<li>SoftResin</li>
-						</thingDefs>
-					</filter>
-					<count>10</count>
-				</li>
-				<li>
-					<filter>
-						<thingDefs>
-							<li>HardResin</li>
-						</thingDefs>
-					</filter>
-					<count>1</count>
-				</li>
 			</subcoreScannerFixedIngredients>
 			<subcoreScannerOutputDef>TentacleCatalyst</subcoreScannerOutputDef>
 			<subcoreScannerStartEffect>ButcherFlesh</subcoreScannerStartEffect>
