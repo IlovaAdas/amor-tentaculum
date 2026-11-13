@@ -4,20 +4,17 @@
 	<StingerBody.label>Stinger body</StingerBody.label>
 	<StingerBody.corePart.parts.bell.customLabel>bell</StingerBody.corePart.parts.bell.customLabel>
 	<StingerBody.corePart.parts.bell.parts.mouth.customLabel>mouth</StingerBody.corePart.parts.bell.parts.mouth.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_1.customLabel>short tentacle 1</StingerBody.corePart.parts.short_tentacle_1.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_2.customLabel>short tentacle 2</StingerBody.corePart.parts.short_tentacle_2.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_3.customLabel>short tentacle 3</StingerBody.corePart.parts.short_tentacle_3.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_4.customLabel>short tentacle 4</StingerBody.corePart.parts.short_tentacle_4.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_5.customLabel>short tentacle 5</StingerBody.corePart.parts.short_tentacle_5.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_6.customLabel>short tentacle 6</StingerBody.corePart.parts.short_tentacle_6.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_7.customLabel>short tentacle 7</StingerBody.corePart.parts.short_tentacle_7.customLabel>
-	<StingerBody.corePart.parts.short_tentacle_8.customLabel>short tentacle 8</StingerBody.corePart.parts.short_tentacle_8.customLabel>
-	<StingerBody.corePart.parts.long_stinging_tentacle.customLabel>long stinging tentacle</StingerBody.corePart.parts.long_stinging_tentacle.customLabel>
-	<StingerBody.corePart.parts.long_stinging_tentacle.parts.venom_stinger.customLabel>venom stinger</StingerBody.corePart.parts.long_stinging_tentacle.parts.venom_stinger.customLabel>
+	<StingerBody.corePart.parts.front_left_tentacle.customLabel>front left tentacle</StingerBody.corePart.parts.front_left_tentacle.customLabel>
+	<StingerBody.corePart.parts.front_right_tentacle.customLabel>front right tentacle</StingerBody.corePart.parts.front_right_tentacle.customLabel>
+	<StingerBody.corePart.parts.rear_left_tentacle.customLabel>rear left tentacle</StingerBody.corePart.parts.rear_left_tentacle.customLabel>
+	<StingerBody.corePart.parts.rear_right_tentacle.customLabel>rear right tentacle</StingerBody.corePart.parts.rear_right_tentacle.customLabel>
+	<StingerBody.corePart.parts.stinging_tentacle.customLabel>stinging tentacle</StingerBody.corePart.parts.stinging_tentacle.customLabel>
+	<StingerBody.corePart.parts.stinging_tentacle.parts.venom_stinger.customLabel>venom stinger</StingerBody.corePart.parts.stinging_tentacle.parts.venom_stinger.customLabel>
 
 	<!-- Amor Brewer -->
 	<BrewerBody.label>Brewer body</BrewerBody.label>
 	<BrewerBody.corePart.parts.brain.customLabel>brain</BrewerBody.corePart.parts.brain.customLabel>
+	<BrewerBody.corePart.parts.mouth.customLabel>mouth</BrewerBody.corePart.parts.mouth.customLabel>
 	<BrewerBody.corePart.parts.large_chemical_organ.customLabel>large chemical organ</BrewerBody.corePart.parts.large_chemical_organ.customLabel>
 	<BrewerBody.corePart.parts.front_left_tentacle_leg.customLabel>front left tentacle leg</BrewerBody.corePart.parts.front_left_tentacle_leg.customLabel>
 	<BrewerBody.corePart.parts.front_right_tentacle_leg.customLabel>front right tentacle leg</BrewerBody.corePart.parts.front_right_tentacle_leg.customLabel>
@@ -50,14 +47,10 @@
 	<WarWombBody.label>War Womb body</WarWombBody.label>
 	<WarWombBody.corePart.parts.left_elytra.customLabel>left elytra</WarWombBody.corePart.parts.left_elytra.customLabel>
 	<WarWombBody.corePart.parts.right_elytra.customLabel>right elytra</WarWombBody.corePart.parts.right_elytra.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_front_tentacle.customLabel>upper left front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_middle_front_tentacle.customLabel>upper left middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_middle_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_middle_front_tentacle.customLabel>upper right middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_middle_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_front_tentacle.customLabel>upper right front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_front_tentacle.customLabel>lower left front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_middle_front_tentacle.customLabel>lower left middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_left_middle_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_middle_front_tentacle.customLabel>lower right middle front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_middle_front_tentacle.customLabel>
-	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_front_tentacle.customLabel>lower right front tentacle</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.lower_right_front_tentacle.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_mass_of_tentacles.customLabel>Upper right mass of tentacles</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_right_mass_of_tentacles.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_mass_of_tentacles.customLabel>Upper left mass of tentacles</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.upper_left_mass_of_tentacles.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.bottom_right_mass_of_tentacles.customLabel>Bottom right mass of tentacles</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.bottom_right_mass_of_tentacles.customLabel>
+	<WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.bottom_left_mass_of_tentacles.customLabel>Bottom left mass of tentacles</WarWombBody.corePart.parts.Pronotum.parts.TentacleBeastHead.parts.bottom_left_mass_of_tentacles.customLabel>
 	<WarWombBody.corePart.parts.front_left_leg.customLabel>front left leg</WarWombBody.corePart.parts.front_left_leg.customLabel>
 	<WarWombBody.corePart.parts.front_right_leg.customLabel>front right leg</WarWombBody.corePart.parts.front_right_leg.customLabel>
 	<WarWombBody.corePart.parts.middle_left_leg.customLabel>middle left leg</WarWombBody.corePart.parts.middle_left_leg.customLabel>
@@ -74,13 +67,13 @@
 	<!-- Amor Spawner -->
 	<SpawnerBody.label>Spawner body</SpawnerBody.label>
 	<SpawnerBody.corePart.parts.TentacleBeastHead.parts.mouth.customLabel>mouth</SpawnerBody.corePart.parts.TentacleBeastHead.parts.mouth.customLabel>
+	<SpawnerBody.corePart.parts.TentacleBeastHead.parts.left_mass_of_tentacles.customLabel>left mass of tentacles</SpawnerBody.corePart.parts.TentacleBeastHead.parts.left_mass_of_tentacles.customLabel>
+	<SpawnerBody.corePart.parts.TentacleBeastHead.parts.right_mass_of_tentacles.customLabel>right mass of tentacles</SpawnerBody.corePart.parts.TentacleBeastHead.parts.right_mass_of_tentacles.customLabel>
 
 	<!-- Amor Borer -->
 	<TentacleSnake.label>tentacle snake body</TentacleSnake.label>
-	<TentacleSnake.corePart.parts.upper_left_claw.customLabel>upper left claw</TentacleSnake.corePart.parts.upper_left_claw.customLabel>
-	<TentacleSnake.corePart.parts.upper_right_claw.customLabel>upper right claw</TentacleSnake.corePart.parts.upper_right_claw.customLabel>
-	<TentacleSnake.corePart.parts.lower_left_claw.customLabel>lower left claw</TentacleSnake.corePart.parts.lower_left_claw.customLabel>
-	<TentacleSnake.corePart.parts.lower_right_claw.customLabel>lower right claw</TentacleSnake.corePart.parts.lower_right_claw.customLabel>
+	<TentacleSnake.corePart.parts.upper_left_claw.customLabel>left mass of clawed tentacles</TentacleSnake.corePart.parts.upper_left_claw.customLabel>
+	<TentacleSnake.corePart.parts.upper_right_claw.customLabel>right mass of clawed tentacles</TentacleSnake.corePart.parts.upper_right_claw.customLabel>
 	
 	<!-- Amor Producer -->
 	<ProducerBody.label>Producer body</ProducerBody.label>

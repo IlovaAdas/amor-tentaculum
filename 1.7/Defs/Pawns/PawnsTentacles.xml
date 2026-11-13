@@ -61,50 +61,6 @@
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>BroodMotherFrontTentacle4</linkedBodyPartsGroup>
 			</li>
-			<li>
-				<label>front tentacle 5</label>
-				<labelNoLocation>front tentacle</labelNoLocation>
-				<capacities>
-					<li>Blunt</li>
-					<li>Scratch</li>
-				</capacities>
-				<power>24</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>BroodMotherFrontTentacle5</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<label>front tentacle 6</label>
-				<labelNoLocation>front tentacle</labelNoLocation>
-				<capacities>
-					<li>Blunt</li>
-					<li>Scratch</li>
-				</capacities>
-				<power>24</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>BroodMotherFrontTentacle6</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<label>front tentacle 7</label>
-				<labelNoLocation>front tentacle</labelNoLocation>
-				<capacities>
-					<li>Blunt</li>
-					<li>Scratch</li>
-				</capacities>
-				<power>24</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>BroodMotherFrontTentacle7</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<label>front tentacle 8</label>
-				<labelNoLocation>front tentacle</labelNoLocation>
-				<capacities>
-					<li>Blunt</li>
-					<li>Scratch</li>
-				</capacities>
-				<power>24</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>BroodMotherFrontTentacle8</linkedBodyPartsGroup>
-			</li>
 		</tools>
 		<comps>
 			<!--
@@ -1109,8 +1065,8 @@
 		<uiIconScale>1.1</uiIconScale>
 		<tools>
 			<li>
-				<label>upper left claw</label>
-				<labelNoLocation>claw</labelNoLocation>
+				<label>left mass of clawed tentacles</label>
+				<labelNoLocation>clawed tentacle</labelNoLocation>
 				<capacities>
 					<li>Scratch</li>
 					<li>Stab</li>
@@ -1120,8 +1076,8 @@
 				<linkedBodyPartsGroup>UpperLeftClaw</linkedBodyPartsGroup>
 			</li>
 			<li>
-				<label>upper right claw</label>
-				<labelNoLocation>claw</labelNoLocation>
+				<label>right mass of clawed tentacles</label>
+				<labelNoLocation>clawed tentacle</labelNoLocation>
 				<capacities>
 					<li>Scratch</li>
 					<li>Stab</li>
@@ -1129,28 +1085,6 @@
 				<power>14</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>UpperRightClaw</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<label>lower left claw</label>
-				<labelNoLocation>claw</labelNoLocation>
-				<capacities>
-					<li>Scratch</li>
-					<li>Stab</li>
-				</capacities>
-				<power>14</power>
-				<cooldownTime>1.8</cooldownTime>
-				<linkedBodyPartsGroup>LowerLeftClaw</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<label>lower right claw</label>
-				<labelNoLocation>claw</labelNoLocation>
-				<capacities>
-					<li>Scratch</li>
-					<li>Stab</li>
-				</capacities>
-				<power>14</power>
-				<cooldownTime>1.8</cooldownTime>
-				<linkedBodyPartsGroup>LowerRightClaw</linkedBodyPartsGroup>
 			</li>
 		</tools>
 		<race>

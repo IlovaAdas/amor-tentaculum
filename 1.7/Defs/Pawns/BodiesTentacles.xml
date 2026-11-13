@@ -9,67 +9,18 @@
     <defName>UpperRightClaw</defName>
   </BodyPartGroupDef>
 
-    <BodyPartGroupDef>
-    <defName>LowerLeftClaw</defName>
-  </BodyPartGroupDef>
-
-    <BodyPartGroupDef>
-    <defName>LowerRightClaw</defName>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>LeftSpike</defName>
-    <listOrder>79</listOrder>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>RightSpike</defName>
-    <listOrder>78</listOrder>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>MiddleSpike</defName>
-    <listOrder>77</listOrder>
-  </BodyPartGroupDef>
-
   <BodyPartGroupDef>
     <defName>Stinger</defName>
     <listOrder>79</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
-    <defName>FirstTentacle</defName>
+    <defName>SpawnerLeftTentacles</defName>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
-    <defName>SecondTentacle</defName>
-    <listOrder>80</listOrder>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>ThirdTentacle</defName>
-    <listOrder>80</listOrder>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>FourthTentacle</defName>
-    <listOrder>80</listOrder>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>FifthTentacle</defName>
-    <listOrder>80</listOrder>
-  </BodyPartGroupDef>
-
-  <BodyPartGroupDef>
-    <defName>SixthTentacle</defName>
-    <listOrder>80</listOrder>
-  </BodyPartGroupDef>
-
-
-  <BodyPartGroupDef>
-    <defName>SeventhTentacle</defName>
+    <defName>SpawnerRightTentacles</defName>
     <listOrder>80</listOrder>
   </BodyPartGroupDef>
 
@@ -96,22 +47,6 @@
     <defName>BroodMotherFrontTentacle4</defName>
     <listOrder>85</listOrder>
   </BodyPartGroupDef>
-  <BodyPartGroupDef>
-    <defName>BroodMotherFrontTentacle5</defName>
-    <listOrder>86</listOrder>
-  </BodyPartGroupDef>
-  <BodyPartGroupDef>
-    <defName>BroodMotherFrontTentacle6</defName>
-    <listOrder>87</listOrder>
-  </BodyPartGroupDef>
-  <BodyPartGroupDef>
-    <defName>BroodMotherFrontTentacle7</defName>
-    <listOrder>88</listOrder>
-  </BodyPartGroupDef>
-  <BodyPartGroupDef>
-    <defName>BroodMotherFrontTentacle8</defName>
-    <listOrder>89</listOrder>
-  </BodyPartGroupDef>
 
   <!-- Amor War Womb attack group -->
   <BodyPartGroupDef>
@@ -129,7 +64,7 @@
 
   <BodyPartDef>
     <defName>MovingBodyTentacleBeast</defName>
-    <hitPoints>60</hitPoints>
+    <hitPoints>40</hitPoints>
     <executionPartPriority>500</executionPartPriority>
     <frostbiteVulnerability>10</frostbiteVulnerability>
   </BodyPartDef>
@@ -196,17 +131,6 @@
     <hitPoints>8</hitPoints>
     <skinCovered>true</skinCovered>
     <tags>
-      <li>ManipulationLimbCore</li>
-    </tags>
-  </BodyPartDef>
-
-  <BodyPartDef>
-    <defName>StingerTentacle</defName>
-    <label>tentacle</label>
-    <hitPoints>20</hitPoints>
-    <frostbiteVulnerability>1</frostbiteVulnerability>
-    <tags>
-      <li>MovingLimbCore</li>
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
@@ -338,59 +262,34 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <coverage>0.1</coverage>
+              <customLabel>left mass of tentacles</customLabel>
+              <coverage>0.25</coverage>
               <depth>Outside</depth>
               <groups>
-                <li>FirstTentacle</li>
+                <li>SpawnerLeftTentacles</li>
               </groups>
             </li>
             <li>
               <def>Tentacle</def>
-              <coverage>0.1</coverage>
+              <customLabel>right mass of tentacles</customLabel>
+              <coverage>0.25</coverage>
               <depth>Outside</depth>
+              <flipGraphic>true</flipGraphic>
               <groups>
-                <li>SecondTentacle</li>
-              </groups>
-            </li>
-            <li>
-              <def>Tentacle</def>
-              <coverage>0.1</coverage>
-              <depth>Outside</depth>
-              <groups>
-                <li>ThirdTentacle</li>
-              </groups>
-            </li>
-			<li>
-              <def>Tentacle</def>
-              <coverage>0.1</coverage>
-              <depth>Outside</depth>
-              <groups>
-                <li>FourthTentacle</li>
-              </groups>
-            </li>
-			            <li>
-              <def>Tentacle</def>
-              <coverage>0.1</coverage>
-              <depth>Outside</depth>
-              <groups>
-                <li>FifthTentacle</li>
+                <li>SpawnerRightTentacles</li>
               </groups>
             </li>
             <li>
               <def>TentacleLeg</def>
               <coverage>0.13</coverage>
               <depth>Outside</depth>
-              <groups>
-                <li>SixthTentacle</li>
-              </groups>
+              <groups><li>Legs</li></groups>
             </li>
             <li>
               <def>TentacleLeg</def>
               <coverage>0.13</coverage>
               <depth>Outside</depth>
-              <groups>
-                <li>SeventhTentacle</li>
-              </groups>
+              <groups><li>Legs</li></groups>
             </li>
           </parts>
         </li>
@@ -527,63 +426,33 @@
 								</li>
 								<li>
 									<def>LargeTentacle</def>
-									<customLabel>upper left front tentacle</customLabel>
-									<coverage>0.06</coverage>
+									<customLabel>Upper right mass of tentacles</customLabel>
+									<coverage>0.12</coverage>
 									<height>Top</height>
 									<groups><li>BroodMotherFrontTentacle1</li></groups>
 								</li>
 								<li>
 									<def>LargeTentacle</def>
-									<customLabel>upper left middle front tentacle</customLabel>
-									<coverage>0.06</coverage>
+									<customLabel>Upper left mass of tentacles</customLabel>
+									<coverage>0.12</coverage>
 									<height>Top</height>
+									<flipGraphic>true</flipGraphic>
 									<groups><li>BroodMotherFrontTentacle2</li></groups>
 								</li>
 								<li>
 									<def>LargeTentacle</def>
-									<customLabel>upper right middle front tentacle</customLabel>
-									<coverage>0.06</coverage>
-									<height>Top</height>
-									<flipGraphic>true</flipGraphic>
+									<customLabel>Bottom left mass of tentacles</customLabel>
+									<coverage>0.12</coverage>
+									<height>Bottom</height>
 									<groups><li>BroodMotherFrontTentacle3</li></groups>
 								</li>
 								<li>
 									<def>LargeTentacle</def>
-									<customLabel>upper right front tentacle</customLabel>
-									<coverage>0.06</coverage>
-									<height>Top</height>
+									<customLabel>Bottom right mass of tentacles</customLabel>
+									<coverage>0.12</coverage>
+									<height>Bottom</height>
 									<flipGraphic>true</flipGraphic>
 									<groups><li>BroodMotherFrontTentacle4</li></groups>
-								</li>
-								<li>
-									<def>LargeTentacle</def>
-									<customLabel>lower left front tentacle</customLabel>
-									<coverage>0.06</coverage>
-									<height>Bottom</height>
-									<groups><li>BroodMotherFrontTentacle5</li></groups>
-								</li>
-								<li>
-									<def>LargeTentacle</def>
-									<customLabel>lower left middle front tentacle</customLabel>
-									<coverage>0.06</coverage>
-									<height>Bottom</height>
-									<groups><li>BroodMotherFrontTentacle6</li></groups>
-								</li>
-								<li>
-									<def>LargeTentacle</def>
-									<customLabel>lower right middle front tentacle</customLabel>
-									<coverage>0.06</coverage>
-									<height>Bottom</height>
-									<flipGraphic>true</flipGraphic>
-									<groups><li>BroodMotherFrontTentacle7</li></groups>
-								</li>
-								<li>
-									<def>LargeTentacle</def>
-									<customLabel>lower right front tentacle</customLabel>
-									<coverage>0.06</coverage>
-									<height>Bottom</height>
-									<flipGraphic>true</flipGraphic>
-									<groups><li>BroodMotherFrontTentacle8</li></groups>
 								</li>
 							</parts>
 						</li>
@@ -710,60 +579,30 @@
                 </li>
                 <li>
                   <def>Tentacle</def>
-                  <customLabel>upper left front tentacle</customLabel>
-                  <coverage>0.045</coverage>
+                  <customLabel>Upper right mass of tentacles</customLabel>
+                  <coverage>0.09</coverage>
                   <height>Top</height>
                   <groups><li>WarWombFrontTentacles</li></groups>
                 </li>
                 <li>
                   <def>Tentacle</def>
-                  <customLabel>upper left middle front tentacle</customLabel>
-                  <coverage>0.045</coverage>
-                  <height>Top</height>
-                  <groups><li>WarWombFrontTentacles</li></groups>
-                </li>
-                <li>
-                  <def>Tentacle</def>
-                  <customLabel>upper right middle front tentacle</customLabel>
-                  <coverage>0.045</coverage>
+                  <customLabel>Upper left mass of tentacles</customLabel>
+                  <coverage>0.09</coverage>
                   <height>Top</height>
                   <flipGraphic>true</flipGraphic>
                   <groups><li>WarWombFrontTentacles</li></groups>
                 </li>
                 <li>
                   <def>Tentacle</def>
-                  <customLabel>upper right front tentacle</customLabel>
-                  <coverage>0.045</coverage>
-                  <height>Top</height>
-                  <flipGraphic>true</flipGraphic>
-                  <groups><li>WarWombFrontTentacles</li></groups>
-                </li>
-                <li>
-                  <def>Tentacle</def>
-                  <customLabel>lower left front tentacle</customLabel>
-                  <coverage>0.045</coverage>
+                  <customLabel>Bottom right mass of tentacles</customLabel>
+                  <coverage>0.09</coverage>
                   <height>Bottom</height>
                   <groups><li>WarWombFrontTentacles</li></groups>
                 </li>
                 <li>
                   <def>Tentacle</def>
-                  <customLabel>lower left middle front tentacle</customLabel>
-                  <coverage>0.045</coverage>
-                  <height>Bottom</height>
-                  <groups><li>WarWombFrontTentacles</li></groups>
-                </li>
-                <li>
-                  <def>Tentacle</def>
-                  <customLabel>lower right middle front tentacle</customLabel>
-                  <coverage>0.045</coverage>
-                  <height>Bottom</height>
-                  <flipGraphic>true</flipGraphic>
-                  <groups><li>WarWombFrontTentacles</li></groups>
-                </li>
-                <li>
-                  <def>Tentacle</def>
-                  <customLabel>lower right front tentacle</customLabel>
-                  <coverage>0.045</coverage>
+                  <customLabel>Bottom left mass of tentacles</customLabel>
+                  <coverage>0.09</coverage>
                   <height>Bottom</height>
                   <flipGraphic>true</flipGraphic>
                   <groups><li>WarWombFrontTentacles</li></groups>
@@ -2170,38 +2009,20 @@
       <parts>
         <li>
           <def>TentacleSpike</def>
-          <coverage>0.04</coverage>
+          <coverage>0.08</coverage>
           <depth>Outside</depth>
-          <customLabel>upper left claw</customLabel>
+          <customLabel>left mass of clawed tentacles</customLabel>
           <groups>
             <li>UpperLeftClaw</li>
           </groups>
         </li>
         <li>
           <def>TentacleSpike</def>
-          <coverage>0.04</coverage>
+          <coverage>0.08</coverage>
           <depth>Outside</depth>
-          <customLabel>upper right claw</customLabel>
+          <customLabel>right mass of clawed tentacles</customLabel>
           <groups>
             <li>UpperRightClaw</li>
-          </groups>
-        </li>
-        <li>
-          <def>TentacleSpike</def>
-          <coverage>0.04</coverage>
-          <depth>Outside</depth>
-          <customLabel>lower left claw</customLabel>
-          <groups>
-            <li>LowerLeftClaw</li>
-          </groups>
-        </li>
-        <li>
-          <def>TentacleSpike</def>
-          <coverage>0.04</coverage>
-          <depth>Outside</depth>
-          <customLabel>lower right claw</customLabel>
-          <groups>
-            <li>LowerRightClaw</li>
           </groups>
         </li>
         <li>
@@ -2402,94 +2223,44 @@
           </parts>
         </li>
         <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 1</customLabel>
+          <def>Tentacle</def>
+          <customLabel>front left tentacle</customLabel>
           <coverage>0.025</coverage>
           <height>Bottom</height>
           <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
+          <groups><li>Legs</li></groups>
         </li>
         <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 2</customLabel>
+          <def>Tentacle</def>
+          <customLabel>front right tentacle</customLabel>
           <coverage>0.025</coverage>
           <height>Bottom</height>
           <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
+          <groups><li>Legs</li></groups>
         </li>
         <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 3</customLabel>
+          <def>Tentacle</def>
+          <customLabel>rear left tentacle</customLabel>
           <coverage>0.025</coverage>
           <height>Bottom</height>
           <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
+          <groups><li>Legs</li></groups>
         </li>
         <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 4</customLabel>
+          <def>Tentacle</def>
+          <customLabel>rear right tentacle</customLabel>
           <coverage>0.025</coverage>
           <height>Bottom</height>
           <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
+          <groups><li>Legs</li></groups>
         </li>
         <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 5</customLabel>
-          <coverage>0.025</coverage>
+          <def>Tentacle</def>
+          <customLabel>stinging tentacle</customLabel>
+          <coverage>0.06</coverage>
           <height>Bottom</height>
           <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
-        </li>
-        <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 6</customLabel>
-          <coverage>0.025</coverage>
-          <height>Bottom</height>
-          <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
-        </li>
-        <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 7</customLabel>
-          <coverage>0.025</coverage>
-          <height>Bottom</height>
-          <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
-        </li>
-        <li>
-          <def>StingerTentacle</def>
-          <customLabel>short tentacle 8</customLabel>
-          <coverage>0.025</coverage>
-          <height>Bottom</height>
-          <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
-        </li>
-        <li>
-          <def>StingerTentacle</def>
-          <customLabel>long stinging tentacle</customLabel>
-          <coverage>0.12</coverage>
-          <height>Bottom</height>
-          <depth>Outside</depth>
-          <groups>
-            <li>Legs</li>
-          </groups>
+          <groups><li>Legs</li></groups>
           <parts>
             <li>
               <def>TentacleStinger</def>
@@ -2538,6 +2309,16 @@
           <def>InsectHeart</def>
           <coverage>0.05</coverage>
           <depth>Inside</depth>
+        </li>
+        <li>
+          <def>TentacleBeastMouth</def>
+          <customLabel>mouth</customLabel>
+          <coverage>0.04</coverage>
+          <height>Middle</height>
+          <depth>Outside</depth>
+          <groups>
+            <li>Mouth</li>
+          </groups>
         </li>
         <li>
           <def>SensoryTentacle</def>
