@@ -9,6 +9,7 @@
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -26,69 +27,41 @@
 				<ticks>60</ticks>
 				<letterType>HostPregnancy</letterType>
 			</li>
-		</comps>
-	</HediffDef>
-	
-  <HediffDef ParentName="HostTransformBase">
-    <defName>QueenTransform</defName>
-    <comps>
-      <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-        <hediffSets>
-          <li>
-            <hediffDef>TentacleLimbVagina</hediffDef>
-            <validSeverity>0.99</validSeverity>
-            <severityPerDay>0</severityPerDay>
-            <initialSeverity>1</initialSeverity>
-            <bodyPart>Genitals</bodyPart>
-          </li>
-          <li>
-            <hediffDef>TentacleLimbAnus</hediffDef>
-            <validSeverity>0.99</validSeverity>
-            <severityPerDay>0</severityPerDay>
-            <initialSeverity>1</initialSeverity>
-            <bodyPart>Anus</bodyPart>
-          </li>
-          <li>
-            <hediffDef>QueenEggIncubation</hediffDef>
-            <validSeverity>0~0.2</validSeverity>
-            <severityPerDay>-200</severityPerDay>
-            <initialSeverity>-1</initialSeverity>
-          </li>
-        </hediffSets>
-      </li>
-      <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
-        <xenotypes>
-			    <AmorQueenXenotype>1</AmorQueenXenotype>
-        </xenotypes>
-        <severities>1</severities>
-        <setXenotype>False</setXenotype>
-      </li>
-    </comps>
-  </HediffDef>
-
-	<HediffDef ParentName="HostTransformBase">
-		<defName>BaronTransform</defName>
-		<comps>
-			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-				<hediffSets>
+			<li Class="EBSGFramework.HediffCompProperties_HediffsOnRemoval">
+				<hediffsToGive>
 					<li>
-						<hediffDef>TentacleLimbAnus</hediffDef>
-						<validSeverity>0.99</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>1</initialSeverity>
-						<bodyPart>Anus</bodyPart>
+						<hediffDef>QueenEggIncubation</hediffDef>
+						<severity>0</severity>
+						<replaceExisting>true</replaceExisting>
+					</li>
+					<li>
+						<hediffDef>BaronessEggIncubation</hediffDef>
+						<severity>0</severity>
+						<replaceExisting>true</replaceExisting>
+					</li>
+					<li>
+						<hediffDef>NymphEggIncubation</hediffDef>
+						<severity>0</severity>
+						<replaceExisting>true</replaceExisting>
 					</li>
 					<li>
 						<hediffDef>BaronEggIncubation</hediffDef>
-						<validSeverity>0~0.2</validSeverity>
-						<severityPerDay>-200</severityPerDay>
-						<initialSeverity>-1</initialSeverity>
+						<severity>0</severity>
+						<replaceExisting>true</replaceExisting>
 					</li>
-				</hediffSets>
+				</hediffsToGive>
 			</li>
+		</comps>
+	</HediffDef>
+
+		<!-- Female Hosts-->
+
+	<HediffDef ParentName="HostTransformBase">
+		<defName>QueenTransform</defName>
+		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
 				<xenotypes>
-					<AmorBaronXenotype>1</AmorBaronXenotype>
+					<AmorQueenXenotype>1</AmorQueenXenotype>
 				</xenotypes>
 				<severities>1</severities>
 				<setXenotype>False</setXenotype>
@@ -99,30 +72,6 @@
 	<HediffDef ParentName="HostTransformBase">
 		<defName>BaronessTransform</defName>
 		<comps>
-			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-				<hediffSets>
-					<li>
-						<hediffDef>TentacleLimbAnus</hediffDef>
-						<validSeverity>0.99</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>1</initialSeverity>
-						<bodyPart>Anus</bodyPart>
-					</li>
-					<li>
-						<hediffDef>TentacleLimbVagina</hediffDef>
-						<validSeverity>0.99</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>1</initialSeverity>
-						<bodyPart>Genitals</bodyPart>
-					</li>
-					<li>
-						<hediffDef>BaronessEggIncubation</hediffDef>
-						<validSeverity>0~0.2</validSeverity>
-						<severityPerDay>-200</severityPerDay>
-						<initialSeverity>-1</initialSeverity>
-					</li>
-				</hediffSets>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
 				<xenotypes>
 					<AmorBaronessXenotype>1</AmorBaronessXenotype>
@@ -136,30 +85,6 @@
 	<HediffDef ParentName="HostTransformBase">
 		<defName>NymphTransform</defName>
 		<comps>
-			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-				<hediffSets>
-					<li>
-						<hediffDef>TentacleLimbAnus</hediffDef>
-						<validSeverity>0.99</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>1</initialSeverity>
-						<bodyPart>Anus</bodyPart>
-					</li>
-					<li>
-						<hediffDef>TentacleLimbVagina</hediffDef>
-						<validSeverity>0.99</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>1</initialSeverity>
-						<bodyPart>Genitals</bodyPart>
-					</li>
-					<li>
-						<hediffDef>NymphEggIncubation</hediffDef>
-						<validSeverity>0~0.2</validSeverity>
-						<severityPerDay>-200</severityPerDay>
-						<initialSeverity>-1</initialSeverity>
-					</li>
-				</hediffSets>
-			</li>
 			<li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
 				<xenotypes>
 					<AmorNymphXenotype>1</AmorNymphXenotype>
@@ -170,108 +95,19 @@
 		</comps>
 	</HediffDef>
 
-	
-	<!--
+		<!-- Male Hosts-->
 
-    <HediffDef>
-    <defName>transformMale</defName>
-    <hediffClass>HediffWithComps</hediffClass>
-    <label>genetic body shaping</label>
-    <labelNoun>genetic shaping</labelNoun>
-    <description>The Malum queen has grown to adulthood and is now rewriting the hosts genetic code completely to suit the needs of her hive.</description>
-    <defaultLabelColor>(255,20,147)</defaultLabelColor>
-    <minSeverity>0.001</minSeverity>
-    <initialSeverity>0.001</initialSeverity>
-    <maxSeverity>1</maxSeverity>
-    <stages>
-      <li>
-        <minSeverity>0.001</minSeverity>
-        <painOffset>0.85</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.7</MoveSpeed>
-        </statOffsets>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>1.5</severityPerDay>
-      </li>
-      <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-          <hediffSets>
-                <li>
-                  <hediffDef>TentacleLimbAnus</hediffDef>
-                  <validSeverity>0.99</validSeverity>
-                  <severityPerDay>0</severityPerDay>
-                  <initialSeverity>1</initialSeverity>
-                  <bodyPart>Anus</bodyPart>
-                </li>
-                <li>
-                  <hediffDef>queenimplantM</hediffDef>
-                  <validSeverity>0~0.2</validSeverity>
-                  <severityPerDay>-60</severityPerDay>
-                  <initialSeverity>0</initialSeverity>
-                </li>
-          </hediffSets>
-      </li>
-            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
-                <xenotypes>
-                    <ThostM>1</ThostM>
-                </xenotypes>
-                <severities>1</severities>
-                <setXenotype>False</setXenotype>
-            </li>
-        </comps>
-  </HediffDef>
-
-    <HediffDef>
-    <defName>transformBaron</defName>
-    <hediffClass>HediffWithComps</hediffClass>
-    <label>genetic body shaping</label>
-    <labelNoun>genetic shaping</labelNoun>
-    <description>The nymph is now rewriting the hosts genetic code completely, turning this host into nothing more than a baby oven.</description>
-    <defaultLabelColor>(255,20,147)</defaultLabelColor>
-    <minSeverity>0.001</minSeverity>
-    <initialSeverity>0.001</initialSeverity>
-    <maxSeverity>1</maxSeverity>
-    <stages>
-      <li>
-        <minSeverity>0.001</minSeverity>
-        <painOffset>0.85</painOffset>
-        <statOffsets>
-          <MoveSpeed>-0.7</MoveSpeed>
-        </statOffsets>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>1.5</severityPerDay>
-      </li>
-      <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-          <hediffSets> 
-                <li>
-                  <hediffDef>amorbroodW</hediffDef>
-                  <validSeverity>0.99</validSeverity>
-                  <severityPerDay>0</severityPerDay>
-                  <initialSeverity>1</initialSeverity>
-                </li>
-                <li>
-                  <hediffDef>amorbrood</hediffDef>
-                  <validSeverity>0~0.2</validSeverity>
-                  <severityPerDay>-200</severityPerDay>
-                  <initialSeverity>-1</initialSeverity>
-                </li>
-          </hediffSets>
-      </li>
-            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
-                <xenotypes>
-                    <ThostB>1</ThostB>
-                </xenotypes>
-                <severities>1</severities>
-                <setXenotype>False</setXenotype>
-            </li>
-        </comps>
-  </HediffDef>
-
--->
+	<HediffDef ParentName="HostTransformBase">
+		<defName>BaronTransform</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+				<xenotypes>
+					<AmorBaronXenotype>1</AmorBaronXenotype>
+				</xenotypes>
+				<severities>1</severities>
+				<setXenotype>False</setXenotype>
+			</li>
+		</comps>
+	</HediffDef>
 
   </Defs>
