@@ -1,6 +1,7 @@
 <languageData>
 
 	<!-- Buildings -->
+
 	<Turret_Tentacle.label>tentacle turret</Turret_Tentacle.label>
 	<Turret_Tentacle.description>A portable tentacle that grows more like a plant. Fires low damage spikes at long range.</Turret_Tentacle.description>
 	<Gun_TentacleTurret.label>turret tentacle</Gun_TentacleTurret.label>
@@ -22,6 +23,7 @@
 	<WombWorker.description>Increases work speed when placed near a Tentacle Workbench. One Workbench can utilize up to four Workers. The Worker used to be human, but now they simply act as immobile assistants - storing tools, dispensing liquids, holding products, and softly moaning in pleasure with whatever is left of their brain.</WombWorker.description>
 	
 	<!-- Drugs, food, and other consumables -->
+
 	<TentBeer.label>amornuum</TentBeer.label>
 	<TentBeer.description>A strange alcohol-like substance. When drunk, induces a "loose" and "relaxed" feeling, as well as minor hallucinations - and an increased drive for sexual activity. Tastes a little bit salty.</TentBeer.description>
 	
@@ -29,8 +31,9 @@
 
 	<!-- Tentacle pawn types -->
 	<!-- Note that these should be capitalized! -->
+
 	<TentacleBroodMother.label>Amor Brood Mother</TentacleBroodMother.label>
-	<TentacleBroodMother.description>A beetle-like Tentacle, dedicated to breeding more creatures for the hive. It has a protective carapace on its thorax as well as several external womb-like body parts for additional egg production. The Amor Brood Mother is the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
+	<TentacleBroodMother.description>A beetle-like Tentacle, dedicated to breeding more creatures for the hive. It has a protective carapace on its thorax as well as several external womb-like body parts for additional egg production. The Amor Brood Mother is one of the largest of the Tentacle types, and continuously produces Amor Larvae eggs. Those Larvae can then be evolved into other Tentacle types.</TentacleBroodMother.description>
 	<TentacleSpawner.label>Amor Spawner</TentacleSpawner.label>
 	<TentacleSpawner.description>A huge mass of tentacles with a smaller, central female body. The Amor Spawner is entirely dedicated to breeding Squirmers, which Hosts use to fuel their abilities.</TentacleSpawner.description>
 	<TentacleSquirmer.label>Amor Squirmer</TentacleSquirmer.label>
@@ -39,16 +42,24 @@
 	<TentacleLarva.description>A small Tentacle in larval form. Doesn't serve any purpose besides evolving into more-advanced Tentacle forms. Research will unlock more advanced forms to choose from.</TentacleLarva.description>
 	
 	<!-- Host transformation eggs -->
+
 	<AmorQueenEgg.label>Amor Queen egg</AmorQueenEgg.label>
 	<AmorQueenEgg.description>An Amor Queen Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Queen host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorQueenEgg.description>
-	<AmorBaronEgg.label>Amor Baron egg</AmorBaronEgg.label>
-	<AmorBaronEgg.description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorBaronEgg.description>
 	<AmorBaronessEgg.label>Amor Baroness egg</AmorBaronessEgg.label>
 	<AmorBaronessEgg.description>An Amor Baroness Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baroness host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorBaronessEgg.description>
 	<AmorNymphEgg.label>Amor Nymph egg</AmorNymphEgg.label>
 	<AmorNymphEgg.description>An Amor Nymph Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Nymph host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</AmorNymphEgg.description>
-		
+	<AmorBaronEgg.label>Amor Baron egg</AmorBaronEgg.label>
+	<AmorBaronEgg.description>An Amor Baron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Baron host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorBaronEgg.description>
+	<AmorRogueEgg.label>Amor Rogue egg</AmorRogueEgg.label>
+	<AmorRogueEgg.description>An Amor Rogue Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Rogue host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorRogueEgg.description>
+	<AmorKnightEgg.label>Amor Knight egg</AmorKnightEgg.label>
+	<AmorKnightEgg.description>An Amor Knight Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Knight host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorKnightEgg.description>
+	<AmorServantEgg.label>Amor Servant egg</AmorServantEgg.label>
+	<AmorServantEgg.description>An Amor Servant Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Servant host.\n\nNOTE: This transformation will only work on male pawns. It will cause lethal organ instability in females.</AmorServantEgg.description>
+
 	<!-- Tentacle eggs -->
+
 	<AmorBroodMotherEgg.label>Amor Brood Mother egg</AmorBroodMotherEgg.label>
 	<AmorBroodMotherEgg.description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!</AmorBroodMotherEgg.description>
 	<AmorSquirmerEggUnfert.label>Amor Squirmer egg (unfert.)</AmorSquirmerEggUnfert.label>
@@ -61,6 +72,7 @@
 	<AmorLarvaEggFert.description>A fertilized Amor Larva tentacle egg.</AmorLarvaEggFert.description>	
 	
 	<!-- Resources -->
+
 	<HardResin.label>hard resin</HardResin.label>
 	<HardResin.description>Hard tentacle resin. It is immune to fire, and while it is brittle, when dried it can be forged into hard and sharp shapes. It is perfect as a material for cutting tools or weapons as well as structures.</HardResin.description>
 	<SoftResin.label>soft resin</SoftResin.label>
@@ -71,11 +83,13 @@
 	<TentacleSlime.description>A sticky, viscous substance "produced" primarily by Amor Queens. Used for crafting more advanced eggs and implants. It lasts indefinitely, so long as it is stored safely. An extremely valuable resource!</TentacleSlime.description>
 	
 	<!-- Filth and Fluids -->
+
 	<FilthSlime.label>tentacle slime filth</FilthSlime.label>
 	
 	<!-- Weapons -->
 	
 	<!-- Equipment -->
+
 	<TentacleCollar.label>tentacle collar</TentacleCollar.label>
 	<TentacleCollar.description>A large tentacle, curled tightly around the wearer's neck, intended to use in controlling slaves. The tip goes over the wearer's mouth, hindering their ability to eat. Once settled, a small tendril will be extended inside the mouth, and will secrete drugs that provide a mild euphoric effert, suppressing the slave's resistance, increasing their sex drive, and making them more docile. Not nearly as invasive as an Indoctrination Implant.</TentacleCollar.description>
 	

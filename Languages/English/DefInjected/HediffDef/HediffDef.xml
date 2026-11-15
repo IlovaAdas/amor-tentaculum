@@ -39,6 +39,7 @@
 	<TentacleCollarNumb.description>The secretions from the Tentacle Collar are numbing the wearer's body, making them more pliant and susceptible to control.</TentacleCollarNumb.description>
 	
 	<!-- Brood Egg incubation -->
+
 	<BroodMotherIncubation.label>Brood Mother egg</BroodMotherIncubation.label>
 	<BroodMotherIncubation.labelNoun>an amor brood mother egg</BroodMotherIncubation.labelNoun>
 	<BroodMotherIncubation.description>An Amor Brood Mother egg is being incubated by the Queen and growing inside her body. This process takes around 20 days (with default multipliers), and she will not enjoy it (although her Host body will adapt to suppress the pain over time).</BroodMotherIncubation.description>
@@ -117,16 +118,6 @@
 	<AmorQueenSlimeProduction.label>producing slime</AmorQueenSlimeProduction.label>
 	<AmorQueenSlimeProduction.description>The Amor Queen is leaking slime from her vagina. However disgusting that may seem, the tentacle slime she is producing is an extremely valuable resource, used for many tentacle technologies.</AmorQueenSlimeProduction.description>
 
-	<TentacleLimbVagina.label>vaginal mobility tentacle</TentacleLimbVagina.label>
-	<TentacleLimbVagina.labelNoun>tentacle</TentacleLimbVagina.labelNoun>
-	<TentacleLimbVagina.description>A prehensile tentacle, emerging from the Host's vagina, aiding in movement and defense.</TentacleLimbVagina.description>
-	<TentacleLimbVagina.stages.0.label>thin</TentacleLimbVagina.stages.0.label>
-	<TentacleLimbVagina.stages.1.label>average</TentacleLimbVagina.stages.1.label>
-	<TentacleLimbVagina.stages.2.label>muscular</TentacleLimbVagina.stages.2.label>
-	<TentacleLimbVagina.stages.3.label>robust</TentacleLimbVagina.stages.3.label>
-	<TentacleLimbVagina.stages.4.label>powerful</TentacleLimbVagina.stages.4.label>
-	<TentacleLimbVagina.comps.HediffComp_VerbGiver.tools.tentaclespike.label>tentacle spike</TentacleLimbVagina.comps.HediffComp_VerbGiver.tools.tentaclespike.label>
-
 	<TentacleLimbAnus.label>anal mobility tentacle</TentacleLimbAnus.label>
 	<TentacleLimbAnus.labelNoun>tentacle</TentacleLimbAnus.labelNoun>
 	<TentacleLimbAnus.description>A prehensile tentacle, emerging from the Host's anus, aiding in movement and defense.</TentacleLimbAnus.description>
@@ -136,6 +127,16 @@
 	<TentacleLimbAnus.stages.3.label>robust</TentacleLimbAnus.stages.3.label>
 	<TentacleLimbAnus.stages.4.label>powerful</TentacleLimbAnus.stages.4.label>
 	<TentacleLimbAnus.comps.HediffComp_VerbGiver.tools.tentaclespike.label>tentacle spike</TentacleLimbAnus.comps.HediffComp_VerbGiver.tools.tentaclespike.label>
+
+	<TentacleLimbVagina.label>vaginal mobility tentacle</TentacleLimbVagina.label>
+	<TentacleLimbVagina.labelNoun>tentacle</TentacleLimbVagina.labelNoun>
+	<TentacleLimbVagina.description>A prehensile tentacle, emerging from the Host's vagina, aiding in movement and defense.</TentacleLimbVagina.description>
+	<TentacleLimbVagina.stages.0.label>thin</TentacleLimbVagina.stages.0.label>
+	<TentacleLimbVagina.stages.1.label>average</TentacleLimbVagina.stages.1.label>
+	<TentacleLimbVagina.stages.2.label>muscular</TentacleLimbVagina.stages.2.label>
+	<TentacleLimbVagina.stages.3.label>robust</TentacleLimbVagina.stages.3.label>
+	<TentacleLimbVagina.stages.4.label>powerful</TentacleLimbVagina.stages.4.label>
+	<TentacleLimbVagina.comps.HediffComp_VerbGiver.tools.tentaclespike.label>tentacle spike</TentacleLimbVagina.comps.HediffComp_VerbGiver.tools.tentaclespike.label>
 
 	<NymphSeduction.label>nymph's kiss</NymphSeduction.label>
 	<NymphSeduction.description>The Nymph's tentacles have left the pawn weak and incapacitated.</NymphSeduction.description>
@@ -147,12 +148,6 @@
 	<QueenEggIncubationFailure.description>The Amor Queen egg is rejecting this host body. It will result in a slow and painful death...</QueenEggIncubationFailure.description>
 	<QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</QueenEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
-
-	<BaronEggIncubationFailure.label>Baron Egg rejection</BaronEggIncubationFailure.label>
-	<BaronEggIncubationFailure.labelNoun>rejection</BaronEggIncubationFailure.labelNoun>
-	<BaronEggIncubationFailure.description>The Amor Baron egg is rejecting this host body. It will result in a slow and painful death...</BaronEggIncubationFailure.description>
-	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<BaronessEggIncubationFailure.label>Baroness Egg rejection</BaronessEggIncubationFailure.label>
 	<BaronessEggIncubationFailure.labelNoun>rejection</BaronessEggIncubationFailure.labelNoun>
@@ -166,6 +161,30 @@
 	<NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</NymphEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
+	<BaronEggIncubationFailure.label>Baron Egg rejection</BaronEggIncubationFailure.label>
+	<BaronEggIncubationFailure.labelNoun>rejection</BaronEggIncubationFailure.labelNoun>
+	<BaronEggIncubationFailure.description>The Amor Baron egg is rejecting this host body. It will result in a slow and painful death...</BaronEggIncubationFailure.description>
+	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</BaronEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<RogueEggIncubationFailure.label>Rogue Egg rejection</RogueEggIncubationFailure.label>
+	<RogueEggIncubationFailure.labelNoun>rejection</RogueEggIncubationFailure.labelNoun>
+	<RogueEggIncubationFailure.description>The Amor Rogue egg is rejecting this host body. It will result in a slow and painful death...</RogueEggIncubationFailure.description>
+	<RogueEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</RogueEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<RogueEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</RogueEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<KnightEggIncubationFailure.label>Knight Egg rejection</KnightEggIncubationFailure.label>
+	<KnightEggIncubationFailure.labelNoun>rejection</KnightEggIncubationFailure.labelNoun>
+	<KnightEggIncubationFailure.description>The Amor Knight egg is rejecting this host body. It will result in a slow and painful death...</KnightEggIncubationFailure.description>
+	<KnightEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</KnightEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<KnightEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</KnightEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<ServantEggIncubationFailure.label>Servant Egg rejection</ServantEggIncubationFailure.label>
+	<ServantEggIncubationFailure.labelNoun>rejection</ServantEggIncubationFailure.labelNoun>
+	<ServantEggIncubationFailure.description>The Amor Servant egg is rejecting this host body. It will result in a slow and painful death...</ServantEggIncubationFailure.description>
+	<ServantEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} rejecting host</ServantEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<ServantEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} is rejecting their implanted Amor Host egg!</ServantEggIncubationFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
 	<!-- Host override failure -->
 
 	<QueenEggOverrideFailure.label>Queen incubation failure</QueenEggOverrideFailure.label>
@@ -173,12 +192,6 @@
 	<QueenEggOverrideFailure.description>The attempt to implant an Amor Queen egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</QueenEggOverrideFailure.description>
 	<QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</QueenEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
-
-	<BaronEggOverrideFailure.label>Baron incubation failure</BaronEggOverrideFailure.label>
-	<BaronEggOverrideFailure.labelNoun>failure</BaronEggOverrideFailure.labelNoun>
-	<BaronEggOverrideFailure.description>The attempt to implant an Amor Baron egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</BaronEggOverrideFailure.description>
-	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<BaronessEggOverrideFailure.label>Baroness incubation failure</BaronessEggOverrideFailure.label>
 	<BaronessEggOverrideFailure.labelNoun>failure</BaronessEggOverrideFailure.labelNoun>
@@ -192,16 +205,35 @@
 	<NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
 	<NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</NymphEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
+	<BaronEggOverrideFailure.label>Baron incubation failure</BaronEggOverrideFailure.label>
+	<BaronEggOverrideFailure.labelNoun>failure</BaronEggOverrideFailure.labelNoun>
+	<BaronEggOverrideFailure.description>The attempt to implant an Amor Baron egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</BaronEggOverrideFailure.description>
+	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</BaronEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<RogueEggOverrideFailure.label>Rogue incubation failure</RogueEggOverrideFailure.label>
+	<RogueEggOverrideFailure.labelNoun>failure</RogueEggOverrideFailure.labelNoun>
+	<RogueEggOverrideFailure.description>The attempt to implant an Amor Rogue egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</RogueEggOverrideFailure.description>
+	<RogueEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</RogueEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<RogueEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</RogueEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<KnightEggOverrideFailure.label>Knight incubation failure</KnightEggOverrideFailure.label>
+	<KnightEggOverrideFailure.labelNoun>failure</KnightEggOverrideFailure.labelNoun>
+	<KnightEggOverrideFailure.description>The attempt to implant an Amor Knight egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</KnightEggOverrideFailure.description>
+	<KnightEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</KnightEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<KnightEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</KnightEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<ServantEggOverrideFailure.label>Servant incubation failure</ServantEggOverrideFailure.label>
+	<ServantEggOverrideFailure.labelNoun>failure</ServantEggOverrideFailure.labelNoun>
+	<ServantEggOverrideFailure.description>The attempt to implant an Amor Servant egg failed, as this pawn already is an Amor Host. This will cause them pain for a few days, but they will recover.</ServantEggOverrideFailure.description>
+	<ServantEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} incubation failure</ServantEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<ServantEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} was unable to incubate a second Amor Host egg type. They will be in pain for a while, but will recover.</ServantEggOverrideFailure.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<!-- Host incubation success -->
 
 	<QueenEggIncubationSuccess.label>Queen egg incubation</QueenEggIncubationSuccess.label>
 	<QueenEggIncubationSuccess.labelNoun>incubation</QueenEggIncubationSuccess.labelNoun>
 	<QueenEggIncubationSuccess.description>An Amor Queen egg has been implanted into the host.</QueenEggIncubationSuccess.description>
-
-	<BaronEggIncubationSuccess.label>Baron egg incubation</BaronEggIncubationSuccess.label>
-	<BaronEggIncubationSuccess.labelNoun>incubation</BaronEggIncubationSuccess.labelNoun>
-	<BaronEggIncubationSuccess.description>An Amor Baron egg has been implanted into the host.</BaronEggIncubationSuccess.description>
 
 	<BaronessEggIncubationSuccess.label>Baroness egg incubation</BaronessEggIncubationSuccess.label>
 	<BaronessEggIncubationSuccess.labelNoun>incubation</BaronessEggIncubationSuccess.labelNoun>
@@ -210,6 +242,24 @@
 	<NymphEggIncubationSuccess.label>Nymph egg incubation</NymphEggIncubationSuccess.label>
 	<NymphEggIncubationSuccess.labelNoun>incubation</NymphEggIncubationSuccess.labelNoun>
 	<NymphEggIncubationSuccess.description>An Amor Nymph egg has been implanted into the host.</NymphEggIncubationSuccess.description>
+
+	<BaronEggIncubationSuccess.label>Baron egg incubation</BaronEggIncubationSuccess.label>
+	<BaronEggIncubationSuccess.labelNoun>incubation</BaronEggIncubationSuccess.labelNoun>
+	<BaronEggIncubationSuccess.description>An Amor Baron egg has been implanted into the host.</BaronEggIncubationSuccess.description>
+
+	<RogueEggIncubationSuccess.label>Rogue egg incubation</RogueEggIncubationSuccess.label>
+	<RogueEggIncubationSuccess.labelNoun>incubation</RogueEggIncubationSuccess.labelNoun>
+	<RogueEggIncubationSuccess.description>An Amor Rogue egg has been implanted into the host.</RogueEggIncubationSuccess.description>
+
+	<KnightEggIncubationSuccess.label>Knight egg incubation</KnightEggIncubationSuccess.label>
+	<KnightEggIncubationSuccess.labelNoun>incubation</KnightEggIncubationSuccess.labelNoun>
+	<KnightEggIncubationSuccess.description>An Amor Knight egg has been implanted into the host.</KnightEggIncubationSuccess.description>
+
+	<ServantEggIncubationSuccess.label>Servant egg incubation</ServantEggIncubationSuccess.label>
+	<ServantEggIncubationSuccess.labelNoun>incubation</ServantEggIncubationSuccess.labelNoun>
+	<ServantEggIncubationSuccess.description>An Amor Servant egg has been implanted into the host.</ServantEggIncubationSuccess.description>
+
+	<!-- Host incubation -->
 
 	<QueenEggIncubation.label>Queen egg incubation</QueenEggIncubation.label>
 	<QueenEggIncubation.labelNoun>incubation</QueenEggIncubation.labelNoun>
@@ -222,22 +272,11 @@
 	<QueenEggIncubation.stages.3.label>growing</QueenEggIncubation.stages.3.label>
 	<QueenEggIncubation.stages.4.label>nearly grown</QueenEggIncubation.stages.4.label>
 
-	<BaronEggIncubation.label>Baron egg incubation</BaronEggIncubation.label>
-	<BaronEggIncubation.labelNoun>incubation</BaronEggIncubation.labelNoun>
-	<BaronEggIncubation.description>An Amor Baron egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Baron. The incubation process takes approximately 15 days (with default multipliers).</BaronEggIncubation.description>
-	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
-	<BaronEggIncubation.stages.0.label>incubating egg</BaronEggIncubation.stages.0.label>
-	<BaronEggIncubation.stages.1.label>hatched</BaronEggIncubation.stages.1.label>
-	<BaronEggIncubation.stages.2.label>larva</BaronEggIncubation.stages.2.label>
-	<BaronEggIncubation.stages.3.label>growing</BaronEggIncubation.stages.3.label>
-	<BaronEggIncubation.stages.4.label>nearly grown</BaronEggIncubation.stages.4.label>
-
 	<BaronessEggIncubation.label>Baroness egg incubation</BaronessEggIncubation.label>
 	<BaronessEggIncubation.labelNoun>incubation</BaronessEggIncubation.labelNoun>
-	<BaronessEggIncubation.description>An Amor Baroness egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Baroness. The incubation process takes approximately 15 days (with default multipliers).</BaronessEggIncubation.description>
-	<BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<BaronessEggIncubation.description>An Amor Baroness egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Baroness. The incubation process takes approximately 10 days (with default multipliers).</BaronessEggIncubation.description>
+	<BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} implanted</BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been implanted with an Amor Host egg!</BaronessEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
 	<BaronessEggIncubation.stages.0.label>incubating egg</BaronessEggIncubation.stages.0.label>
 	<BaronessEggIncubation.stages.1.label>hatched</BaronessEggIncubation.stages.1.label>
 	<BaronessEggIncubation.stages.2.label>larva</BaronessEggIncubation.stages.2.label>
@@ -246,14 +285,58 @@
 
 	<NymphEggIncubation.label>Nymph egg incubation</NymphEggIncubation.label>
 	<NymphEggIncubation.labelNoun>incubation</NymphEggIncubation.labelNoun>
-	<NymphEggIncubation.description>An Amor Nymph egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Nymph. The incubation process takes approximately 15 days (with default multipliers).</NymphEggIncubation.description>
-	<NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} impregnated</NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been impregnated with an Amor Host egg!</NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<NymphEggIncubation.description>An Amor Nymph egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Nymph. The incubation process takes approximately 10 days (with default multipliers).</NymphEggIncubation.description>
+	<NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} implanted</NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been implanted with an Amor Host egg!</NymphEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
 	<NymphEggIncubation.stages.0.label>incubating egg</NymphEggIncubation.stages.0.label>
 	<NymphEggIncubation.stages.1.label>hatched</NymphEggIncubation.stages.1.label>
 	<NymphEggIncubation.stages.2.label>larva</NymphEggIncubation.stages.2.label>
 	<NymphEggIncubation.stages.3.label>growing</NymphEggIncubation.stages.3.label>
 	<NymphEggIncubation.stages.4.label>nearly grown</NymphEggIncubation.stages.4.label>
+
+	<BaronEggIncubation.label>Baron egg incubation</BaronEggIncubation.label>
+	<BaronEggIncubation.labelNoun>incubation</BaronEggIncubation.labelNoun>
+	<BaronEggIncubation.description>An Amor Baron egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Baron. The incubation process takes approximately 10 days (with default multipliers).</BaronEggIncubation.description>
+	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} implanted</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been implanted with an Amor Host egg!</BaronEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<BaronEggIncubation.stages.0.label>incubating egg</BaronEggIncubation.stages.0.label>
+	<BaronEggIncubation.stages.1.label>hatched</BaronEggIncubation.stages.1.label>
+	<BaronEggIncubation.stages.2.label>larva</BaronEggIncubation.stages.2.label>
+	<BaronEggIncubation.stages.3.label>growing</BaronEggIncubation.stages.3.label>
+	<BaronEggIncubation.stages.4.label>nearly grown</BaronEggIncubation.stages.4.label>
+
+	<RogueEggIncubation.label>Rogue egg incubation</RogueEggIncubation.label>
+	<RogueEggIncubation.labelNoun>incubation</RogueEggIncubation.labelNoun>
+	<RogueEggIncubation.description>An Amor Rogue egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Rogue. The incubation process takes approximately 10 days (with default multipliers).</RogueEggIncubation.description>
+	<RogueEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} implanted</RogueEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<RogueEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been implanted with an Amor Host egg!</RogueEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<RogueEggIncubation.stages.0.label>incubating egg</RogueEggIncubation.stages.0.label>
+	<RogueEggIncubation.stages.1.label>hatched</RogueEggIncubation.stages.1.label>
+	<RogueEggIncubation.stages.2.label>larva</RogueEggIncubation.stages.2.label>
+	<RogueEggIncubation.stages.3.label>growing</RogueEggIncubation.stages.3.label>
+	<RogueEggIncubation.stages.4.label>nearly grown</RogueEggIncubation.stages.4.label>
+
+	<KnightEggIncubation.label>Knight egg incubation</KnightEggIncubation.label>
+	<KnightEggIncubation.labelNoun>incubation</KnightEggIncubation.labelNoun>
+	<KnightEggIncubation.description>An Amor Knight egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Knight. The incubation process takes approximately 10 days (with default multipliers).</KnightEggIncubation.description>
+	<KnightEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} implanted</KnightEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<KnightEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been implanted with an Amor Host egg!</KnightEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<KnightEggIncubation.stages.0.label>incubating egg</KnightEggIncubation.stages.0.label>
+	<KnightEggIncubation.stages.1.label>hatched</KnightEggIncubation.stages.1.label>
+	<KnightEggIncubation.stages.2.label>larva</KnightEggIncubation.stages.2.label>
+	<KnightEggIncubation.stages.3.label>growing</KnightEggIncubation.stages.3.label>
+	<KnightEggIncubation.stages.4.label>nearly grown</KnightEggIncubation.stages.4.label>
+
+	<ServantEggIncubation.label>Servant egg incubation</ServantEggIncubation.label>
+	<ServantEggIncubation.labelNoun>incubation</ServantEggIncubation.labelNoun>
+	<ServantEggIncubation.description>An Amor Servant egg is incubating within the host. The tentacle will not only grow, but gradually transform the host into an Amor Servant. The incubation process takes approximately 10 days (with default multipliers).</ServantEggIncubation.description>
+	<ServantEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} implanted</ServantEggIncubation.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<ServantEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has been implanted with an Amor Host egg!</ServantEggIncubation.comps.HediffComp_MessageAfterTicks.letterText>
+	<ServantEggIncubation.stages.0.label>incubating egg</ServantEggIncubation.stages.0.label>
+	<ServantEggIncubation.stages.1.label>hatched</ServantEggIncubation.stages.1.label>
+	<ServantEggIncubation.stages.2.label>larva</ServantEggIncubation.stages.2.label>
+	<ServantEggIncubation.stages.3.label>growing</ServantEggIncubation.stages.3.label>
+	<ServantEggIncubation.stages.4.label>nearly grown</ServantEggIncubation.stages.4.label>
 
 	<!-- Host transformations -->
 
@@ -261,25 +344,43 @@
 	<QueenTransform.labelNoun>genetic transformation</QueenTransform.labelNoun>
 	<QueenTransform.description>The Amor Queen egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</QueenTransform.description>
 	<QueenTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</QueenTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<QueenTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</QueenTransform.comps.HediffComp_MessageAfterTicks.letterText>
-
-	<BaronTransform.label>genetic transformation</BaronTransform.label>
-	<BaronTransform.labelNoun>genetic transformation</BaronTransform.labelNoun>
-	<BaronTransform.description>The Amor Baron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronTransform.description>
-	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>
+	<QueenTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</QueenTransform.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<BaronessTransform.label>genetic transformation</BaronessTransform.label>
 	<BaronessTransform.labelNoun>genetic transformation</BaronessTransform.labelNoun>
 	<BaronessTransform.description>The Amor Baroness egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronessTransform.description>
 	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be inacapacitated, so get them to safety!</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>
+	<BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</BaronessTransform.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<NymphTransform.label>genetic transformation</NymphTransform.label>
 	<NymphTransform.labelNoun>genetic transformation</NymphTransform.labelNoun>
 	<NymphTransform.description>The Amor Nymph egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximately two days (with default multipliers) while the process finishes.</NymphTransform.description>
 	<NymphTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</NymphTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
-	<NymphTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host. They will be incapacitated, so get them to safety!</NymphTransform.comps.HediffComp_MessageAfterTicks.letterText>
+	<NymphTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</NymphTransform.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<BaronTransform.label>genetic transformation</BaronTransform.label>
+	<BaronTransform.labelNoun>genetic transformation</BaronTransform.labelNoun>
+	<BaronTransform.description>The Amor Baron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</BaronTransform.description>
+	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</BaronTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</BaronTransform.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<RogueTransform.label>genetic transformation</RogueTransform.label>
+	<RogueTransform.labelNoun>genetic transformation</RogueTransform.labelNoun>
+	<RogueTransform.description>The Amor Rogue egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</RogueTransform.description>
+	<RogueTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</RogueTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<RogueTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</RogueTransform.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<KnightTransform.label>genetic transformation</KnightTransform.label>
+	<KnightTransform.labelNoun>genetic transformation</KnightTransform.labelNoun>
+	<KnightTransform.description>The Amor Knight egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</KnightTransform.description>
+	<KnightTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</KnightTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<KnightTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</KnightTransform.comps.HediffComp_MessageAfterTicks.letterText>
+
+	<ServantTransform.label>genetic transformation</ServantTransform.label>
+	<ServantTransform.labelNoun>genetic transformation</ServantTransform.labelNoun>
+	<ServantTransform.description>The Amor Servant egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</ServantTransform.description>
+	<ServantTransform.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} is in a coma</ServantTransform.comps.HediffComp_MessageAfterTicks.letterLabel>
+	<ServantTransform.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} has entered a coma while their genetics are rewritten to become an Amor Host.</ServantTransform.comps.HediffComp_MessageAfterTicks.letterText>
 
 	<!-- Main Host hediffs -->
 

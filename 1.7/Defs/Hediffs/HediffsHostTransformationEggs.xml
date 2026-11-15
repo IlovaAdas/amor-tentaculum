@@ -1,5 +1,7 @@
 <Defs>
 
+		<!-- Incubation failure-->
+
 	<HediffDef Name="EggIncubationFailureBase" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(170,20,20)</defaultLabelColor>
@@ -46,8 +48,8 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef Name="NymphEggIncubationFailure" ParentName="EggIncubationFailureBase">
-		<defName>NymphEggIncubationFailure</defName>
+	<HediffDef Name="QueenEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>QueenEggIncubationFailure</defName>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
@@ -58,8 +60,20 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef Name="QueenEggIncubationFailure" ParentName="EggIncubationFailureBase">
-		<defName>QueenEggIncubationFailure</defName>
+	<HediffDef Name="BaronessEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>BaronessEggIncubationFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Female>0</Female>
+					<Male>1</Male>
+				</genders>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef Name="NymphEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>NymphEggIncubationFailure</defName>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
@@ -82,17 +96,43 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef Name="BaronessEggIncubationFailure" ParentName="EggIncubationFailureBase">
-		<defName>BaronessEggIncubationFailure</defName>
+	<HediffDef Name="RogueEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>RogueEggIncubationFailure</defName>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
-					<Female>0</Female>
-					<Male>1</Male>
+					<Female>1</Female>
+					<Male>0</Male>
 				</genders>
 			</li>
 		</comps>
 	</HediffDef>
+
+	<HediffDef Name="KnightEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>KnightEggIncubationFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Female>1</Female>
+					<Male>0</Male>
+				</genders>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef Name="ServantEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>ServantEggIncubationFailure</defName>
+		<comps>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Female>1</Female>
+					<Male>0</Male>
+				</genders>
+			</li>
+		</comps>
+	</HediffDef>
+
+		<!-- Override failure-->
 
 	<HediffDef Name="HostTypeOverrideFailureBase" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
@@ -118,15 +158,27 @@
 						<effect>0.001</effect>
 					</li>
 					<li>
-						<gene>AmorBaronHostBody</gene>
-						<effect>0.001</effect>
-					</li>
-					<li>
 						<gene>AmorBaronessHostBody</gene>
 						<effect>0.001</effect>
 					</li>
 					<li>
 						<gene>AmorNymphHostBody</gene>
+						<effect>0.001</effect>
+					</li>
+					<li>
+						<gene>AmorBaronHostBody</gene>
+						<effect>0.001</effect>
+					</li>
+					<li>
+						<gene>AmorRogueHostBody</gene>
+						<effect>0.001</effect>
+					</li>
+					<li>
+						<gene>AmorKnightHostBody</gene>
+						<effect>0.001</effect>
+					</li>
+					<li>
+						<gene>AmorServantHostBody</gene>
 						<effect>0.001</effect>
 					</li>
 				</geneEffects>
@@ -142,10 +194,6 @@
 		<defName>QueenEggOverrideFailure</defName>
 	</HediffDef>
 
-	<HediffDef Name="BaronEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
-		<defName>BaronEggOverrideFailure</defName>
-	</HediffDef>
-
 	<HediffDef Name="BaronessEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>BaronessEggOverrideFailure</defName>
 	</HediffDef>
@@ -153,6 +201,21 @@
 	<HediffDef Name="NymphEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
 		<defName>NymphEggOverrideFailure</defName>
 	</HediffDef>
+
+	<HediffDef Name="BaronEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
+		<defName>BaronEggOverrideFailure</defName>
+	</HediffDef>
+	<HediffDef Name="RogueEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
+		<defName>RogueEggOverrideFailure</defName>
+	</HediffDef>
+	<HediffDef Name="KnightEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
+		<defName>KnightEggOverrideFailure</defName>
+	</HediffDef>
+	<HediffDef Name="ServantEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
+		<defName>ServantEggOverrideFailure</defName>
+	</HediffDef>
+
+		<!-- Incubation Success-->
 
 	<HediffDef Name="EggIncubationSuccessBase" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
@@ -191,84 +254,6 @@
 				<hediffSets>
 					<li>
 						<hediffDef>QueenEggIncubation</hediffDef>
-						<validSeverity>1.48~1.51</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>0.001</initialSeverity>
-					</li>
-				</hediffSets>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
-				<severity>1.5</severity>
-			</li>
-		</comps>
-		<stages />
-	</HediffDef>
-
-	<HediffDef Name="NymphEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
-		<defName>NymphEggIncubationSuccess</defName>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorNymphHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
-				<genders>
-					<Male>0</Male>
-					<Female>1.48</Female>
-				</genders>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-				<hediffSets>
-					<li>
-						<hediffDef>NymphEggIncubation</hediffDef>
-						<validSeverity>1.48~1.51</validSeverity>
-						<severityPerDay>0</severityPerDay>
-						<initialSeverity>0.001</initialSeverity>
-					</li>
-				</hediffSets>
-			</li>
-			<li Class="HediffCompProperties_RemoveAtSeverities">
-				<severity>1.5</severity>
-			</li>
-		</comps>
-		<stages />
-	</HediffDef>
-
-	<HediffDef Name="BaronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
-		<defName>BaronEggIncubationSuccess</defName>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
-				<baseSeverity>0.001</baseSeverity>
-				<geneEffects>
-					<li>
-						<gene>AmorBaronHostBody</gene>
-						<effect>-1</effect>
-					</li>
-				</geneEffects>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
-				<genders>
-					<Male>1.48</Male>
-					<Female>0</Female>
-				</genders>
-			</li>
-			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
-				<hediffSets>
-					<li>
-						<hediffDef>BaronEggIncubation</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.001</initialSeverity>
@@ -321,6 +306,203 @@
 		<stages />
 	</HediffDef>
 
+	<HediffDef Name="NymphEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>NymphEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorNymphHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>0</Male>
+					<Female>1.48</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>NymphEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="BaronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>BaronEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorBaronHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>1.48</Male>
+					<Female>0</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>BaronEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="RogueEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>RogueEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorRogueHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>1.48</Male>
+					<Female>0</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>RogueEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="KnightEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>KnightEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorKnightHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>1.48</Male>
+					<Female>0</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>KnightEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+	<HediffDef Name="ServantEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>ServantEggIncubationSuccess</defName>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>9</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
+				<baseSeverity>0.001</baseSeverity>
+				<geneEffects>
+					<li>
+						<gene>AmorServantHostBody</gene>
+						<effect>-1</effect>
+					</li>
+				</geneEffects>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
+				<genders>
+					<Male>1.48</Male>
+					<Female>0</Female>
+				</genders>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>ServantEggIncubation</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.001</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_RemoveAtSeverities">
+				<severity>1.5</severity>
+			</li>
+		</comps>
+		<stages />
+	</HediffDef>
+
+		<!-- Incubation-->
+
 	<HediffDef Name="EggIncubationBase" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
@@ -343,7 +525,7 @@
 		<comps>
 			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
 				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
-				<baseSeverityPerDay>0.15</baseSeverityPerDay>
+				<baseSeverityPerDay>0.1</baseSeverityPerDay>
 			</li>
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
@@ -371,7 +553,6 @@
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 				<statOffsets>
 					<Vulnerability>0.1</Vulnerability>
-					<MoveSpeed>-0.01</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
@@ -381,7 +562,6 @@
 				<statOffsets>
 					<PsychicSensitivity>0.1</PsychicSensitivity>
 					<Vulnerability>0.2</Vulnerability>
-					<MoveSpeed>-0.02</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -403,7 +583,6 @@
 					<PsychicSensitivity>0.2</PsychicSensitivity>
 					<Vulnerability>0.3</Vulnerability>
 					<SexFrequency>0.5</SexFrequency>
-					<MoveSpeed>-0.05</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -432,7 +611,6 @@
 				<statOffsets>
 					<PsychicSensitivity>0.3</PsychicSensitivity>
 					<Vulnerability>0.5</Vulnerability>
-					<MoveSpeed>-0.1</MoveSpeed>
 					<SexFrequency>1</SexFrequency>
 				</statOffsets>
 				<hediffGivers>
@@ -449,6 +627,113 @@
 						<mtbDays>0.1</mtbDays>
 						<partsToAffect>
 							<li>Genitals</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.1</painOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef Name="BaronessEggIncubation" ParentName="EggIncubationBase">
+		<defName>BaronessEggIncubation</defName>
+		<comps>
+			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
+				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
+				<baseSeverityPerDay>0.15</baseSeverityPerDay>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>BaronessTransform</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.1</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.001</minSeverity>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.65</minSeverity>
+				<restFallFactor>1.05</restFallFactor>
+				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>4</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.02</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<restFallFactor>1.1</restFallFactor>
+				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.3</Vulnerability>
+					<SexFrequency>0.5</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>3</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>2</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.03</painOffset>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<restFallFactor>1.2</restFallFactor>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.5</Vulnerability>
+					<SexFrequency>1</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
 						</partsToAffect>
 						<countToAffect>1</countToAffect>
 					</li>
@@ -493,7 +778,6 @@
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 				<statOffsets>
 					<Vulnerability>0.1</Vulnerability>
-					<MoveSpeed>-0.01</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
@@ -501,9 +785,7 @@
 				<restFallFactor>1.05</restFallFactor>
 				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.1</PsychicSensitivity>
 					<Vulnerability>0.2</Vulnerability>
-					<MoveSpeed>-0.02</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -522,10 +804,8 @@
 				<restFallFactor>1.1</restFallFactor>
 				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.2</PsychicSensitivity>
 					<Vulnerability>0.3</Vulnerability>
 					<SexFrequency>0.5</SexFrequency>
-					<MoveSpeed>-0.05</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -552,10 +832,8 @@
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.3</PsychicSensitivity>
 					<Vulnerability>0.5</Vulnerability>
 					<SexFrequency>1</SexFrequency>
-					<MoveSpeed>-0.1</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -615,7 +893,6 @@
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 				<statOffsets>
 					<Vulnerability>0.1</Vulnerability>
-					<MoveSpeed>-0.01</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
@@ -623,9 +900,7 @@
 				<restFallFactor>1.05</restFallFactor>
 				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.1</PsychicSensitivity>
 					<Vulnerability>0.2</Vulnerability>
-					<MoveSpeed>-0.02</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -644,10 +919,8 @@
 				<restFallFactor>1.1</restFallFactor>
 				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.2</PsychicSensitivity>
 					<Vulnerability>0.3</Vulnerability>
 					<SexFrequency>0.5</SexFrequency>
-					<MoveSpeed>-0.05</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -674,9 +947,7 @@
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.3</PsychicSensitivity>
 					<Vulnerability>0.5</Vulnerability>
-					<MoveSpeed>-0.1</MoveSpeed>
 					<SexFrequency>1</SexFrequency>
 				</statOffsets>
 				<hediffGivers>
@@ -702,8 +973,8 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef Name="BaronessEggIncubation" ParentName="EggIncubationBase">
-		<defName>BaronessEggIncubation</defName>
+	<HediffDef Name="RogueEggIncubation" ParentName="EggIncubationBase">
+		<defName>RogueEggIncubation</defName>
 		<comps>
 			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
 				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
@@ -712,7 +983,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
 					<li>
-						<hediffDef>BaronessTransform</hediffDef>
+						<hediffDef>RogueTransform</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.1</initialSeverity>
@@ -729,7 +1000,6 @@
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 				<statOffsets>
 					<Vulnerability>0.1</Vulnerability>
-					<MoveSpeed>-0.01</MoveSpeed>
 				</statOffsets>
 			</li>
 			<li>
@@ -737,9 +1007,7 @@
 				<restFallFactor>1.05</restFallFactor>
 				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.1</PsychicSensitivity>
 					<Vulnerability>0.2</Vulnerability>
-					<MoveSpeed>-0.02</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -758,10 +1026,8 @@
 				<restFallFactor>1.1</restFallFactor>
 				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.2</PsychicSensitivity>
 					<Vulnerability>0.3</Vulnerability>
 					<SexFrequency>0.5</SexFrequency>
-					<MoveSpeed>-0.05</MoveSpeed>
 				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
@@ -788,9 +1054,7 @@
 				<restFallFactor>1.2</restFallFactor>
 				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
 				<statOffsets>
-					<PsychicSensitivity>0.3</PsychicSensitivity>
 					<Vulnerability>0.5</Vulnerability>
-					<MoveSpeed>-0.1</MoveSpeed>
 					<SexFrequency>1</SexFrequency>
 				</statOffsets>
 				<hediffGivers>
@@ -815,6 +1079,222 @@
 			</li>
 		</stages>
 	</HediffDef>
+
+	<HediffDef Name="KnightEggIncubation" ParentName="EggIncubationBase">
+		<defName>KnightEggIncubation</defName>
+		<comps>
+			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
+				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
+				<baseSeverityPerDay>0.15</baseSeverityPerDay>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>KnightTransform</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.1</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.001</minSeverity>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.65</minSeverity>
+				<restFallFactor>1.05</restFallFactor>
+				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>4</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.02</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<restFallFactor>1.1</restFallFactor>
+				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.3</Vulnerability>
+					<SexFrequency>0.5</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>3</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>2</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.03</painOffset>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<restFallFactor>1.2</restFallFactor>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.5</Vulnerability>
+					<SexFrequency>1</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.1</painOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef Name="ServantEggIncubation" ParentName="EggIncubationBase">
+		<defName>ServantEggIncubation</defName>
+		<comps>
+			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
+				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
+				<baseSeverityPerDay>0.15</baseSeverityPerDay>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
+				<hediffSets>
+					<li>
+						<hediffDef>ServantTransform</hediffDef>
+						<validSeverity>1.48~1.51</validSeverity>
+						<severityPerDay>0</severityPerDay>
+						<initialSeverity>0.1</initialSeverity>
+					</li>
+				</hediffSets>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.001</minSeverity>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.65</minSeverity>
+				<restFallFactor>1.05</restFallFactor>
+				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>4</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.02</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<restFallFactor>1.1</restFallFactor>
+				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.3</Vulnerability>
+					<SexFrequency>0.5</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>3</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>2</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.03</painOffset>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<restFallFactor>1.2</restFallFactor>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<statOffsets>
+					<Vulnerability>0.5</Vulnerability>
+					<SexFrequency>1</SexFrequency>
+				</statOffsets>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedStomach</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Stomach</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>TentacleInfestedAnus</hediff>
+						<mtbDays>0.1</mtbDays>
+						<partsToAffect>
+							<li>Anus</li>
+						</partsToAffect>
+						<countToAffect>1</countToAffect>
+					</li>
+				</hediffGivers>
+				<painOffset>0.1</painOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+		<!-- Infested parts-->
 
 	<HediffDef>
 		<defName>TentacleInfestedAnus</defName>
