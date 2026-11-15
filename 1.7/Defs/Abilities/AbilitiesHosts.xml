@@ -5,6 +5,7 @@
 	<!-- Tentacle Resource Abilities -->
 	
 	<!-- Tentacle Ingest -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleIngest</defName>
 		<iconPath>Abilities/ButtVore</iconPath>
@@ -62,6 +63,7 @@
 	</AbilityDef>
 
 	<!-- Tentacle Expel -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleExpel</defName>
 		<iconPath>Abilities/ButtVore</iconPath>
@@ -101,6 +103,7 @@
 	</AbilityDef>
 
 	<!-- Tentacle Transfer -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleTransfer</defName>
 		<iconPath>Abilities/TentacleKiss</iconPath>
@@ -140,6 +143,8 @@
 			</li>
 		</comps>
 	</AbilityDef>
+
+	<!-- Birth Brood Mother Egg -->
 
 	<AbilityDef>
 		<defName>BirthAmorBroodMotherEgg</defName>
@@ -199,7 +204,9 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	
+
+	<!-- Incubate Brood Mother Egg -->
+
 	<AbilityDef>
 		<defName>IncubateAmorBroodMotherEgg</defName>
 		<iconPath>Abilities/OviVag</iconPath>
@@ -263,46 +270,7 @@
 		</comps>
 	</AbilityDef>
 
-	<AbilityDef>
-		<defName>TCumSpray</defName>
-		<iconPath>Abilities/SlimeSpray</iconPath>
-		<category>Tentacle</category>
-		<targetRequired>True</targetRequired>
-		<cooldownTicksRange>600</cooldownTicksRange>
-		<hostile>True</hostile>
-		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<range>23.9</range>
-			<warmupTime>1.5</warmupTime>
-			<soundCast>AcidSpray_Resolve</soundCast>
-			<requireLineOfSight>True</requireLineOfSight>
-			<targetParams>
-				<canTargetSelf>False</canTargetSelf>
-				<canTargetAnimals>True</canTargetAnimals>
-				<canTargetPawns>True</canTargetPawns>
-				<canTargetLocations>True</canTargetLocations>
-			</targetParams>
-		</verbProperties>
-		<comps>
-			<li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
-				<casterHasAnyOfHediffs>
-					<li>TentacleStorage</li>
-				</casterHasAnyOfHediffs>
-			</li>
-			<li Class="EBSGFramework.CompProperties_AbilityResourceCost">
-				<resourceCost>0.01</resourceCost>
-				<mainResourceGene>HostTentacleNeed</mainResourceGene>
-			</li>
-			<li Class="EBSGFramework.CompProperties_AbilitySpew">
-				<range>17.9</range>
-				<damage>Cummies</damage>
-				<filthDef>FilthSlime</filthDef>
-				<amount>55</amount>
-				<angle>45</angle>
-				<!--Angles under 40 tend to start skipping some tiles close to the pawn occasionally-->
-			</li>
-		</comps>
-	</AbilityDef>
+	<!-- Seduction Kiss -->
 
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>SeductionKiss</defName>
@@ -351,6 +319,8 @@
 		</comps>
 	</AbilityDef>
 
+	<!-- Placating Kiss -->
+
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>PlacatingKiss</defName>
 		<iconPath>Abilities/TentacleKiss</iconPath>
@@ -385,6 +355,49 @@
 				<minorChance>1</minorChance>
 				<majorChance>1</majorChance>
 				<extremeChance>1</extremeChance>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<!-- Cum Spray -->
+
+	<AbilityDef>
+		<defName>TCumSpray</defName>
+		<iconPath>Abilities/SlimeSpray</iconPath>
+		<category>Tentacle</category>
+		<targetRequired>True</targetRequired>
+		<cooldownTicksRange>600</cooldownTicksRange>
+		<hostile>True</hostile>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>23.9</range>
+			<warmupTime>1.5</warmupTime>
+			<soundCast>AcidSpray_Resolve</soundCast>
+			<requireLineOfSight>True</requireLineOfSight>
+			<targetParams>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetPawns>True</canTargetPawns>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
+				<casterHasAnyOfHediffs>
+					<li>TentacleStorage</li>
+				</casterHasAnyOfHediffs>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityResourceCost">
+				<resourceCost>0.01</resourceCost>
+				<mainResourceGene>HostTentacleNeed</mainResourceGene>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilitySpew">
+				<range>17.9</range>
+				<damage>Cummies</damage>
+				<filthDef>FilthSlime</filthDef>
+				<amount>55</amount>
+				<angle>45</angle>
+				<!--Angles under 40 tend to start skipping some tiles close to the pawn occasionally-->
 			</li>
 		</comps>
 	</AbilityDef>

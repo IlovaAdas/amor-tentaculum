@@ -1,16 +1,15 @@
 <Defs>
  
   <TraitDef>
-    <defName>TentacleSlut</defName>
+    <defName>TentacleLover</defName>
     <commonality>0.1</commonality>
     <forcedPassions>
       <li>Animals</li>
     </forcedPassions>
     <degreeDatas>
       <li>
-        <label>Tentacle Slut</label>
-        <description>{PAWN_nameDef} has a very special relationship with tentacles.</description>
-                <skillGains>
+        <label>TentacleLover</label>
+        <skillGains>
           <Animals>4</Animals>
         </skillGains>
       </li>

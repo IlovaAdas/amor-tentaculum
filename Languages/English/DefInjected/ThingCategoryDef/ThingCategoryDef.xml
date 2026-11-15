@@ -1,7 +1,8 @@
 <languageData>
 
-	<TentacleProducts.label>tentacle products</TentacleProducts.label>
-	<TentacleProducedProducts.label>tentacle-produced products</TentacleProducedProducts.label>
-	<HostProducedProducts.label>host-produced products</HostProducedProducts.label>
+	<TentacleResources.label>tentacle resources</TentacleResources.label>
+	<TentacleProducedResources.label>tentacle-produced resources</TentacleProducedResources.label>
+	<HostProducedResources.label>host-produced resources</HostProducedResources.label>
+	<CraftedTentacleProducts.label>crafted tentacle products</CraftedTentacleProducts.label>
 
 </languageData>

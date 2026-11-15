@@ -1,6 +1,7 @@
 <languageData>
 	
 	<!-- Host abilities -->
+
 	<TentacleIngest.label>ingest tentacle</TentacleIngest.label>
 	<TentacleIngest.description>Ingests the selected Amor Squirmer into the Host.</TentacleIngest.description>
 	<TentacleExpel.label>expel tentacle</TentacleExpel.label>
@@ -19,6 +20,7 @@
 	<TCumSpray.description>Expel tentacle slime-cum from the Host's mouth in a long-range cone. Puts out fires - and sometimes pushes pawns into sexual overdrive, where they force themselves on anyone nearby.</TCumSpray.description>
 	
 	<!-- Tentacle abilities -->
+
 	<AbilityTentacleUnbirth.label>crawl inside</AbilityTentacleUnbirth.label>
 	<AbilityTentacleUnbirth.description>Commands the Amor Squirmer to crawl inside the targeted Host, adding tentacle resources.</AbilityTentacleUnbirth.description>
 	<AbilityLarvaEvolveSquirmer.label>evolve into squirmers</AbilityLarvaEvolveSquirmer.label>

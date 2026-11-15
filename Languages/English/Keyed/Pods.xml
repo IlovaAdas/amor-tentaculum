@@ -1,0 +1,20 @@
+<languageData>
+
+	<ProcessingPodStart>Start processor</ProcessingPodStart>
+	<ProcessingPodProduces>Produces</ProcessingPodProduces>
+	<ProcessingPodStartDesc>Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the processor.</ProcessingPodStartDesc>
+	<ProcessingPodCompletesIn>Completes in</ProcessingPodCompletesIn>
+	<ProcessingPodWaitingForOccupant>Waiting for occupant</ProcessingPodWaitingForOccupant>
+	<ProcessingPodWaitingForIngredients>Waiting for ingredients</ProcessingPodWaitingForIngredients>
+	<ProcessingPodWaitingForIngredientsDesc>The following ingredients must be loaded first</ProcessingPodWaitingForIngredientsDesc>
+	<ProcessingPodPawnHasSickness>Has {0}</ProcessingPodPawnHasSickness>
+	<ProcessingPodBabyNotAllowed>Babies are not allowed</ProcessingPodBabyNotAllowed>
+	<InsertPersonProcessingPodDesc>Insert a person into the {0}.</InsertPersonProcessingPodDesc>
+	<MessagePawnKilledProcessingPod>{PAWN_nameDef} has been recycled into organic component parts.</MessagePawnKilledProcessingPod>
+	<MessageProcessingPodCompleted>Transformation process has been completed for {PAWN_nameDef}.</MessageProcessingPodCompleted>
+	<ConfirmRecyclePawn>Recycling {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue?</ConfirmRecyclePawn>
+	<ConfirmCancelRecycling>Canceling the recycling process will still kill {PAWN_nameDef}. Are you sure you want to continue?</ConfirmCancelRecycling>
+	<CommandCancelProcessing>Cancel processing</CommandCancelProcessing>
+	<CommandCancelProcessingDesc>Cancel the processing. The contained person will be ejected.</CommandCancelProcessingDesc>
+
+</languageData>

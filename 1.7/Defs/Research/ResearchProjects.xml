@@ -82,6 +82,93 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
+		<defName>ATSummonFeral</defName>
+		<tab>AmorTentaculum</tab>
+		<prerequisites>
+			<li>ATLarvaAdvanced</li>
+		</prerequisites>
+		<baseCost>900</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>ATBossBrewer</defName>
+		<tab>AmorTentaculum</tab>
+		<prerequisites>
+			<li>ATSummonFeral</li>
+		</prerequisites>
+		<requiredAnalyzed>
+			<li>BossGlandBrewer</li>
+		</requiredAnalyzed>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>5.50</researchViewX>
+		<researchViewY>0.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATBossValkyrie</defName>
+		<tab>AmorTentaculum</tab>
+		<prerequisites>
+			<li>ATSummonFeral</li>
+		</prerequisites>
+		<requiredAnalyzed>
+			<li>BossGlandValkyrie</li>
+		</requiredAnalyzed>
+		<baseCost>1750</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>5.50</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATBossDefender</defName>
+		<tab>AmorTentaculum</tab>
+		<prerequisites>
+			<li>ATSummonFeral</li>
+		</prerequisites>
+		<requiredAnalyzed>
+			<li>BossGlandDefender</li>
+		</requiredAnalyzed>
+		<baseCost>1750</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>5.50</researchViewX>
+		<researchViewY>2.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATBossWarWomb</defName>
+		<tab>AmorTentaculum</tab>
+		<prerequisites>
+			<li>ATSummonFeral</li>
+		</prerequisites>
+		<requiredAnalyzed>
+			<li>BossGlandWarWomb</li>
+		</requiredAnalyzed>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>5.50</researchViewX>
+		<researchViewY>3.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ATOvermind</defName>
+		<tab>AmorTentaculum</tab>
+		<prerequisites>
+			<li>ATBossWarWomb</li>
+			<li>ATBossValkyrie</li>
+			<li>ATBossDefender</li>
+			<li>ATBossBrewer</li>
+		</prerequisites>
+		<baseCost>9999999</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>6.50</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
 		<defName>ATStructBasic</defName>
 		<tab>AmorTentaculum</tab>
 		<prerequisites>

@@ -1,21 +1,23 @@
 <Defs>
 
 	<ThingCategoryDef>
-		<defName>TentacleProducts</defName>
-		<label>tentacle products</label>
+		<defName>TentacleResources</defName>
 		<parent>ResourcesRaw</parent>
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
-		<defName>TentacleProducedProducts</defName>
-		<label>tentacle-produced products</label>
-		<parent>TentacleProducts</parent>
+		<defName>TentacleProducedResources</defName>
+		<parent>TentacleResources</parent>
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
-		<defName>HostProducedProducts</defName>
-		<label>host-produced products</label>
-		<parent>TentacleProducts</parent>
+		<defName>HostProducedResources</defName>
+		<parent>TentacleResources</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>CraftedTentacleProducts</defName>
+		<parent>Manufactured</parent>
 	</ThingCategoryDef>
 	
 </Defs>

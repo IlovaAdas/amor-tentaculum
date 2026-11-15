@@ -1,0 +1,47 @@
+<Defs>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>Tentacles</defName>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<factionIconPath>UI/Factions/TentacleFaction</factionIconPath>
+		<colorSpectrum>
+			<li>(0.86, 0.18, 0.56)</li>
+			<li>(0.87, 0.19, 0.57)</li>
+			<li>(0.88, 0.20, 0.58)</li>
+		</colorSpectrum>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(100,100)</li>
+				<li>(10000,10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<TentacleStriker>2</TentacleStriker>
+					<TentacleHunter>2</TentacleHunter>
+					<TentacleAbductor>1</TentacleAbductor>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<humanlikeFaction>false</humanlikeFaction>
+		<hidden>true</hidden>
+		<autoFlee>false</autoFlee>
+		<canUseAvoidGrid>false</canUseAvoidGrid>
+		<techLevel>Animal</techLevel>
+		<animalsFleeDanger>false</animalsFleeDanger>
+		<permanentEnemyToEveryoneExcept />
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<allowedArrivalTemperatureRange>0~45</allowedArrivalTemperatureRange>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>1000</configurationListOrderPriority>
+	</FactionDef>
+	
+</Defs>

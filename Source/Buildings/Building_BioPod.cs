@@ -20,7 +20,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
 
     private bool debugDisableNeedForIngredients;
 
-    private Mote workingMote;
+    // private Mote workingMote;
 
     private Sustainer sustainerWorking;
 
@@ -28,12 +28,13 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
 
     public static readonly Texture2D CancelLoadingIcon = ContentFinder<Texture2D>.Get("UI/Designators/Cancel");
 
-    public static readonly CachedTexture InsertPersonIcon = new CachedTexture("Abilities/LarvalTransformation");
+    public static readonly CachedTexture InsertPersonIcon = new CachedTexture("Abilities/Recycle");
 
-    private static Dictionary<Rot4, ThingDef> MotePerRotation;
+    // private static Dictionary<Rot4, ThingDef> MotePerRotation;
 
-    private static Dictionary<Rot4, ThingDef> MotePerRotationRip;
+    // private static Dictionary<Rot4, ThingDef> MotePerRotationRip;
 
+    /*
     private static readonly Dictionary<Rot4, Vector3> HuskEffectOffsets = new Dictionary<Rot4, Vector3>
     {
         {
@@ -53,10 +54,11 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             new Vector3(-0.4f, 0f, -0.025f)
         }
     };
+    */
 
     private const float ProgressBarOffsetZ = -0.8f;
 
-    public CachedTexture InitScannerIcon = new CachedTexture("Abilities/LarvalTransformation");
+    public CachedTexture InitScannerIcon = new CachedTexture("Abilities/Recycle");
 
     public float HeldPawnDrawPos_Y => DrawPos.y + 0.03658537f;
 
@@ -173,10 +175,10 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             switch (State)
             {
                 case SubcoreScannerState.Inactive:
-                    return "SubcoreScannerNotInit".Translate();
+                    return "ProcessingPodNotInit".Translate();
                 case SubcoreScannerState.WaitingForIngredients:
                     {
-                        StringBuilder stringBuilder = new StringBuilder("SubcoreScannerRequiresIngredients".Translate() + ": ");
+                        StringBuilder stringBuilder = new StringBuilder("ProcessingPodRequiresIngredients".Translate() + ": ");
                         bool flag = false;
                         for (int i = 0; i < def.building.subcoreScannerFixedIngredients.Count; i++)
                         {
@@ -196,7 +198,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                         return stringBuilder.ToString();
                     }
                 case SubcoreScannerState.Occupied:
-                    return "SubcoreScannerOccupied".Translate();
+                    return "ProcessingPodOccupied".Translate();
             }
         }
         else
@@ -205,10 +207,12 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             {
                 return "CryptosleepCasketGuestsNotAllowed".Translate();
             }
+            /*
             if (selPawn.health.hediffSet.HasHediff(HediffDefOf.ScanningSickness))
             {
                 return "SubcoreScannerPawnHasSickness".Translate(HediffDefOf.ScanningSickness.label);
             }
+            */
             /* La la la killin' babies...
             if (DevelopmentalStageExtensions.Baby(selPawn.DevelopmentalStage))
             {
@@ -278,14 +282,14 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
     private void KillOccupant()
     {
         Pawn occupant = Occupant;
-        DamageInfo dinfo = new DamageInfo(DamageDefOf.ExecutionCut, 9999f, 999f, -1f, null, occupant.health.hediffSet.GetBrain());
-        dinfo.SetIgnoreInstantKillProtection(ignore: true);
-        dinfo.SetAllowDamagePropagation(val: false);
+        // DamageInfo dinfo = new DamageInfo(DamageDefOf.ExecutionCut, 9999f, 999f, -1f, null, occupant.health.hediffSet.GetBrain());
+        // dinfo.SetIgnoreInstantKillProtection(ignore: true);
+        // dinfo.SetAllowDamagePropagation(val: false);
         occupant.forceNoDeathNotification = true;
-        occupant.TakeDamage(dinfo);
+        // occupant.TakeDamage(dinfo);
         occupant.forceNoDeathNotification = false;
         ThoughtUtility.GiveThoughtsForPawnExecuted(occupant, null, PawnExecutionKind.Ripscanned);
-        Messages.Message("MessagePawnKilledRipscanner".Translate(occupant.Named("PAWN")), occupant, MessageTypeDefOf.NegativeHealthEvent);
+        Messages.Message("MessagePawnKilledProcessingPod".Translate(occupant.Named("PAWN")), occupant, MessageTypeDefOf.NegativeHealthEvent);
     }
 
     public override IEnumerable<FloatMenuOption> GetFloatMenuOptions(Pawn selPawn)
@@ -306,7 +310,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             {
                 if (DestroyOccupantBrain)
                 {
-                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("ConfirmRipscanPawn".Translate(selPawn.Named("PAWN")), () =>
+                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("ConfirmRecyclePawn".Translate(selPawn.Named("PAWN")), () =>
                     {
                         SelectPawn(selPawn);
                     }, destructive: true));
@@ -341,6 +345,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
     protected override void Tick()
     {
         base.Tick();
+        /*
         if (MotePerRotation == null)
         {
             MotePerRotation = new Dictionary<Rot4, ThingDef>
@@ -382,6 +387,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                 }
             };
         }
+        */
         SubcoreScannerState state = State;
         if (state == SubcoreScannerState.Occupied)
         {
@@ -390,7 +396,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             {
                 if (!DestroyOccupantBrain)
                 {
-                    Messages.Message("MessageSubcoreSoftscannerCompleted".Translate(Occupant.Named("PAWN")), Occupant, MessageTypeDefOf.PositiveEvent);
+                    Messages.Message("MessageProcessingPodCompleted".Translate(Occupant.Named("PAWN")), Occupant, MessageTypeDefOf.PositiveEvent);
                 }
                 EjectContents();
                 GenPlace.TryPlaceThing(ThingMaker.MakeThing(def.building.subcoreScannerOutputDef), InteractionCell, Map, ThingPlaceMode.Near);
@@ -399,6 +405,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                     def.building.subcoreScannerComplete.PlayOneShot(this);
                 }
             }
+            /*
             if (workingMote == null || workingMote.Destroyed)
             {
                 workingMote = MoteMaker.MakeAttachedOverlay(this, DestroyOccupantBrain ? MotePerRotationRip[Rotation] : MotePerRotation[Rotation], Vector3.zero);
@@ -412,6 +419,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                 }
                 effectHusk.EffectTick(this, this);
             }
+            */
             if (progressBarEffecter == null)
             {
                 progressBarEffecter = EffecterDefOf.ProgressBar.Spawn();
@@ -467,14 +475,14 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
         if (!initScanner)
         {
             Command_Action command_Action = new Command_Action();
-            command_Action.defaultLabel = "SubcoreScannerStart".Translate();
+            command_Action.defaultLabel = "ProcessingPodStart".Translate();
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("SubcoreScannerProduces".Translate() + " " + def.building.subcoreScannerOutputDef.label + ".");
+            stringBuilder.Append("ProcessingPodProduces".Translate() + " " + def.building.subcoreScannerOutputDef.label + ".");
             stringBuilder.Append("\n\n");
             stringBuilder.Append("DurationHours".Translate() + ": " + def.building.subcoreScannerTicks.ToStringTicksToPeriod());
             stringBuilder.Append("\n\n");
             string text = def.building.subcoreScannerFixedIngredients.Select((IngredientCount i) => i.Summary).ToCommaList(useAnd: true);
-            stringBuilder.Append("SubcoreScannerStartDesc".Translate(def.label, text));
+            stringBuilder.Append("ProcessingPodStartDesc".Translate(def.label, text));
             command_Action.defaultDesc = stringBuilder.ToString();
             command_Action.icon = InitScannerIcon.Texture;
             command_Action.action = () =>
@@ -488,7 +496,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
         {
             Command_Action command_Action2 = new Command_Action();
             command_Action2.defaultLabel = "InsertPerson".Translate() + "...";
-            command_Action2.defaultDesc = "InsertPersonSubcoreScannerDesc".Translate(def.label);
+            command_Action2.defaultDesc = "InsertPersonProcessingPodDesc".Translate(def.label);
             command_Action2.icon = InsertPersonIcon.Texture;
             command_Action2.action = () =>
             {
@@ -511,7 +519,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
                         {
                             if (def.building.destroyBrain)
                             {
-                                Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("ConfirmRipscanPawn".Translate(pawn.Named("PAWN")), () =>
+                                Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("ConfirmRecyclePawn".Translate(pawn.Named("PAWN")), () =>
                                 {
                                     SelectPawn(pawn);
                                 }, destructive: true));
@@ -531,7 +539,7 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
             };
             if (State == SubcoreScannerState.WaitingForIngredients)
             {
-                StringBuilder stringBuilder2 = new StringBuilder("SubcoreScannerWaitingForIngredientsDesc".Translate().CapitalizeFirst() + ":\n");
+                StringBuilder stringBuilder2 = new StringBuilder("ProcessingPodWaitingForIngredientsDesc".Translate().CapitalizeFirst() + ":\n");
                 AppendIngredientsList(stringBuilder2);
                 command_Action2.Disable(stringBuilder2.ToString());
             }
@@ -540,14 +548,14 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
         if (initScanner)
         {
             Command_Action command_Action3 = new Command_Action();
-            command_Action3.defaultLabel = ((State == SubcoreScannerState.Occupied) ? "CommandCancelSubcoreScan".Translate() : "CommandCancelLoad".Translate());
-            command_Action3.defaultDesc = ((State == SubcoreScannerState.Occupied) ? "CommandCancelSubcoreScanDesc".Translate() : "CommandCancelLoadDesc".Translate());
+            command_Action3.defaultLabel = ((State == SubcoreScannerState.Occupied) ? "CommandCancelProcessing".Translate() : "CommandCancelLoad".Translate());
+            command_Action3.defaultDesc = ((State == SubcoreScannerState.Occupied) ? "CommandCancelProcessingDesc".Translate() : "CommandCancelLoadDesc".Translate());
             command_Action3.icon = CancelLoadingIcon;
             command_Action3.action = () =>
             {
                 if (State == SubcoreScannerState.Occupied && DestroyOccupantBrain)
                 {
-                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("ConfirmCancelRipscan".Translate(Occupant.Named("PAWN")), EjectContents, destructive: true));
+                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("ConfirmCancelRecycling".Translate(Occupant.Named("PAWN")), EjectContents, destructive: true));
                 }
                 else
                 {
@@ -588,16 +596,16 @@ public class Building_TentaclePod : Building_Enterable, IThingHolderWithDrawnPaw
         {
             case SubcoreScannerState.WaitingForIngredients:
                 stringBuilder.AppendLineIfNotEmpty();
-                stringBuilder.Append("SubcoreScannerWaitingForIngredients".Translate());
+                stringBuilder.Append("ProcessingPodWaitingForIngredients".Translate());
                 AppendIngredientsList(stringBuilder);
                 break;
             case SubcoreScannerState.WaitingForOccupant:
                 stringBuilder.AppendLineIfNotEmpty();
-                stringBuilder.Append("SubcoreScannerWaitingForOccupant".Translate());
+                stringBuilder.Append("ProcessingPodWaitingForOccupant".Translate());
                 break;
             case SubcoreScannerState.Occupied:
                 stringBuilder.AppendLineIfNotEmpty();
-                stringBuilder.Append("SubcoreScannerCompletesIn".Translate() + ": " + fabricationTicksLeft.ToStringTicksToPeriod());
+                stringBuilder.Append("ProcessingPodCompletesIn".Translate() + ": " + fabricationTicksLeft.ToStringTicksToPeriod());
                 break;
         }
         return stringBuilder.ToString();

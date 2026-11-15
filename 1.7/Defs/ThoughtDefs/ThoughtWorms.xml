@@ -21,7 +21,7 @@
     <hediff>Fworm</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
-      <li>TentacleSlut</li>
+      <li>TentacleLover</li>
       <li>Masochist</li>
 	    <li>Nymphomaniac</li>
       <li>Zoophile</li>
@@ -42,7 +42,7 @@
     <hediff>Fworm</hediff>
     <validWhileDespawned>true</validWhileDespawned>
 	<requiredTraits>
-        <li>TentacleSlut</li>
+        <li>TentacleLover</li>
         <li>Masochist</li>
 	    <li>Nymphomaniac</li>
       <li>Zoophile</li>
@@ -61,7 +61,7 @@
     <defName>Atelarva</defName>
     <durationDays>1</durationDays>
     <nullifyingTraits>
-      <li>TentacleSlut</li>
+      <li>TentacleLover</li>
       <li>Zoophile</li>
     </nullifyingTraits>
     <developmentalStageFilter>Adult</developmentalStageFilter>

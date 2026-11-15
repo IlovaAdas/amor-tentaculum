@@ -29,8 +29,6 @@
 
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>IndoWorm</defName>
-    <label>Indoctrination Worm</label>
-    <description>A parisitic worm to be implanted in the brain stem. Keeps the victim content and ready to die even under horrible conditions.</description>
     <descriptionHyperlinks><RecipeDef>InstallIndoWorm</RecipeDef></descriptionHyperlinks>
    <graphicData>
       <texPath>Things/Items/BrainLarve/WLarvae</texPath>
@@ -94,8 +92,6 @@
 
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>BreedWorm</defName>
-    <label>Breeding Worm</label>
-    <description>A parisitic worm to be implanted in the brain stem. Causes excessive arousal, energy, and agression.</description>
     <descriptionHyperlinks><RecipeDef>InstallBreedWorm</RecipeDef></descriptionHyperlinks>
    <graphicData>
       <texPath>Things/Items/BrainLarve/WLarvae</texPath>
@@ -186,8 +182,6 @@
 
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>FeedWorm</defName>
-    <label>Feeding Tentacle</label>
-    <description>A tentacle ment for insertion in the throat. Rapidly digests food for the host and injects it as a slurry down the throat. Makes the target immune to gutworms, and food poisoning.</description>
     <descriptionHyperlinks><RecipeDef>InstallFeedWorm</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -247,8 +241,6 @@
   <HediffDef ParentName="ImplantHediffBase">
     <defName>Fworm</defName>
     <label>Feeding Tentacle</label>
-    <labelNoun>a feeding tentacle</labelNoun>
-    <description>A tentacle living in the throat and mouth. Rapidly digests food for the host and injects it as a slurry down the throat. Makes the target immune to gutworms, and food poisoning.</description>
     <descriptionHyperlinks><ThingDef>FeedWorm</ThingDef></descriptionHyperlinks>
     <renderNodeProperties>
             <li Class="PawnRenderNodeProperties_Eye">

@@ -13,5 +13,9 @@
 			<li>ATCore</li>
 		</researchPrerequisites>
 	</DesignationCategoryDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Floor_TendrilTile</defName>
+	</DesignatorDropdownGroupDef>
 	
 </Defs>

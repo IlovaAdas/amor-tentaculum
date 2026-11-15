@@ -1,0 +1,48 @@
+<Defs>
+
+	<TerrainDef Abstract="True" ParentName="FloorBase" Name="TendrilTileBase">
+		<texturePath>Things/Buildings/Floor/TendrilTile</texturePath>
+		<designatorDropdown>Floor_TendrilTile</designatorDropdown>
+		<constructEffect>ConstructMetal</constructEffect>
+		<isPaintable>true</isPaintable>
+		<researchPrerequisites>
+			<li>ATStructBasic</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+
+	<TerrainDef ParentName="TendrilTileBase">
+		<defName>SoftResinTendrilTile</defName>
+		<renderPrecedence>240</renderPrecedence>
+		<color>(0.753, 0.549, 0.91)</color>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>0.2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+			<CleaningTimeFactor>0.4</CleaningTimeFactor>
+		</statBases>
+		<costList>
+			<SoftResin>7</SoftResin>
+		</costList>
+		<designationHotKey>Misc7</designationHotKey>
+		<uiOrder>2040</uiOrder>
+	</TerrainDef>
+
+	<TerrainDef ParentName="TendrilTileBase">
+		<defName>HardResinTendrilTile</defName>
+		<renderPrecedence>240</renderPrecedence>
+		<color>(0.87, 0.19, 0.57)</color>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Beauty>0</Beauty>
+			<Cleanliness>0.1</Cleanliness>
+			<CleaningTimeFactor>0.4</CleaningTimeFactor>
+		</statBases>
+		<costList>
+			<HardResin>7</HardResin>
+		</costList>
+		<designationHotKey>Misc7</designationHotKey>
+		<uiOrder>2040</uiOrder>
+	</TerrainDef>
+	
+</Defs>

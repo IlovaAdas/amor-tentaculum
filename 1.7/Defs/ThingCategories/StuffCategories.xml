@@ -1,0 +1,9 @@
+<Defs>
+
+	<StuffCategoryDef>
+		<defName>Resinous</defName>
+		<destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>
+		<destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>
+	</StuffCategoryDef>
+
+</Defs>
